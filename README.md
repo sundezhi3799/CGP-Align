@@ -26,6 +26,9 @@ python tools/download_models.py --output-dir checkpoints/primary
 Downloads are verified against the exact original SHA256 hashes. Prepared data
 are not yet public; downloading weights alone is insufficient to rerun retrieval.
 
+See [the strict reanalysis workflow](docs/STRICT_REANALYSIS.md) for the seed-31
+pilot that refits corrections and retrains every branch from scratch.
+
 ## Quick verification
 
 From this directory, check the correspondence between archived run metrics and figure source data (Python standard library only):
