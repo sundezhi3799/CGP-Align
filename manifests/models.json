@@ -8,7 +8,7 @@
     "compound_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/compound_source_zscore_plate_well_center_3180",
     "gene_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/gene_source_zscore_plate_well_center_3180",
     "seed": 31,
-    "public_url": "https://github.com/sundezhi3799/CGP-Align/releases/download/untagged-48bb49d52a648134c169/primary_seed31.pt",
+    "public_url": "https://github.com/sundezhi3799/CGP-Align/releases/download/historical-models-20260918/primary_seed31.pt",
     "artifact_status": "exact historical artifact; SHA256 and strict loading verified; see preprocessing split audit",
     "sha256": "51bef1c999ec2c37dc200b54853c74a0ac556afb514904f0820b6d1d64711790",
     "bytes": 34777442
@@ -22,7 +22,7 @@
     "compound_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/compound_source_zscore_plate_well_center_3180",
     "gene_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/gene_source_zscore_plate_well_center_3180",
     "seed": 37,
-    "public_url": "https://github.com/sundezhi3799/CGP-Align/releases/download/untagged-48bb49d52a648134c169/primary_seed37.pt",
+    "public_url": "https://github.com/sundezhi3799/CGP-Align/releases/download/historical-models-20260918/primary_seed37.pt",
     "artifact_status": "exact historical artifact; SHA256 and strict loading verified; see preprocessing split audit",
     "sha256": "818845a00ac37c9f0b3642d5b46135e761a29e230430bd0715eec5d96ee49091",
     "bytes": 34777442
@@ -36,7 +36,7 @@
     "compound_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/compound_source_zscore_plate_well_center_3180",
     "gene_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/gene_source_zscore_plate_well_center_3180",
     "seed": 41,
-    "public_url": "https://github.com/sundezhi3799/CGP-Align/releases/download/untagged-48bb49d52a648134c169/primary_seed41.pt",
+    "public_url": "https://github.com/sundezhi3799/CGP-Align/releases/download/historical-models-20260918/primary_seed41.pt",
     "artifact_status": "exact historical artifact; SHA256 and strict loading verified; see preprocessing split audit",
     "sha256": "b3ab222a3d85dfa10371d0ef7d843c85e587e6029ce6b500e377c0a0639643c3",
     "bytes": 34777442

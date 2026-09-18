@@ -164,8 +164,8 @@
     "bytes": 631
   },
   "manifests/models.json": {
-    "sha256": "a09a0f3988296364c0925597e64b8a6518b634f1385512779d6701d8480f7585",
-    "bytes": 3577
+    "sha256": "19fd041ef18e8b52a0da6aa906012d488f35884b6ff96f3d70f8dfd131bc3338",
+    "bytes": 3568
   },
   "manifests/portability_changes.json": {
     "sha256": "ac6a5e112bf36b87e6c08eaa93e8fceec49eb6a500b9afd0fb704b67c6c6930b",
