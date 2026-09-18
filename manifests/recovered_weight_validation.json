@@ -1,0 +1,23 @@
+[
+  {
+    "seed": 31,
+    "strict_state_load": "PASS",
+    "parameters": 8684100,
+    "epoch": 50,
+    "best_score": 0.5403362257976156
+  },
+  {
+    "seed": 37,
+    "strict_state_load": "PASS",
+    "parameters": 8684100,
+    "epoch": 110,
+    "best_score": 0.5356019782825717
+  },
+  {
+    "seed": 41,
+    "strict_state_load": "PASS",
+    "parameters": 8684100,
+    "epoch": 120,
+    "best_score": 0.5441922277613108
+  }
+]

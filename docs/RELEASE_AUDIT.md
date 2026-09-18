@@ -1,5 +1,7 @@
 # Release audit — 2026-09-18
 
+Update after training-server access: primary weights and the two missing compound scripts have now been recovered. See [TRAINING_ARCHIVE_AUDIT.md](TRAINING_ARCHIVE_AUDIT.md) for the newly established preprocessing-split overlap. Earlier absence statements below describe the pre-recovery audit.
+
 Status: public development repository; not ready to claim end-to-end reproducibility.
 
 ## Evidence established

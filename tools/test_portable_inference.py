@@ -3,6 +3,7 @@ from argparse import Namespace
 from pathlib import Path
 import sys
 import tempfile
+import pathlib
 import unittest
 from unittest.mock import patch
 
@@ -13,9 +14,28 @@ import torch
 import eval_raw3180_branch_retrieval_from_checkpoints as evaluation
 from eval_cgp_align_crossmodal_bridge import namespace_from_config
 from cgp_align.checkpoint_paths import configure_inference
+from cgp_align.checkpoint_io import load_checkpoint
+
+
+class SavedLinuxPath:
+    def __reduce__(self):
+        return pathlib.PosixPath, ('/training/compound',)
+
+
+class SavedWindowsPath:
+    def __reduce__(self):
+        return pathlib.WindowsPath, ('C:/training/compound',)
 
 
 class PortableInference(unittest.TestCase):
+    def test_foreign_checkpoint_paths(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            p = Path(tmp) / 'paths.pt'
+            torch.save({'linux': SavedLinuxPath(), 'windows': SavedWindowsPath()}, p)
+            value = load_checkpoint(p)
+            self.assertEqual(value['linux'], pathlib.PurePosixPath('/training/compound'))
+            self.assertEqual(value['windows'], pathlib.PureWindowsPath('C:/training/compound'))
+
     def test_relocated_full_checkpoint(self):
         torch.set_num_threads(1)
         config = dict(compound_data_dir='missing/compound', gene_data_dir='missing/gene',

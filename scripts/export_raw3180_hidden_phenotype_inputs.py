@@ -17,6 +17,7 @@ import torch
 
 import train_cgp_align_replicate as cgp
 from cgp_align.checkpoint_paths import add_data_arguments, configure_inference
+from cgp_align.checkpoint_io import load_checkpoint
 from eval_cgp_align_crossmodal_bridge import namespace_from_config
 
 
@@ -135,7 +136,7 @@ def main() -> None:
     args.output_dir.mkdir(parents=True, exist_ok=True)
     device = cgp.select_device(str(args.device))
 
-    payload = torch.load(args.checkpoint, map_location="cpu", weights_only=False)
+    payload = load_checkpoint(args.checkpoint)
     model_args = namespace_from_config(payload.get("config", {}))
     configure_inference(model_args, args)
     model_args.eval_batch_size = int(args.eval_batch_size)

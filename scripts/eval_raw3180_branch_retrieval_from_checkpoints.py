@@ -18,6 +18,7 @@ import torch
 
 import train_cgp_align_replicate as cgp
 from cgp_align.checkpoint_paths import add_data_arguments, configure_inference
+from cgp_align.checkpoint_io import load_checkpoint
 from eval_cgp_align_crossmodal_bridge import namespace_from_config
 from eval_cgp_align_target_enrichment_replicate import parse_rows
 
@@ -56,7 +57,7 @@ def write_json(path: Path, obj: Any) -> None:
 
 
 def load_model_and_data(checkpoint: Path, device: torch.device, eval_batch_size: int, data_overrides=None) -> Tuple[cgp.ReplicateCGPAlign, Dict[str, Any], Dict[str, Any], argparse.Namespace]:
-    payload = torch.load(checkpoint, map_location="cpu", weights_only=False)
+    payload = load_checkpoint(checkpoint)
     args = namespace_from_config(payload.get("config", {}))
     configure_inference(args, data_overrides)
     args.eval_batch_size = int(eval_batch_size)

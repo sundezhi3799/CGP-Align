@@ -9,7 +9,9 @@
     "gene_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/gene_source_zscore_plate_well_center_3180",
     "seed": 31,
     "public_url": null,
-    "artifact_status": "not included; retrieve exact artifact and verify checksum"
+    "artifact_status": "recovered from training archive; checksum and strict model-state loading verified; public delivery pending",
+    "sha256": "51bef1c999ec2c37dc200b54853c74a0ac556afb514904f0820b6d1d64711790",
+    "bytes": 34777442
   },
   {
     "run_name": "raw3180_staged4_branchinit_joint_no_anchor_300_sparseckpt_splitseed37",
@@ -21,7 +23,9 @@
     "gene_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/gene_source_zscore_plate_well_center_3180",
     "seed": 37,
     "public_url": null,
-    "artifact_status": "not included; retrieve exact artifact and verify checksum"
+    "artifact_status": "recovered from training archive; checksum and strict model-state loading verified; public delivery pending",
+    "sha256": "818845a00ac37c9f0b3642d5b46135e761a29e230430bd0715eec5d96ee49091",
+    "bytes": 34777442
   },
   {
     "run_name": "raw3180_staged4_branchinit_joint_no_anchor_300_sparseckpt_splitseed41",
@@ -33,6 +37,8 @@
     "gene_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/gene_source_zscore_plate_well_center_3180",
     "seed": 41,
     "public_url": null,
-    "artifact_status": "not included; retrieve exact artifact and verify checksum"
+    "artifact_status": "recovered from training archive; checksum and strict model-state loading verified; public delivery pending",
+    "sha256": "b3ab222a3d85dfa10371d0ef7d843c85e587e6029ce6b500e377c0a0639643c3",
+    "bytes": 34777442
   }
 ]

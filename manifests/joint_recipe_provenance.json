@@ -8,5 +8,5 @@
     "Dry run and missing-input checks before optional execution",
     "CPU debug option disables AMP"
   ],
-  "status": "Argument transcription only; exact checkpoint configuration verification pending"
+  "status": "Non-path parser parameters match all three recovered checkpoint configs; exact initializer/data delivery and strict per-seed preprocessing remain unresolved."
 }

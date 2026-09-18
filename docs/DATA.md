@@ -27,3 +27,7 @@ Replicate tables use `entity_index` and `feature_index`. Input shapes, row order
 ## Delivery manifest to complete
 
 For each source dataset, processed array, split, baseline feature matrix and checkpoint, record its purpose, original source, exact version, filename, size, SHA256, license, public download URL and producing command. Large files belong in a persistent artifact repository, with small manifests retained in Git.
+
+## Historical normalization and split order
+
+The original seeded directories reuse shared corrected arrays fitted on the earlier seed-13 split. This introduces overlap with later held-out entities during unsupervised preprocessing. See [TRAINING_ARCHIVE_AUDIT.md](TRAINING_ARCHIVE_AUDIT.md). Reusing `make_raw3180_seeded_split_dirs.py` on those corrected arrays reproduces the historical order; it does not fix the overlap. A strict reanalysis must split raw profiles before fitting per-seed corrections.

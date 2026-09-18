@@ -20,7 +20,7 @@ Synthetic inputs are used only for a CPU implementation check. No synthetic scor
 
 ## 3. Prepare full training inputs
 
-Recover the exact upstream preparation workflow and artifacts listed in `DATA.md`. Included scripts cover shared-feature inspection, gene replicate construction/correction, split generation and protein feature computation. The compound preparation gaps remain documented in `RELEASE_AUDIT.md`.
+Recover the exact upstream preparation workflow and artifacts listed in `DATA.md`. Included scripts cover shared-feature inspection, gene replicate construction/correction, split generation and protein feature computation. The two missing compound preparation scripts have now been recovered. Consult `TRAINING_ARCHIVE_AUDIT.md` before using the historical preprocessing order.
 
 ## 4. Branch initialization and joint training
 
@@ -30,7 +30,7 @@ Original entry points are `train_compound_mocop_replicate.py`, `train_gene_mocop
 python tools/train_primary.py --seed 31 --compound-data data/seed31/compound --gene-data data/seed31/gene --protein-data data/protein --compound-init checkpoints/seed31/compound.pt --orf-init checkpoints/seed31/orf.pt --crispr-init checkpoints/seed31/crispr.pt --output output/seed31
 ```
 
-This prints a portable command and checks required files. Add `--execute` to train after inspecting it. Repeat with seeds 37 and 41 and their corresponding artifacts. Use `--device cpu` for debugging; full CPU runtime is not benchmarked. CUDA is the historical training device. This wrapper is a candidate recipe pending checkpoint-config comparison, not a guarantee of exact retraining results.
+This prints a portable command and checks required files. Add `--execute` to train after inspecting it. Repeat with seeds 37 and 41 and their corresponding artifacts. Use `--device cpu` for debugging; full CPU runtime is not benchmarked. CUDA is the historical training device. The wrapper non-path parameters match all three recovered checkpoint configs (see manifests/training_recipe_validation.json). This does not guarantee exact retraining or resolve the shared-preprocessing issue.
 
 ## 5. Evaluation and downstream analyses
 

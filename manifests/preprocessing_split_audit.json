@@ -1,0 +1,56 @@
+[
+  {
+    "kind": "compound",
+    "seed": 31,
+    "normalization_split_seed": 13,
+    "fit_entities": 92629,
+    "test_entities": 11578,
+    "test_entities_in_normalization_fit": 9283,
+    "val_entities_in_normalization_fit": 9259
+  },
+  {
+    "kind": "compound",
+    "seed": 37,
+    "normalization_split_seed": 13,
+    "fit_entities": 92629,
+    "test_entities": 11578,
+    "test_entities_in_normalization_fit": 9215,
+    "val_entities_in_normalization_fit": 9243
+  },
+  {
+    "kind": "compound",
+    "seed": 41,
+    "normalization_split_seed": 13,
+    "fit_entities": 92629,
+    "test_entities": 11578,
+    "test_entities_in_normalization_fit": 9233,
+    "val_entities_in_normalization_fit": 9336
+  },
+  {
+    "kind": "gene",
+    "seed": 31,
+    "normalization_split_seed": 13,
+    "fit_entities": 18503,
+    "test_entities": 2325,
+    "test_entities_in_normalization_fit": 1853,
+    "val_entities_in_normalization_fit": 1844
+  },
+  {
+    "kind": "gene",
+    "seed": 37,
+    "normalization_split_seed": 13,
+    "fit_entities": 18503,
+    "test_entities": 2331,
+    "test_entities_in_normalization_fit": 1880,
+    "val_entities_in_normalization_fit": 1809
+  },
+  {
+    "kind": "gene",
+    "seed": 41,
+    "normalization_split_seed": 13,
+    "fit_entities": 18503,
+    "test_entities": 2370,
+    "test_entities_in_normalization_fit": 1868,
+    "val_entities_in_normalization_fit": 1847
+  }
+]

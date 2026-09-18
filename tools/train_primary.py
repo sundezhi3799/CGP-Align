@@ -43,7 +43,7 @@ def main():
         command.append('--amp')
     missing = [str(x) for x in required if not x.is_file()]
     print(json.dumps({'command': command, 'missing_inputs': missing,
-                      'recipe_status': 'historical launcher transcription; checkpoint-config reconciliation pending'}, indent=2))
+                      'recipe_status': 'parameters match recovered historical checkpoint configs; preprocessing audit requires resolution'}, indent=2))
     if missing:
         raise SystemExit(2)
     if a.execute:

@@ -10,6 +10,22 @@ This is a development version of the public [CGP-Align repository](https://githu
 
 The repository contains original research training and evaluation code, with documented portability fixes. Historical filenames are preserved for traceability. The primary retrieval records identify runs 31, 37 and 41 of the four-branch, common-3180 model. The older `reproduce_main_benchmark.py` is deliberately excluded because it implements a different benchmark setup.
 
+## Training archive audit and historical weights
+
+The original primary checkpoints and two missing compound preprocessing scripts
+have been recovered. **The historical three-seed pipeline reuses a seed-13-fitted
+preprocessing matrix across later train/test splits.** See the
+[training archive audit](docs/TRAINING_ARCHIVE_AUDIT.md) for measured overlap and
+required reanalysis. These artifacts preserve the original experiments; they do
+not establish strict held-out preprocessing or a complete reproduction release.
+
+```bash
+python tools/download_models.py --output-dir checkpoints/primary
+```
+
+Downloads are verified against the exact original SHA256 hashes. Prepared data
+are not yet public; downloading weights alone is insufficient to rerun retrieval.
+
 ## Quick verification
 
 From this directory, check the correspondence between archived run metrics and figure source data (Python standard library only):

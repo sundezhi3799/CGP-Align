@@ -1,5 +1,7 @@
 # Portability update 2026-09-18
 
+Update after training-server access: primary weights and the two missing compound scripts have now been recovered. See [TRAINING_ARCHIVE_AUDIT.md](TRAINING_ARCHIVE_AUDIT.md) for the newly established preprocessing-split overlap. Earlier absence statements below describe the pre-recovery audit.
+
 ## Changes and scope
 
 1. Revised Figure 3 now has a standalone R redraw workflow and all of its processed
