@@ -44,8 +44,8 @@
     "bytes": 2973
   },
   "docs/TRAINING_ARCHIVE_AUDIT.md": {
-    "sha256": "e0d0be700c22ad5b475a030b36dd1fb11f5bc27fce4a4bac5c0e75645e5a44f5",
-    "bytes": 4260
+    "sha256": "e110d2150ce048c9bd61a8fef9a7ca816f42f2a5d6992958c6bda976ffffef0b",
+    "bytes": 4748
   },
   "docs/VALIDATION.md": {
     "sha256": "edc7ff547ed63b9a13664f876ffb17ccee83d365bc272c0778394cf19f46868d",
@@ -164,8 +164,8 @@
     "bytes": 631
   },
   "manifests/models.json": {
-    "sha256": "50693f5c49a2ebd6eb5344cfc89d263d55a363aa319ec96aed3de9f0b9158c6d",
-    "bytes": 3304
+    "sha256": "a09a0f3988296364c0925597e64b8a6518b634f1385512779d6701d8480f7585",
+    "bytes": 3577
   },
   "manifests/portability_changes.json": {
     "sha256": "ac6a5e112bf36b87e6c08eaa93e8fceec49eb6a500b9afd0fb704b67c6c6930b",
@@ -174,6 +174,10 @@
   "manifests/portability_validation.json": {
     "sha256": "1e2254dc4f98b98e8e93e8a80d24a3e54a60f733f74943cf764cb313f7fec1ea",
     "bytes": 10705
+  },
+  "manifests/prepared_data_artifacts.json": {
+    "sha256": "f04738054a324f617a3856e249a35263095b333443737d9471ab4654497855d3",
+    "bytes": 21623
   },
   "manifests/preprocessing_split_audit.json": {
     "sha256": "9e6415bcf97b41974845316b75c0a9184b0d014db5890b37294532b735bf3a98",

@@ -1,0 +1,360 @@
+[
+  {
+    "seed": 31,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/compound_source_zscore_plate_well_center_3180/compound_mocop_entities.parquet",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/compound_mocop_entities.parquet",
+    "bytes": 11414374,
+    "sha256": "86e9f0ed07ae0dc0291878b9e78b14fa9fcdb18e73cbad0e2d4c065c9bd6d81a",
+    "public_url": null
+  },
+  {
+    "seed": 31,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/compound_source_zscore_plate_well_center_3180/compound_mocop_replicate_features.npy",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/compound_mocop_replicate_features.npy",
+    "bytes": 8266422848,
+    "sha256": "17fa7994812ea89ff56349b2133dd5dc2d8c87d9c0dc9cf83f4b6f3fb79a42ce",
+    "public_url": null
+  },
+  {
+    "seed": 31,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/compound_source_zscore_plate_well_center_3180/compound_mocop_replicates.parquet",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/compound_mocop_replicates.parquet",
+    "bytes": 41321827,
+    "sha256": "51ee8a28a8090a78c94bf6ad7d98c680b2d6fe244faa9ce6d2a44b74b4d7467e",
+    "public_url": null
+  },
+  {
+    "seed": 31,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/compound_source_zscore_plate_well_center_3180/dataset_summary.base.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/dataset_summary.base.json",
+    "bytes": 1295,
+    "sha256": "b1bcd9cbcefc7aa5d0dc85b64b0ec8f3b1d1608bc4b4ff7c277ffdd00858d29a",
+    "public_url": null
+  },
+  {
+    "seed": 31,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/compound_source_zscore_plate_well_center_3180/dataset_summary.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/dataset_summary.json",
+    "bytes": 319,
+    "sha256": "a3459290a195a45cb97fad29fb35b1fc6a88bb44a3c5f5b510b572e83e4fe0bb",
+    "public_url": null
+  },
+  {
+    "seed": 31,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/compound_source_zscore_plate_well_center_3180/feature_columns.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/feature_columns.json",
+    "bytes": 150459,
+    "sha256": "b3af1de5f16b698ec105621a6cc2f94f22f206653c2350127a55aae76ce05911",
+    "public_url": null
+  },
+  {
+    "seed": 31,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/compound_source_zscore_plate_well_center_3180/profile_correction_audit.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/profile_correction_audit.json",
+    "bytes": 2450,
+    "sha256": "104e6cdf7d5b5e507f5b9584028bb0d4dc121a8f5e177eb69e97bc1030b07bf2",
+    "public_url": null
+  },
+  {
+    "seed": 31,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/compound_source_zscore_plate_well_center_3180/splits_compound_mocop.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/compound_source_zscore_plate_well_center_3180/splits_compound_mocop.json",
+    "bytes": 3020135,
+    "sha256": "23f5b4401413a7a69093947e525bf8ddc2c1f0c50dc43489eb984e5f2c748f88",
+    "public_url": null
+  },
+  {
+    "seed": 31,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/gene_source_zscore_plate_well_center_3180/gene_mocop_entities.parquet",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/gene_mocop_entities.parquet",
+    "bytes": 10117037,
+    "sha256": "e8bd3b903d84ead9bfb191a52f2dacdd7de326cc1209e4bf04b308dd7e54b377",
+    "public_url": null
+  },
+  {
+    "seed": 31,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/gene_source_zscore_plate_well_center_3180/gene_mocop_replicate_features.npy",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/gene_mocop_replicate_features.npy",
+    "bytes": 1516071488,
+    "sha256": "d9fcbce688ffdbd03cc5b99b6c9a10e5875169fa34e851b6e167bec9fb984dff",
+    "public_url": null
+  },
+  {
+    "seed": 31,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/gene_source_zscore_plate_well_center_3180/gene_mocop_replicates.parquet",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/gene_mocop_replicates.parquet",
+    "bytes": 3828539,
+    "sha256": "558a1794d4d33879d6c98193a2ba974bfca1ba01b62ff9b30188738aa32bdc69",
+    "public_url": null
+  },
+  {
+    "seed": 31,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/gene_source_zscore_plate_well_center_3180/profile_correction_audit.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/profile_correction_audit.json",
+    "bytes": 2697,
+    "sha256": "edd91631e9046532d45e3fc024c732e006d93b0e8fe45b9bc99af1462c4f500b",
+    "public_url": null
+  },
+  {
+    "seed": 31,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/gene_source_zscore_plate_well_center_3180/splits_gene_mocop.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/gene_source_zscore_plate_well_center_3180/splits_gene_mocop.json",
+    "bytes": 578723,
+    "sha256": "33e664d544beba3f727269cad36e594e9df5d1c59839ef1a9f00699e287ca0a0",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/compound_source_zscore_plate_well_center_3180/compound_mocop_entities.parquet",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/compound_mocop_entities.parquet",
+    "bytes": 11414374,
+    "sha256": "86e9f0ed07ae0dc0291878b9e78b14fa9fcdb18e73cbad0e2d4c065c9bd6d81a",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/compound_source_zscore_plate_well_center_3180/compound_mocop_replicate_features.npy",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/compound_mocop_replicate_features.npy",
+    "bytes": 8266422848,
+    "sha256": "17fa7994812ea89ff56349b2133dd5dc2d8c87d9c0dc9cf83f4b6f3fb79a42ce",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/compound_source_zscore_plate_well_center_3180/compound_mocop_replicates.parquet",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/compound_mocop_replicates.parquet",
+    "bytes": 41321827,
+    "sha256": "51ee8a28a8090a78c94bf6ad7d98c680b2d6fe244faa9ce6d2a44b74b4d7467e",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/compound_source_zscore_plate_well_center_3180/dataset_summary.base.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/dataset_summary.base.json",
+    "bytes": 1295,
+    "sha256": "b1bcd9cbcefc7aa5d0dc85b64b0ec8f3b1d1608bc4b4ff7c277ffdd00858d29a",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/compound_source_zscore_plate_well_center_3180/dataset_summary.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/dataset_summary.json",
+    "bytes": 319,
+    "sha256": "a3459290a195a45cb97fad29fb35b1fc6a88bb44a3c5f5b510b572e83e4fe0bb",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/compound_source_zscore_plate_well_center_3180/feature_columns.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/feature_columns.json",
+    "bytes": 150459,
+    "sha256": "b3af1de5f16b698ec105621a6cc2f94f22f206653c2350127a55aae76ce05911",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/compound_source_zscore_plate_well_center_3180/profile_correction_audit.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/profile_correction_audit.json",
+    "bytes": 2450,
+    "sha256": "104e6cdf7d5b5e507f5b9584028bb0d4dc121a8f5e177eb69e97bc1030b07bf2",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/compound_source_zscore_plate_well_center_3180/splits_compound_mocop.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/compound_source_zscore_plate_well_center_3180/splits_compound_mocop.json",
+    "bytes": 3020135,
+    "sha256": "73100a97dbac83a752b8fa028f094bce1acb968dfc6fd9721cff3b829387cc55",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/gene_source_zscore_plate_well_center_3180/gene_mocop_entities.parquet",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/gene_mocop_entities.parquet",
+    "bytes": 10117037,
+    "sha256": "e8bd3b903d84ead9bfb191a52f2dacdd7de326cc1209e4bf04b308dd7e54b377",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/gene_source_zscore_plate_well_center_3180/gene_mocop_replicate_features.npy",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/gene_mocop_replicate_features.npy",
+    "bytes": 1516071488,
+    "sha256": "d9fcbce688ffdbd03cc5b99b6c9a10e5875169fa34e851b6e167bec9fb984dff",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/gene_source_zscore_plate_well_center_3180/gene_mocop_replicates.parquet",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/gene_mocop_replicates.parquet",
+    "bytes": 3828539,
+    "sha256": "558a1794d4d33879d6c98193a2ba974bfca1ba01b62ff9b30188738aa32bdc69",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/gene_source_zscore_plate_well_center_3180/profile_correction_audit.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/profile_correction_audit.json",
+    "bytes": 2697,
+    "sha256": "edd91631e9046532d45e3fc024c732e006d93b0e8fe45b9bc99af1462c4f500b",
+    "public_url": null
+  },
+  {
+    "seed": 37,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/gene_source_zscore_plate_well_center_3180/splits_gene_mocop.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/gene_source_zscore_plate_well_center_3180/splits_gene_mocop.json",
+    "bytes": 578723,
+    "sha256": "f9f9154ada5238123363fb47fea7b8f2cf62f4e37773349f0a7268481a89a69d",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/compound_source_zscore_plate_well_center_3180/compound_mocop_entities.parquet",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/compound_mocop_entities.parquet",
+    "bytes": 11414374,
+    "sha256": "86e9f0ed07ae0dc0291878b9e78b14fa9fcdb18e73cbad0e2d4c065c9bd6d81a",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/compound_source_zscore_plate_well_center_3180/compound_mocop_replicate_features.npy",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/compound_mocop_replicate_features.npy",
+    "bytes": 8266422848,
+    "sha256": "17fa7994812ea89ff56349b2133dd5dc2d8c87d9c0dc9cf83f4b6f3fb79a42ce",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/compound_source_zscore_plate_well_center_3180/compound_mocop_replicates.parquet",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/compound_mocop_replicates.parquet",
+    "bytes": 41321827,
+    "sha256": "51ee8a28a8090a78c94bf6ad7d98c680b2d6fe244faa9ce6d2a44b74b4d7467e",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/compound_source_zscore_plate_well_center_3180/dataset_summary.base.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/dataset_summary.base.json",
+    "bytes": 1295,
+    "sha256": "b1bcd9cbcefc7aa5d0dc85b64b0ec8f3b1d1608bc4b4ff7c277ffdd00858d29a",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/compound_source_zscore_plate_well_center_3180/dataset_summary.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/dataset_summary.json",
+    "bytes": 319,
+    "sha256": "a3459290a195a45cb97fad29fb35b1fc6a88bb44a3c5f5b510b572e83e4fe0bb",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/compound_source_zscore_plate_well_center_3180/feature_columns.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/feature_columns.json",
+    "bytes": 150459,
+    "sha256": "b3af1de5f16b698ec105621a6cc2f94f22f206653c2350127a55aae76ce05911",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/compound_source_zscore_plate_well_center_3180/profile_correction_audit.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/profile_correction_audit.json",
+    "bytes": 2450,
+    "sha256": "104e6cdf7d5b5e507f5b9584028bb0d4dc121a8f5e177eb69e97bc1030b07bf2",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "compound",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/compound_source_zscore_plate_well_center_3180/splits_compound_mocop.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/compound_source_zscore_plate_well_center_3180/splits_compound_mocop.json",
+    "bytes": 3020135,
+    "sha256": "26542225a33fbe01db21dd296461a7952e94fd87df83eee742dbb8dc44388d15",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/gene_source_zscore_plate_well_center_3180/gene_mocop_entities.parquet",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/gene_mocop_entities.parquet",
+    "bytes": 10117037,
+    "sha256": "e8bd3b903d84ead9bfb191a52f2dacdd7de326cc1209e4bf04b308dd7e54b377",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/gene_source_zscore_plate_well_center_3180/gene_mocop_replicate_features.npy",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/gene_mocop_replicate_features.npy",
+    "bytes": 1516071488,
+    "sha256": "d9fcbce688ffdbd03cc5b99b6c9a10e5875169fa34e851b6e167bec9fb984dff",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/gene_source_zscore_plate_well_center_3180/gene_mocop_replicates.parquet",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/gene_mocop_replicates.parquet",
+    "bytes": 3828539,
+    "sha256": "558a1794d4d33879d6c98193a2ba974bfca1ba01b62ff9b30188738aa32bdc69",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/gene_source_zscore_plate_well_center_3180/profile_correction_audit.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/source_zscore_plate_well_center_3180/profile_correction_audit.json",
+    "bytes": 2697,
+    "sha256": "edd91631e9046532d45e3fc024c732e006d93b0e8fe45b9bc99af1462c4f500b",
+    "public_url": null
+  },
+  {
+    "seed": 41,
+    "kind": "gene",
+    "path": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/gene_source_zscore_plate_well_center_3180/splits_gene_mocop.json",
+    "shared_target": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/gene_source_zscore_plate_well_center_3180/splits_gene_mocop.json",
+    "bytes": 578723,
+    "sha256": "d3245f9ae8cf8f4ccd9f3440cb7db29b22aee88e5034a70e1823026d3761a8d1",
+    "public_url": null
+  },
+  {
+    "kind": "protein",
+    "path": "protein_embeddings/protein_encoder_ablation/esm650_l33_mean_cls/protein_sequence_embeddings.npy",
+    "bytes": 156969088,
+    "sha256": "dfc43c5834ad75ff7c0ab38750cdd34ab0e216fa1fa4ebfe95489474586eb36f",
+    "public_url": null
+  }
+]

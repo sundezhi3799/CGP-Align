@@ -68,3 +68,7 @@ validated separately. This is an environment compatibility issue, not a change
 to the trained weights.
 
 A server-side inference check using the public checkout, the actual seed-31 checkpoint and original arrays completed on 64 held-out compounds and 64 held-out gene entities (one negative-sampling repeat). This confirms execution on real inputs, not agreement with the full manuscript metrics. The full three-seed evaluation and strict-preprocessing retraining have not been rerun.
+
+## Public weight archive
+
+The three exact historical checkpoints are supplied in the `historical-models-20260918` prerelease. Use `python tools/download_models.py` to download and verify them. This archive preserves the original experiment; it is not a corrected-preprocessing model release. `manifests/prepared_data_artifacts.json` records exact sizes, shared array targets and SHA256 for 40 prepared-input paths on the training host. Public prepared-input URLs remain unavailable.
