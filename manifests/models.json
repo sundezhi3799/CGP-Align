@@ -1,0 +1,38 @@
+[
+  {
+    "run_name": "raw3180_staged4_branchinit_joint_no_anchor_300_sparseckpt_splitseed31",
+    "checkpoint": "output/cgp_align/ablation/raw3180_staged4_branchinit_joint_no_anchor_300_sparseckpt_3seed_coldgene/seed31/staged4_branchinit_joint_no_anchor_300_sparseckpt/checkpoints/raw3180_staged4_branchinit_joint_no_anchor_300_sparseckpt_splitseed31/best_model.pt",
+    "checkpoint_epoch": 50,
+    "best_score": 0.5403362257976156,
+    "selection_metric": "val_hmean_Top10",
+    "compound_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/compound_source_zscore_plate_well_center_3180",
+    "gene_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed31/gene_source_zscore_plate_well_center_3180",
+    "seed": 31,
+    "public_url": null,
+    "artifact_status": "not included; retrieve exact artifact and verify checksum"
+  },
+  {
+    "run_name": "raw3180_staged4_branchinit_joint_no_anchor_300_sparseckpt_splitseed37",
+    "checkpoint": "output/cgp_align/ablation/raw3180_staged4_branchinit_joint_no_anchor_300_sparseckpt_3seed_coldgene/seed37/staged4_branchinit_joint_no_anchor_300_sparseckpt/checkpoints/raw3180_staged4_branchinit_joint_no_anchor_300_sparseckpt_splitseed37/best_model.pt",
+    "checkpoint_epoch": 110,
+    "best_score": 0.5356019782825717,
+    "selection_metric": "val_hmean_Top10",
+    "compound_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/compound_source_zscore_plate_well_center_3180",
+    "gene_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed37/gene_source_zscore_plate_well_center_3180",
+    "seed": 37,
+    "public_url": null,
+    "artifact_status": "not included; retrieve exact artifact and verify checksum"
+  },
+  {
+    "run_name": "raw3180_staged4_branchinit_joint_no_anchor_300_sparseckpt_splitseed41",
+    "checkpoint": "output/cgp_align/ablation/raw3180_staged4_branchinit_joint_no_anchor_300_sparseckpt_3seed_coldgene/seed41/staged4_branchinit_joint_no_anchor_300_sparseckpt/checkpoints/raw3180_staged4_branchinit_joint_no_anchor_300_sparseckpt_splitseed41/best_model.pt",
+    "checkpoint_epoch": 120,
+    "best_score": 0.5441922277613108,
+    "selection_metric": "val_hmean_Top10",
+    "compound_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/compound_source_zscore_plate_well_center_3180",
+    "gene_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/gene_source_zscore_plate_well_center_3180",
+    "seed": 41,
+    "public_url": null,
+    "artifact_status": "not included; retrieve exact artifact and verify checksum"
+  }
+]

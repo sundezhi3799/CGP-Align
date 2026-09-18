@@ -1,0 +1,11 @@
+analysis,checkpoint,epoch,selection_metric,val_hmean_top10,training_fraction,compound_top10_mean_pct,compound_top10_sd_pct,gene_top10_mean_pct,gene_top10_sd_pct,note
+checkpoint_selection,val_epoch0040.pt,40,val_hmean_Top10_snapshot,0.5210,,,,,,Best model selected by validation branch HMean Top-10
+checkpoint_selection,val_epoch0120.pt,120,val_hmean_Top10_snapshot,0.5432,,,,,,Best model selected by validation branch HMean Top-10
+checkpoint_selection,val_epoch0240.pt,240,val_hmean_Top10_snapshot,0.5300,,,,,,Best model selected by validation branch HMean Top-10
+checkpoint_selection,val_epoch0300.pt,300,val_hmean_Top10_snapshot,0.5242,,,,,,Best model selected by validation branch HMean Top-10
+checkpoint_selection,best_model.pt,120,val_hmean_Top10,0.5432,,,,,,Best model selected by validation branch HMean Top-10
+training_scale_ablation_1to1000,,,,,10%,12.540299366724234,0.051372061201409,8.071278825995801,0.059780608519715,Derived from Supplementary Fig. 1d source data
+training_scale_ablation_1to1000,,,,,25%,20.23891767415083,0.114914540844085,9.044624138963755,0.15044026864444998,Derived from Supplementary Fig. 1d source data
+training_scale_ablation_1to1000,,,,,50%,24.710708117443865,0.10596714217560502,9.681042228212036,0.10258569018144999,Derived from Supplementary Fig. 1d source data
+training_scale_ablation_1to1000,,,,,75%,28.013816925734027,0.07270967144263,10.781671159029646,0.12902362196769498,Derived from Supplementary Fig. 1d source data
+training_scale_ablation_1to1000,,,,,100%,29.516407599309147,0.11479736715219,10.631925726265344,0.27229893976208,Derived from Supplementary Fig. 1d source data

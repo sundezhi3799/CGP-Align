@@ -1,0 +1,13 @@
+figure,comparison,metric,unit,n,mean_delta,ci95_low,ci95_high,bootstrap_p_mean_le_0,sign_pos,sign_neg,sign_ties,sign_test_p_two_sided,scale
+Figure 3d,"CGP-Align minus MoLFormer, all run-direction units",retrieval delta,run-direction,12,0.08930893815947165,0.08079106185420251,0.0978336117694577,4.999750012499375e-05,12,0,0,0.00048828125,absolute
+Figure 3d,"CGP-Align minus MoLFormer, C->P Full",retrieval delta,independent run,3,0.07780450943578802,0.07417735261712188,0.08177684077747355,4.999750012499375e-05,3,0,0,0.25,absolute
+Figure 3d,"CGP-Align minus MoLFormer, C->P 1:100",retrieval delta,independent run,3,0.1046475951005087,0.0993423922626171,0.1102245906789452,4.999750012499375e-05,3,0,0,0.25,absolute
+Figure 3d,"CGP-Align minus MoLFormer, P->C Full",retrieval delta,independent run,3,0.07216273234937366,0.06770090735481593,0.07460932547016846,4.999750012499375e-05,3,0,0,0.25,absolute
+Figure 3d,"CGP-Align minus MoLFormer, P->C 1:100",retrieval delta,independent run,3,0.10262091575221617,0.09562007452046362,0.1106391969046171,4.999750012499375e-05,3,0,0,0.25,absolute
+Figure 5d,CGP + alerts minus CGP-Align latent,AUPRC,repeated run after endpoint-level averaging,5,0.041569554700135104,0.03900204237342497,0.04466308393397095,4.999750012499375e-05,5,0,0,0.0625,absolute
+Figure 5d,CGP + alerts minus CGP-Align latent,Lift@50,repeated run after endpoint-level averaging,5,0.41805720968246474,0.20815811155769665,0.5624537753366965,4.999750012499375e-05,5,0,0,0.0625,absolute
+Figure 5d,CGP-Align latent minus Expert alerts,AUPRC,repeated run after endpoint-level averaging,5,0.08569483098527944,0.07965796381040734,0.09196941294066874,4.999750012499375e-05,5,0,0,0.0625,absolute
+Figure 5d,CGP-Align latent minus Expert alerts,Lift@50,repeated run after endpoint-level averaging,5,2.4091962669997153,2.0240254116969276,2.7943671223025035,4.999750012499375e-05,5,0,0,0.0625,absolute
+Figure 5d,CGP + alerts minus Expert alerts,AUPRC,repeated run after endpoint-level averaging,5,0.12726438568541454,0.12254981001098746,0.13200567165114935,4.999750012499375e-05,5,0,0,0.0625,absolute
+Figure 5d,CGP + alerts minus Expert alerts,Lift@50,repeated run after endpoint-level averaging,5,2.82725347668218,2.5413134988672126,3.104973719215347,4.999750012499375e-05,5,0,0,0.0625,absolute
+Figure 6c,CGP-Align minus RDKit2D,top-50 active fraction,matched active U2OS query,187,0.10106951871657756,0.08310160427807486,0.1190374331550802,4.999750012499375e-05,134,36,17,1.776046394002724e-14,absolute

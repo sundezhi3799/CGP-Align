@@ -1,0 +1,6 @@
+checkpoint,epoch,selection_metric,val_hmean_Top10,checkpoint_type,label,is_selected
+val_epoch0040.pt,40,val_hmean_Top10_snapshot,0.5209582886945099,Saved candidate,52.1%,FALSE
+val_epoch0120.pt,120,val_hmean_Top10_snapshot,0.5431782488809668,Saved candidate,54.3%,FALSE
+val_epoch0240.pt,240,val_hmean_Top10_snapshot,0.5299769572119692,Saved candidate,53.0%,FALSE
+val_epoch0300.pt,300,val_hmean_Top10_snapshot,0.5241893830928332,Saved candidate,52.4%,FALSE
+best_model.pt,120,val_hmean_Top10,0.5431782488809668,Selected model,54.3%,TRUE

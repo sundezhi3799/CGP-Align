@@ -1,0 +1,6 @@
+source,cgp_align_mean_lift50,mapped_edges_mean,graph,source_order,name,is_ctd
+dgidb,2.25967116994677,8670.0,source,2,DGIdb,False
+drugrep,1.63197254413808,6049.5,source,3,DrugRep,False
+hetionet,1.4212732310869,6721.0,source,4,Hetionet,False
+openbiolink,1.17924301928048,16505.5,source,5,OpenBioLink,False
+pharmebinet,1.27319146383413,10853.5,source,6,PharMeBINet,False

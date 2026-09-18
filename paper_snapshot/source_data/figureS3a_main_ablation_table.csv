@@ -1,0 +1,10 @@
+Model / ablation,Design,Balanced val score,Compound Top10 1:100 (%),Gene Top10 1:100 (%),Overall Top10 1:100 (%),Overall Top10 1:1000 (%),Cross-profile mixing (%),Profile-neighbor overlap (%),Statistical note,Selection rationale
+Source-embedding baseline,source embedding baseline,0.5556,70.7,45.5,58.1,19.9,2.4,2.5,,older baseline; weaker gene and overall retrieval
+Source-free control,"no adapters, compound-favored batch schedule",0.5609,69.1,47.4,58.3,19.6,7.3,6.7,,"better profile mixing, but compound branch drops"
+"3 adapters, original schedule","3 adapters, original batch/loss schedule",0.5584,71.6,46.5,59.0,20.0,4.7,2.7,"delta=+0.3 pp, 95% CI -0.2 to +0.8, p=0.203",removing compound-favored schedule lowers gene and balanced performance
+"3 adapters, equal loss","3 adapters, equal loss weights",0.5617,72.0,46.1,59.0,20.2,5.1,3.0,,"compound improves, gene drops; not selected"
+"3 adapters, inverted batch","3 adapters, compound-favored batch schedule",0.5799,71.3,47.5,59.4,20.4,6.2,3.6,,close to CGP-Align but lower gene and balanced score
+"2 adapters, compound-favored",2 adapters: compound / gene perturbation,0.5725,71.9,47.2,59.6,20.4,4.7,2.9,"delta=+0.1 pp, 95% CI -0.3 to +0.6, p=0.598","slightly higher arithmetic mean, but lower gene retrieval and no ORF/CRISPR-specific adapters; difference vs CGP-Align is not significant"
+CGP-Align,3 adapters: compound / ORF / CRISPR,0.5805,71.0,47.9,59.4,20.0,7.1,3.8,,selected: highest balanced validation score and best gene retrieval among full models
+3 adapters + profile bridge 0.05,adapter-only + profile bridge 0.05,0.5577,72.0,45.0,58.5,20.6,1.2,4.1,,profile bridge raises local profile-neighbor overlap but lowers profile mixing and gene retrieval
+3 adapters + profile bridge 0.10,adapter-only + profile bridge 0.10,0.5613,71.4,46.0,58.7,20.1,0.7,6.3,,stronger bridge does not improve balanced retrieval

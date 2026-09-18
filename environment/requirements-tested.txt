@@ -1,0 +1,8 @@
+# Observed local validation environment; not the historical training environment.
+numpy==2.1.3
+pandas==2.2.3
+torch==2.8.0
+rdkit==2025.9.6
+pyarrow==19.0.0
+scipy==1.15.3
+scikit-learn==1.6.1

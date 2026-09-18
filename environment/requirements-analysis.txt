@@ -1,0 +1,7 @@
+-r requirements-core.txt
+matplotlib
+seaborn
+requests
+# Optional implementations are selected by individual research scripts:
+# fair-esm / transformers (protein embeddings)
+# xgboost / lightgbm / mordred (additional baseline configurations)

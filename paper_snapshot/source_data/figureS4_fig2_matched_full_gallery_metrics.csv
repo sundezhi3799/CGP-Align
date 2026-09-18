@@ -1,0 +1,61 @@
+independent_run,direction,short,branch,candidate_setting,metric,value,num_queries,num_gallery,num_evaluated
+31,Compound to profile,C-P,compound-profile,full-gallery,Recall@1,0.008464328899637243,11578,63682,11578
+31,Compound to profile,C-P,compound-profile,full-gallery,Recall@5,0.029193297633442736,11578,63682,11578
+31,Compound to profile,C-P,compound-profile,full-gallery,Recall@10,0.045949214026602174,11578,63682,11578
+31,Compound to profile,C-P,compound-profile,full-gallery,MRR,0.023112766398327635,11578,63682,11578
+31,Compound to profile,C-P,compound-profile,full-gallery,Median rank,909.0,11578,63682,11578
+31,Profile to compound,P-C,compound-profile,full-gallery,Recall@1,0.004789422442762476,63682,11578,63682
+31,Profile to compound,P-C,compound-profile,full-gallery,Recall@5,0.01812129016048491,63682,11578,63682
+31,Profile to compound,P-C,compound-profile,full-gallery,Recall@10,0.031123394365754845,63682,11578,63682
+31,Profile to compound,P-C,compound-profile,full-gallery,MRR,0.01569693395392838,63682,11578,63682
+31,Profile to compound,P-C,compound-profile,full-gallery,Median rank,1055.0,63682,11578,63682
+31,Gene to profile,G-P,gene-profile,full-gallery,Recall@1,0.010145566828407587,2267,11799,2267
+31,Gene to profile,G-P,gene-profile,full-gallery,Recall@5,0.029113365681517425,2267,11799,2267
+31,Gene to profile,G-P,gene-profile,full-gallery,Recall@10,0.05822673136303485,2267,11799,2267
+31,Gene to profile,G-P,gene-profile,full-gallery,MRR,0.026271211859259003,2267,11799,2267
+31,Gene to profile,G-P,gene-profile,full-gallery,Median rank,506.0,2267,11799,2267
+31,Profile to gene,P-G,gene-profile,full-gallery,Recall@1,0.006525976777693025,11799,2267,11799
+31,Profile to gene,P-G,gene-profile,full-gallery,Recall@5,0.024154589371980676,11799,2267,11799
+31,Profile to gene,P-G,gene-profile,full-gallery,Recall@10,0.042630731417916776,11799,2267,11799
+31,Profile to gene,P-G,gene-profile,full-gallery,MRR,0.022163939233880624,11799,2267,11799
+31,Profile to gene,P-G,gene-profile,full-gallery,Median rank,378.0,11799,2267,11799
+37,Compound to profile,C-P,compound-profile,full-gallery,Recall@1,0.01079633788219036,11578,66395,11578
+37,Compound to profile,C-P,compound-profile,full-gallery,Recall@5,0.036016583174987044,11578,66395,11578
+37,Compound to profile,C-P,compound-profile,full-gallery,Recall@10,0.0554499913629297,11578,66395,11578
+37,Compound to profile,C-P,compound-profile,full-gallery,MRR,0.02808114451192405,11578,66395,11578
+37,Compound to profile,C-P,compound-profile,full-gallery,Median rank,719.0,11578,66395,11578
+37,Profile to compound,P-C,compound-profile,full-gallery,Recall@1,0.005723322539347843,66395,11578,66395
+37,Profile to compound,P-C,compound-profile,full-gallery,Recall@5,0.022863167407184276,66395,11578,66395
+37,Profile to compound,P-C,compound-profile,full-gallery,Recall@10,0.03792454251073123,66395,11578,66395
+37,Profile to compound,P-C,compound-profile,full-gallery,MRR,0.018731835786451,66395,11578,66395
+37,Profile to compound,P-C,compound-profile,full-gallery,Median rank,870.0,66395,11578,66395
+37,Gene to profile,G-P,gene-profile,full-gallery,Recall@1,0.009325044404973356,2252,11620,2252
+37,Gene to profile,G-P,gene-profile,full-gallery,Recall@5,0.034191829484902306,2252,11620,2252
+37,Gene to profile,G-P,gene-profile,full-gallery,Recall@10,0.05150976909413854,2252,11620,2252
+37,Gene to profile,G-P,gene-profile,full-gallery,MRR,0.026265140915401185,2252,11620,2252
+37,Gene to profile,G-P,gene-profile,full-gallery,Median rank,593.5,2252,11620,2252
+37,Profile to gene,P-G,gene-profile,full-gallery,Recall@1,0.009122203098106713,11620,2252,11620
+37,Profile to gene,P-G,gene-profile,full-gallery,Recall@5,0.027882960413080894,11620,2252,11620
+37,Profile to gene,P-G,gene-profile,full-gallery,Recall@10,0.04561101549053356,11620,2252,11620
+37,Profile to gene,P-G,gene-profile,full-gallery,MRR,0.024501166899911896,11620,2252,11620
+37,Profile to gene,P-G,gene-profile,full-gallery,Median rank,506.5,11620,2252,11620
+41,Compound to profile,C-P,compound-profile,full-gallery,Recall@1,0.010623596476075315,11578,65135,11578
+41,Compound to profile,C-P,compound-profile,full-gallery,Recall@5,0.03852133356365521,11578,65135,11578
+41,Compound to profile,C-P,compound-profile,full-gallery,Recall@10,0.06175505268612887,11578,65135,11578
+41,Compound to profile,C-P,compound-profile,full-gallery,MRR,0.029070938104823266,11578,65135,11578
+41,Compound to profile,C-P,compound-profile,full-gallery,Median rank,712.0,11578,65135,11578
+41,Profile to compound,P-C,compound-profile,full-gallery,Recall@1,0.0065402625316650035,65135,11578,65135
+41,Profile to compound,P-C,compound-profile,full-gallery,Recall@5,0.02384278805557688,65135,11578,65135
+41,Profile to compound,P-C,compound-profile,full-gallery,Recall@10,0.038765640592615336,65135,11578,65135
+41,Profile to compound,P-C,compound-profile,full-gallery,MRR,0.019522332957865447,65135,11578,65135
+41,Profile to compound,P-C,compound-profile,full-gallery,Median rank,856.0,65135,11578,65135
+41,Gene to profile,G-P,gene-profile,full-gallery,Recall@1,0.009704455227172474,2267,11699,2267
+41,Gene to profile,G-P,gene-profile,full-gallery,Recall@5,0.03573003970004411,2267,11699,2267
+41,Gene to profile,G-P,gene-profile,full-gallery,Recall@10,0.05249228054697839,2267,11699,2267
+41,Gene to profile,G-P,gene-profile,full-gallery,MRR,0.026788043445779303,2267,11699,2267
+41,Gene to profile,G-P,gene-profile,full-gallery,Median rank,636.0,2267,11699,2267
+41,Profile to gene,P-G,gene-profile,full-gallery,Recall@1,0.00760748781947175,11699,2267,11699
+41,Profile to gene,P-G,gene-profile,full-gallery,Recall@5,0.025899649542695958,11699,2267,11699
+41,Profile to gene,P-G,gene-profile,full-gallery,Recall@10,0.041542012137789554,11699,2267,11699
+41,Profile to gene,P-G,gene-profile,full-gallery,MRR,0.02242124914759286,11699,2267,11699
+41,Profile to gene,P-G,gene-profile,full-gallery,Median rank,541.0,11699,2267,11699

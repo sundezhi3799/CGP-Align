@@ -1,0 +1,85 @@
+evaluation,independent_run,direction,direction_short,candidate_setting,metric,value,unit,negative_count,positive_count_mean,source_family
+sampled,31,Compound to profile,C-P,1:100,Top1,37.24,percent,100,5.500259112109172,Primary CGP-Align metric files used for Fig. 2
+sampled,31,Compound to profile,C-P,1:100,Top10,83.52,percent,100,5.500259112109172,Primary CGP-Align metric files used for Fig. 2
+sampled,31,Profile to compound,P-C,1:100,Top1,13.51,percent,100,1.0,Primary CGP-Align metric files used for Fig. 2
+sampled,31,Profile to compound,P-C,1:100,Top10,51.17,percent,100,1.0,Primary CGP-Align metric files used for Fig. 2
+sampled,31,Gene to profile,G-P,1:100,Top1,20.46,percent,100,5.2046757829730925,Primary CGP-Align metric files used for Fig. 2
+sampled,31,Gene to profile,G-P,1:100,Top10,68.96,percent,100,5.2046757829730925,Primary CGP-Align metric files used for Fig. 2
+sampled,31,Profile to gene,P-G,1:100,Top1,7.19,percent,100,1.0,Primary CGP-Align metric files used for Fig. 2
+sampled,31,Profile to gene,P-G,1:100,Top10,37.49,percent,100,1.0,Primary CGP-Align metric files used for Fig. 2
+sampled,37,Compound to profile,C-P,1:100,Top1,40.91,percent,100,5.734582829504232,Primary CGP-Align metric files used for Fig. 2
+sampled,37,Compound to profile,C-P,1:100,Top10,84.65,percent,100,5.734582829504232,Primary CGP-Align metric files used for Fig. 2
+sampled,37,Profile to compound,P-C,1:100,Top1,15.64,percent,100,1.0,Primary CGP-Align metric files used for Fig. 2
+sampled,37,Profile to compound,P-C,1:100,Top10,54.91,percent,100,1.0,Primary CGP-Align metric files used for Fig. 2
+sampled,37,Gene to profile,G-P,1:100,Top1,19.07,percent,100,5.159857904085258,Primary CGP-Align metric files used for Fig. 2
+sampled,37,Gene to profile,G-P,1:100,Top10,63.23,percent,100,5.159857904085258,Primary CGP-Align metric files used for Fig. 2
+sampled,37,Profile to gene,P-G,1:100,Top1,7.41,percent,100,1.0,Primary CGP-Align metric files used for Fig. 2
+sampled,37,Profile to gene,P-G,1:100,Top10,33.51,percent,100,1.0,Primary CGP-Align metric files used for Fig. 2
+sampled,41,Compound to profile,C-P,1:100,Top1,41.18,percent,100,5.625755743651753,Primary CGP-Align metric files used for Fig. 2
+sampled,41,Compound to profile,C-P,1:100,Top10,84.84,percent,100,5.625755743651753,Primary CGP-Align metric files used for Fig. 2
+sampled,41,Profile to compound,P-C,1:100,Top1,15.57,percent,100,1.0,Primary CGP-Align metric files used for Fig. 2
+sampled,41,Profile to compound,P-C,1:100,Top10,55.20,percent,100,1.0,Primary CGP-Align metric files used for Fig. 2
+sampled,41,Gene to profile,G-P,1:100,Top1,19.43,percent,100,5.160564622849581,Primary CGP-Align metric files used for Fig. 2
+sampled,41,Gene to profile,G-P,1:100,Top10,61.87,percent,100,5.160564622849581,Primary CGP-Align metric files used for Fig. 2
+sampled,41,Profile to gene,P-G,1:100,Top1,7.01,percent,100,1.0,Primary CGP-Align metric files used for Fig. 2
+sampled,41,Profile to gene,P-G,1:100,Top10,32.85,percent,100,1.0,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Compound to profile,C-P,all held-out candidates,Recall@1,0.85,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Compound to profile,C-P,all held-out candidates,Recall@5,2.92,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Compound to profile,C-P,all held-out candidates,Recall@10,4.59,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Compound to profile,C-P,all held-out candidates,MRR,2.31,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Compound to profile,C-P,all held-out candidates,Median rank,909.00,rank,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Profile to compound,P-C,all held-out candidates,Recall@1,0.48,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Profile to compound,P-C,all held-out candidates,Recall@5,1.81,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Profile to compound,P-C,all held-out candidates,Recall@10,3.11,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Profile to compound,P-C,all held-out candidates,MRR,1.57,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Profile to compound,P-C,all held-out candidates,Median rank,1055.00,rank,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Gene to profile,G-P,all held-out candidates,Recall@1,1.01,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Gene to profile,G-P,all held-out candidates,Recall@5,2.91,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Gene to profile,G-P,all held-out candidates,Recall@10,5.82,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Gene to profile,G-P,all held-out candidates,MRR,2.63,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Gene to profile,G-P,all held-out candidates,Median rank,506.00,rank,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Profile to gene,P-G,all held-out candidates,Recall@1,0.65,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Profile to gene,P-G,all held-out candidates,Recall@5,2.42,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Profile to gene,P-G,all held-out candidates,Recall@10,4.26,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Profile to gene,P-G,all held-out candidates,MRR,2.22,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,31,Profile to gene,P-G,all held-out candidates,Median rank,378.00,rank,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Compound to profile,C-P,all held-out candidates,Recall@1,1.08,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Compound to profile,C-P,all held-out candidates,Recall@5,3.60,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Compound to profile,C-P,all held-out candidates,Recall@10,5.54,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Compound to profile,C-P,all held-out candidates,MRR,2.81,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Compound to profile,C-P,all held-out candidates,Median rank,719.00,rank,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Profile to compound,P-C,all held-out candidates,Recall@1,0.57,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Profile to compound,P-C,all held-out candidates,Recall@5,2.29,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Profile to compound,P-C,all held-out candidates,Recall@10,3.79,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Profile to compound,P-C,all held-out candidates,MRR,1.87,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Profile to compound,P-C,all held-out candidates,Median rank,870.00,rank,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Gene to profile,G-P,all held-out candidates,Recall@1,0.93,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Gene to profile,G-P,all held-out candidates,Recall@5,3.42,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Gene to profile,G-P,all held-out candidates,Recall@10,5.15,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Gene to profile,G-P,all held-out candidates,MRR,2.63,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Gene to profile,G-P,all held-out candidates,Median rank,593.50,rank,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Profile to gene,P-G,all held-out candidates,Recall@1,0.91,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Profile to gene,P-G,all held-out candidates,Recall@5,2.79,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Profile to gene,P-G,all held-out candidates,Recall@10,4.56,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Profile to gene,P-G,all held-out candidates,MRR,2.45,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,37,Profile to gene,P-G,all held-out candidates,Median rank,506.50,rank,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Compound to profile,C-P,all held-out candidates,Recall@1,1.06,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Compound to profile,C-P,all held-out candidates,Recall@5,3.85,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Compound to profile,C-P,all held-out candidates,Recall@10,6.18,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Compound to profile,C-P,all held-out candidates,MRR,2.91,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Compound to profile,C-P,all held-out candidates,Median rank,712.00,rank,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Profile to compound,P-C,all held-out candidates,Recall@1,0.65,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Profile to compound,P-C,all held-out candidates,Recall@5,2.38,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Profile to compound,P-C,all held-out candidates,Recall@10,3.88,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Profile to compound,P-C,all held-out candidates,MRR,1.95,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Profile to compound,P-C,all held-out candidates,Median rank,856.00,rank,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Gene to profile,G-P,all held-out candidates,Recall@1,0.97,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Gene to profile,G-P,all held-out candidates,Recall@5,3.57,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Gene to profile,G-P,all held-out candidates,Recall@10,5.25,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Gene to profile,G-P,all held-out candidates,MRR,2.68,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Gene to profile,G-P,all held-out candidates,Median rank,636.00,rank,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Profile to gene,P-G,all held-out candidates,Recall@1,0.76,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Profile to gene,P-G,all held-out candidates,Recall@5,2.59,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Profile to gene,P-G,all held-out candidates,Recall@10,4.15,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Profile to gene,P-G,all held-out candidates,MRR,2.24,percent,,,Primary CGP-Align metric files used for Fig. 2
+full_gallery,41,Profile to gene,P-G,all held-out candidates,Median rank,541.00,rank,,,Primary CGP-Align metric files used for Fig. 2

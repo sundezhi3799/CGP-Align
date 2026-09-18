@@ -1,0 +1,6 @@
+element,role
+source harmonization,preprocessing
+batch-aware normalization,preprocessing
+entity-held-out split,split
+training labels,perturbation-profile pairs
+held-out downstream labels,target/toxicity/PRISM labels

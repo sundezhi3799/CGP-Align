@@ -1,0 +1,12 @@
+{
+  "source": "scripts/run_raw3180_staged4_branchinit_joint_no_anchor_300_saveval.sh",
+  "source_sha256": "2bd385b0743f8eeaff4535ea1e8d23115c7aba9edb7c93ced68fadee9008c084",
+  "wrapper": "tools/train_primary.py",
+  "changes": [
+    "Caller-supplied absolute data/initializer/output paths",
+    "One selected seed per foreground process",
+    "Dry run and missing-input checks before optional execution",
+    "CPU debug option disables AMP"
+  ],
+  "status": "Argument transcription only; exact checkpoint configuration verification pending"
+}

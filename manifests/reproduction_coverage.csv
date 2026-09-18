@@ -1,0 +1,15 @@
+finding,entry_point,available_inputs,status,remaining
+Primary sampled retrieval,tools/verify_reference_results.py,reference_metrics and paper_snapshot/source_data,verifiable_saved_results,exact public checkpoints and full input arrays
+Joint four-branch training,tools/train_primary.py,original trainer and dependencies,recipe_candidate,exact checkpoint configuration and initializers and prepared arrays
+Compound pretraining,scripts/train_compound_mocop_replicate.py,original source,source_present,full prepared data and original configuration
+Gene pretraining,scripts/train_gene_mocop.py,original source,source_present,protein features and original configuration
+Primary retrieval evaluation,scripts/eval_raw3180_branch_retrieval_from_checkpoints.py,original source,source_present,checkpoint paths and full evaluation inputs
+Matched compound baseline comparison,scripts/build_compound_profile_fair_benchmark.py,paper source tables,partial,final baseline training and feature-generation commands
+Compound gene transfer,scripts/eval_cgp_align_target_enrichment_by_gene_modality.py,paper source tables,partial,source-specific edges and checkpoint mapping
+Leave one source out transfer,scripts/eval_raw3180_gene_union_latent_link_classifier.py,paper source tables,partial,source-specific edges and exact classifier configuration
+Toxicity representation benchmark,scripts/benchmark_toxric_molecular_representations.py,paper source tables,partial,feature caches and exact final representation mapping
+Scaffold robustness,scripts/eval_sr5_scaffold_split_representations.py,paper source tables,partial,ToxRIC data and model identity reconciliation
+Structural alert complementarity,scripts/run_cgp_expert_alert_prioritization_extratrees_repeats.py,paper source tables,partial,alert definitions and cached features and final config
+PRISM neighbours,scripts/evaluate_prism_u2os_single_cell.py,paper source tables,partial,PRISM responses and embedding generation provenance
+Hidden phenotype neighbours,scripts/run_hidden_phenotype_neighbour_recovery.py,revision_candidates/hidden_neighbours,revision_candidate,final panel decision and upstream arrays
+Article numerical summaries,paper_snapshot/scripts/reproduce_article_results.R,paper_snapshot/source_data,processed_data_workflow,does not rerun upstream experiments

@@ -1,0 +1,3 @@
+metric,value,random_ranking,n_benchmarks,n_above_random_ranking
+Mean Lift@50,1.553070285657272,1,5,5
+Leave-one-source-out AUPRC gain,0.30503226664220384,0,5,5

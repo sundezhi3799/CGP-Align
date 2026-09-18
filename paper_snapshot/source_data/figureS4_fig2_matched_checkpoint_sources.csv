@@ -1,0 +1,4 @@
+independent_run,checkpoint_epoch,best_score,selection_metric,metrics_file
+31,50,0.5403362257976156,val_hmean_Top10,primary_CGP-Align_run_1_metrics.json
+37,110,0.5356019782825717,val_hmean_Top10,primary_CGP-Align_run_2_metrics.json
+41,120,0.5441922277613108,val_hmean_Top10,primary_CGP-Align_run_3_metrics.json

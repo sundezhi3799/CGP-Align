@@ -1,0 +1,6 @@
+"benchmark","mapped_edges","cgp_align_lift50","above_random_ranking","cosine_auprc","leave_one_source_out_auprc","delta_auprc","cosine_auroc","leave_one_source_out_auroc","delta_auroc"
+"DGIdb","8670","2.260","TRUE","0.211","0.557","0.346","0.560","0.853","0.292"
+"DrugRep","6049.5","1.632","TRUE","0.201","0.582","0.380","0.547","0.870","0.323"
+"Hetionet","6721","1.421","TRUE","0.182","0.470","0.288","0.525","0.791","0.266"
+"OpenBioLink","16505.5","1.179","TRUE","0.190","0.438","0.248","0.539","0.786","0.247"
+"PharMeBINet","10853.5","1.273","TRUE","0.181","0.444","0.263","0.524","0.780","0.256"

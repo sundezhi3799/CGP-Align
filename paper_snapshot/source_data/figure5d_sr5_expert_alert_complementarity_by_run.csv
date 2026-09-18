@@ -1,0 +1,16 @@
+independent_run,method,method_label,tasks,run_mean_auprc,run_mean_lift_at_top50
+13,cgp_latent_extratrees,CGP-Align latent,5,0.487211939016659,11.37862517086193
+13,cgp_plus_alert_extratrees,CGP + alerts,5,0.5290697116739747,11.387931255678122
+13,structure_alert_extratrees,Expert alerts,5,0.40565001885054464,8.452441380493234
+41,cgp_latent_extratrees,CGP-Align latent,5,0.49711183468201037,11.337616809519922
+41,cgp_plus_alert_extratrees,CGP + alerts,5,0.5344352038386433,11.780923953742409
+41,structure_alert_extratrees,Expert alerts,5,0.4039454862550178,8.469732137187043
+97,cgp_latent_extratrees,CGP-Align latent,5,0.49199259124557737,10.991009196567585
+97,cgp_plus_alert_extratrees,CGP + alerts,5,0.5319836369714787,11.590808054348777
+97,structure_alert_extratrees,Expert alerts,5,0.3966106543552483,8.60731051045822
+123,cgp_latent_extratrees,CGP-Align latent,5,0.5048983168594611,11.759968939558563
+123,cgp_plus_alert_extratrees,CGP + alerts,5,0.5520538506216737,12.329534098675984
+123,structure_alert_extratrees,Expert alerts,5,0.4243634112540972,9.921043197343275
+2026,cgp_latent_extratrees,CGP-Align latent,5,0.4856173724462704,10.724939337058446
+2026,cgp_plus_alert_extratrees,CGP + alerts,5,0.5271374246448834,11.193248139533479
+2026,structure_alert_extratrees,Expert alerts,5,0.4077883286086731,8.695650893086098

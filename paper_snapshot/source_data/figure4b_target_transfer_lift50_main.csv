@@ -1,0 +1,6 @@
+source,name,source_order,mapped_edges_mean,mean_lift50,above_random_ranking
+dgidb,DGIdb,2,8670,2.25967116994677,TRUE
+drugrep,DrugRep,3,6049.5,1.63197254413808,TRUE
+hetionet,Hetionet,4,6721,1.4212732310869,TRUE
+openbiolink,OpenBioLink,5,16505.5,1.17924301928048,TRUE
+pharmebinet,PharMeBINet,6,10853.5,1.27319146383413,TRUE

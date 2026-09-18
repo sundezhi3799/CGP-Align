@@ -1,0 +1,61 @@
+auprc,auprc_mean,auprc_sd,auprc_se,auroc,auroc_mean,auroc_sd,auroc_se,display,endpoint,independent_run,mean_auprc,mean_auroc,mean_lift_at_top50,method,method_label,n_independent_runs,n_task,representation,run_mean_auprc,run_mean_lift_at_top50,sd_endpoint_auprc,sd_endpoint_auroc,sem_auprc,sem_lift_at_top50,source,source_file,task,tasks
+,0.432764403817564,0.177390080001499,0.0793312554834953,,0.834756995416284,0.0456054826821249,0.0203953918847842,AtomPair,,,,,,,,,5,,,,,,,,,figure5a_sr5_representation_mean_metrics.csv,,
+,0.413690348928384,0.188200393170268,0.0841657745041813,,0.823949499248424,0.0529497183753561,0.0236798339353532,Avalon,,,,,,,,,5,,,,,,,,,figure5a_sr5_representation_mean_metrics.csv,,
+,0.503974129806189,0.157258294425319,0.0703280472721381,,0.867212735244148,0.0410319904522973,0.0183500639806918,CGP-Align,,,,,,,,,5,,,,,,,,,figure5a_sr5_representation_mean_metrics.csv,,
+,0.397175449943328,0.169475273505635,0.0757916464127939,,0.821786691256282,0.0383514652688019,0.0171512966755527,Morgan,,,,,,,,,5,,,,,,,,,figure5a_sr5_representation_mean_metrics.csv,,
+,0.43051715098615,0.189829414356746,0.0848942949261318,,0.838870852846596,0.0515621698680854,0.0230593033784861,NYAN,,,,,,,,,5,,,,,,,,,figure5a_sr5_representation_mean_metrics.csv,,
+,0.465889496024331,0.191777755287077,0.0857656194788446,,0.860417903069831,0.0484217940002222,0.0216548845953977,RDKit2D,,,,,,,,,5,,,,,,,,,figure5a_sr5_representation_mean_metrics.csv,,
+0.508371057288305,,,,0.817709239254523,,,,AtomPair,SR-ARE,,,,,,,,,AtomPair2048,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-ARE,
+0.699071902767025,,,,0.899940280589558,,,,AtomPair,SR-MMP,,,,,,,,,AtomPair2048,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-MMP,
+0.253077024513691,,,,0.774407493594157,,,,AtomPair,SR-HSE,,,,,,,,,AtomPair2048,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-HSE,
+0.395163053795444,,,,0.846489842220634,,,,AtomPair,SR-p53,,,,,,,,,AtomPair2048,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-p53,
+0.308138980723356,,,,0.835238121422549,,,,AtomPair,SR-ATAD5,,,,,,,,,AtomPair2048,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-ATAD5,
+0.497325334168209,,,,0.812314699422324,,,,Avalon,SR-ARE,,,,,,,,,Avalon1024,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-ARE,
+0.689550353311932,,,,0.892296854050861,,,,Avalon,SR-MMP,,,,,,,,,Avalon1024,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-MMP,
+0.23119024708423,,,,0.751254225014102,,,,Avalon,SR-HSE,,,,,,,,,Avalon1024,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-HSE,
+0.394525858459571,,,,0.854252679457453,,,,Avalon,SR-p53,,,,,,,,,Avalon1024,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-p53,
+0.255859951617976,,,,0.809629038297382,,,,Avalon,SR-ATAD5,,,,,,,,,Avalon1024,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-ATAD5,
+0.583805662668515,,,,0.847526364425307,,,,CGP-Align,SR-ARE,,,,,,,,,CGP-Align,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-ARE,
+0.729339988017439,,,,0.913380105959434,,,,CGP-Align,SR-MMP,,,,,,,,,CGP-Align,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-MMP,
+0.364337701538524,,,,0.806881961298189,,,,CGP-Align,SR-HSE,,,,,,,,,CGP-Align,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-HSE,
+0.486593543945349,,,,0.885323320504148,,,,CGP-Align,SR-p53,,,,,,,,,CGP-Align,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-p53,
+0.355793752861119,,,,0.882951924033663,,,,CGP-Align,SR-ATAD5,,,,,,,,,CGP-Align,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-ATAD5,
+0.477437641906803,,,,0.8013888456909,,,,Morgan,SR-ARE,,,,,,,,,Morgan2048,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-ARE,
+0.649228742102448,,,,0.875006808000911,,,,Morgan,SR-MMP,,,,,,,,,Morgan2048,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-MMP,
+0.242045803493487,,,,0.772995493003918,,,,Morgan,SR-HSE,,,,,,,,,Morgan2048,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-HSE,
+0.359336713341802,,,,0.837733638080126,,,,Morgan,SR-p53,,,,,,,,,Morgan2048,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-p53,
+0.257828348872101,,,,0.821808671505554,,,,Morgan,SR-ATAD5,,,,,,,,,Morgan2048,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-ATAD5,
+0.540014085542776,,,,0.831950388289908,,,,RDKit2D,SR-ARE,,,,,,,,,RDKit2D,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-ARE,
+0.752423958829405,,,,0.926612649464346,,,,RDKit2D,SR-MMP,,,,,,,,,RDKit2D,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-MMP,
+0.3034445006469,,,,0.802867862998745,,,,RDKit2D,SR-HSE,,,,,,,,,RDKit2D,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-HSE,
+0.448897002917574,,,,0.888742043502748,,,,RDKit2D,SR-p53,,,,,,,,,RDKit2D,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-p53,
+0.284667932185001,,,,0.85191657109341,,,,RDKit2D,SR-ATAD5,,,,,,,,,RDKit2D,,,,,,,fixed_extratrees_representation_benchmark,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-ATAD5,
+0.50914073060148,,,,0.819771285706963,,,,NYAN,SR-ARE,,,,,,,,,NYAN_latent_official_cache_et160,,,,,,,official_nyan_checkpoint_cache_et160,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-ARE,
+0.27216771233506,,,,0.829528143050908,,,,NYAN,SR-ATAD5,,,,,,,,,NYAN_latent_official_cache_et160,,,,,,,official_nyan_checkpoint_cache_et160,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-ATAD5,
+0.262665286423419,,,,0.773079309022811,,,,NYAN,SR-HSE,,,,,,,,,NYAN_latent_official_cache_et160,,,,,,,official_nyan_checkpoint_cache_et160,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-HSE,
+0.718718605337132,,,,0.912577385530977,,,,NYAN,SR-MMP,,,,,,,,,NYAN_latent_official_cache_et160,,,,,,,official_nyan_checkpoint_cache_et160,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-MMP,
+0.389893420233656,,,,0.859398140921319,,,,NYAN,SR-p53,,,,,,,,,NYAN_latent_official_cache_et160,,,,,,,official_nyan_checkpoint_cache_et160,figure5b_sr5_endpoint_auprc_heatmap.csv,Endocrine Disruption_SR-p53,
+,,,,,,,,CGP-Align,,,0.4818363338054724,0.8494243341438855,,,,,5,CGP-Align,,,0.16189318007845238,0.03852889487822918,,,,figure5c_sr5_scaffold_split_mean_metrics.csv,,
+,,,,,,,,RDKit2D,,,0.43081792422788234,0.8376519396736729,,,,,5,RDKit2D,,,0.1727876648727516,0.0412648213912958,,,,figure5c_sr5_scaffold_split_mean_metrics.csv,,
+,,,,,,,,NYAN,,,0.3806013317144537,0.8010992127957944,,,,,5,NYAN_latent,,,0.16176237590959025,0.04398384778363213,,,,figure5c_sr5_scaffold_split_mean_metrics.csv,,
+,,,,,,,,AtomPair,,,0.3784955584729099,0.7900126279621459,,,,,5,AtomPair2048,,,0.15993225605129735,0.04862212681894142,,,,figure5c_sr5_scaffold_split_mean_metrics.csv,,
+,,,,,,,,Avalon,,,0.35885575994866736,0.7818815450637281,,,,,5,Avalon1024,,,0.1458630731983878,0.04411226483190991,,,,figure5c_sr5_scaffold_split_mean_metrics.csv,,
+,,,,,,,,Morgan,,,0.35531108011812595,0.791366788089086,,,,,5,Morgan2048,,,0.13236351243858718,0.0277617969713479,,,,figure5c_sr5_scaffold_split_mean_metrics.csv,,
+,,,,,,,,,,,0.4076715798647162,,8.829235623713574,,Expert alerts,5,,,,,,,0.0045768188791397045,0.2766185164205492,,figure5d_expert_alert_complementarity_summary.csv,,5
+,,,,,,,,,,,0.49336641084999566,,11.23843189071329,,CGP-Align latent,5,,,,,,,0.0035130154847922003,0.17697249637627901,,figure5d_expert_alert_complementarity_summary.csv,,5
+,,,,,,,,,,,0.5349359655501308,,11.656489100395754,,CGP + alerts,5,,,,,,,0.004456563532818205,0.19487215116933032,,figure5d_expert_alert_complementarity_summary.csv,,5
+,,,,,,,,,,13,,,,cgp_latent_extratrees,CGP-Align latent,,,,0.487211939016659,11.37862517086193,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,13,,,,cgp_plus_alert_extratrees,CGP + alerts,,,,0.5290697116739747,11.387931255678122,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,13,,,,structure_alert_extratrees,Expert alerts,,,,0.40565001885054464,8.452441380493234,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,41,,,,cgp_latent_extratrees,CGP-Align latent,,,,0.49711183468201037,11.337616809519922,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,41,,,,cgp_plus_alert_extratrees,CGP + alerts,,,,0.5344352038386433,11.780923953742409,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,41,,,,structure_alert_extratrees,Expert alerts,,,,0.4039454862550178,8.469732137187043,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,97,,,,cgp_latent_extratrees,CGP-Align latent,,,,0.49199259124557737,10.991009196567585,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,97,,,,cgp_plus_alert_extratrees,CGP + alerts,,,,0.5319836369714787,11.590808054348777,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,97,,,,structure_alert_extratrees,Expert alerts,,,,0.3966106543552483,8.60731051045822,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,123,,,,cgp_latent_extratrees,CGP-Align latent,,,,0.5048983168594611,11.759968939558563,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,123,,,,cgp_plus_alert_extratrees,CGP + alerts,,,,0.5520538506216737,12.329534098675984,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,123,,,,structure_alert_extratrees,Expert alerts,,,,0.4243634112540972,9.921043197343275,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,2026,,,,cgp_latent_extratrees,CGP-Align latent,,,,0.4856173724462704,10.724939337058446,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,2026,,,,cgp_plus_alert_extratrees,CGP + alerts,,,,0.5271374246448834,11.193248139533479,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5
+,,,,,,,,,,2026,,,,structure_alert_extratrees,Expert alerts,,,,0.4077883286086731,8.695650893086098,,,,,,figure5d_sr5_expert_alert_complementarity_by_run.csv,,5

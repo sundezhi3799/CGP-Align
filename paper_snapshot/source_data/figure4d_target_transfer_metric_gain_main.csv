@@ -1,0 +1,11 @@
+source,name,source_order,metric,gain,source_index,y_pos
+dgidb,DGIdb,2,AUPRC gain,0.34577296085572135,3,2.88
+dgidb,DGIdb,2,AUROC gain,0.2921694666666667,3,3.12
+drugrep,DrugRep,3,AUPRC gain,0.38042668563314697,1,0.88
+drugrep,DrugRep,3,AUROC gain,0.3230196296296296,1,1.12
+hetionet,Hetionet,4,AUPRC gain,0.28789952847712763,2,1.88
+hetionet,Hetionet,4,AUROC gain,0.26640846296296294,2,2.12
+openbiolink,OpenBioLink,5,AUPRC gain,0.24796500541106165,5,4.88
+openbiolink,OpenBioLink,5,AUROC gain,0.2468503018518518,5,5.12
+pharmebinet,PharMeBINet,6,AUPRC gain,0.26309715283396173,4,3.88
+pharmebinet,PharMeBINet,6,AUROC gain,0.2559613203703703,4,4.12

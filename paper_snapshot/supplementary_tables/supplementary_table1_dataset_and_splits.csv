@@ -1,0 +1,4 @@
+modality,entities_total,profiles_total,median_replicates_per_entity,p90_replicates_per_entity,train_entities,val_entities,test_entities,train_profiles,val_profiles,test_profiles
+Compound,115786,649876,5.0,8.0,92629,11579,11578,520096,64645,65135
+ORF,15126,76050,5.0,5.0,12038,1515,1573,60520,7615,7915
+CRISPR,7974,43138,5.0,7.0,6403,774,797,34609,4229,4300

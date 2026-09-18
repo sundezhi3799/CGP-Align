@@ -1,0 +1,22 @@
+[
+  {
+    "script": "train_cgp_align_replicate.py",
+    "returncode": 0
+  },
+  {
+    "script": "train_compound_mocop_replicate.py",
+    "returncode": 0
+  },
+  {
+    "script": "train_gene_mocop.py",
+    "returncode": 0
+  },
+  {
+    "script": "eval_raw3180_branch_retrieval_from_checkpoints.py",
+    "returncode": 0
+  },
+  {
+    "script": "run_hidden_phenotype_neighbour_recovery.py",
+    "returncode": 0
+  }
+]

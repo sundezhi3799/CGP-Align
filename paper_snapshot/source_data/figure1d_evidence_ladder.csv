@@ -1,0 +1,11 @@
+label,value,x,y,fill_key,colour_key
+"held-out
+retrieval",Fig. 2,1.15,1.08,neutral,neutral
+"matched
+benchmark",Fig. 3,2.95,1.08,purple,purple
+"relation
+transfer",Fig. 4,4.75,1.08,profile,profile
+"phenotype-linked
+toxicity",Fig. 5,6.55,1.08,alert,alert
+"PRISM response
+retrieval",Fig. 6,8.35,1.08,cgp,cgp

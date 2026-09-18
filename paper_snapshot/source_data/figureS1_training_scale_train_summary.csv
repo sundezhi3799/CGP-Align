@@ -1,0 +1,6 @@
+training_scale,training_fraction_pct,best_epoch,best_score,run_name,stopped_early,train_fraction_requested,num_train_compounds,num_train_gene_entities,val_max_compounds,val_max_gene_entities
+10%,10,20.0,0.40259698707248176,tri_align_train_scale_10pct,True,,,,,
+25%,25,30.0,0.4903762927840936,tri_align_train_scale_25pct,True,,,,,
+50%,50,30.0,0.5304414480177949,tri_align_train_scale_50pct,True,,,,,
+75%,75,45.0,0.5612041481552389,tri_align_train_scale_75pct,True,0.75,69476.0,13364.0,2048.0,2048.0
+100%,100,,,,,,,,,

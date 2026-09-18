@@ -1,0 +1,4 @@
+stage_order,stage_key,stage_label,compound_matched_cosine_mean,gene_matched_cosine_mean,compound_random_cosine_mean,gene_random_cosine_mean
+1,random_init,Before pretraining,-0.04434315487742424,-0.049930453300476074,-0.044561631977558136,-0.04847292602062225
+2,branch_pretrained,After branch pretraining,-0.011300269514322281,0.03282330185174942,-0.009586907923221588,0.02080376446247101
+3,joint_aligned,After CGP-Align alignment,0.35211268067359924,0.2196650207042694,0.07792184501886368,0.10328464210033417

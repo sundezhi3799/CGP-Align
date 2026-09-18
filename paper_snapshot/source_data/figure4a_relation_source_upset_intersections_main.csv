@@ -1,0 +1,11 @@
+pattern_id,pattern_label,pattern,degree,intersection_edges
+1,I1,OpenBioLink,1,11330
+2,I2,DGIdb,1,7775
+3,I3,PharMeBINet,1,7126
+4,I4,Hetionet&PharMeBINet,2,6239
+5,I5,DrugRep,1,1586
+6,I6,DrugRep&DGIdb,2,1188
+7,I7,DrugRep&DGIdb&OpenBioLink,3,638
+8,I8,DrugRep&Hetionet&DGIdb&OpenBioLink&PharMeBINet,5,563
+9,I9,DrugRep&OpenBioLink,2,553
+10,I10,DGIdb&OpenBioLink,2,476

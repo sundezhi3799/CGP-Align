@@ -1,0 +1,6 @@
+checkpoint,epoch,selection_metric,val_hmean_Top10
+val_epoch0040.pt,40,val_hmean_Top10_snapshot,0.5209582886945099
+val_epoch0120.pt,120,val_hmean_Top10_snapshot,0.5431782488809668
+val_epoch0240.pt,240,val_hmean_Top10_snapshot,0.5299769572119692
+val_epoch0300.pt,300,val_hmean_Top10_snapshot,0.5241893830928332
+best_model.pt,120,val_hmean_Top10,0.5431782488809668

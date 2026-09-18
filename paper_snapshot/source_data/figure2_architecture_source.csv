@@ -1,0 +1,15 @@
+panel,component,item,value,notes
+a,shared phenotype anchor,input profile dimension,3180,Common CellProfiler morphology-profile feature dimension.
+a,shared phenotype anchor,profile encoder,MLP 3180->512->256,One shared profile encoder was used for compound ORF and CRISPR profile inputs.
+a,shared phenotype anchor,profile output dimension,256,L2-normalized profile embeddings in the shared latent space.
+b,compound branch,input,molecular graph,Compound structures were represented as molecular graphs.
+b,compound branch,graph encoder,6-layer GNN hidden 256,Compound graph encoder before the adapter MLP.
+b,compound branch,adapter MLP,256->512->256,Compound-side adapter output was L2-normalized.
+b,ORF branch,input protein embedding,ESM-2 2560-D,Protein embeddings were used as gene-side inputs.
+b,ORF branch,adapter MLP,2560->512->256,Separate ORF adapter branch.
+b,CRISPR branch,input protein embedding,ESM-2 2560-D,Protein embeddings were used as gene-side inputs.
+b,CRISPR branch,adapter MLP,2560->512->256,Separate CRISPR adapter branch.
+c,training objective,compound-profile loss,symmetric InfoNCE,Aligns compound entity embeddings with matched compound-profile embeddings.
+c,training objective,ORF-profile loss,symmetric InfoNCE,Aligns ORF entity embeddings with matched ORF-profile embeddings.
+c,training objective,CRISPR-profile loss,symmetric InfoNCE,Aligns CRISPR entity embeddings with matched CRISPR-profile embeddings.
+c,training objective,total loss,L_cpd-profile + L_ORF-profile + L_CRISPR-profile,CGP-Align objective used for the final architecture.

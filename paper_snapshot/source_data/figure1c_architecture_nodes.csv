@@ -1,0 +1,22 @@
+label,x,y,fill_key,colour_key
+"compound
+graph",0.8,4.55,cgp,cgp
+"compound
+encoder",2.25,4.55,neutral,cgp
+"compound
+embedding",3.55,4.55,cgp,cgp
+"gene
+identity",0.8,3.08,profile,profile
+"ORF/CRISPR
+adapters",2.25,3.08,neutral,profile
+"gene
+embedding",3.55,3.08,profile,profile
+"morphology
+profiles",0.8,1.6,purple,purple
+"shared profile
+encoder",2.25,1.6,neutral,purple
+"profile
+embedding",3.55,1.6,purple,purple
+"shared phenotype-
+anchored latent space
+R^256",7.18,3.08,purple,purple

@@ -1,0 +1,42 @@
+{
+  "external_imports": [
+    "esm",
+    "lightgbm",
+    "matplotlib",
+    "mordred",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "rdkit",
+    "requests",
+    "scipy",
+    "seaborn",
+    "sklearn",
+    "torch",
+    "transformers",
+    "xgboost"
+  ],
+  "entry_points": [
+    "prepare_cpg0016_raw_common3180_inputs",
+    "build_gene_mocop_replicate_dataset",
+    "build_gene_mocop_corrected_profile_dataset",
+    "make_raw3180_seeded_split_dirs",
+    "precompute_protein_encoder_ablation_embeddings",
+    "train_compound_mocop_replicate",
+    "train_gene_mocop",
+    "train_cgp_align_replicate",
+    "eval_raw3180_branch_retrieval_from_checkpoints",
+    "eval_cgp_align_target_enrichment_by_gene_modality",
+    "eval_raw3180_gene_union_latent_link_classifier",
+    "export_raw3180_hidden_phenotype_inputs",
+    "run_hidden_phenotype_neighbour_recovery",
+    "benchmark_toxric_molecular_representations",
+    "eval_sr5_scaffold_split_representations",
+    "run_cgp_expert_alert_prioritization_extratrees_repeats",
+    "evaluate_prism_u2os_single_cell",
+    "evaluate_prism_high_confidence_hits",
+    "evaluate_prism_continuous_metrics",
+    "run_prism_gene_mechanism_interpretation",
+    "build_compound_profile_fair_benchmark"
+  ]
+}

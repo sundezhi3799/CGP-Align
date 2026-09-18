@@ -1,0 +1,7 @@
+dataset,split_pair,overlap_entities
+Compound,train-val,0
+Compound,train-test,0
+Compound,val-test,0
+Gene,train-val,0
+Gene,train-test,0
+Gene,val-test,0
