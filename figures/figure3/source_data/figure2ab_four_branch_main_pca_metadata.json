@@ -1,0 +1,171 @@
+﻿{
+  "checkpoint": "checkpoint path not redistributed in this source-data package",
+  "checkpoint_epoch": 120,
+  "checkpoint_best_score": 0.5431782488809668,
+  "branch_pretrained_checkpoints": {
+    "compound": "checkpoint path not redistributed in this source-data package",
+    "orf_gene": "checkpoint path not redistributed in this source-data package",
+    "crispr_gene": "checkpoint path not redistributed in this source-data package"
+  },
+  "split": "test",
+  "num_compounds": 1200,
+  "num_genes": 1200,
+  "num_points": 14400,
+  "stages": [
+    {
+      "stage_key": "random_init",
+      "stage_label": "Before pretraining"
+    },
+    {
+      "stage_key": "branch_pretrained",
+      "stage_label": "After branch pretraining"
+    },
+    {
+      "stage_key": "joint_aligned",
+      "stage_label": "After CGP-Align alignment"
+    }
+  ],
+  "method": "pca",
+  "pca_dim": 2,
+  "pre_joint_pca_scope": "stage_shared",
+  "reduction_info": {
+    "mode": "branch-local before joint; shared after joint",
+    "random_init": {
+      "scope": "stage-shared",
+      "explained_variance_ratio": [
+        0.3627490997314453,
+        0.2411826252937317
+      ]
+    },
+    "branch_pretrained": {
+      "scope": "stage-shared",
+      "explained_variance_ratio": [
+        0.22095033526420593,
+        0.1436753123998642
+      ]
+    },
+    "joint_aligned": {
+      "scope": "shared",
+      "explained_variance_ratio": [
+        0.12279568612575531,
+        0.07801982015371323
+      ]
+    }
+  },
+  "umap": {
+    "n_neighbors": 35,
+    "min_dist": 0.08,
+    "metric": "cosine",
+    "independent_run": 41
+  },
+  "init_summaries": {
+    "random_init": {
+      "compound": {
+        "enabled": false
+      },
+      "gene_orf": {
+        "enabled": false
+      },
+      "gene_crispr": {
+        "enabled": false
+      }
+    },
+    "branch_pretrained": {
+      "compound": {
+        "enabled": true,
+        "path": "checkpoint path not redistributed in this source-data package",
+        "checkpoint_epoch": 260,
+        "checkpoint_best_score": 0.7708296016672855,
+        "copied": 70,
+        "partial_copied": [],
+        "skipped": [],
+        "missing_after_partial_load": 19,
+        "unexpected_after_partial_load": 0
+      },
+      "gene_orf": {
+        "enabled": true,
+        "path": "checkpoint path not redistributed in this source-data package",
+        "checkpoint_epoch": 140,
+        "checkpoint_best_score": 0.45355030798173457,
+        "copied": 6,
+        "partial_copied": [],
+        "skipped": [],
+        "missing_after_partial_load": 83,
+        "unexpected_after_partial_load": 0
+      },
+      "gene_crispr": {
+        "enabled": true,
+        "path": "checkpoint path not redistributed in this source-data package",
+        "checkpoint_epoch": 220,
+        "checkpoint_best_score": 0.4302117783579925,
+        "copied": 6,
+        "partial_copied": [],
+        "skipped": [],
+        "missing_after_partial_load": 83,
+        "unexpected_after_partial_load": 0
+      }
+    },
+    "joint_aligned": {
+      "compound": {
+        "enabled": false
+      },
+      "gene_orf": {
+        "enabled": true,
+        "path": "checkpoint path not redistributed in this source-data package",
+        "checkpoint_epoch": 140,
+        "checkpoint_best_score": 0.45355030798173457,
+        "copied": 6,
+        "partial_copied": [],
+        "skipped": [],
+        "missing_after_partial_load": 83,
+        "unexpected_after_partial_load": 0
+      },
+      "gene_crispr": {
+        "enabled": true,
+        "path": "checkpoint path not redistributed in this source-data package",
+        "checkpoint_epoch": 220,
+        "checkpoint_best_score": 0.4302117783579925,
+        "copied": 6,
+        "partial_copied": [],
+        "skipped": [],
+        "missing_after_partial_load": 83,
+        "unexpected_after_partial_load": 0
+      }
+    }
+  },
+  "diagnostics": [
+    {
+      "stage_order": 1,
+      "stage_key": "random_init",
+      "stage_label": "Before pretraining",
+      "compound_matched_cosine_mean": -0.04434315487742424,
+      "gene_matched_cosine_mean": -0.049930453300476074,
+      "compound_random_cosine_mean": -0.044561631977558136,
+      "gene_random_cosine_mean": -0.04847292602062225
+    },
+    {
+      "stage_order": 2,
+      "stage_key": "branch_pretrained",
+      "stage_label": "After branch pretraining",
+      "compound_matched_cosine_mean": -0.011300269514322281,
+      "gene_matched_cosine_mean": 0.03282330185174942,
+      "compound_random_cosine_mean": -0.009586907923221588,
+      "gene_random_cosine_mean": 0.02080376446247101
+    },
+    {
+      "stage_order": 3,
+      "stage_key": "joint_aligned",
+      "stage_label": "After CGP-Align alignment",
+      "compound_matched_cosine_mean": 0.35211268067359924,
+      "gene_matched_cosine_mean": 0.2196650207042694,
+      "compound_random_cosine_mean": 0.07792184501886368,
+      "gene_random_cosine_mean": 0.10328464210033417
+    }
+  ],
+  "outputs": {
+    "source_csv": "checkpoint path not redistributed in this source-data package",
+    "diagnostics_csv": "checkpoint path not redistributed in this source-data package",
+    "metadata_json": "checkpoint path not redistributed in this source-data package"
+  }
+}
+

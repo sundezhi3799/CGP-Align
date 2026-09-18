@@ -1,0 +1,18 @@
+{
+  "checkpoint": "output/cgp_align/ablation/raw3180_four_branch_cwcl_local_modality_seed41/checkpoints/raw3180_4branch_cwcl_sep_k32_w100_seed41/best_model.pt",
+  "checkpoint_epoch": 120,
+  "checkpoint_best_score": 0.5431782488809668,
+  "split": "test",
+  "profile_dim": 3180,
+  "compound_entities": 11578,
+  "gene_entities": 2267,
+  "orf_entities": 1479,
+  "crispr_entities": 788,
+  "compound_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/compound_source_zscore_plate_well_center_3180",
+  "gene_data_dir": "output/cgp_align/profile_preprocess_version_matrix/raw3180_seeded_split_3seed_20260605/seed41/gene_source_zscore_plate_well_center_3180",
+  "profile_source_mode": "compound_gene_modality",
+  "profile_input_definition": "entity mean of normalized 3180-dimensional replicate-level CellProfiler profiles",
+  "profile_latent_definition": "entity mean of replicate-level profile-encoder embeddings",
+  "embedding_npz": "output/cgp_align/paper/manuscript_cgp_align_profile/hidden_phenotype_neighbour_recovery_20260908/final_raw3180_inputs/final_raw3180_test_embeddings.npz",
+  "profile_input_npz": "output/cgp_align/paper/manuscript_cgp_align_profile/hidden_phenotype_neighbour_recovery_20260908/final_raw3180_inputs/final_raw3180_test_profile_inputs.npz"
+}

@@ -34,8 +34,12 @@ This prints a portable command and checks required files. Add `--execute` to tra
 
 ## 5. Evaluation and downstream analyses
 
-Entry points and current coverage are in `manifests/reproduction_coverage.csv`. Start with `--help`. Historical checkpoint configs may contain paths to the original data layout; resolve them explicitly before evaluation. Do not run upstream analysis using a different model family merely because its file format is compatible.
+Entry points and current coverage are in `manifests/reproduction_coverage.csv`. Start with `--help`. Intrinsic evaluation and hidden-neighbour export now accept explicit data path overrides; see [PORTABILITY_UPDATE.md](PORTABILITY_UPDATE.md). Other historical entry points may still require path adaptation. Do not run upstream analysis using a different model family merely because its file format is compatible.
 
-## 6. Revision candidate
+## 6. Revised Figure 3
 
-The hidden-neighbour source CSV reports Top-50 precision enrichment of approximately 2.57, 4.87 and 9.52 for the three displayed readouts. Its upstream entry points are `export_raw3180_hidden_phenotype_inputs.py` and `run_hidden_phenotype_neighbour_recovery.py`. The archived manuscript still uses paired gains in panel H, so these data are not folded into the August snapshot.
+The September Word revision adopts hidden phenotype neighbours in H. See
+[the complete redraw workflow](../figures/figure3/README.md) and
+`python tools/verify_figure3_sources.py`. The August snapshot and old paired-gain
+source tables are retained without alteration. The H checkpoint differs from the
+primary seed-41 checkpoint; this difference is documented, not resolved by renaming.

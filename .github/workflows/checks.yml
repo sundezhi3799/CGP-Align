@@ -10,3 +10,15 @@ jobs:
           python-version: '3.13'
       - run: python tools/check_repository.py
       - run: python tools/verify_reference_results.py
+      - run: python tools/verify_figure3_sources.py
+  model-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: python -m pip install -r environment/requirements-core.txt
+      - run: python tools/smoke_test_model.py
+      - run: python tools/test_portable_inference.py

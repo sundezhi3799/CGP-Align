@@ -44,7 +44,7 @@ def main():
         MANIFEST.write_text(json.dumps(current, indent=2) + '\n', encoding='utf-8')
     elif not MANIFEST.exists() or json.loads(MANIFEST.read_text(encoding='utf-8')) != current:
         raise SystemExit('Checksum inventory missing or changed. Review edits before regenerating.')
-    print(json.dumps({'status': 'PASS', 'files': len(current), 'unchanged_imports': len(provenance),
+    print(json.dumps({'status': 'PASS', 'files': len(current), 'verified_imports': len(provenance), 'modified_imports': sum(r['source_sha256'] != r['copied_sha256'] for r in provenance),
                       'scope': 'syntax, file integrity and provenance; not full scientific reproduction'}, indent=2))
 
 if __name__ == '__main__':

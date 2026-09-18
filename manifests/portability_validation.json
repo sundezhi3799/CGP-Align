@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-18",
+  "scope": "implementation and saved-source checks only",
+  "checks": [
+    {
+      "command": [
+        "python",
+        "tools/smoke_test_model.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"device\": \"cpu\",\n  \"synthetic_loss\": 3.612161636352539,\n  \"checks\": [\n    \"four branches\",\n    \"unit norm\",\n    \"multi-positive loss\",\n    \"finite nonzero gradients\",\n    \"checkpoint round-trip\"\n  ],\n  \"scope\": \"synthetic implementation check; reduced hidden sizes; not paper performance\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tools/test_portable_inference.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".\n----------------------------------------------------------------------\nRan 1 test in 0.062s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "tools/verify_reference_results.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"matched_run_direction_values\": 12,\n  \"mean_top10\": {\n    \"compound_to_profile\": 0.8433696090286175,\n    \"profile_to_compound\": 0.5376190500800178,\n    \"gene_to_profile\": 0.6468732395690426,\n    \"profile_to_gene\": 0.34613447976553074\n  },\n  \"scope\": \"saved metrics vs saved source data; not model rerun\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tools/verify_figure3_sources.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: revised Figure 3H saved-source arithmetic and single-checkpoint provenance\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/eval_raw3180_branch_retrieval_from_checkpoints.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: eval_raw3180_branch_retrieval_from_checkpoints.py [-h] --rows ROWS\n                                                         --output_dir OUTPUT_DIR\n                                                         [--split {val,test}]\n                                                         [--negative_ratios NEGATIVE_RATIOS]\n                                                         [--num_repeats NUM_REPEATS]\n                                                         [--max_compounds MAX_COMPOUNDS]\n                                                         [--max_genes MAX_GENES]\n                                                         [--eval_batch_size EVAL_BATCH_SIZE]\n                                                         [--seed SEED]\n                                                         [--device DEVICE]\n                                                         [--compound-data-dir COMPOUND_DATA_DIR]\n                                                         [--gene-data-dir GENE_DATA_DIR]\n                                                         [--gene-protein-embedding-dir GENE_PROTEIN_EMBEDDING_DIR]\n\nEvaluate intrinsic branch retrieval from CGP-Align checkpoints.\n\noptions:\n  -h, --help            show this help message and exit\n  --rows ROWS           Comma-separated label:checkpoint entries.\n  --output_dir OUTPUT_DIR\n  --split {val,test}\n  --negative_ratios NEGATIVE_RATIOS\n  --num_repeats NUM_REPEATS\n  --max_compounds MAX_COMPOUNDS\n  --max_genes MAX_GENES\n  --eval_batch_size EVAL_BATCH_SIZE\n  --seed SEED\n  --device DEVICE\n  --compound-data-dir COMPOUND_DATA_DIR\n                        Override this data directory in the saved checkpoint\n                        config.\n  --gene-data-dir GENE_DATA_DIR\n                        Override this data directory in the saved checkpoint\n                        config.\n  --gene-protein-embedding-dir GENE_PROTEIN_EMBEDDING_DIR\n                        Override this data directory in the saved checkpoint\n                        config.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/export_raw3180_hidden_phenotype_inputs.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: export_raw3180_hidden_phenotype_inputs.py [-h]\n                                                 [--checkpoint CHECKPOINT]\n                                                 [--output-dir OUTPUT_DIR]\n                                                 [--split {train,val,test}]\n                                                 [--max-compounds MAX_COMPOUNDS]\n                                                 [--max-genes MAX_GENES]\n                                                 [--eval-batch-size EVAL_BATCH_SIZE]\n                                                 [--seed SEED]\n                                                 [--device DEVICE]\n                                                 [--compound-data-dir COMPOUND_DATA_DIR]\n                                                 [--gene-data-dir GENE_DATA_DIR]\n                                                 [--gene-protein-embedding-dir GENE_PROTEIN_EMBEDDING_DIR]\n\nExport final raw3180 held-out embeddings and entity-mean Cell Painting\nprofiles for hidden phenotype-neighbour recovery.\n\noptions:\n  -h, --help            show this help message and exit\n  --checkpoint CHECKPOINT\n  --output-dir OUTPUT_DIR\n  --split {train,val,test}\n  --max-compounds MAX_COMPOUNDS\n  --max-genes MAX_GENES\n  --eval-batch-size EVAL_BATCH_SIZE\n  --seed SEED\n  --device DEVICE\n  --compound-data-dir COMPOUND_DATA_DIR\n                        Override this data directory in the saved checkpoint\n                        config.\n  --gene-data-dir GENE_DATA_DIR\n                        Override this data directory in the saved checkpoint\n                        config.\n  --gene-protein-embedding-dir GENE_PROTEIN_EMBEDDING_DIR\n                        Override this data directory in the saved checkpoint\n                        config.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/run_prism_gene_mechanism_interpretation.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: run_prism_gene_mechanism_interpretation.py [-h] --prism-dir PRISM_DIR\n                                                  --prism-embeddings PRISM_EMBEDDINGS\n                                                  --gene-embeddings GENE_EMBEDDINGS\n                                                  --output-dir OUTPUT_DIR\n\nInterpret PRISM pairs using explicitly supplied, compatible compound and gene\nembeddings.\n\noptions:\n  -h, --help            show this help message and exit\n  --prism-dir PRISM_DIR\n                        Directory containing overlap compounds and high-\n                        confidence pair CSVs.\n  --prism-embeddings PRISM_EMBEDDINGS\n  --gene-embeddings GENE_EMBEDDINGS\n  --output-dir OUTPUT_DIR\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/run_prism_functional_analogue_retrieval.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: run_prism_functional_analogue_retrieval.py [-h] [--prism_dir PRISM_DIR]\n                                                  [--cgp_data_dir CGP_DATA_DIR]\n                                                  [--cgp_protein_embedding_dir CGP_PROTEIN_EMBEDDING_DIR]\n                                                  [--gene_mocop_data_dir GENE_MOCOP_DATA_DIR]\n                                                  [--gene_protein_embedding_dir GENE_PROTEIN_EMBEDDING_DIR]\n                                                  [--checkpoint_dir CHECKPOINT_DIR]\n                                                  [--run_name RUN_NAME]\n                                                  [--checkpoint_name CHECKPOINT_NAME]\n                                                  [--output_dir OUTPUT_DIR]\n                                                  [--device DEVICE]\n                                                  [--compound_batch_size COMPOUND_BATCH_SIZE]\n                                                  [--min_cell_lines MIN_CELL_LINES]\n                                                  [--positive_topk POSITIVE_TOPK]\n                                                  [--eval_topk EVAL_TOPK]\n                                                  [--low_tanimoto LOW_TANIMOTO]\n                                                  [--fingerprint_bits FINGERPRINT_BITS]\n                                                  [--seed SEED]\n                                                  [--force_recompute_embeddings]\n\nEvaluate whether phenotype-aligned CGP-Align compound embeddings retrieve\nPRISM functionally similar compounds beyond close structural analogues.\n\noptions:\n  -h, --help            show this help message and exit\n  --prism_dir PRISM_DIR\n  --cgp_data_dir CGP_DATA_DIR\n  --cgp_protein_embedding_dir CGP_PROTEIN_EMBEDDING_DIR\n  --gene_mocop_data_dir GENE_MOCOP_DATA_DIR\n  --gene_protein_embedding_dir GENE_PROTEIN_EMBEDDING_DIR\n  --checkpoint_dir CHECKPOINT_DIR\n  --run_name RUN_NAME\n  --checkpoint_name CHECKPOINT_NAME\n  --output_dir OUTPUT_DIR\n  --device DEVICE\n  --compound_batch_size COMPOUND_BATCH_SIZE\n  --min_cell_lines MIN_CELL_LINES\n  --positive_topk POSITIVE_TOPK\n  --eval_topk EVAL_TOPK\n  --low_tanimoto LOW_TANIMOTO\n  --fingerprint_bits FINGERPRINT_BITS\n  --seed SEED\n  --force_recompute_embeddings\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/build_prism_official_nyan_cache.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: build_prism_official_nyan_cache.py [-h] [--overlap_csv OVERLAP_CSV]\n                                          [--smiles_column SMILES_COLUMN]\n                                          --smi_path SMI_PATH\n                                          --tsv_path TSV_PATH\n                                          --output_cache OUTPUT_CACHE\n                                          [--export_only] [--convert_only]\n\nExport PRISM overlap SMILES for the official NYAN encoder and convert the\nofficial TSV output into a PRISM-order .npz cache.\n\noptions:\n  -h, --help            show this help message and exit\n  --overlap_csv OVERLAP_CSV\n  --smiles_column SMILES_COLUMN\n  --smi_path SMI_PATH\n  --tsv_path TSV_PATH\n  --output_cache OUTPUT_CACHE\n  --export_only\n  --convert_only\n",
+      "stderr": ""
+    }
+  ],
+  "figure3": {
+    "png_pixel_identical": true,
+    "dimensions": [
+      4322,
+      4440
+    ],
+    "r_version": "4.5.3",
+    "process_exit": "0xC0000005 after files written; unresolved local native shutdown failure"
+  }
+}

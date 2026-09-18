@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import json
 import math
 from pathlib import Path
@@ -369,6 +370,19 @@ def write_report(summary: pd.DataFrame, case_df: pd.DataFrame) -> None:
 
 
 def main() -> None:
+    global PRISM_DIR, PRISM_EMB, REPOSITION_EMB, OUT
+    parser = argparse.ArgumentParser(description="Interpret PRISM pairs using explicitly supplied, compatible compound and gene embeddings.")
+    parser.add_argument('--prism-dir', type=Path, required=True, help='Directory containing overlap compounds and high-confidence pair CSVs.')
+    parser.add_argument('--prism-embeddings', type=Path, required=True)
+    parser.add_argument('--gene-embeddings', type=Path, required=True)
+    parser.add_argument('--output-dir', type=Path, required=True)
+    args = parser.parse_args()
+    PRISM_DIR, PRISM_EMB = args.prism_dir, args.prism_embeddings
+    REPOSITION_EMB, OUT = args.gene_embeddings, args.output_dir
+    required = [PRISM_DIR / 'prism_cgp_overlap_compounds.csv', PRISM_DIR / 'prism_high_confidence_hit_pairs.csv', PRISM_EMB, REPOSITION_EMB]
+    missing = [str(p) for p in required if not p.is_file()]
+    if missing:
+        parser.error('Missing inputs: ' + ', '.join(missing))
     OUT.mkdir(parents=True, exist_ok=True)
     meta = pd.read_csv(PRISM_DIR / "prism_cgp_overlap_compounds.csv")
     prism_z = np.load(PRISM_EMB, allow_pickle=True)
@@ -404,7 +418,7 @@ def main() -> None:
         "response_corr_threshold": CASE_CORR,
         "retrieval_topk": CASE_TOPK,
         "gene_topk": GENE_TOPK,
-        "output_dir": str(OUT.relative_to(ROOT)),
+        "output_dir": str(OUT.resolve()),
     }
     (OUT / "prism_gene_mechanism_interpretation_manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
     print(json.dumps(manifest, indent=2))

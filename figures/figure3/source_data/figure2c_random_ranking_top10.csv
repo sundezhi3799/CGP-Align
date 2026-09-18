@@ -1,0 +1,5 @@
+direction,random_ranking_top10
+Compound -> profile,0.4357606052794139
+Profile -> compound,0.0990099009900991
+Gene -> profile,0.410315237937846
+Profile -> gene,0.0990099009900991

@@ -16,6 +16,7 @@ import numpy as np
 import torch
 
 import train_cgp_align_replicate as cgp
+from cgp_align.checkpoint_paths import add_data_arguments, configure_inference
 from eval_cgp_align_crossmodal_bridge import namespace_from_config
 
 
@@ -47,6 +48,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--eval-batch-size", type=int, default=1024)
     p.add_argument("--seed", type=int, default=20260908)
     p.add_argument("--device", default="auto")
+    add_data_arguments(p)
     return p.parse_args()
 
 
@@ -135,6 +137,7 @@ def main() -> None:
 
     payload = torch.load(args.checkpoint, map_location="cpu", weights_only=False)
     model_args = namespace_from_config(payload.get("config", {}))
+    configure_inference(model_args, args)
     model_args.eval_batch_size = int(args.eval_batch_size)
     model_args.eval_max_replicates_per_entity = int(getattr(model_args, "eval_max_replicates_per_entity", 0))
     model_args.smoke_test = False

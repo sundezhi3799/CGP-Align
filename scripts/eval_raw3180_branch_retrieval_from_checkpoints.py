@@ -17,6 +17,7 @@ import numpy as np
 import torch
 
 import train_cgp_align_replicate as cgp
+from cgp_align.checkpoint_paths import add_data_arguments, configure_inference
 from eval_cgp_align_crossmodal_bridge import namespace_from_config
 from eval_cgp_align_target_enrichment_replicate import parse_rows
 
@@ -33,6 +34,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--eval_batch_size", type=int, default=1024)
     p.add_argument("--seed", type=int, default=13)
     p.add_argument("--device", default="auto")
+    add_data_arguments(p)
     return p.parse_args()
 
 
@@ -53,9 +55,10 @@ def write_json(path: Path, obj: Any) -> None:
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2, default=json_default) + "\n", encoding="utf-8")
 
 
-def load_model_and_data(checkpoint: Path, device: torch.device, eval_batch_size: int) -> Tuple[cgp.ReplicateCGPAlign, Dict[str, Any], Dict[str, Any], argparse.Namespace]:
+def load_model_and_data(checkpoint: Path, device: torch.device, eval_batch_size: int, data_overrides=None) -> Tuple[cgp.ReplicateCGPAlign, Dict[str, Any], Dict[str, Any], argparse.Namespace]:
     payload = torch.load(checkpoint, map_location="cpu", weights_only=False)
     args = namespace_from_config(payload.get("config", {}))
+    configure_inference(args, data_overrides)
     args.eval_batch_size = int(eval_batch_size)
     args.eval_max_replicates_per_entity = int(getattr(args, "eval_max_replicates_per_entity", 0))
     args.smoke_test = False
@@ -77,7 +80,7 @@ def main() -> None:
     all_metrics: Dict[str, Any] = {}
     flat: List[Dict[str, Any]] = []
     for label, checkpoint in rows:
-        model, data, payload, model_args = load_model_and_data(checkpoint, device, args.eval_batch_size)
+        model, data, payload, model_args = load_model_and_data(checkpoint, device, args.eval_batch_size, args)
         metrics = cgp.evaluate_all(
             model,
             data,

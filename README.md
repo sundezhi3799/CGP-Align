@@ -8,7 +8,7 @@ Associated manuscript: **CGP-Align links chemical and genetic perturbations thro
 
 This is a development version of the public [CGP-Align repository](https://github.com/sundezhi3799/CGP-Align), assembled on 2026-09-18. Full manuscript reproduction is not yet verified. See [the release audit](docs/RELEASE_AUDIT.md) for specific outstanding artifacts and version discrepancies. A versioned release and archival DOI will be added after the remaining reproduction work is complete.
 
-The repository contains original research training and evaluation code, rather than the earlier synthetic-only model package. Historical filenames are preserved for traceability. The primary retrieval records identify runs 31, 37 and 41 of the four-branch, common-3180 model. The older `reproduce_main_benchmark.py` is deliberately excluded because it implements a different benchmark setup.
+The repository contains original research training and evaluation code, with documented portability fixes. Historical filenames are preserved for traceability. The primary retrieval records identify runs 31, 37 and 41 of the four-branch, common-3180 model. The older `reproduce_main_benchmark.py` is deliberately excluded because it implements a different benchmark setup.
 
 ## Quick verification
 
@@ -38,6 +38,18 @@ Rscript paper_snapshot/scripts/reproduce_article_results.R
 
 Outputs go to `paper_snapshot/results/`. This verifies calculations from saved source data, not upstream data processing or model training.
 
+## Revised Figure 3
+
+The current Word revision uses hidden phenotype neighbours in panel H. Redraw all eight panels from the included processed tables:
+
+```bash
+Rscript environment/install-figure3.R
+Rscript figures/figure3/reproduce.R
+python tools/verify_figure3_sources.py
+```
+
+See [Figure 3 instructions and provenance](figures/figure3/README.md). This redraw reproduces the revised graphic; it does not rerun training or upstream inference. The August snapshot remains unchanged. See [the portability update](docs/PORTABILITY_UPDATE.md) for new evaluation options and remaining blockers.
+
 ## Contents
 
 - `scripts/`: original preprocessing, training, evaluation and downstream analysis scripts with their local Python dependencies.
@@ -45,7 +57,8 @@ Outputs go to `paper_snapshot/results/`. This verifies calculations from saved s
 - `tools/`: portable verification and training-command utilities.
 - `paper_snapshot/`: processed source tables and numerical-summary script from the 2026-08-31 article-results package, retaining its own license.
 - `reference_metrics/`: three primary run-level retrieval records.
-- `revision_candidates/hidden_neighbours/`: September Figure 3H candidate data, kept separate from the manuscript snapshot.
+- `figures/figure3/`: revised A-H plotting workflow, processed data and checkpoint provenance.
+- `revision_candidates/hidden_neighbours/`: earlier September candidate tables retained for traceability.
 - `manifests/`: source file hashes, model provenance, dependencies and reproduction coverage.
 - `docs/`: workflow, data requirements and release audit.
 
