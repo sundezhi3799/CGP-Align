@@ -1,0 +1,44 @@
+{
+  "batch_size": 512,
+  "checkpoint_dir": "output/cgp_align/baseline_reproduction_20260630/raw3180_matched_baselines_3seed/compound/checkpoints",
+  "data_dir": "output/cgp_align/raw3180_cellclip_style_baseline_data_20260604/raw3180_entity_mean_morgan",
+  "device": "auto",
+  "dropout": 0.1,
+  "embed_dim": 256,
+  "epochs": 160,
+  "feature_dim_by_source": null,
+  "intrinsic_split_path": "output/cgp_align/raw3180_cellclip_style_baseline_data_20260604/raw3180_entity_mean_morgan/splits_intrinsic_entity.json",
+  "intrinsic_split_summary": {
+    "compound_split_sizes": {
+      "test": 11578,
+      "train": 92629,
+      "val": 11579
+    },
+    "eligible_compounds": 115786,
+    "eligible_genes": 0,
+    "gene_split_sizes": {
+      "test": 0,
+      "train": 0,
+      "val": 0
+    }
+  },
+  "lambda_compound_profile": 1.0,
+  "lambda_protein_profile": 0.0,
+  "log_dir": "output/cgp_align/baseline_reproduction_20260630/raw3180_matched_baselines_3seed/compound/logs",
+  "lr": 0.0001,
+  "mode": "cgp_base_intrinsic_entity_split",
+  "profile_dim": 3180,
+  "protein_dim": 480,
+  "protein_embedding_dir": "protein_embeddings/cgp_cpg_full_esm",
+  "run_name": "raw3180_cellclip_compound_struct_rdkit_morgan_seed13",
+  "seed": 13,
+  "selection_metric": "val_compound_to_profile_Recall@10",
+  "smoke_test": false,
+  "steps_per_epoch": 0,
+  "structure_dim": 2059,
+  "temperature": 0.07,
+  "uses_target_or_link_labels_for_training": false,
+  "val_every": 5,
+  "val_max_queries": 2048,
+  "weight_decay": 0.0001
+}
