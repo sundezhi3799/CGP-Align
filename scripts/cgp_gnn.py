@@ -187,7 +187,7 @@ class GGNNCompoundEncoder(nn.Module):
                 src = edge_index[0]
                 dst = edge_index[1]
                 msg = msg_layer(torch.cat([h[src], bond_h], dim=-1))
-                agg.index_add_(0, dst, msg)
+                agg.index_add_(0, dst, msg.to(dtype=agg.dtype))
             h = update_layer(agg, h)
             h = norm_layer(h)
         num_graphs = int(batch_index.max().item()) + 1 if batch_index.numel() else 0

@@ -39,3 +39,14 @@ After the pilot, compare retrieval metrics with the historical seed-31 results,
 verify model selection and downstream evaluation, then extend the same procedure
 to seeds 37/41. Corrected manuscript figures and conclusions must use the new
 completed experiments. No corrected performance result is claimed yet.
+
+## Joint-stage mixed precision fix
+
+The initial seed-31 joint launch failed before completing epoch 1 on PyTorch 2.1:
+LayerNorm produced float32 hidden states while message projection used float16.
+Message aggregation now casts messages to the accumulator dtype before index_add_.
+This preserves full-precision behavior and architecture/checkpoint compatibility.
+The six-layer forward/backward regression check covers autocast and full precision;
+run `python tools/test_gnn_amp.py --device cuda:0` on the training server.
+`tools/restart_strict_joint.py` checks completed branches and preprocessing audits,
+then launches a fresh joint attempt, preserving the failed attempt and its logs.

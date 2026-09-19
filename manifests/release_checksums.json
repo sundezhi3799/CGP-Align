@@ -4,8 +4,8 @@
     "bytes": 97
   },
   ".github/workflows/checks.yml": {
-    "sha256": "ca06bd3e427ce63e34ce912c3908694e488ed2757b7d0f9bd28f81d73bf8f438",
-    "bytes": 865
+    "sha256": "cb5c5c36a3d611311d1443994a9ce4be16ad3124e3fef9c399c1bda4a2a9e2bb",
+    "bytes": 907
   },
   ".gitignore": {
     "sha256": "b5d887b226d0751b6259be071d906658d9ef7d9c3ff161a8f6271fd5d32e9653",
@@ -48,8 +48,8 @@
     "bytes": 2973
   },
   "docs/STRICT_REANALYSIS.md": {
-    "sha256": "7536830d62724db5b1234c2f3eeb9e72a261ee2baad0dfa997549d82d0c8045a",
-    "bytes": 2343
+    "sha256": "7996536b49a2bfb4e70298c4e3a267ea152c233d1baa239ae1239eeed75b2313",
+    "bytes": 3031
   },
   "docs/TRAINING_ARCHIVE_AUDIT.md": {
     "sha256": "e110d2150ce048c9bd61a8fef9a7ca816f42f2a5d6992958c6bda976ffffef0b",
@@ -212,7 +212,7 @@
     "bytes": 2468
   },
   "manifests/source_provenance.csv": {
-    "sha256": "a71a4ff7808510f8d2879b96b698d4ddb153e67d9e5310fdd9d3c2d7eef80cfd",
+    "sha256": "961f02b9d7f71657ab2d54e658ab776264477aa168be3915c4b600eaba263988",
     "bytes": 44110
   },
   "manifests/training_recipe_validation.json": {
@@ -592,8 +592,8 @@
     "bytes": 68679
   },
   "scripts/cgp_gnn.py": {
-    "sha256": "ca24a444e7d02fc496fdfaf1b71b3925ae7ade1feac205b166d7f5abe53017ee",
-    "bytes": 9210
+    "sha256": "f51baf1657c699b02417297ec287f17ca72fa3f47f5b7b664fbc816d87d0496f",
+    "bytes": 9230
   },
   "scripts/eval_cgp_align_crossmodal_bridge.py": {
     "sha256": "5630f98cea7addd0f2524d90c72f5ecab93e7d4ffe5aec3c9853c52932a5f00c",
@@ -711,6 +711,10 @@
     "sha256": "f940d5809763078e1ec36c9892bc5983ee938aaba9b5c8ebd6f37702b5546519",
     "bytes": 5076
   },
+  "tools/restart_strict_joint.py": {
+    "sha256": "309c9f67f96d5d31324e6236ee48f6c323ac81c98edb96100efde34650919961",
+    "bytes": 3046
+  },
   "tools/run_strict_seed31.py": {
     "sha256": "f1be0ed8d5d9b2577ecc51c1596ef65af42a8a60449582256af5cf6fc23daf85",
     "bytes": 7765
@@ -718,6 +722,10 @@
   "tools/smoke_test_model.py": {
     "sha256": "ccaa8c9cf150b03624868b0f49110b090b3fe3c7e4622762eb32adba6c605b1c",
     "bytes": 3138
+  },
+  "tools/test_gnn_amp.py": {
+    "sha256": "40ffa32edbd6c3d81fce1daa8c3e9d4959f49f7e914eb0111a0d6169fc34c381",
+    "bytes": 1650
   },
   "tools/test_portable_inference.py": {
     "sha256": "ef48ac9ee8848a01632b5f74a2bdc3f236094f771eea5ff2dbde6672b3ac8a57",
