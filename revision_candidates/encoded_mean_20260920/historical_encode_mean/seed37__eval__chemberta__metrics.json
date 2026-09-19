@@ -1,0 +1,144 @@
+{
+  "seed": 37,
+  "method": "chemberta",
+  "protocol": "strict_entity_mean_v1",
+  "checkpoint": "/data3/sdz/cgp_align_matched_20260919/seed37/checkpoints/strict_matched_chemberta_seed37/best_model.pt",
+  "checkpoint_sha256": "a18ed91b1d0b5ddb8f48432b5070d114eda00dc0ebdd39d215b3f1afe2633c15",
+  "checkpoint_epoch": 70,
+  "selection_metric": "val_compound_to_profile_Recall@10",
+  "test_count": 11578,
+  "prepared_audit_sha256": "4ddd39e540553bf61d6c77367b57ed8f6e00e49c3f4e32475dca843038bc654f",
+  "negative_candidates_sha256": "08e898fecb700224f8b0da14bdedb3ff41eb7a74680bad0d44b808ef4ca0ccae",
+  "profile_definition": "arithmetic mean of strict corrected replicates, then encode once",
+  "tie_policy": "ascending gallery row index",
+  "directions": {
+    "compound_to_profile": {
+      "full_gallery": {
+        "Recall@1": 0.012264639834168251,
+        "Recall@5": 0.036966660908619796,
+        "Recall@10": 0.06054586284332354,
+        "MRR": 0.029506222858663726,
+        "mean_rank": 1734.8821039903264,
+        "median_rank": 749.0
+      },
+      "sampled": {
+        "100": {
+          "Recall@1": {
+            "mean": 0.18910001727414058,
+            "repeat_sd_ddof0": 0.0017425490016125054
+          },
+          "Recall@5": {
+            "mean": 0.4366211780963897,
+            "repeat_sd_ddof0": 0.0024526238257844054
+          },
+          "Recall@10": {
+            "mean": 0.5777336327517706,
+            "repeat_sd_ddof0": 0.0012275583350796436
+          },
+          "MRR": {
+            "mean": 0.31403853043769514,
+            "repeat_sd_ddof0": 0.0008118458539686165
+          },
+          "mean_rank": {
+            "mean": 15.987061668681983,
+            "repeat_sd_ddof0": 0.027894389019176125
+          },
+          "median_rank": {
+            "mean": 7.0,
+            "repeat_sd_ddof0": 0.0
+          }
+        },
+        "1000": {
+          "Recall@1": {
+            "mean": 0.055959578510969075,
+            "repeat_sd_ddof0": 0.0013186461639199622
+          },
+          "Recall@5": {
+            "mean": 0.14962860597685265,
+            "repeat_sd_ddof0": 0.001394398761140827
+          },
+          "Recall@10": {
+            "mean": 0.2149162204180342,
+            "repeat_sd_ddof0": 0.0014092194785986709
+          },
+          "MRR": {
+            "mean": 0.11161239944149189,
+            "repeat_sd_ddof0": 0.0008595646975142982
+          },
+          "mean_rank": {
+            "mean": 150.74136292969422,
+            "repeat_sd_ddof0": 0.11671432767110469
+          },
+          "median_rank": {
+            "mean": 65.0,
+            "repeat_sd_ddof0": 0.0
+          }
+        }
+      }
+    },
+    "profile_to_compound": {
+      "full_gallery": {
+        "Recall@1": 0.010019001554672655,
+        "Recall@5": 0.03593021247192952,
+        "Recall@10": 0.05527724995681465,
+        "MRR": 0.02730045006102697,
+        "mean_rank": 1750.7585938849543,
+        "median_rank": 759.0
+      },
+      "sampled": {
+        "100": {
+          "Recall@1": {
+            "mean": 0.1858611159094835,
+            "repeat_sd_ddof0": 0.0023273499071948048
+          },
+          "Recall@5": {
+            "mean": 0.43287268958369324,
+            "repeat_sd_ddof0": 0.002188368420219941
+          },
+          "Recall@10": {
+            "mean": 0.5780272931421662,
+            "repeat_sd_ddof0": 0.001441226594134826
+          },
+          "MRR": {
+            "mean": 0.3109087546040602,
+            "repeat_sd_ddof0": 0.0018228227387760264
+          },
+          "mean_rank": {
+            "mean": 16.126602176541716,
+            "repeat_sd_ddof0": 0.017482710450138838
+          },
+          "median_rank": {
+            "mean": 7.25,
+            "repeat_sd_ddof0": 0.4031128874149275
+          }
+        },
+        "1000": {
+          "Recall@1": {
+            "mean": 0.05403351183278632,
+            "repeat_sd_ddof0": 0.0014282277843216014
+          },
+          "Recall@5": {
+            "mean": 0.14624287441699774,
+            "repeat_sd_ddof0": 0.0006842391542697642
+          },
+          "Recall@10": {
+            "mean": 0.2099499049922266,
+            "repeat_sd_ddof0": 0.0012341040662975828
+          },
+          "MRR": {
+            "mean": 0.10929622393620397,
+            "repeat_sd_ddof0": 0.0009820312809804264
+          },
+          "mean_rank": {
+            "mean": 152.11160822249093,
+            "repeat_sd_ddof0": 0.07934560925478004
+          },
+          "median_rank": {
+            "mean": 66.6,
+            "repeat_sd_ddof0": 0.4898979485566356
+          }
+        }
+      }
+    }
+  }
+}

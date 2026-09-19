@@ -81,6 +81,11 @@ See [Figure 3 instructions and provenance](figures/figure3/README.md). This redr
 - `manifests/`: source file hashes, model provenance, dependencies and reproduction coverage.
 - `docs/`: workflow, data requirements and release audit.
 
+The adopted compound-profile comparison uses **encode each replicate, then average
+and L2 normalize** for all four methods. See the [protocol and sensitivity
+record](docs/STRICT_MATCHED_BENCHMARK.md); this is a new experiment, distinct from
+the archived Figure 3 data.
+
 ## Training and analysis
 
 Read [REPRODUCING.md](docs/REPRODUCING.md) and [DATA.md](docs/DATA.md). The scripts retain research interfaces; `--help` documents their arguments. Prepared arrays, exact split files, initializer checkpoints and final model weights must be supplied separately. This candidate does not fabricate download URLs or substitute newly trained models for the published checkpoints.

@@ -26,3 +26,4 @@ jobs:
       - run: python tools/test_strict_preprocessing.py
       - run: python tools/test_gnn_amp.py
       - run: python tools/test_matched_retrieval.py
+      - run: python tools/test_profile_aggregation.py

@@ -1,4 +1,4 @@
-"""Evaluate frozen CGP or molecular-profile models on identical entity-mean targets."""
+"""Evaluate frozen CGP or molecular-profile models with an explicit, shared replicate aggregation protocol."""
 import argparse
 import json
 from pathlib import Path
@@ -21,6 +21,9 @@ def main():
     p.add_argument('--method', choices=('cgp',) + METHODS, required=True)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--device', default='cuda:0')
+    p.add_argument('--aggregation', choices=('encode_mean', 'mean_encoded'), default='encode_mean',
+                   help='Historical default retained; adopted protocol uses mean_encoded explicitly.')
+    p.add_argument('--replicate-data', type=Path)
     a = p.parse_args()
     audit = json.loads((a.prepared / 'audit.json').read_text())
     profiles = np.load(a.prepared / 'profile_features.npy', mmap_mode='r')
@@ -62,13 +65,41 @@ def main():
                                             torch.zeros(len(ids), device=device, dtype=torch.long))
             zc.append(c.float().cpu().numpy()); zp.append(profile.float().cpu().numpy())
     zc, zp = np.concatenate(zc), np.concatenate(zp)
+    aggregation_provenance = {}
+    if a.aggregation == 'mean_encoded':
+        if a.replicate_data is None:
+            raise ValueError('--replicate-data is required for mean_encoded')
+        from cgp_align.profile_aggregation import encode_replicate_mean
+        source = a.replicate_data
+        assert sha(source / 'compound_mocop_entities.parquet') == audit['entity_table_sha256']
+        assert sha(source / 'splits_compound_mocop.json') == audit['split_sha256']
+        feature_hash = sha(source / 'compound_mocop_replicate_features.npy')
+        assert feature_hash == audit['fit_audit']['output_sha256']
+        reps = pd.read_parquet(source / 'compound_mocop_replicates.parquet')
+        raw = np.load(source / 'compound_mocop_replicate_features.npy', mmap_mode='r')
+        lookup = np.full(len(table), -1, dtype=np.int64)
+        lookup[rows] = np.arange(len(rows))
+        selected = reps.loc[reps.entity_index.isin(rows)]
+        owners = lookup[selected.entity_index.to_numpy(dtype=np.int64)]
+        feature_rows = selected.feature_index.to_numpy(dtype=np.int64)
+        def encode(batch):
+            with torch.no_grad():
+                return model.encode_profile(torch.as_tensor(batch, device=device),
+                    torch.zeros(len(batch), device=device, dtype=torch.long)).float().cpu().numpy()
+        zp, counts = encode_replicate_mean(raw, feature_rows, owners, len(rows), encode)
+        aggregation_provenance = dict(replicate_features_sha256=feature_hash,
+            replicate_table_sha256=sha(source / 'compound_mocop_replicates.parquet'),
+            replicate_count=int(counts.sum()), min_replicates=int(counts.min()),
+            max_replicates=int(counts.max()), statistics_fit_on_test=False)
     bank = np.load(a.prepared / 'negative_candidates.npy', mmap_mode='r')
-    output = dict(seed=audit['seed'], method=a.method, protocol='strict_entity_mean_v1',
+    output = dict(seed=audit['seed'], method=a.method, protocol=('strict_entity_latent_mean_v1' if a.aggregation == 'mean_encoded' else 'strict_entity_mean_v1'),
+                  aggregation=a.aggregation, aggregation_provenance=aggregation_provenance,
                   checkpoint=str(a.checkpoint), checkpoint_sha256=sha(a.checkpoint), checkpoint_epoch=payload['epoch'],
                   selection_metric=payload.get('selection_metric', cfg.get('selection_metric', 'val_hmean_Top10')),
                   test_count=len(rows), prepared_audit_sha256=sha(a.prepared / 'audit.json'),
                   negative_candidates_sha256=audit['negative_candidates_sha256'],
-                  profile_definition=audit['profile_definition'], tie_policy='ascending gallery row index',
+                  profile_definition=('Encode each strictly corrected replicate; arithmetic mean by compound; L2 normalize'
+                      if a.aggregation == 'mean_encoded' else audit['profile_definition']), tie_policy='ascending gallery row index',
                   directions={})
     ranks = {}
     for direction, query, gallery in [('compound_to_profile', zc, zp), ('profile_to_compound', zp, zc)]:

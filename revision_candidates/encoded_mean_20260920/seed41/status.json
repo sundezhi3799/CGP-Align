@@ -1,0 +1,9 @@
+{
+  "seed": 41,
+  "status": "complete",
+  "protocol": "strict_entity_latent_mean_v1",
+  "protocol_selected_after_test_sensitivity_analysis": true,
+  "previous_run": "/data3/sdz/cgp_align_matched_20260919/seed41",
+  "weights_unchanged": true,
+  "method": "chemberta"
+}
