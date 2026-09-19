@@ -1,0 +1,59 @@
+[
+  {
+    "seed": 31,
+    "checkpoint": "/data3/sdz/cgp_align_strict_20260918/seed31/joint_ampfix01/checkpoints/strict_seed31_joint/best_model.pt",
+    "checkpoint_sha256": "ee118f9e6e93e68a473026e5976f72e4624a8e6616158b8b5e34de73de2d64dd",
+    "epoch": 70,
+    "metrics_sha256": "23e79f16b88e5bf54bf787acc589fdb97014e9fd03c7cc414a82aab3379bf8ca",
+    "data": {
+      "compound": {
+        "entities": 11578,
+        "replicates": 63682,
+        "positive_counts_sha256": "2f55c5184f3c07178af6d2020f52b5bff2c597d0cdd0108be4090f2b8ccd5492"
+      },
+      "gene": {
+        "entities": 2267,
+        "replicates": 11799,
+        "positive_counts_sha256": "ab3c96f75edbcacf971be6ac1c484edc2155c9aae338bdd3040988d282176e1f"
+      }
+    }
+  },
+  {
+    "seed": 37,
+    "checkpoint": "/data3/sdz/cgp_align_strict_20260918/seed37/joint/checkpoints/strict_seed37_joint/best_model.pt",
+    "checkpoint_sha256": "68e719f2038082d1e6797c1a76c2bdf78ae3252cf1964f406a08ba5184c91a74",
+    "epoch": 150,
+    "metrics_sha256": "63666b98cfa095a50ebaa4164029a5b55c454871a563f7ce81da32bc2df355c0",
+    "data": {
+      "compound": {
+        "entities": 11578,
+        "replicates": 66395,
+        "positive_counts_sha256": "4f7e20f83568bcf2e56707df9a67d15898263d87d6eec3e4b8cc546f13f7ff68"
+      },
+      "gene": {
+        "entities": 2252,
+        "replicates": 11620,
+        "positive_counts_sha256": "17ab6ade60917c17f823a43071d45bc70f463b595d17c5a049e8c1fe137e74ff"
+      }
+    }
+  },
+  {
+    "seed": 41,
+    "checkpoint": "/data3/sdz/cgp_align_strict_20260918/seed41/joint/checkpoints/strict_seed41_joint/best_model.pt",
+    "checkpoint_sha256": "44bbee704a4bbb1b0b8eb9df5a514f201504d74cab6dea5f5b8bb5dfbee19cea",
+    "epoch": 60,
+    "metrics_sha256": "79c1544cafe5bab5ae2733b429df3e9356bfc1bb10c1807b8040d95b2008a24a",
+    "data": {
+      "compound": {
+        "entities": 11578,
+        "replicates": 65135,
+        "positive_counts_sha256": "b2717484313c79fee633bc684e65c7802c3c5526d14c6091d28bcbb1dd1df85e"
+      },
+      "gene": {
+        "entities": 2267,
+        "replicates": 11699,
+        "positive_counts_sha256": "d022a188f71a8d1412caa8ada1c54fe34b6d9cb5776f3ab8e839b65227149cac"
+      }
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "embedding_npz": "output/cgp_align/paper/manuscript_cgp_align_profile/hidden_phenotype_neighbour_recovery_20260908/final_raw3180_inputs/final_raw3180_test_embeddings.npz",
+  "profile_input_npz": "output/cgp_align/paper/manuscript_cgp_align_profile/hidden_phenotype_neighbour_recovery_20260908/final_raw3180_inputs/final_raw3180_test_profile_inputs.npz",
+  "structure_features": "data/cgp_cpg_full_motive_edges/compound_structure_features.npy",
+  "protein_features": "protein_embeddings/protein_encoder_ablation/esm650_l33_mean_cls/protein_sequence_embeddings.npy",
+  "positive_topn": 10,
+  "eval_ks": [
+    10,
+    50,
+    100,
+    200
+  ],
+  "max_query_per_scope": 0,
+  "seed": 20260908,
+  "interpretation_boundary": "Hidden phenotype neighbours are defined from held-out raw profile cosine similarity. The analysis evaluates whether frozen perturbation-side embeddings recover these profile-defined neighbourhoods; it is not an independent biological-label benchmark."
+}

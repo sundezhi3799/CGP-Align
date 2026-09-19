@@ -173,7 +173,7 @@ pca_ylim <- range(latent_df$plot_y, na.rm = TRUE)
 pca_xpad <- diff(pca_xlim) * 0.045
 pca_ypad <- diff(pca_ylim) * 0.045
 pca_xlim <- pca_xlim + c(-pca_xpad, pca_xpad)
-pca_ylim <- pca_ylim + c(-pca_ypad, pca_ypad * 3.5)
+pca_ylim <- pca_ylim + c(-pca_ypad, pca_ypad)
 pca_x_breaks <- pretty(pca_xlim, n = 4)
 pca_y_breaks <- pretty(pca_ylim, n = 4)
 
@@ -182,8 +182,8 @@ make_pca_panel <- function(stage_value, letter, title_text) {
     branch_group = factor(c("Compound", "ORF gene", "CRISPR gene"),
                           levels = c("Compound", "ORF gene", "CRISPR gene")),
     label = c("Compound", "ORF", "CRISPR"),
-    plot_x = pca_xlim[1] + diff(pca_xlim) * c(0.035, 0.43, 0.66),
-    plot_y = pca_ylim[2] - diff(pca_ylim) * 0.04
+    plot_x = pca_xlim[1] + diff(pca_xlim) * 0.035,
+    plot_y = pca_ylim[2] - diff(pca_ylim) * c(0.075, 0.145, 0.215)
   )
   key_x <- pca_xlim[1] + diff(pca_xlim) * 0.040
   key_label_x <- pca_xlim[1] + diff(pca_xlim) * 0.075

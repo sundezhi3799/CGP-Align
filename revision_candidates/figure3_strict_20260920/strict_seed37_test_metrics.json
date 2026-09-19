@@ -1,0 +1,256 @@
+{
+  "split": "test",
+  "compound": {
+    "num_entities": 11578,
+    "num_profile_replicates": 66395,
+    "full_gallery": {
+      "compound_to_profile": {
+        "num_queries": 11578,
+        "num_gallery": 66395,
+        "num_evaluated": 11578,
+        "Recall@1": 0.009500777336327518,
+        "Recall@5": 0.03558472965969943,
+        "Recall@10": 0.057004664017965105,
+        "MRR": 0.027282186778180856,
+        "median_rank": 711.0,
+        "mean_rank": 3397.2516842287096
+      },
+      "profile_to_compound": {
+        "num_queries": 66395,
+        "num_gallery": 11578,
+        "num_evaluated": 66395,
+        "Recall@1": 0.006461329919421643,
+        "Recall@5": 0.025498908050304993,
+        "Recall@10": 0.04182543866254989,
+        "MRR": 0.02044735322712194,
+        "median_rank": 803.0,
+        "mean_rank": 1775.414955945478
+      }
+    },
+    "mocop_protocol_sampled": {
+      "compound_to_profile": {
+        "1:100": {
+          "Top1_accuracy_mean": 0.41353428916911383,
+          "Top1_accuracy_std": 0.002515582868537705,
+          "Top10_accuracy_mean": 0.8469770253929868,
+          "Top10_accuracy_std": 0.0010732580787985386,
+          "num_queries": 11578,
+          "num_gallery": 66395,
+          "ratio": 100,
+          "repeats": 10,
+          "positive_count_mean": 5.734582829504232
+        }
+      },
+      "profile_to_compound": {
+        "1:100": {
+          "Top1_accuracy_mean": 0.16141576925973342,
+          "Top1_accuracy_std": 0.001064825372639057,
+          "Top10_accuracy_mean": 0.5692537088636194,
+          "Top10_accuracy_std": 0.0004870300059780588,
+          "num_queries": 66395,
+          "num_gallery": 11578,
+          "ratio": 100,
+          "repeats": 10,
+          "positive_count_mean": 1.0
+        }
+      },
+      "positive_label": "entity_id"
+    }
+  },
+  "gene": {
+    "num_entities": 2252,
+    "num_profile_replicates": 11620,
+    "modality_counts": {
+      "orf": 1463,
+      "crispr": 789
+    },
+    "modality_breakdown": {
+      "orf": {
+        "num_entities": 1463,
+        "num_profile_replicates": 7367,
+        "full_gallery": {
+          "gene_to_profile": {
+            "num_queries": 1463,
+            "num_gallery": 7367,
+            "num_evaluated": 1463,
+            "Recall@1": 0.00888585099111415,
+            "Recall@5": 0.02939166097060834,
+            "Recall@10": 0.05126452494873548,
+            "MRR": 0.024276829534896682,
+            "median_rank": 607.0,
+            "mean_rank": 1166.546821599453
+          },
+          "profile_to_gene": {
+            "num_queries": 7367,
+            "num_gallery": 1463,
+            "num_evaluated": 7367,
+            "Recall@1": 0.010587756210126238,
+            "Recall@5": 0.029048459345730963,
+            "Recall@10": 0.04669471969594136,
+            "MRR": 0.025873018022674745,
+            "median_rank": 392.0,
+            "mean_rank": 495.2417537667979
+          }
+        },
+        "mocop_protocol_sampled": {
+          "orf_to_profile": {
+            "1:100": {
+              "Top1_accuracy_mean": 0.14025974025974025,
+              "Top1_accuracy_std": 0.004821651972262037,
+              "Top10_accuracy_mean": 0.5390977443609023,
+              "Top10_accuracy_std": 0.0030422710983278064,
+              "num_queries": 1463,
+              "num_gallery": 7367,
+              "ratio": 100,
+              "repeats": 10,
+              "positive_count_mean": 5.035543403964456
+            }
+          },
+          "profile_to_orf": {
+            "1:100": {
+              "Top1_accuracy_mean": 0.05531423917469798,
+              "Top1_accuracy_std": 0.0014213912844576414,
+              "Top10_accuracy_mean": 0.2756617347631328,
+              "Top10_accuracy_std": 0.0022028465074087943,
+              "num_queries": 7367,
+              "num_gallery": 1463,
+              "ratio": 100,
+              "repeats": 10,
+              "positive_count_mean": 1.0
+            }
+          },
+          "positive_label": "entity_id"
+        }
+      },
+      "crispr": {
+        "num_entities": 789,
+        "num_profile_replicates": 4253,
+        "full_gallery": {
+          "gene_to_profile": {
+            "num_queries": 789,
+            "num_gallery": 4253,
+            "num_evaluated": 789,
+            "Recall@1": 0.010139416983523447,
+            "Recall@5": 0.035487959442332066,
+            "Recall@10": 0.06717363751584284,
+            "MRR": 0.029386827482053006,
+            "median_rank": 381.0,
+            "mean_rank": 694.852978453739
+          },
+          "profile_to_gene": {
+            "num_queries": 4253,
+            "num_gallery": 789,
+            "num_evaluated": 4253,
+            "Recall@1": 0.009875382083235363,
+            "Recall@5": 0.03479896543616271,
+            "Recall@10": 0.05596049847166706,
+            "MRR": 0.03083751316007292,
+            "median_rank": 204.0,
+            "mean_rank": 257.2066776393134
+          }
+        },
+        "mocop_protocol_sampled": {
+          "crispr_to_profile": {
+            "1:100": {
+              "Top1_accuracy_mean": 0.12522179974651457,
+              "Top1_accuracy_std": 0.009012110942778798,
+              "Top10_accuracy_mean": 0.5093789607097591,
+              "Top10_accuracy_std": 0.0063231785466496505,
+              "num_queries": 789,
+              "num_gallery": 4253,
+              "ratio": 100,
+              "repeats": 10,
+              "positive_count_mean": 5.390367553865652
+            }
+          },
+          "profile_to_crispr": {
+            "1:100": {
+              "Top1_accuracy_mean": 0.0442040912297202,
+              "Top1_accuracy_std": 0.0017117587324901285,
+              "Top10_accuracy_mean": 0.26155654831883374,
+              "Top10_accuracy_std": 0.0025932406638066803,
+              "num_queries": 4253,
+              "num_gallery": 789,
+              "ratio": 100,
+              "repeats": 10,
+              "positive_count_mean": 1.0
+            }
+          },
+          "positive_label": "entity_id"
+        }
+      }
+    },
+    "full_gallery": {
+      "gene_to_profile": {
+        "num_queries": 2252,
+        "num_gallery": 11620,
+        "num_evaluated": 2252,
+        "Recall@1": 0.009325044404973356,
+        "Recall@5": 0.03152753108348135,
+        "Recall@10": 0.05595026642984014,
+        "MRR": 0.0255771754765337,
+        "median_rank": 598.0,
+        "mean_rank": 1565.866785079929
+      },
+      "profile_to_gene": {
+        "num_queries": 11620,
+        "num_gallery": 2252,
+        "num_evaluated": 11620,
+        "Recall@1": 0.009982788296041309,
+        "Recall@5": 0.02891566265060241,
+        "Recall@10": 0.04750430292598967,
+        "MRR": 0.025588893161827702,
+        "median_rank": 499.5,
+        "mean_rank": 702.966265060241
+      }
+    },
+    "mocop_protocol_sampled": {
+      "gene_to_profile": {
+        "1:100": {
+          "Top1_accuracy_mean": 0.18579040852575485,
+          "Top1_accuracy_std": 0.005493309802554921,
+          "Top10_accuracy_mean": 0.6287744227353463,
+          "Top10_accuracy_std": 0.0021295877101743725,
+          "num_queries": 2252,
+          "num_gallery": 11620,
+          "ratio": 100,
+          "repeats": 10,
+          "positive_count_mean": 5.159857904085258
+        }
+      },
+      "profile_to_gene": {
+        "1:100": {
+          "Top1_accuracy_mean": 0.07569707401032702,
+          "Top1_accuracy_std": 0.0010103724696343688,
+          "Top10_accuracy_mean": 0.34085197934595524,
+          "Top10_accuracy_std": 0.0012091451722357571,
+          "num_queries": 11620,
+          "num_gallery": 2252,
+          "ratio": 100,
+          "repeats": 10,
+          "positive_count_mean": 1.0
+        }
+      },
+      "positive_label": "entity_id"
+    }
+  },
+  "top10_100": {
+    "ratio": 100,
+    "compound_to_profile": 0.8469770253929868,
+    "profile_to_compound": 0.5692537088636194,
+    "gene_to_profile": 0.6287744227353463,
+    "profile_to_gene": 0.34085197934595524,
+    "mean": 0.5964642840844769,
+    "hmean": 0.5360797885868936
+  },
+  "run_name": "strict_seed37_joint",
+  "checkpoint": "/data3/sdz/cgp_align_strict_20260918/seed37/joint/checkpoints/strict_seed37_joint/best_model.pt",
+  "checkpoint_epoch": 150,
+  "best_score": 0.5468838660366783,
+  "selection_metric": "val_hmean_Top10",
+  "compound_data_dir": "/data3/sdz/cgp_align_strict_20260918/seed37/data/compound",
+  "gene_data_dir": "/data3/sdz/cgp_align_strict_20260918/seed37/data/gene",
+  "profile_source_adapters": false,
+  "staged_training": true,
+  "has_branch_init": true
+}

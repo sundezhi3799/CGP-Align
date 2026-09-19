@@ -1,0 +1,7 @@
+scope,method,k,n_query,n_gallery,hit_at_k,recall_at_k,precision_enrichment,mean_best_positive_rank,method_axis,method_idx,method_family,label,label_x
+compound_to_compound,Structure feature baseline,50,11578,11577,0.09898082570392124,0.01108999827258593,2.5677782000345486,879.1108136120228,"Structure
+baseline",1,Structure,2.57x,2.9177782000345487
+compound_to_compound,CGP-Align entity,50,11578,11577,0.1543444463637934,0.02103126619450682,4.8695793746761105,698.7829504232164,"CGP-Align
+entity",2,CGP-Align,4.87x,5.21957937467611
+compound_to_compound,CGP entity -> profile anchor,50,11578,11577,0.20219381585766108,0.04110381758507514,9.5171779236483,787.1167731905338,"Profile-anchor
+readout",3,Profile anchor,9.52x,9.867177923648299

@@ -59,7 +59,7 @@ Outputs go to `paper_snapshot/results/`. This verifies calculations from saved s
 
 ## Revised Figure 3
 
-The current Word revision uses hidden phenotype neighbours in panel H. Redraw all eight panels from the included processed tables:
+The September 20 Word revision uses strict-model results throughout Figure 3 and hidden phenotype neighbours in panel H. Redraw all eight panels from the included processed tables:
 
 ```bash
 Rscript environment/install-figure3.R
@@ -83,8 +83,7 @@ See [Figure 3 instructions and provenance](figures/figure3/README.md). This redr
 
 The adopted compound-profile comparison uses **encode each replicate, then average
 and L2 normalize** for all four methods. See the [protocol and sensitivity
-record](docs/STRICT_MATCHED_BENCHMARK.md); this is a new experiment, distinct from
-the archived Figure 3 data.
+record](docs/STRICT_MATCHED_BENCHMARK.md); these results now supply Figure 3F/G. Historical Figure 3 sources remain archived.
 
 ## Training and analysis
 
