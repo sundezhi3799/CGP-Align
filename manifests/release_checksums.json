@@ -4,8 +4,8 @@
     "bytes": 97
   },
   ".github/workflows/checks.yml": {
-    "sha256": "a712b1ab58a7d32bc29b677076df7a704c1a93ef664789752cc62790b8e86325",
-    "bytes": 1075
+    "sha256": "289a229066035e5c8bd9f035a30065e3bfd0205af8798cdd23f44ed57aba452f",
+    "bytes": 1142
   },
   ".gitignore": {
     "sha256": "b5d887b226d0751b6259be071d906658d9ef7d9c3ff161a8f6271fd5d32e9653",
@@ -91,6 +91,22 @@
     "sha256": "8073fa3a5a386c2d1f75dfa28ee56e1b59fa8f2d7fba4fea681691c3ec379187",
     "bytes": 740
   },
+  "figures/figure3/historical_20260918/figure3_panelB_retrieval_performance.csv": {
+    "sha256": "ee1216e6d2a29ad3043276b2db6e2be2aec89484c2b48c2d10509041bce86b23",
+    "bytes": 526
+  },
+  "figures/figure3/historical_20260918/figure3_panelC_difficult_retrieval.csv": {
+    "sha256": "7efeebfd6a524c53ef0d816f0fbc27d01049f1d8582ef5cc7dd747eb5c47a999",
+    "bytes": 1572
+  },
+  "figures/figure3/historical_20260918/README.md": {
+    "sha256": "c4f89be3781022ee406eeecb4c10372f23df8235951649691527932609585565",
+    "bytes": 283
+  },
+  "figures/figure3/historical_20260918/reproduce.R": {
+    "sha256": "cfbe235c9467b8fbed1adeb3aef3e6290ac2dfcf389068a27dc73fb314c42f10",
+    "bytes": 24214
+  },
   "figures/figure3/provenance/hidden_analysis_metadata.json": {
     "sha256": "5496766134af7921f38afd0a6b0aff1b180450e1662965d85985fe7abaee6b45",
     "bytes": 976
@@ -100,12 +116,12 @@
     "bytes": 1320
   },
   "figures/figure3/README.md": {
-    "sha256": "d65961642c121981c134bbbda29b9a907b3a8584eb1548e4b6cd90bf1276445e",
-    "bytes": 4207
+    "sha256": "8cf4c41bd68a774abde24069b4dc4df7762a2c4a97a089c664592b3ee1a5f38c",
+    "bytes": 5150
   },
   "figures/figure3/reproduce.R": {
-    "sha256": "cfbe235c9467b8fbed1adeb3aef3e6290ac2dfcf389068a27dc73fb314c42f10",
-    "bytes": 24214
+    "sha256": "257fc0aeb17bd7c8daac1c3d3949e2a6f90429a1b681b54ba37113d41d780e37",
+    "bytes": 24212
   },
   "figures/figure3/source_data/figure2ab_four_branch_main_pca_metadata.json": {
     "sha256": "a2c62f114e36e0f24355b48d5d8c9f535604635004ecd29ea7d7e965c4ec09f8",
@@ -128,12 +144,12 @@
     "bytes": 498
   },
   "figures/figure3/source_data/figure3_panelB_retrieval_performance.csv": {
-    "sha256": "ee1216e6d2a29ad3043276b2db6e2be2aec89484c2b48c2d10509041bce86b23",
-    "bytes": 526
+    "sha256": "3b4493760b06248641be4640762fa68e519d72ace5fbdb341a3d7c866fd49eef",
+    "bytes": 534
   },
   "figures/figure3/source_data/figure3_panelC_difficult_retrieval.csv": {
-    "sha256": "7efeebfd6a524c53ef0d816f0fbc27d01049f1d8582ef5cc7dd747eb5c47a999",
-    "bytes": 1572
+    "sha256": "59cad3a537ce56f9c0c102fee5c23779de01d0237b08fbf3be5bbc5007aa412c",
+    "bytes": 1626
   },
   "figures/figure3/source_data/figure3h_hidden_phenotype_neighbour_recovery.csv": {
     "sha256": "06402742c76fca0153d4895e728631b0a436897ee25967fa6d0e3923b1e68737",
@@ -260,7 +276,7 @@
     "bytes": 2468
   },
   "manifests/source_provenance.csv": {
-    "sha256": "b9eb635b22a62beb3e615fa075a4d4f4cd6622684d5510ea40df0315c0178598",
+    "sha256": "5c322f836b5143a2a56c276f2323e2940675f48d63b9e7756e291436b8365a64",
     "bytes": 44325
   },
   "manifests/training_recipe_validation.json": {
@@ -882,6 +898,10 @@
   "tools/audit_preprocessing_splits.py": {
     "sha256": "fce567f21da25e7de4809a35cf9dd292ff81273fe0a4a9a68acc36bf6165169b",
     "bytes": 2152
+  },
+  "tools/build_figure3_matched_sources.py": {
+    "sha256": "ed25579ba13a357e86bec71fcdf19cb8f13c3cb0a12ad7c5a910322fffb99dd8",
+    "bytes": 3315
   },
   "tools/check_repository.py": {
     "sha256": "e38915637ff1ba9b90bd39a1f55071abce0e99d8a821b572ee692c19a535fea5",

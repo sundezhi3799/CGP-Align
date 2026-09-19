@@ -1,0 +1,1 @@
+Historical F/G source tables and plotting script retained for audit. These tables use the legacy benchmark, not the adopted seeds31/37/41 evaluation. To reproduce that historical composite, use Git commit504841b; this script snapshot expects the full original source_data directory.

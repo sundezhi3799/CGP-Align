@@ -413,7 +413,7 @@ main_b <- read_csv(file.path(source_dir, "figure3_panelB_retrieval_performance.c
   mutate(
     method_label = factor(method_label, levels = rev(method_levels)),
     label = fmt_pct(mean_top10, 1),
-    label_x = mean_top10 + sd_top10 + 0.010
+    label_x = mean_top10 + 0.013
   )
 
 p_d <- ggplot(main_b, aes(x = mean_top10, y = method_label, colour = method_label)) +
@@ -440,7 +440,7 @@ hard_df <- read_csv(file.path(source_dir, "figure3_panelC_difficult_retrieval.cs
     method_label = factor(method_label, levels = rev(method_levels)),
     metric_label = factor(metric_label, levels = c("Sampled 1:1000\nTop-10", "Full-gallery\nRecall@10")),
     label = fmt_pct(value, 1),
-    label_x = value + sd + ifelse(metric == "full_r10", 0.003, 0.008)
+    label_x = value + ifelse(metric == "full_r10", 0.0045, 0.014)
   )
 
 p_e <- ggplot(hard_df, aes(x = value, y = method_label, colour = method_label)) +
@@ -564,8 +564,8 @@ save_pub <- function(plot, prefix, width_mm = 183, height_mm = 142, dpi = 600) {
   print(plot)
   invisible(dev.off())
 
-  svglite::svglite(paste0(prefix, ".svg"), width = w, height = h,
-                    bg = "white")
+  grDevices::svg(paste0(prefix, ".svg"), width = w, height = h,
+                 bg = "white", family = font_family)
   print(plot)
   invisible(dev.off())
 }

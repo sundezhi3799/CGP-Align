@@ -12,6 +12,7 @@ jobs:
       - run: python tools/compare_strict_metrics.py --seed 31
       - run: python tools/verify_reference_results.py
       - run: python tools/verify_figure3_sources.py
+      - run: python tools/build_figure3_matched_sources.py --check
   model-smoke:
     runs-on: ubuntu-latest
     steps:

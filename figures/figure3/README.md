@@ -1,12 +1,14 @@
 # Revised Figure 3
 
-This workflow redraws panels A-H from the archived processed tables. It matches
-the September 18 Word revision: H is hidden phenotype-neighbour recovery, not
-the paired-gain panel retained in the August `paper_snapshot`.
+This September 20 revision updates F/G from the adopted encode-then-average
+benchmark (seeds 31/37/41). A-E/H retain their historical experiment records;
+this composite is not yet a complete strict-model replacement. H remains
+hidden phenotype-neighbour recovery, not the August paired-gain panel.
 
 From the repository root:
 
 ```bash
+python tools/build_figure3_matched_sources.py --check
 Rscript environment/install-figure3.R
 Rscript figures/figure3/reproduce.R
 python tools/verify_figure3_sources.py
@@ -20,11 +22,15 @@ optional second argument changes the font (default Arial). For example:
 Rscript figures/figure3/reproduce.R outputs/figure3 sans
 ```
 
-The original plot layout and calculations are preserved. The changes make paths
+The original panel layout is preserved. F/G labels are placed beyond their
+updated error bars. SVG export uses svglite to retain editable text. The previous
+F/G sources and R script are retained in `historical_20260918/`.
+The September 18 version preserved the original calculations and layout. The changes make paths
 relative to the script, send generated files to the output directory rather than
 overwriting source data, and allow font substitution. Font changes can change
 text layout. The recorded Windows/R 4.5.3/Arial run produced a pixel-identical PNG
-to the revised manuscript image (4322 by 4440 pixels).
+to the September 18 manuscript image (4322 by 4440 pixels). The new F/G
+numerical values intentionally differ from that image.
 
 Known local runtime issue: this Windows R installation exits with native status
 `0xC0000005` after writing all four images and session information. This also occurs
@@ -40,7 +46,14 @@ automated pipeline. A different R installation/platform still needs verification
 - C: direction-level run values and random-ranking expectations.
 - D: full-gallery random-ranking negative-control source.
 - E: branch summary means and standard deviations.
-- F-G: matched and difficult compound-profile retrieval source tables.
+- F-G: generated from the 12 frozen-model metric records in
+  `revision_candidates/encoded_mean_20260920/` by
+  `tools/build_figure3_matched_sources.py`. The phenotype representation is the
+  L2-normalized mean of individually encoded corrected replicates for every
+  method. Points average both directions within seed; bars are sample SD across
+  seeds. Test count 11,578 per seed; 10 shared candidate repeats. Protocol adoption
+  followed test sensitivity analysis; training budgets/objectives differ. See
+  [the protocol record](../../docs/STRICT_MATCHED_BENCHMARK.md).
 - H: `hidden_phenotype_neighbour_recovery_compact.csv`, filtered to compound-to-compound,
   k=50 and the three displayed methods.
 
