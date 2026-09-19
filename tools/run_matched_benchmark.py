@@ -2,6 +2,7 @@
 import argparse
 import json
 import os
+import signal
 from pathlib import Path
 import subprocess
 import sys
@@ -79,7 +80,7 @@ def main():
                                '--output', str(seed_job / 'data'), '--seed', str(seed)]
                     state['commands'].append(command)
                     with (seed_job / 'prepare.log').open('w') as f:
-                        children.append(subprocess.Popen(command, cwd=ROOT, env=env, stdout=f, stderr=subprocess.STDOUT))
+                        children.append(subprocess.Popen(command, cwd=ROOT, env=env, stdout=f, stderr=subprocess.STDOUT, start_new_session=True))
                 state['preparation_pids'] = [p.pid for p in children]; save()
             def wait_all():
                 while True:
@@ -95,13 +96,15 @@ def main():
                 command = [sys.executable, '-u', str(Path(__file__).resolve()), '--research-root', str(a.research_root),
                            '--strict-root', str(a.strict_root), '--run-root', str(a.run_root), '--worker-seed', str(seed), '--gpus', gpu]
                 with (job / f'seed{seed}/worker.log').open('w') as f:
-                    children.append(subprocess.Popen(command, cwd=ROOT, env=env, stdout=f, stderr=subprocess.STDOUT))
+                    children.append(subprocess.Popen(command, cwd=ROOT, env=env, stdout=f, stderr=subprocess.STDOUT, start_new_session=True))
             state.update(status='workers_running', worker_pids=[p.pid for p in children]); save()
             wait_all()
         state.update(status='complete', finished=time.time()); save()
     except BaseException as error:
         for child in children:
-            if child.poll() is None: child.terminate()
+            if child.poll() is None:
+                if os.name == 'posix': os.killpg(child.pid, signal.SIGTERM)
+                else: child.terminate()
         state.update(status='failed', error=repr(error)); save()
         raise
 

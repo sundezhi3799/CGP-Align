@@ -62,3 +62,9 @@ inputs and results are not automatically published by this controller.
 stable sorting, including tied scores. Before full execution also validate the
 actual prepared data with the original trainer's isolated two-epoch smoke mode.
 Smoke checkpoints must never be used in the reported comparison.
+
+For a staged launch, add `--prepare-only` to create cohorts and stop with status
+`prepared`. After the isolated smoke tests pass, use the same arguments with
+`--prepared-run` to launch evaluation/training. An exclusive training lock
+prevents duplicate launches. Keep the preparation and training code revisions
+in the run records when they differ.

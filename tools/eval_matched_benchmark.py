@@ -43,6 +43,7 @@ def main():
         model, data, payload, args = load_model_and_data(a.checkpoint, device, 512)
         assert np.array_equal(data['compound']['test_entities'], rows)
     else:
+        assert sha(a.prepared / a.method / 'compound_structure_features.npy') == audit['methods'][a.method]['feature_sha256']
         model = CGPAlignModel(cfg['structure_dim'], cfg['protein_dim'], cfg['profile_dim'],
                              embed_dim=cfg['embed_dim'], dropout=cfg['dropout'],
                              feature_dim_by_source=cfg.get('feature_dim_by_source')).to(device)

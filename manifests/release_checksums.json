@@ -52,8 +52,8 @@
     "bytes": 2973
   },
   "docs/STRICT_MATCHED_BENCHMARK.md": {
-    "sha256": "1b4db5751c12cec955233dbdd7b18bad59e92f708846c1a3e18a754e0fbde50e",
-    "bytes": 3818
+    "sha256": "0bbd17f38e986efbddd363bdf00bbc1c1d3bcb03cad053d73ea19a9c2ab19c85",
+    "bytes": 4167
   },
   "docs/STRICT_REANALYSIS.md": {
     "sha256": "7e88bf29d70889b89dac6c7245be3843d62df753200d53e6576b1f8f0e6cf5ef",
@@ -768,8 +768,8 @@
     "bytes": 2260
   },
   "tools/eval_matched_benchmark.py": {
-    "sha256": "51c2879ea8896054ce7aee4320a07b633f4700ba0e43f05536da551748889ec3",
-    "bytes": 4859
+    "sha256": "6425dcb966b8b10f1658dccbadb531d97f3b32a5fbba1d52738eb3e44bb97bac",
+    "bytes": 4985
   },
   "tools/prepare_matched_benchmark.py": {
     "sha256": "a1fe7dad5b5b65201bbdaea3dfc295b16060fa171bf2956f557e9e379304b745",
@@ -784,8 +784,8 @@
     "bytes": 3044
   },
   "tools/run_matched_benchmark.py": {
-    "sha256": "dd1c6074b37e1afe3cafa353bcd17a8dcfcf765abd698541a03d17f2594bc02a",
-    "bytes": 6381
+    "sha256": "d99875478358a5964db543dd48f85ca70f71a346fe59f89eda4553947119ce79",
+    "bytes": 6541
   },
   "tools/run_strict_seed.py": {
     "sha256": "7e24ea552f33fcee469c32d5167d79d47746f414328cd11f2b78e590dd2edff0",
