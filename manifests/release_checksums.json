@@ -4,8 +4,8 @@
     "bytes": 97
   },
   ".github/workflows/checks.yml": {
-    "sha256": "cb5c5c36a3d611311d1443994a9ce4be16ad3124e3fef9c399c1bda4a2a9e2bb",
-    "bytes": 907
+    "sha256": "12d446ccf940ffa34fe6f778b846858246f6a6b5b583f3b37e58025cc51fe697",
+    "bytes": 969
   },
   ".gitignore": {
     "sha256": "b5d887b226d0751b6259be071d906658d9ef7d9c3ff161a8f6271fd5d32e9653",
@@ -48,8 +48,8 @@
     "bytes": 2973
   },
   "docs/STRICT_REANALYSIS.md": {
-    "sha256": "7996536b49a2bfb4e70298c4e3a267ea152c233d1baa239ae1239eeed75b2313",
-    "bytes": 3031
+    "sha256": "7e88bf29d70889b89dac6c7245be3843d62df753200d53e6576b1f8f0e6cf5ef",
+    "bytes": 5263
   },
   "docs/TRAINING_ARCHIVE_AUDIT.md": {
     "sha256": "e110d2150ce048c9bd61a8fef9a7ca816f42f2a5d6992958c6bda976ffffef0b",
@@ -158,6 +158,30 @@
   "manifests/checkpoint_configs/initializer_seed31_orf.json": {
     "sha256": "c0f4594d0404f83f48d394185bc1893764b98172bd15be820ddad3dd63ca0d0d",
     "bytes": 6915
+  },
+  "manifests/checkpoint_configs/initializer_seed37_compound.json": {
+    "sha256": "336154a88f1f6f44b543949f5647b1b7eed68ef1b2088bbeaff2ebaa4f234a70",
+    "bytes": 1943
+  },
+  "manifests/checkpoint_configs/initializer_seed37_crispr.json": {
+    "sha256": "8a1a6afbed901b298e28bb22059b2a1233988be015e0ee9a2de97274ea760867",
+    "bytes": 6901
+  },
+  "manifests/checkpoint_configs/initializer_seed37_orf.json": {
+    "sha256": "5f4d9e034d76b07382784f84a4ddf54f77c16a7e38ac872c85c2cafcc810f1f4",
+    "bytes": 6919
+  },
+  "manifests/checkpoint_configs/initializer_seed41_compound.json": {
+    "sha256": "49e9e79b64a213fff2a677a776784b91f54c9af7b5b770b2a0638a5aeca611d2",
+    "bytes": 1943
+  },
+  "manifests/checkpoint_configs/initializer_seed41_crispr.json": {
+    "sha256": "543717afd7751918f361538daa11ea3cd7c4c636b79332a01f1602877f840adb",
+    "bytes": 6906
+  },
+  "manifests/checkpoint_configs/initializer_seed41_orf.json": {
+    "sha256": "e836796a12a34cc407662804b4e778b689e590a5483ef4d0000ea048fa8bef72",
+    "bytes": 6917
   },
   "manifests/checkpoint_configs/primary_seed31.json": {
     "sha256": "dbb45cf269f53e751795d5dd22d2fcf403373fed3accca43015f4e909efdef90",
@@ -547,6 +571,14 @@
     "sha256": "57aee4d960d075087e883e892e639e89647f5cc4f39dc3e2dd1912152d7dd9b4",
     "bytes": 8828
   },
+  "reference_metrics/strict/primary_seed31.json": {
+    "sha256": "23e79f16b88e5bf54bf787acc589fdb97014e9fd03c7cc414a82aab3379bf8ca",
+    "bytes": 8461
+  },
+  "reference_metrics/strict/seed31_comparison.json": {
+    "sha256": "b30e06d76e948cd44915e686ce5307ea4041cb5f1600c614e22876e8c83cf06d",
+    "bytes": 1540
+  },
   "revision_candidates/hidden_neighbours/figure3e_hidden_phenotype_neighbour_top50_source.csv": {
     "sha256": "90732d508cabd4e6dbd71283bcad47241d1517a5176767f7639c430c65aa23ed",
     "bytes": 515
@@ -703,6 +735,10 @@
     "sha256": "e38915637ff1ba9b90bd39a1f55071abce0e99d8a821b572ee692c19a535fea5",
     "bytes": 2367
   },
+  "tools/compare_strict_metrics.py": {
+    "sha256": "12ad2c4f69d28be262a4116ce623a2b7f14c506fdc627dc2c35ad197fb6bdb07",
+    "bytes": 2596
+  },
   "tools/download_models.py": {
     "sha256": "635748659104ed28a3b2ccf1240d0f567947ee37f02e0b06fce5f8c96c73ad6e",
     "bytes": 2260
@@ -712,12 +748,16 @@
     "bytes": 5076
   },
   "tools/restart_strict_joint.py": {
-    "sha256": "309c9f67f96d5d31324e6236ee48f6c323ac81c98edb96100efde34650919961",
-    "bytes": 3046
+    "sha256": "7a3a2cae1645720e65c4dd5a2dc5c6e2127d677920523c187c76be1ec46f79dc",
+    "bytes": 3044
+  },
+  "tools/run_strict_seed.py": {
+    "sha256": "7e24ea552f33fcee469c32d5167d79d47746f414328cd11f2b78e590dd2edff0",
+    "bytes": 8096
   },
   "tools/run_strict_seed31.py": {
-    "sha256": "f1be0ed8d5d9b2577ecc51c1596ef65af42a8a60449582256af5cf6fc23daf85",
-    "bytes": 7765
+    "sha256": "b293de9e5f4b6975944b77098a9657f87b4dfdb9ceb1e568c51ac0ff28889e60",
+    "bytes": 178
   },
   "tools/smoke_test_model.py": {
     "sha256": "ccaa8c9cf150b03624868b0f49110b090b3fe3c7e4622762eb32adba6c605b1c",

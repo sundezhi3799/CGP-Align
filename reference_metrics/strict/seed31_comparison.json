@@ -1,0 +1,41 @@
+{
+  "protocol_checks": "PASS",
+  "historical_sha256": "60c1d20a4fd042b997c70e567b50cdbbdde81dc9a564abe59fffc04b52996e99",
+  "strict_sha256": "23e79f16b88e5bf54bf787acc589fdb97014e9fd03c7cc414a82aab3379bf8ca",
+  "historical_checkpoint_epoch": 50,
+  "strict_checkpoint_epoch": 70,
+  "selection_metric": "val_hmean_Top10",
+  "sampled_top10_1_to_100": {
+    "compound_to_profile": {
+      "historical": 0.8352219727068579,
+      "strict": 0.838737260321299,
+      "difference_percentage_points": 0.3515287614441087
+    },
+    "profile_to_compound": {
+      "historical": 0.5117270186237869,
+      "strict": 0.5388304387425017,
+      "difference_percentage_points": 2.7103420118714805
+    },
+    "gene_to_profile": {
+      "historical": 0.6895897662108514,
+      "strict": 0.6673577415086017,
+      "difference_percentage_points": -2.223202470224972
+    },
+    "profile_to_gene": {
+      "historical": 0.3748792270531401,
+      "strict": 0.36519196542079835,
+      "difference_percentage_points": -0.9687261632341737
+    },
+    "mean": {
+      "historical": 0.6028544961486592,
+      "strict": 0.6025293514983001,
+      "difference_percentage_points": -0.03251446503590438
+    },
+    "hmean": {
+      "historical": 0.5502731845304462,
+      "strict": 0.5490830525608781,
+      "difference_percentage_points": -0.11901319695680757
+    }
+  },
+  "scope": "Paired saved-result comparison for one seed; not a three-seed statistical conclusion. Split hashes are verified separately in preprocessing audits."
+}

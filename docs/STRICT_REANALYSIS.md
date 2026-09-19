@@ -33,7 +33,7 @@ Use a fresh run directory. The controller writes `status.json`, preprocessing
 audits, per-branch logs, configurations and checkpoints, then joint evaluation
 outputs. It must run detached for long server jobs. A retained exclusive lock
 prevents accidental duplicate launches; failed jobs require inspection rather
-than automatic overwrite or resume. The controller does not launch seeds 37/41.
+than automatic overwrite or resume. The generalized `tools/run_strict_seed.py --seed 37` (or `--seed 41`) uses that seed's archived branch and joint recipes and its own original split. Each run needs a separate run directory and three distinct available GPUs.
 
 After the pilot, compare retrieval metrics with the historical seed-31 results,
 verify model selection and downstream evaluation, then extend the same procedure
@@ -50,3 +50,36 @@ The six-layer forward/backward regression check covers autocast and full precisi
 run `python tools/test_gnn_amp.py --device cuda:0` on the training server.
 `tools/restart_strict_joint.py` checks completed branches and preprocessing audits,
 then launches a fresh joint attempt, preserving the failed attempt and its logs.
+
+## Seed-31 completed pilot
+
+Seed 31 completed all branch training, 300 joint epochs and test evaluation.
+The best joint checkpoint was selected at epoch 70 by validation harmonic mean
+Top-10 (historical checkpoint: epoch 50). The corrected result is stored separately
+at `reference_metrics/strict/primary_seed31.json`; historical reference files are
+unchanged. Run `python tools/compare_strict_metrics.py --seed 31` to verify the
+same test counts, sampled retrieval protocol and selection metric before comparison.
+
+For the 1:100 sampled protocol, historical to strict Top-10 percentages are:
+- Compound to profile: 83.5222 to 83.8737 (+0.3515 percentage points).
+- Profile to compound: 51.1727 to 53.8830 (+2.7103 percentage points).
+- Gene to profile: 68.9590 to 66.7358 (-2.2232 percentage points).
+- Profile to gene: 37.4879 to 36.5192 (-0.9687 percentage points).
+- Four-direction arithmetic mean: 60.2854 to 60.2529 (-0.0325 percentage points).
+
+These are one-seed descriptive differences, not evidence of statistical equivalence
+or the final three-seed manuscript result. This run also includes the documented
+mixed-precision compatibility fix; numerical differences cannot be attributed
+solely to preprocessing. Downstream analyses and baseline/ablation preprocessing
+must be audited before replacing manuscript figures or claiming full reproduction.
+
+For the remaining two seeds, launch separate controllers on disjoint GPUs:
+
+```bash
+python tools/run_strict_seed.py --seed 37 --research-root /home/sdz/projects/cgp_align_cpg_full --run-root /data3/sdz/cgp_align_strict_20260918/seed37 --gpus 0,1,2
+python tools/run_strict_seed.py --seed 41 --research-root /home/sdz/projects/cgp_align_cpg_full --run-root /data3/sdz/cgp_align_strict_20260918/seed41 --gpus 3,4,5
+```
+
+Each controller refits its own preprocessing from the uncorrected profiles,
+trains all three branches from scratch and then runs joint training/evaluation.
+No seed-31 fitted preprocessing parameters or trained weights are reused.

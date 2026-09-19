@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 import subprocess
 import time
-from run_strict_seed31 import command_from_config
+from run_strict_seed import command_from_config
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)

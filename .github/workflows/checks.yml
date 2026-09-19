@@ -9,6 +9,7 @@ jobs:
         with:
           python-version: '3.13'
       - run: python tools/check_repository.py
+      - run: python tools/compare_strict_metrics.py --seed 31
       - run: python tools/verify_reference_results.py
       - run: python tools/verify_figure3_sources.py
   model-smoke:
