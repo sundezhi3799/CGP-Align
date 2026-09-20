@@ -8,13 +8,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 FIG = ROOT / 'figures/supplementary_strict'
-SOURCE = ROOT / 'revision_candidates/figure3_strict_20260920'
+SOURCE = ROOT / 'revision_candidates/equal_three_term_20260920/figure3'
 OUT = FIG / 'source_data'
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--check', action='store_true', help='Compare regenerated CSV content without writing')
 parser.add_argument('--source', type=Path, default=SOURCE)
 parser.add_argument('--figure-root', type=Path, default=FIG)
-parser.add_argument('--gene-reduction', choices=('sum', 'mean'), default='mean')
+parser.add_argument('--gene-reduction', choices=('sum', 'mean'), default='sum')
 args = parser.parse_args()
 CHECK = args.check
 SOURCE, FIG = args.source, args.figure_root

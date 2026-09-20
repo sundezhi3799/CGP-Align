@@ -6,7 +6,7 @@ Associated manuscript: **CGP-Align links chemical and genetic perturbations thro
 
 ## Training objective
 
-The selected manuscript objective is `L_compound + L_ORF + L_CRISPR`, with all three weights equal to 1. The training wrapper uses this objective and a distinct run name. Existing historical and September strict-run weights/results used a different objective; fresh training and evaluation are pending. See [objective provenance and migration](docs/TRAINING_OBJECTIVE.md).
+The selected manuscript objective is `L_compound + L_ORF + L_CRISPR`, with all three weights equal to 1. The training wrapper uses this objective and a distinct run name. Three strict-preprocessing runs have completed 300 joint epochs each, with test evaluation and updated Figure 3/S1/S4/S5. See [new results](docs/EQUAL_OBJECTIVE_RESULTS.md). Historical weights retain their original objective. See [objective provenance and migration](docs/TRAINING_OBJECTIVE.md).
 
 ## Release status
 

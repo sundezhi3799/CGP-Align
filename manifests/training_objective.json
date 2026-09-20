@@ -8,8 +8,14 @@
   "trainer_original_sha256": "6c5b6feb620019d0b3a603aad968f515e0b46331936f8a06235e89e6e1841d9b",
   "trainer_current_sha256": "ff747a5f5b435786acd64d29144f57908ae5c6abcf3409840f81d28206bc9430",
   "change_type": "author-selected scientific objective change, not a portability fix",
-  "training_status": "launched_2026-09-20",
+  "training_status": "training_evaluation_figures_complete",
   "historical_results_relabelled": false,
   "training_commit": "786727c",
-  "run_directory": "/data3/sdz/cgp_align_equal_three_term_20260920"
+  "run_directory": "/data3/sdz/cgp_align_equal_three_term_20260920",
+  "results": "revision_candidates/equal_three_term_20260920",
+  "selected_epochs": {
+    "31": 140,
+    "37": 140,
+    "41": 60
+  }
 }

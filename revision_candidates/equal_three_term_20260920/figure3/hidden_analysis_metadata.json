@@ -1,0 +1,11 @@
+{
+  "positive_topn": 10,
+  "eval_ks": [
+    50
+  ],
+  "seed": 41,
+  "positive_definition": "Ten nearest other compounds by cosine of entity-mean strict corrected profiles",
+  "tie_policy": "ascending gallery index",
+  "n_query": 11578,
+  "n_gallery": 11577
+}

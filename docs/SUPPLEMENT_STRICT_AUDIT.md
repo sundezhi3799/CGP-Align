@@ -1,3 +1,5 @@
+> Historical audit of the preceding mean-reduction runs. Current three-term results and figure sources are documented in [EQUAL_OBJECTIVE_RESULTS.md](EQUAL_OBJECTIVE_RESULTS.md).
+
 # Supplementary figure consistency audit
 
 Completed on September 20, 2026:

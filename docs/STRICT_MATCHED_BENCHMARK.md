@@ -1,3 +1,5 @@
+> Historical audit of the preceding mean-reduction runs. Current three-term results and figure sources are documented in [EQUAL_OBJECTIVE_RESULTS.md](EQUAL_OBJECTIVE_RESULTS.md).
+
 # Strict matched compound-profile comparison
 
 This replaces the legacy seed-13/17/23 comparison as a new experiment. Do not

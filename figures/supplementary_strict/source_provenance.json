@@ -1,20 +1,20 @@
 [
   {
     "seed": 31,
-    "source": "/data3/sdz/cgp_align_strict_20260918/seed31/joint_ampfix01/logs/strict_seed31_joint_train_log.jsonl",
-    "sha256": "b71ba6a28c41215898120b9204ac738cba75a7f34b9b6b76e92ac60fdcded4f2",
+    "source": "/data3/sdz/cgp_align_equal_three_term_20260920/seed31/joint/logs/cgp_align_equal_three_term_seed31_train_log.jsonl",
+    "sha256": "a8ec17a60e93914c8f9f0d5d80ed393de0782bab52b750bbce3b4a6cc05cb5da",
     "epochs": 300
   },
   {
     "seed": 37,
-    "source": "/data3/sdz/cgp_align_strict_20260918/seed37/joint/logs/strict_seed37_joint_train_log.jsonl",
-    "sha256": "2515572b352897135219eaf2138d0b0de84d2b53929e8faf92790753b3ea894d",
+    "source": "/data3/sdz/cgp_align_equal_three_term_20260920/seed37/joint/logs/cgp_align_equal_three_term_seed37_train_log.jsonl",
+    "sha256": "e1cd00c7579d9964e01aff52f3e28e803a752291850f7207998eee4e0f1a9020",
     "epochs": 300
   },
   {
     "seed": 41,
-    "source": "/data3/sdz/cgp_align_strict_20260918/seed41/joint/logs/strict_seed41_joint_train_log.jsonl",
-    "sha256": "b22ed7e13d969c4c3e7c97d66a079a87a954c323284edaaadab8c33a68baf234",
+    "source": "/data3/sdz/cgp_align_equal_three_term_20260920/seed41/joint/logs/cgp_align_equal_three_term_seed41_train_log.jsonl",
+    "sha256": "5c65d85d4598aaf6cfef340fad4a6ff714b699c1b61a2cc60c5dd476277e039d",
     "epochs": 300
   }
 ]

@@ -27,11 +27,11 @@ this change. Do not relabel or overwrite their checkpoints, logs, source CSVs or
 figures. Joint training, checkpoint selection and evaluations must be rerun under
 the selected objective, using strict per-seed preprocessing and compatible
 branch initializers. Keep the selected encode-then-average profile aggregation.
-Updated Figure 3 and S1/S4/S5 are pending these runs. Other manuscript figures
+Updated Figure 3 and S1/S4/S5 now use these completed runs. Other manuscript figures
 still require their own checkpoint provenance audit.
 
 The manuscript's three-term sum formula is retained. The three-seed equal-objective run was launched on gpu80 on 2026-09-20
-from training commit 786727c. Training and subsequent evaluations are pending. No claim is made that old scores remain unchanged.
+from training commit 786727c. Training, evaluations and Figure 3/S1/S4/S5 exports are complete; see EQUAL_OBJECTIVE_RESULTS.md. No claim is made that old scores remain unchanged.
 
 ## Verification
 

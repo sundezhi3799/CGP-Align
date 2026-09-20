@@ -7,7 +7,7 @@ from pathlib import Path
 import statistics
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / 'revision_candidates/encoded_mean_20260920'
+RESULTS = ROOT / 'revision_candidates/equal_three_term_20260920/encoded'
 METHODS = [('cgp', 'cgp_align_main', 'CGP-Align'),
            ('molformer_xl', 'matched_molformer_smiles', 'SMILES-LM profile (MoLFormer)'),
            ('chemberta', 'matched_chemberta_smiles', 'SMILES-LM profile (ChemBERTa)'),
@@ -56,7 +56,7 @@ def main():
                         assert saved[key] == value, (name, key)
         else:
             with target.open('w', newline='', encoding='utf-8') as handle:
-                writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+                writer = csv.DictWriter(handle, fieldnames=list(rows[0]), lineterminator="\n")
                 writer.writeheader(); writer.writerows(rows)
     print('PASS: Figure 3F/G agree with 12 adopted frozen-model evaluations')
 

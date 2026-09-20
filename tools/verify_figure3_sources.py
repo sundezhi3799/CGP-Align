@@ -3,7 +3,7 @@ import csv,json,math,statistics
 from collections import Counter
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-DATA=ROOT/'revision_candidates/figure3_strict_20260920'
+DATA=ROOT/'revision_candidates/equal_three_term_20260920/figure3'
 FIG=ROOT/'figures/figure3'
 def rows(p):
  with p.open(newline='') as f: return list(csv.DictReader(f))
@@ -55,7 +55,8 @@ for r in rows(FIG/'source_data/figure3h_hidden_phenotype_neighbour_recovery.csv'
  assert all((int(x['best_positive_rank'])<=50)==(int(x['hits_at_50'])>0) for x in q)
 inputs=json.loads((FIG/'provenance/hidden_input_metadata.json').read_text())
 pca=json.loads((FIG/'source_data/figure2ab_four_branch_main_pca_metadata.json').read_text())
-assert inputs['checkpoint_epoch']==pca['checkpoint_epoch']==60
+sources=json.loads((DATA/'strict_sources.json').read_text())
+assert inputs['checkpoint_epoch']==pca['checkpoint_epoch']==sources[-1]['epoch']
 assert inputs['checkpoint_sha256']==pca['checkpoint_sha256']
 assert inputs['split']==pca['split']=='test'
 assert pca['num_compounds']==pca['num_genes']==1200
