@@ -76,8 +76,8 @@
     "bytes": 4748
   },
   "docs/TRAINING_OBJECTIVE.md": {
-    "sha256": "637d6bb356828cc2d2350025b983cd19e874787f5a77cd9a51d5b7663340f6f0",
-    "bytes": 2125
+    "sha256": "d8e757997ce9701afb9d959a4f3ee9d4d898a942896d4a25c2ae9e7a1ca51069",
+    "bytes": 2220
   },
   "docs/VALIDATION.md": {
     "sha256": "edc7ff547ed63b9a13664f876ffb17ccee83d365bc272c0778394cf19f46868d",
@@ -416,8 +416,8 @@
     "bytes": 44190
   },
   "manifests/training_objective.json": {
-    "sha256": "a150af446db068c3657dad8b62c7e9836b4684d3a801107575877a95e167a642",
-    "bytes": 844
+    "sha256": "fb041646069b3ffc7460a3da54864b5af010cc1466cf510019f1d167b99293dd",
+    "bytes": 953
   },
   "manifests/training_recipe_validation.json": {
     "sha256": "e9280819d2cd9fa7344f3f2109afd5e72ab4a92c0fd183827a6e78fee9212d76",
@@ -1135,13 +1135,17 @@
     "sha256": "fce567f21da25e7de4809a35cf9dd292ff81273fe0a4a9a68acc36bf6165169b",
     "bytes": 2152
   },
+  "tools/build_equal_objective_figures.py": {
+    "sha256": "8ce69212883f8b5d75c03b32569c557482f4a688e9e937440273dff482f6f3e1",
+    "bytes": 2428
+  },
   "tools/build_figure3_matched_sources.py": {
-    "sha256": "ed25579ba13a357e86bec71fcdf19cb8f13c3cb0a12ad7c5a910322fffb99dd8",
-    "bytes": 3315
+    "sha256": "e6083404f17c0ed5aa512347ab0a56eeb451433bea5be430cb9beeb155e00a4c",
+    "bytes": 3453
   },
   "tools/build_strict_supplement_sources.py": {
-    "sha256": "afcf39c092bfab2ccb704a69e064077a9d84dfc4bdf59b9b77a545ca1a94bac7",
-    "bytes": 4619
+    "sha256": "c6b9881956d63c5c8d0edba75dac81285011f04fcd428423a20ea490c318e071",
+    "bytes": 4960
   },
   "tools/check_repository.py": {
     "sha256": "e38915637ff1ba9b90bd39a1f55071abce0e99d8a821b572ee692c19a535fea5",
@@ -1160,8 +1164,8 @@
     "bytes": 7311
   },
   "tools/export_strict_figure3.py": {
-    "sha256": "848dc452e51037c4d4831d93000c19147c97559290fd21dade37042cb792a051",
-    "bytes": 15187
+    "sha256": "91f75833eb479be01aa5bf7af34e3ac0a295de4d7c4485cf40dd1e2dfd564a35",
+    "bytes": 15205
   },
   "tools/prepare_matched_benchmark.py": {
     "sha256": "a1fe7dad5b5b65201bbdaea3dfc295b16060fa171bf2956f557e9e379304b745",

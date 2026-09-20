@@ -17,12 +17,14 @@ METHODS = [('cgp', 'cgp_align_main', 'CGP-Align'),
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true')
+    parser.add_argument('--results', type=Path, default=RESULTS)
+    parser.add_argument('--output', type=Path, default=ROOT / 'figures/figure3/source_data')
     args = parser.parse_args()
     f, g = [], []
     for method, key, label in METHODS:
         values = {setting: [] for setting in ('100', '1000', 'full')}
         for seed in (31, 37, 41):
-            record = json.loads((RESULTS / f'seed{seed}' / method / 'metrics.json').read_text())
+            record = json.loads((args.results / f'seed{seed}' / method / 'metrics.json').read_text())
             assert record['protocol'] == 'strict_entity_latent_mean_v1'
             assert record['test_count'] == 11578
             for setting in values:
@@ -41,7 +43,7 @@ def main():
                           metric_label=title, label=f'{mean*100:.1f}%', label_x=mean+sd+offset))
     for name, rows in [('figure3_panelB_retrieval_performance.csv', f),
                        ('figure3_panelC_difficult_retrieval.csv', g)]:
-        target = ROOT / 'figures/figure3/source_data' / name
+        target = args.output / name
         if args.check:
             with target.open(newline='', encoding='utf-8') as handle:
                 actual = list(csv.DictReader(handle))

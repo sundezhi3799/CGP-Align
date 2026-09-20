@@ -218,7 +218,7 @@ def main():
     pd.DataFrame(per_query).to_csv(a.output/'hidden_query_metrics.csv',index=False)
     np.savez_compressed(a.output/'hidden_rank_indices.npz',**saved)
     write(a.output/'hidden_input_metadata.json',dict(checkpoint=sources[-1]['checkpoint'],checkpoint_sha256=sources[-1]['checkpoint_sha256'],
-        checkpoint_epoch=60,split='test',compound_entities=n,seed=41,entity_mean_sha256=audit['entity_mean_sha256'],
+        checkpoint_epoch=sources[-1]['epoch'],split='test',compound_entities=n,seed=41,entity_mean_sha256=audit['entity_mean_sha256'],
         profile_latent_definition='L2-normalized mean of individually encoded corrected replicates',
         structure_features_sha256=audit['methods']['morgan']['feature_sha256']))
     write(a.output/'hidden_analysis_metadata.json',dict(positive_topn=10,eval_ks=[50],seed=41,

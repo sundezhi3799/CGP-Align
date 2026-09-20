@@ -30,8 +30,8 @@ branch initializers. Keep the selected encode-then-average profile aggregation.
 Updated Figure 3 and S1/S4/S5 are pending these runs. Other manuscript figures
 still require their own checkpoint provenance audit.
 
-The manuscript's three-term sum formula is retained. No training run has been
-launched by this code update. No claim is made that old scores remain unchanged.
+The manuscript's three-term sum formula is retained. The three-seed equal-objective run was launched on gpu80 on 2026-09-20
+from training commit 786727c. Training and subsequent evaluations are pending. No claim is made that old scores remain unchanged.
 
 ## Verification
 

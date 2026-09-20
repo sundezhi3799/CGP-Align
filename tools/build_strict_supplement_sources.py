@@ -12,7 +12,13 @@ SOURCE = ROOT / 'revision_candidates/figure3_strict_20260920'
 OUT = FIG / 'source_data'
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--check', action='store_true', help='Compare regenerated CSV content without writing')
-CHECK = parser.parse_args().check
+parser.add_argument('--source', type=Path, default=SOURCE)
+parser.add_argument('--figure-root', type=Path, default=FIG)
+parser.add_argument('--gene-reduction', choices=('sum', 'mean'), default='mean')
+args = parser.parse_args()
+CHECK = args.check
+SOURCE, FIG = args.source, args.figure_root
+OUT = FIG / 'source_data'
 
 
 def read_csv(path):
@@ -47,8 +53,8 @@ for source in sources:
     best = max(eligible, key=lambda r: r['val_hmean_Top10'])
     assert best['epoch'] == source['epoch']
     for r in log:
-        # The implementation averages ORF/CRISPR losses within the gene term.
-        assert math.isclose(r['train_gene_loss'], (r['train_gene_orf_loss'] + r['train_gene_crispr_loss'])/2, abs_tol=2e-6)
+        # Validate the explicitly selected run objective against its logs.
+        assert math.isclose(r['train_gene_loss'], (r['train_gene_orf_loss'] + r['train_gene_crispr_loss'])/(2 if args.gene_reduction == 'mean' else 1), abs_tol=2e-6)
         assert math.isclose(r['train_total_loss'], r['train_compound_loss']+r['train_gene_loss'], abs_tol=2e-6)
         for component, key in [('Total objective', 'train_total_loss'), ('Compound', 'train_compound_loss'),
                                ('ORF', 'train_gene_orf_loss'), ('CRISPR', 'train_gene_crispr_loss')]:
@@ -83,4 +89,4 @@ summaries = read_csv(SOURCE / 'branch_summary_run_values.csv')
 write('branch_summary.csv', summaries)
 controls = read_csv(SOURCE / 'figureS5_random_ranking_negative_control.csv')
 write('figureS5_controls.csv', controls)
-print('PASS: 900 training epochs; selected epochs 70/150/60; S4/S5 sources from strict Figure 3 records')
+print('PASS: 900 training epochs; selected epochs', [x['epoch'] for x in sources], '; gene reduction:', args.gene_reduction)
