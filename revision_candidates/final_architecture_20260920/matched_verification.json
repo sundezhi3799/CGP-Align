@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "records": 12,
+  "checks": [
+    "same test count",
+    "same prepared audit SHA256",
+    "same negative bank SHA256",
+    "same replicate feature and table SHA256",
+    "same aggregation",
+    "same tie policy",
+    "all 9 baseline records unchanged"
+  ],
+  "summary": [
+    {
+      "method": "cgp",
+      "setting": "100",
+      "mean_percent": 68.86753613174412,
+      "seed_sd_percent": 1.119385748593182,
+      "previous_mean_percent": 68.89719007312719,
+      "change_pp": -0.029653941383078752
+    },
+    {
+      "method": "cgp",
+      "setting": "1000",
+      "mean_percent": 29.308890424368055,
+      "seed_sd_percent": 1.0427389370594162,
+      "previous_mean_percent": 28.411210917256867,
+      "change_pp": 0.8976795071111876
+    },
+    {
+      "method": "cgp",
+      "setting": "full",
+      "mean_percent": 8.939367766453618,
+      "seed_sd_percent": 0.6953109822953835,
+      "previous_mean_percent": 8.023838314043875,
+      "change_pp": 0.9155294524097426
+    },
+    {
+      "method": "molformer_xl",
+      "setting": "100",
+      "mean_percent": 59.70907468186791,
+      "seed_sd_percent": 0.4890989076174951,
+      "previous_mean_percent": 59.70907468186791,
+      "change_pp": 0.0
+    },
+    {
+      "method": "molformer_xl",
+      "setting": "1000",
+      "mean_percent": 21.645937697932858,
+      "seed_sd_percent": 0.26345341594462635,
+      "previous_mean_percent": 21.645937697932858,
+      "change_pp": 0.0
+    },
+    {
+      "method": "molformer_xl",
+      "setting": "full",
+      "mean_percent": 5.625611792479991,
+      "seed_sd_percent": 0.13882148271136313,
+      "previous_mean_percent": 5.625611792479991,
+      "change_pp": 0.0
+    },
+    {
+      "method": "chemberta",
+      "setting": "100",
+      "mean_percent": 56.7772211665803,
+      "seed_sd_percent": 0.5829824653454125,
+      "previous_mean_percent": 56.7772211665803,
+      "change_pp": 0.0
+    },
+    {
+      "method": "chemberta",
+      "setting": "1000",
+      "mean_percent": 19.88656647665112,
+      "seed_sd_percent": 0.25140564213567934,
+      "previous_mean_percent": 19.88656647665112,
+      "change_pp": 0.0
+    },
+    {
+      "method": "chemberta",
+      "setting": "full",
+      "mean_percent": 4.862670582138538,
+      "seed_sd_percent": 0.07069746736804683,
+      "previous_mean_percent": 4.862670582138538,
+      "change_pp": 0.0
+    },
+    {
+      "method": "morgan",
+      "setting": "100",
+      "mean_percent": 56.59353947141129,
+      "seed_sd_percent": 0.4221714353688387,
+      "previous_mean_percent": 56.59353947141129,
+      "change_pp": 0.0
+    },
+    {
+      "method": "morgan",
+      "setting": "1000",
+      "mean_percent": 20.800944319686764,
+      "seed_sd_percent": 0.17849208114025383,
+      "previous_mean_percent": 20.800944319686764,
+      "change_pp": 0.0
+    },
+    {
+      "method": "morgan",
+      "setting": "full",
+      "mean_percent": 5.817066850924166,
+      "seed_sd_percent": 0.007479922299053625,
+      "previous_mean_percent": 5.817066850924166,
+      "change_pp": 0.0
+    }
+  ]
+}

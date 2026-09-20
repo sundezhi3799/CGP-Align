@@ -1,0 +1,442 @@
+{
+  "state_dict_strict_match": true,
+  "checks": [
+    {
+      "name": "graph_tensor_0",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "graph_tensor_1",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "graph_tensor_2",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "graph_tensor_3",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "compound_eval",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "gene_eval",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "profile_eval",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "all_parameter_gradients_False",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "compound_train",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "gene_train",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "profile_train",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "all_parameter_gradients_True",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "three_term_loss_repeated_entities",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "loss_gradient_0",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "loss_gradient_1",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "loss_gradient_2",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "loss_gradient_3",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "loss_gradient_4",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "loss_gradient_5",
+      "max_abs_error": 0.0
+    }
+  ],
+  "linear_layers": {
+    "orf": [
+      [
+        2560,
+        512
+      ],
+      [
+        512,
+        256
+      ]
+    ],
+    "crispr": [
+      [
+        2560,
+        512
+      ],
+      [
+        512,
+        256
+      ]
+    ],
+    "profile": [
+      [
+        3180,
+        512
+      ],
+      [
+        512,
+        256
+      ]
+    ],
+    "compound_projection": [
+      [
+        256,
+        512
+      ],
+      [
+        512,
+        256
+      ]
+    ]
+  },
+  "compound_initializers": "Not reused: legacy projection contains LayerNorm absent from submission model",
+  "data_audits": [
+    {
+      "schema": "strict_train_fit_v1",
+      "kind": "compound",
+      "seed": 31,
+      "raw_dir": "/home/sdz/projects/cgp_align_cpg_full/output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/raw_common3180_compound",
+      "split_sha256": "23f5b4401413a7a69093947e525bf8ddc2c1f0c50dc43489eb984e5f2c748f88",
+      "input_sha256": "ba4996a0887f5ffd906fc397e9ab64180da878c05bc3d013918cd09690254d09",
+      "output_sha256": "89d4b6153bf6b3bcbcbe7991538e09d4a4fcd11088edadbff68a05d7edd1712d",
+      "parameters_sha256": "0ffdcde976ab8fb76cff87dcf1f399b3e06b60f2839cae48a5bd519e1b4b9bb0",
+      "entity_table_sha256": "86e9f0ed07ae0dc0291878b9e78b14fa9fcdb18e73cbad0e2d4c065c9bd6d81a",
+      "fit_feature_rows": 520844,
+      "fit_entities": 92629,
+      "fit_val_overlap": 0,
+      "fit_test_overlap": 0,
+      "gene_group_disjoint": null,
+      "correction_order": "modality zscore (compound pooled), plate then well, two passes",
+      "unseen_label_policy": "zero correction; never fit held-out rows",
+      "steps": [
+        {
+          "step": "zscore",
+          "modality": "compound",
+          "fit_rows": 520844
+        },
+        {
+          "step": "pass1_Metadata_Plate",
+          "fit_rows": 520844,
+          "fit_labels": 1668,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass1_Metadata_Well",
+          "fit_rows": 520844,
+          "fit_labels": 1510,
+          "unseen_rows": 136
+        },
+        {
+          "step": "pass2_Metadata_Plate",
+          "fit_rows": 520844,
+          "fit_labels": 1668,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass2_Metadata_Well",
+          "fit_rows": 520844,
+          "fit_labels": 1510,
+          "unseen_rows": 136
+        }
+      ],
+      "scope": "project-level corrections only; upstream public profile processing is unchanged"
+    },
+    {
+      "schema": "strict_train_fit_v1",
+      "kind": "gene",
+      "seed": 31,
+      "raw_dir": "/home/sdz/projects/cgp_align_cpg_full/output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/raw_common3180_reagent",
+      "split_sha256": "33e664d544beba3f727269cad36e594e9df5d1c59839ef1a9f00699e287ca0a0",
+      "input_sha256": "10b41e57ec1d5cd62feae98bcdeb7fd46d5eebc597ee171a4426a61ca3ea71e4",
+      "output_sha256": "00782d3247bc17253c1cefd24c7342bb09ca02325732bbc30b6117889e8079d3",
+      "parameters_sha256": "38a6cb6d525dc3d2fd8a28146b62854a24db8fdd277610dee653f65c699ae453",
+      "entity_table_sha256": "e8bd3b903d84ead9bfb191a52f2dacdd7de326cc1209e4bf04b308dd7e54b377",
+      "fit_feature_rows": 95391,
+      "fit_entities": 18502,
+      "fit_val_overlap": 0,
+      "fit_test_overlap": 0,
+      "gene_group_disjoint": true,
+      "correction_order": "modality zscore (compound pooled), plate then well, two passes",
+      "unseen_label_policy": "zero correction; never fit held-out rows",
+      "steps": [
+        {
+          "step": "zscore",
+          "modality": "crispr",
+          "fit_rows": 34159
+        },
+        {
+          "step": "zscore",
+          "modality": "orf",
+          "fit_rows": 61232
+        },
+        {
+          "step": "pass1_Metadata_Plate",
+          "fit_rows": 95391,
+          "fit_labels": 366,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass1_Metadata_Well",
+          "fit_rows": 95391,
+          "fit_labels": 380,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass2_Metadata_Plate",
+          "fit_rows": 95391,
+          "fit_labels": 366,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass2_Metadata_Well",
+          "fit_rows": 95391,
+          "fit_labels": 380,
+          "unseen_rows": 0
+        }
+      ],
+      "scope": "project-level corrections only; upstream public profile processing is unchanged"
+    },
+    {
+      "schema": "strict_train_fit_v1",
+      "kind": "compound",
+      "seed": 37,
+      "raw_dir": "/home/sdz/projects/cgp_align_cpg_full/output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/raw_common3180_compound",
+      "split_sha256": "73100a97dbac83a752b8fa028f094bce1acb968dfc6fd9721cff3b829387cc55",
+      "input_sha256": "ba4996a0887f5ffd906fc397e9ab64180da878c05bc3d013918cd09690254d09",
+      "output_sha256": "dcf16b67a60b458ad4fdc8f34edf1c2ed10ecc4aaf52a306f5deb10d6642e8ee",
+      "parameters_sha256": "09c31670d49b0f979d5c66f0bbf39a0b4bafe6a617dcac3008dce0f626be99fa",
+      "entity_table_sha256": "86e9f0ed07ae0dc0291878b9e78b14fa9fcdb18e73cbad0e2d4c065c9bd6d81a",
+      "fit_feature_rows": 518766,
+      "fit_entities": 92629,
+      "fit_val_overlap": 0,
+      "fit_test_overlap": 0,
+      "gene_group_disjoint": null,
+      "correction_order": "modality zscore (compound pooled), plate then well, two passes",
+      "unseen_label_policy": "zero correction; never fit held-out rows",
+      "steps": [
+        {
+          "step": "zscore",
+          "modality": "compound",
+          "fit_rows": 518766
+        },
+        {
+          "step": "pass1_Metadata_Plate",
+          "fit_rows": 518766,
+          "fit_labels": 1668,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass1_Metadata_Well",
+          "fit_rows": 518766,
+          "fit_labels": 1503,
+          "unseen_rows": 863
+        },
+        {
+          "step": "pass2_Metadata_Plate",
+          "fit_rows": 518766,
+          "fit_labels": 1668,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass2_Metadata_Well",
+          "fit_rows": 518766,
+          "fit_labels": 1503,
+          "unseen_rows": 863
+        }
+      ],
+      "scope": "project-level corrections only; upstream public profile processing is unchanged"
+    },
+    {
+      "schema": "strict_train_fit_v1",
+      "kind": "gene",
+      "seed": 37,
+      "raw_dir": "/home/sdz/projects/cgp_align_cpg_full/output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/raw_common3180_reagent",
+      "split_sha256": "f9f9154ada5238123363fb47fea7b8f2cf62f4e37773349f0a7268481a89a69d",
+      "input_sha256": "10b41e57ec1d5cd62feae98bcdeb7fd46d5eebc597ee171a4426a61ca3ea71e4",
+      "output_sha256": "456daabeebd5e157cf075c5f6c0aaae92ec76438b9f84ee8ca4f665448b3f732",
+      "parameters_sha256": "a7c3730f68d21e2c9d55632cb36d4fe7c381f76e5e851d96f8e52fc554f334d9",
+      "entity_table_sha256": "e8bd3b903d84ead9bfb191a52f2dacdd7de326cc1209e4bf04b308dd7e54b377",
+      "fit_feature_rows": 95492,
+      "fit_entities": 18514,
+      "fit_val_overlap": 0,
+      "fit_test_overlap": 0,
+      "gene_group_disjoint": true,
+      "correction_order": "modality zscore (compound pooled), plate then well, two passes",
+      "unseen_label_policy": "zero correction; never fit held-out rows",
+      "steps": [
+        {
+          "step": "zscore",
+          "modality": "crispr",
+          "fit_rows": 34607
+        },
+        {
+          "step": "zscore",
+          "modality": "orf",
+          "fit_rows": 60885
+        },
+        {
+          "step": "pass1_Metadata_Plate",
+          "fit_rows": 95492,
+          "fit_labels": 366,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass1_Metadata_Well",
+          "fit_rows": 95492,
+          "fit_labels": 380,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass2_Metadata_Plate",
+          "fit_rows": 95492,
+          "fit_labels": 366,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass2_Metadata_Well",
+          "fit_rows": 95492,
+          "fit_labels": 380,
+          "unseen_rows": 0
+        }
+      ],
+      "scope": "project-level corrections only; upstream public profile processing is unchanged"
+    },
+    {
+      "schema": "strict_train_fit_v1",
+      "kind": "compound",
+      "seed": 41,
+      "raw_dir": "/home/sdz/projects/cgp_align_cpg_full/output/cgp_align/profile_preprocess_version_matrix/compound_raw_common3180_v1_20260604_0155/raw_common3180_compound",
+      "split_sha256": "26542225a33fbe01db21dd296461a7952e94fd87df83eee742dbb8dc44388d15",
+      "input_sha256": "ba4996a0887f5ffd906fc397e9ab64180da878c05bc3d013918cd09690254d09",
+      "output_sha256": "f91ea751af84b7cf5f880c835be983f2f9588eb51a1bc55a7fac9a46736b28ed",
+      "parameters_sha256": "867d36d4cd11d3e0b269fe29c84f22c129cc36b495524c07091570ae2366f84c",
+      "entity_table_sha256": "86e9f0ed07ae0dc0291878b9e78b14fa9fcdb18e73cbad0e2d4c065c9bd6d81a",
+      "fit_feature_rows": 520096,
+      "fit_entities": 92629,
+      "fit_val_overlap": 0,
+      "fit_test_overlap": 0,
+      "gene_group_disjoint": null,
+      "correction_order": "modality zscore (compound pooled), plate then well, two passes",
+      "unseen_label_policy": "zero correction; never fit held-out rows",
+      "steps": [
+        {
+          "step": "zscore",
+          "modality": "compound",
+          "fit_rows": 520096
+        },
+        {
+          "step": "pass1_Metadata_Plate",
+          "fit_rows": 520096,
+          "fit_labels": 1668,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass1_Metadata_Well",
+          "fit_rows": 520096,
+          "fit_labels": 1506,
+          "unseen_rows": 266
+        },
+        {
+          "step": "pass2_Metadata_Plate",
+          "fit_rows": 520096,
+          "fit_labels": 1668,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass2_Metadata_Well",
+          "fit_rows": 520096,
+          "fit_labels": 1506,
+          "unseen_rows": 266
+        }
+      ],
+      "scope": "project-level corrections only; upstream public profile processing is unchanged"
+    },
+    {
+      "schema": "strict_train_fit_v1",
+      "kind": "gene",
+      "seed": 41,
+      "raw_dir": "/home/sdz/projects/cgp_align_cpg_full/output/cgp_align/profile_preprocess_version_matrix/gene_raw_common3180_v1_20260604_0155/raw_common3180_reagent",
+      "split_sha256": "d3245f9ae8cf8f4ccd9f3440cb7db29b22aee88e5034a70e1823026d3761a8d1",
+      "input_sha256": "10b41e57ec1d5cd62feae98bcdeb7fd46d5eebc597ee171a4426a61ca3ea71e4",
+      "output_sha256": "73becebb655b23928c0829c497d0f9a2bad1a867514e59888e4b746c23a03a82",
+      "parameters_sha256": "ed42a4aef1b92b4928a1288550d9c8b385e2881487f9ebfe3bc86e57642c2efb",
+      "entity_table_sha256": "e8bd3b903d84ead9bfb191a52f2dacdd7de326cc1209e4bf04b308dd7e54b377",
+      "fit_feature_rows": 95129,
+      "fit_entities": 18441,
+      "fit_val_overlap": 0,
+      "fit_test_overlap": 0,
+      "gene_group_disjoint": true,
+      "correction_order": "modality zscore (compound pooled), plate then well, two passes",
+      "unseen_label_policy": "zero correction; never fit held-out rows",
+      "steps": [
+        {
+          "step": "zscore",
+          "modality": "crispr",
+          "fit_rows": 34609
+        },
+        {
+          "step": "zscore",
+          "modality": "orf",
+          "fit_rows": 60520
+        },
+        {
+          "step": "pass1_Metadata_Plate",
+          "fit_rows": 95129,
+          "fit_labels": 366,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass1_Metadata_Well",
+          "fit_rows": 95129,
+          "fit_labels": 380,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass2_Metadata_Plate",
+          "fit_rows": 95129,
+          "fit_labels": 366,
+          "unseen_rows": 0
+        },
+        {
+          "step": "pass2_Metadata_Well",
+          "fit_rows": 95129,
+          "fit_labels": 380,
+          "unseen_rows": 0
+        }
+      ],
+      "scope": "project-level corrections only; upstream public profile processing is unchanged"
+    }
+  ],
+  "status": "PASS"
+}

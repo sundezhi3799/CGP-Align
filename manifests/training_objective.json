@@ -6,16 +6,19 @@
   "repository_reference": "cgp_align/losses.py",
   "repository_reference_sha256": "fc0f49eabcc2f60ed7e93731c3b30b6b9a736cfc21282b21317730def15e8c66",
   "trainer_original_sha256": "6c5b6feb620019d0b3a603aad968f515e0b46331936f8a06235e89e6e1841d9b",
-  "trainer_current_sha256": "ff747a5f5b435786acd64d29144f57908ae5c6abcf3409840f81d28206bc9430",
   "change_type": "author-selected scientific objective change, not a portability fix",
-  "training_status": "training_evaluation_figures_complete",
+  "training_status": "final_architecture_training_evaluation_figures_complete",
   "historical_results_relabelled": false,
-  "training_commit": "786727c",
-  "run_directory": "/data3/sdz/cgp_align_equal_three_term_20260920",
-  "results": "revision_candidates/equal_three_term_20260920",
+  "run_directory": "/data3/sdz/cgp_align_final_architecture_20260920",
+  "results": "revision_candidates/final_architecture_20260920",
   "selected_epochs": {
-    "31": 140,
-    "37": 140,
-    "41": 60
-  }
+    "31": 220,
+    "37": 90,
+    "41": 160
+  },
+  "training_code_manifest": "revision_candidates/final_architecture_20260920/code_hashes.json",
+  "training_runtime": "versioned training_code plus submission_model; see docs/FINAL_ARCHITECTURE_RESULTS.md",
+  "historical_training_commit": "786727c",
+  "historical_trainer_current_sha256": "ff747a5f5b435786acd64d29144f57908ae5c6abcf3409840f81d28206bc9430",
+  "trainer_current_sha256": "868dd23e8afcf289b4e4db87ab61060d0515d081171a48b12966593f2e284052"
 }

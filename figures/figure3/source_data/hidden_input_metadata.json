@@ -1,7 +1,7 @@
 {
-  "checkpoint": "/data3/sdz/cgp_align_equal_three_term_20260920/seed41/joint/checkpoints/cgp_align_equal_three_term_seed41/best_model.pt",
-  "checkpoint_sha256": "d0acab9b199ef745fff72958b02cc7054cd45f8837736dc4a067450a7d458180",
-  "checkpoint_epoch": 60,
+  "checkpoint": "/data3/sdz/cgp_align_final_architecture_20260920/seed41/joint/checkpoints/final_arch_seed41_joint/best_model.pt",
+  "checkpoint_sha256": "b239cae512b120a1248486f067826c4c4d30bdd23f44969ad7ee5145fc8433c6",
+  "checkpoint_epoch": 160,
   "split": "test",
   "compound_entities": 11578,
   "seed": 41,

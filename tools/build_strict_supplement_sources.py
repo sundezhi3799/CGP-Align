@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 FIG = ROOT / 'figures/supplementary_strict'
-SOURCE = ROOT / 'revision_candidates/equal_three_term_20260920/figure3'
+SOURCE = ROOT / 'revision_candidates/final_architecture_20260920/figure3'
 OUT = FIG / 'source_data'
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--check', action='store_true', help='Compare regenerated CSV content without writing')

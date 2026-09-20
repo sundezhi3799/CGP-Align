@@ -7,7 +7,7 @@ from pathlib import Path
 import statistics
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / 'revision_candidates/equal_three_term_20260920/encoded'
+RESULTS = ROOT / 'revision_candidates/final_architecture_20260920/encoded'
 METHODS = [('cgp', 'cgp_align_main', 'CGP-Align'),
            ('molformer_xl', 'matched_molformer_smiles', 'SMILES-LM profile (MoLFormer)'),
            ('chemberta', 'matched_chemberta_smiles', 'SMILES-LM profile (ChemBERTa)'),

@@ -1,8 +1,8 @@
 {
-  "checkpoint": "/data3/sdz/cgp_align_equal_three_term_20260920/seed41/joint/checkpoints/cgp_align_equal_three_term_seed41/best_model.pt",
-  "checkpoint_sha256": "d0acab9b199ef745fff72958b02cc7054cd45f8837736dc4a067450a7d458180",
-  "checkpoint_epoch": 60,
-  "checkpoint_best_score": 0.5424330888211213,
+  "checkpoint": "/data3/sdz/cgp_align_final_architecture_20260920/seed41/joint/checkpoints/final_arch_seed41_joint/best_model.pt",
+  "checkpoint_sha256": "b239cae512b120a1248486f067826c4c4d30bdd23f44969ad7ee5145fc8433c6",
+  "checkpoint_epoch": 160,
+  "checkpoint_best_score": 0.5321602346685289,
   "seed": 41,
   "split": "test",
   "num_compounds": 1200,
@@ -10,53 +10,53 @@
   "pre_joint_definition": "Pretrained entity encoders and seed41-initialized shared profile encoder",
   "branch_pretrained_checkpoints": {
     "init_compound_checkpoint": {
-      "path": "/data3/sdz/cgp_align_strict_20260918/seed41/branches/compound/checkpoints/strict_seed41_compound/best_model.pt",
-      "sha256": "1c3c1f8c265fcebd47f320d6078b55d9b0bf64a6886a0f08d14a251f80c6d58d",
+      "path": "/data3/sdz/cgp_align_final_architecture_20260920/seed41/branches/compound/checkpoints/final_arch_seed41_compound/best_model.pt",
+      "sha256": "7d4629dd927eed523f676412a7b3e7a59636a5aa7ef1849e8079346efa86281d",
       "epoch": 290
     },
     "init_orf_gene_checkpoint": {
-      "path": "/data3/sdz/cgp_align_strict_20260918/seed41/branches/orf/checkpoints/strict_seed41_orf/best_model.pt",
-      "sha256": "aed0f9a2476aaec762f08787a3783036b694fc2abac76dacdefa98217339bf7b",
-      "epoch": 120
+      "path": "/data3/sdz/cgp_align_final_architecture_20260920/seed41/branches/orf/checkpoints/final_arch_seed41_orf/best_model.pt",
+      "sha256": "04857548eb61a4878fc4f8c10bafe4d27c3a892760b8f249bcba26dfbf49da58",
+      "epoch": 90
     },
     "init_crispr_gene_checkpoint": {
-      "path": "/data3/sdz/cgp_align_strict_20260918/seed41/branches/crispr/checkpoints/strict_seed41_crispr/best_model.pt",
-      "sha256": "87d998657bab369bba2279f57245bbffd342fd61681ad01036773eb3defae0e6",
-      "epoch": 220
+      "path": "/data3/sdz/cgp_align_final_architecture_20260920/seed41/branches/crispr/checkpoints/final_arch_seed41_crispr/best_model.pt",
+      "sha256": "d8d287977edc16fc50aa7fc3c63df1845e44d0859473a2b673c6eee68d79d67c",
+      "epoch": 210
     }
   },
   "init_summaries": {
     "compound": {
       "enabled": true,
-      "path": "/data3/sdz/cgp_align_strict_20260918/seed41/branches/compound/checkpoints/strict_seed41_compound/best_model.pt",
+      "path": "/data3/sdz/cgp_align_final_architecture_20260920/seed41/branches/compound/checkpoints/final_arch_seed41_compound/best_model.pt",
       "checkpoint_epoch": 290,
-      "checkpoint_best_score": 0.7764973724775784,
-      "copied": 70,
+      "checkpoint_best_score": 0.7495438971412556,
+      "copied": 68,
       "partial_copied": [],
       "skipped": [],
-      "missing_after_partial_load": 19,
+      "missing_after_partial_load": 13,
       "unexpected_after_partial_load": 0
     },
     "gene_orf": {
       "enabled": true,
-      "path": "/data3/sdz/cgp_align_strict_20260918/seed41/branches/orf/checkpoints/strict_seed41_orf/best_model.pt",
-      "checkpoint_epoch": 120,
-      "checkpoint_best_score": 0.45435128496465504,
-      "copied": 6,
+      "path": "/data3/sdz/cgp_align_final_architecture_20260920/seed41/branches/orf/checkpoints/final_arch_seed41_orf/best_model.pt",
+      "checkpoint_epoch": 90,
+      "checkpoint_best_score": 0.4493455752311714,
+      "copied": 4,
       "partial_copied": [],
       "skipped": [],
-      "missing_after_partial_load": 83,
+      "missing_after_partial_load": 77,
       "unexpected_after_partial_load": 0
     },
     "gene_crispr": {
       "enabled": true,
-      "path": "/data3/sdz/cgp_align_strict_20260918/seed41/branches/crispr/checkpoints/strict_seed41_crispr/best_model.pt",
-      "checkpoint_epoch": 220,
-      "checkpoint_best_score": 0.4403986012459018,
-      "copied": 6,
+      "path": "/data3/sdz/cgp_align_final_architecture_20260920/seed41/branches/crispr/checkpoints/final_arch_seed41_crispr/best_model.pt",
+      "checkpoint_epoch": 210,
+      "checkpoint_best_score": 0.41492714562452615,
+      "copied": 4,
       "partial_copied": [],
       "skipped": [],
-      "missing_after_partial_load": 83,
+      "missing_after_partial_load": 77,
       "unexpected_after_partial_load": 0
     }
   },
@@ -64,32 +64,32 @@
     "branch_pretrained": {
       "scope": "stage-shared",
       "explained_variance_ratio": [
-        0.25800690054893494,
-        0.11394079029560089
+        0.18373329937458038,
+        0.11347465962171555
       ]
     },
     "joint_aligned": {
       "scope": "stage-shared",
       "explained_variance_ratio": [
-        0.14271211624145508,
-        0.08719958364963531
+        0.0772206261754036,
+        0.06870190054178238
       ]
     }
   },
   "diagnostics": [
     {
       "stage": "branch_pretrained",
-      "compound_matched_cosine_mean": -0.005863490514457226,
-      "gene_matched_cosine_mean": 0.02201538160443306,
-      "compound_random_cosine_mean": -0.0059626102447509766,
-      "gene_random_cosine_mean": 0.01429061684757471
+      "compound_matched_cosine_mean": -0.004857754800468683,
+      "gene_matched_cosine_mean": 0.0149434395134449,
+      "compound_random_cosine_mean": -0.007080938667058945,
+      "gene_random_cosine_mean": 0.004786322824656963
     },
     {
       "stage": "joint_aligned",
-      "compound_matched_cosine_mean": 0.30407124757766724,
-      "gene_matched_cosine_mean": 0.22284367680549622,
-      "compound_random_cosine_mean": 0.06535879522562027,
-      "gene_random_cosine_mean": 0.12151885777711868
+      "compound_matched_cosine_mean": 0.37796181440353394,
+      "gene_matched_cosine_mean": 0.1326303631067276,
+      "compound_random_cosine_mean": 0.08378428220748901,
+      "gene_random_cosine_mean": 0.009885904379189014
     }
   ]
 }

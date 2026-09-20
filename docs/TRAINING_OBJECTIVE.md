@@ -1,3 +1,5 @@
+Current architecture and result provenance: [FINAL_ARCHITECTURE_RESULTS.md](FINAL_ARCHITECTURE_RESULTS.md). The earlier equal-loss run below retained a different MLP architecture.
+
 # Canonical training objective
 
 Selected by the author on 2026-09-20:

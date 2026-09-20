@@ -3,7 +3,7 @@ import csv,json,math,statistics
 from collections import Counter
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-DATA=ROOT/'revision_candidates/equal_three_term_20260920/figure3'
+DATA=ROOT/'revision_candidates/final_architecture_20260920/figure3'
 FIG=ROOT/'figures/figure3'
 def rows(p):
  with p.open(newline='') as f: return list(csv.DictReader(f))

@@ -1,3 +1,5 @@
+> Historical deeper-MLP results, superseded by [submission-architecture results](FINAL_ARCHITECTURE_RESULTS.md).
+
 # Equal-weight three-term training results
 
 Seeds 31/37/41 completed 300 joint epochs each with strict per-seed preprocessing.
