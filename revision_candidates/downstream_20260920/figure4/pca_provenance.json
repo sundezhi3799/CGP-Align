@@ -1,0 +1,42 @@
+{
+  "seed": 41,
+  "selection": "same reference pairs and entity universe as preceding figure, restricted to current available entities",
+  "missing_entities": [
+    {
+      "entity_type": "Compound",
+      "entity_id": "CQKBSRPVZZLCJE-UHFFFAOYSA-N"
+    },
+    {
+      "entity_type": "Compound",
+      "entity_id": "IHLVSLOZUHKNMQ-UHFFFAOYSA-N"
+    },
+    {
+      "entity_type": "Compound",
+      "entity_id": "IVUGFMLRJOCGAS-UHFFFAOYSA-N"
+    },
+    {
+      "entity_type": "Compound",
+      "entity_id": "KPBNHDGDUADAGP-UHFFFAOYSA-N"
+    },
+    {
+      "entity_type": "Compound",
+      "entity_id": "LOUPRKONTZGTKE-UHFFFAOYSA-N"
+    },
+    {
+      "entity_type": "Compound",
+      "entity_id": "OINGHOPGNMYCAB-UHFFFAOYSA-N"
+    },
+    {
+      "entity_type": "Compound",
+      "entity_id": "SRVFFFJZQVENJC-UHFFFAOYSA-N"
+    }
+  ],
+  "entity_counts": {
+    "Gene": 5789,
+    "Compound": 4017
+  },
+  "pc_variance": [
+    0.11541706219028222,
+    0.060641573238856626
+  ]
+}

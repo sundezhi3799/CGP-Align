@@ -1,0 +1,8 @@
+# Observed successful Linux final-checkpoint evaluation environment; Python 3.10.20, CUDA 11.8.
+numpy==1.26.4
+pandas==2.3.3
+torch==2.1.0
+rdkit==2023.9.6
+pyarrow==23.0.1
+scipy==1.15.3
+scikit-learn==1.7.2

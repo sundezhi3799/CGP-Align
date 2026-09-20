@@ -1,3 +1,10 @@
+# September 20 update
+
+Current Figure 3–6 and S1–S5, the final primary/branch/ablation weights and
+strict prepared datasets are covered by [FINAL_ARTIFACTS.md](FINAL_ARTIFACTS.md)
+and [DOWNSTREAM_RESULTS.md](DOWNSTREAM_RESULTS.md). The observations below
+are retained as a dated audit history, not the current release inventory.
+
 # Release audit — 2026-09-18
 
 Update after training-server access: primary weights and the two missing compound scripts have now been recovered. See [TRAINING_ARCHIVE_AUDIT.md](TRAINING_ARCHIVE_AUDIT.md) for the newly established preprocessing-split overlap. Earlier absence statements below describe the pre-recovery audit.

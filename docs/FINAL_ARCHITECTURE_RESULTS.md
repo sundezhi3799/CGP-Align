@@ -73,7 +73,7 @@ Current PNG/PDF/SVG exports are under `figures/figure3/current_exports` and
 `figures/supplementary_strict/current_exports`. The manuscript update preserves
 the original figure dimensions and paragraph/run formatting.
 
-Figure 4–6 and S2/S3 remain outside this completed result update. Public delivery
-of the new weights and prepared data is also outstanding; the historical model
-download command does not provide these new checkpoints. Full-paper reproduction
-is not yet verified.
+Figure 4–6 and S2/S3 have now been updated with these checkpoints and matched
+ablation runs. See [downstream results](DOWNSTREAM_RESULTS.md) and the
+[public weight/data release](FINAL_ARTIFACTS.md). The isolated three-seed packaged
+evaluations match reference metrics within 1e-5 absolute tolerance; seed 41 matches exactly.

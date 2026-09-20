@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "variant": "no_source_indicator",
+      "seed": 41,
+      "epoch": 210,
+      "top10_100_absolute_differences": {
+        "compound_to_profile": -8.637070305739236e-06,
+        "profile_to_compound": 0.0,
+        "gene_to_profile": 0.0,
+        "profile_to_gene": 0.0,
+        "mean": -2.1592675764070535e-06,
+        "hmean": -7.664884345004452e-07
+      }
+    },
+    {
+      "variant": "no_pretraining",
+      "seed": 41,
+      "epoch": 210,
+      "top10_100_absolute_differences": {
+        "compound_to_profile": 0.0,
+        "profile_to_compound": 0.0,
+        "gene_to_profile": 0.0,
+        "profile_to_gene": 0.0,
+        "mean": 0.0,
+        "hmean": 0.0
+      }
+    }
+  ],
+  "scope": "both packaged control variants validated for seed 41; all six checkpoints hash-verified"
+}

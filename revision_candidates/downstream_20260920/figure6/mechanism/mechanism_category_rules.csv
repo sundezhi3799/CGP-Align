@@ -1,0 +1,13 @@
+mechanism_category,description,prefix_rules
+DNA damage/repair,"DNA damage, replication stress and repair",TP53;ATM;ATR;CHEK;BRCA;PARP;RAD;TOP;WEE1
+Cell cycle/mitosis,cell-cycle and mitotic regulation,CDK;CCN;PLK;AURK;BUB;MAD;CDC;MCM
+Proteostasis,chaperone and ubiquitin-proteasome stress,HSP;PSMA;PSMB;PSMC;PSMD;UBE;UBB;UBC
+Mitochondria,mitochondrial respiration and apoptosis,NDUF;UQCR;COX;ATP5;SDH;VDAC;CYCS;BAX;BAK
+Microtubule,microtubule and cytoskeletal organization,TUBA;TUBB;MAPT;KIF;DYNC;ACT;MYH
+PI3K/AKT/mTOR,PI3K-AKT-mTOR signalling,PIK3;AKT;MTOR;RPTOR;RICTOR;PTEN
+MAPK/RTK,receptor tyrosine kinase and MAPK signalling,EGFR;ERBB;FGFR;PDGFR;KIT;MET;MAPK;MAP2K;MAP3K;RAF
+JAK/STAT,JAK-STAT signalling,JAK;STAT;TYK2
+Apoptosis,cell death and apoptotic signalling,BCL;CASP;FAS;BID;BAX;BAK
+Lipid/transport state,"lipid remodelling, solute transport and membrane-state markers",ELOVL;SLC;AQP;CLDN;TSPAN;MUC;PTGES;ABCB;ABCC
+Nuclear receptor/xenobiotic,nuclear receptor and xenobiotic metabolism,PPAR;ESR;AR;NR;CYP;UGT;SULT
+Epigenetic/chromatin,chromatin regulation and epigenetic control,HDAC;BRD;KDM;DNMT;EZH;HAT;SMAR;CHD

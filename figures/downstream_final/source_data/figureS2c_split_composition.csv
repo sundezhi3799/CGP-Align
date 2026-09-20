@@ -1,0 +1,10 @@
+modality,split,entity_count,profile_count
+Compound,train,92629,520096
+Compound,val,11579,64645
+Compound,test,11578,65135
+CRISPR,train,6403,34609
+CRISPR,val,774,4229
+CRISPR,test,797,4300
+ORF,train,12038,60520
+ORF,val,1515,7615
+ORF,test,1573,7915

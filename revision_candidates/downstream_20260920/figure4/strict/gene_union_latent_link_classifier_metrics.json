@@ -1,0 +1,377 @@
+{
+  "final_seed31": {
+    "metadata": {
+      "mapped_edges": 28242,
+      "positive_pairs": 28242,
+      "checkpoint": "31",
+      "epoch": 220,
+      "target_edges": "/home/sdz/projects/cgp_align_cpg_full/data/cgp_cpg_full_strict_target_edges_graphclean/compound_target_edges_typed.parquet",
+      "source": "all",
+      "within_sources": "",
+      "source_filter_before_dedup": false,
+      "only_usable_typed_prior": false,
+      "num_compounds": 115786,
+      "num_gene_symbols": 14649,
+      "gene_modalities": "orf,crispr"
+    },
+    "splits": {
+      "within_source::all": {
+        "metadata": {
+          "mapped_edges": 28242,
+          "positive_pairs": 28242
+        },
+        "splits": {}
+      },
+      "source_holdout_dgidb": {
+        "train_pos": 10000,
+        "train_neg": 50000,
+        "val": {
+          "auroc": 0.8502232666666667,
+          "auprc": 0.5353749850779076,
+          "cosine_auroc": 0.5666061222222223,
+          "cosine_auprc": 0.20490692239095754,
+          "num_pos": 3000,
+          "num_neg": 15000
+        },
+        "test": {
+          "auroc": 0.8870396666666668,
+          "auprc": 0.6287894325440998,
+          "cosine_auroc": 0.5464167333333333,
+          "cosine_auprc": 0.18969290697800664,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      },
+      "source_holdout_drugrep": {
+        "train_pos": 10000,
+        "train_neg": 50000,
+        "val": {
+          "auroc": 0.8614536888888887,
+          "auprc": 0.5708307436028797,
+          "cosine_auroc": 0.5738572555555556,
+          "cosine_auprc": 0.2081122576342979,
+          "num_pos": 3000,
+          "num_neg": 15000
+        },
+        "test": {
+          "auroc": 0.8680812222222222,
+          "auprc": 0.5753857613092116,
+          "cosine_auroc": 0.5347282999999999,
+          "cosine_auprc": 0.18167386940910069,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      },
+      "source_holdout_hetionet": {
+        "train_pos": 10000,
+        "train_neg": 50000,
+        "val": {
+          "auroc": 0.8531558888888888,
+          "auprc": 0.5473507663956261,
+          "cosine_auroc": 0.5479154666666667,
+          "cosine_auprc": 0.19094180350965353,
+          "num_pos": 3000,
+          "num_neg": 15000
+        },
+        "test": {
+          "auroc": 0.8751538222222224,
+          "auprc": 0.5879079977825301,
+          "cosine_auroc": 0.5726237222222222,
+          "cosine_auprc": 0.21179811023389636,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      },
+      "source_holdout_openbiolink": {
+        "train_pos": 8504,
+        "train_neg": 42520,
+        "val": {
+          "auroc": 0.9129551207478381,
+          "auprc": 0.6960431738831373,
+          "cosine_auroc": 0.5498083667073383,
+          "cosine_auprc": 0.20252011170316564,
+          "num_pos": 1501,
+          "num_neg": 7505
+        },
+        "test": {
+          "auroc": 0.7845222222222223,
+          "auprc": 0.43480134795080644,
+          "cosine_auroc": 0.5607804000000001,
+          "cosine_auprc": 0.1990737215307382,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      },
+      "source_holdout_pharmebinet": {
+        "train_pos": 10000,
+        "train_neg": 50000,
+        "val": {
+          "auroc": 0.8481794222222221,
+          "auprc": 0.5439989426812588,
+          "cosine_auroc": 0.5512072,
+          "cosine_auprc": 0.19586421118447503,
+          "num_pos": 3000,
+          "num_neg": 15000
+        },
+        "test": {
+          "auroc": 0.8660655555555556,
+          "auprc": 0.5738640953125367,
+          "cosine_auroc": 0.5727025222222223,
+          "cosine_auprc": 0.2115301313262239,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      }
+    }
+  },
+  "final_seed37": {
+    "metadata": {
+      "mapped_edges": 28242,
+      "positive_pairs": 28242,
+      "checkpoint": "37",
+      "epoch": 90,
+      "target_edges": "/home/sdz/projects/cgp_align_cpg_full/data/cgp_cpg_full_strict_target_edges_graphclean/compound_target_edges_typed.parquet",
+      "source": "all",
+      "within_sources": "",
+      "source_filter_before_dedup": false,
+      "only_usable_typed_prior": false,
+      "num_compounds": 115786,
+      "num_gene_symbols": 14649,
+      "gene_modalities": "orf,crispr"
+    },
+    "splits": {
+      "within_source::all": {
+        "metadata": {
+          "mapped_edges": 28242,
+          "positive_pairs": 28242
+        },
+        "splits": {}
+      },
+      "source_holdout_dgidb": {
+        "train_pos": 10000,
+        "train_neg": 50000,
+        "val": {
+          "auroc": 0.8509268,
+          "auprc": 0.5381048066074134,
+          "cosine_auroc": 0.49448762222222226,
+          "cosine_auprc": 0.1625419449641911,
+          "num_pos": 3000,
+          "num_neg": 15000
+        },
+        "test": {
+          "auroc": 0.8714978666666666,
+          "auprc": 0.5992762825035995,
+          "cosine_auroc": 0.5179217111111112,
+          "cosine_auprc": 0.17412869549354884,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      },
+      "source_holdout_drugrep": {
+        "train_pos": 10000,
+        "train_neg": 50000,
+        "val": {
+          "auroc": 0.8575016666666666,
+          "auprc": 0.5657355377500669,
+          "cosine_auroc": 0.5014287888888889,
+          "cosine_auprc": 0.1659092381147122,
+          "num_pos": 3000,
+          "num_neg": 15000
+        },
+        "test": {
+          "auroc": 0.8621099333333333,
+          "auprc": 0.5839263433622908,
+          "cosine_auroc": 0.5121307777777777,
+          "cosine_auprc": 0.1722016970361229,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      },
+      "source_holdout_hetionet": {
+        "train_pos": 10000,
+        "train_neg": 50000,
+        "val": {
+          "auroc": 0.8527627111111112,
+          "auprc": 0.5544793670394068,
+          "cosine_auroc": 0.49970257777777777,
+          "cosine_auprc": 0.165380818684391,
+          "num_pos": 3000,
+          "num_neg": 15000
+        },
+        "test": {
+          "auroc": 0.8765292666666665,
+          "auprc": 0.5798282909388357,
+          "cosine_auroc": 0.49324004444444436,
+          "cosine_auprc": 0.16332497170833088,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      },
+      "source_holdout_openbiolink": {
+        "train_pos": 8504,
+        "train_neg": 42520,
+        "val": {
+          "auroc": 0.9152215200969728,
+          "auprc": 0.6922715860987296,
+          "cosine_auroc": 0.5021796705815931,
+          "cosine_auprc": 0.16649355051729015,
+          "num_pos": 1501,
+          "num_neg": 7505
+        },
+        "test": {
+          "auroc": 0.7795737555555555,
+          "auprc": 0.43335140362949687,
+          "cosine_auroc": 0.4977492777777778,
+          "cosine_auprc": 0.16182831777343015,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      },
+      "source_holdout_pharmebinet": {
+        "train_pos": 10000,
+        "train_neg": 50000,
+        "val": {
+          "auroc": 0.8578229555555555,
+          "auprc": 0.5753416761298862,
+          "cosine_auroc": 0.5053521222222223,
+          "cosine_auprc": 0.16677435655685374,
+          "num_pos": 3000,
+          "num_neg": 15000
+        },
+        "test": {
+          "auroc": 0.8663204222222223,
+          "auprc": 0.5627409357189522,
+          "cosine_auroc": 0.4842382,
+          "cosine_auprc": 0.1588985470065341,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      }
+    }
+  },
+  "final_seed41": {
+    "metadata": {
+      "mapped_edges": 28242,
+      "positive_pairs": 28242,
+      "checkpoint": "41",
+      "epoch": 160,
+      "target_edges": "/home/sdz/projects/cgp_align_cpg_full/data/cgp_cpg_full_strict_target_edges_graphclean/compound_target_edges_typed.parquet",
+      "source": "all",
+      "within_sources": "",
+      "source_filter_before_dedup": false,
+      "only_usable_typed_prior": false,
+      "num_compounds": 115786,
+      "num_gene_symbols": 14649,
+      "gene_modalities": "orf,crispr"
+    },
+    "splits": {
+      "within_source::all": {
+        "metadata": {
+          "mapped_edges": 28242,
+          "positive_pairs": 28242
+        },
+        "splits": {}
+      },
+      "source_holdout_dgidb": {
+        "train_pos": 10000,
+        "train_neg": 50000,
+        "val": {
+          "auroc": 0.8425814222222221,
+          "auprc": 0.5151945787482445,
+          "cosine_auroc": 0.5307331111111111,
+          "cosine_auprc": 0.19273499442982442,
+          "num_pos": 3000,
+          "num_neg": 15000
+        },
+        "test": {
+          "auroc": 0.8735953999999999,
+          "auprc": 0.6064005367384684,
+          "cosine_auroc": 0.5766910444444445,
+          "cosine_auprc": 0.2238261123515824,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      },
+      "source_holdout_drugrep": {
+        "train_pos": 10000,
+        "train_neg": 50000,
+        "val": {
+          "auroc": 0.8481923111111112,
+          "auprc": 0.5294883543484799,
+          "cosine_auroc": 0.536565788888889,
+          "cosine_auprc": 0.19325069884645485,
+          "num_pos": 3000,
+          "num_neg": 15000
+        },
+        "test": {
+          "auroc": 0.8630546222222222,
+          "auprc": 0.587310030712898,
+          "cosine_auroc": 0.5578308777777777,
+          "cosine_auprc": 0.20852839536317014,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      },
+      "source_holdout_hetionet": {
+        "train_pos": 10000,
+        "train_neg": 50000,
+        "val": {
+          "auroc": 0.846747311111111,
+          "auprc": 0.5361976955397644,
+          "cosine_auroc": 0.5416268666666666,
+          "cosine_auprc": 0.19671645396908477,
+          "num_pos": 3000,
+          "num_neg": 15000
+        },
+        "test": {
+          "auroc": 0.8738010666666667,
+          "auprc": 0.5705108294530135,
+          "cosine_auroc": 0.5663880888888888,
+          "cosine_auprc": 0.21253554527496338,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      },
+      "source_holdout_openbiolink": {
+        "train_pos": 8504,
+        "train_neg": 42520,
+        "val": {
+          "auroc": 0.8991055041697719,
+          "auprc": 0.6389743305806797,
+          "cosine_auroc": 0.5685101782023178,
+          "cosine_auprc": 0.22090982276102977,
+          "num_pos": 1501,
+          "num_neg": 7505
+        },
+        "test": {
+          "auroc": 0.7792989111111112,
+          "auprc": 0.44469768946755506,
+          "cosine_auroc": 0.5342181111111111,
+          "cosine_auprc": 0.19268634438591414,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      },
+      "source_holdout_pharmebinet": {
+        "train_pos": 10000,
+        "train_neg": 50000,
+        "val": {
+          "auroc": 0.8539561555555556,
+          "auprc": 0.5462566841877183,
+          "cosine_auroc": 0.5335886333333334,
+          "cosine_auprc": 0.19524420298705752,
+          "num_pos": 3000,
+          "num_neg": 15000
+        },
+        "test": {
+          "auroc": 0.8629257999999999,
+          "auprc": 0.5499931953426783,
+          "cosine_auroc": 0.5555416666666666,
+          "cosine_auprc": 0.20626980906435352,
+          "num_pos": 3000,
+          "num_neg": 15000
+        }
+      }
+    }
+  }
+}

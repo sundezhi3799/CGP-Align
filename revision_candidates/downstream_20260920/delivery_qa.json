@@ -1,0 +1,33 @@
+{
+  "documents": [
+    {
+      "name": "manuscript-CGPAlign_downstream_20260920_v10.docx",
+      "sha256": "a4578b50f7e362d64ab8a4c31c924c8f12f9eabfa44f230218cf03b1474dc598",
+      "text_replacements": 36,
+      "replaced_images": [
+        "word/media/image4.png",
+        "word/media/image5.png",
+        "word/media/image6.png"
+      ]
+    },
+    {
+      "name": "supplementary_materials_downstream_20260920_v5.docx",
+      "sha256": "f742e2359ecf031daa8e47b3cbfafe7ba65946e5b1a76ccaf4f66c837ab26dea",
+      "text_replacements": 3,
+      "replaced_images": [
+        "word/media/image2.png",
+        "word/media/image3.png"
+      ]
+    }
+  ],
+  "figure_redraw_png_byte_identity": [
+    "figure4.png",
+    "figure5_toxicity_alert_complementarity.png",
+    "figure6_response_profile_retrieval.png",
+    "figureS2_data_qc_split.png",
+    "figureS3.png"
+  ],
+  "figure_visual_qa": "all five figures reviewed; corrected Figure 4 axis clipping, Figure 6 compound-gene edges, S2 superscript and S3 axis spacing",
+  "render_environment_note": "Windows R completed all exports but returned nonzero process-shutdown status; repository PNGs are byte-identical to visually reviewed manuscript images",
+  "document_visual_qa": "all changed rendered pages reviewed; unchanged pages identical to prior reviewed baseline; 28 main and 6 supplementary pages; no new clipped text/figures or orphan heading"
+}

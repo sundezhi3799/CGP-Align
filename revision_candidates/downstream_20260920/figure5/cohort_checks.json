@@ -1,0 +1,202 @@
+[
+  {
+    "task": "Endocrine Disruption_SR-ARE",
+    "fold": 0,
+    "smiles_sha256": "48806b0869370f5dbcfe994984599355b82398d1ae536bcf3bdec33daea9ca7c",
+    "labels_sha256": "0aeb99d29910bd06b32c7f0dc951c883fe80a7c4b2b7a5f05837cade74803e64",
+    "test_indices_sha256": "627c071f708c8066714607f8ff38758356e8feb80fd471a8574d5b869e1fc7db",
+    "n": 5537
+  },
+  {
+    "task": "Endocrine Disruption_SR-ARE",
+    "fold": 1,
+    "smiles_sha256": "48806b0869370f5dbcfe994984599355b82398d1ae536bcf3bdec33daea9ca7c",
+    "labels_sha256": "0aeb99d29910bd06b32c7f0dc951c883fe80a7c4b2b7a5f05837cade74803e64",
+    "test_indices_sha256": "8e8f87d3b7ab3e0464872a445aadd5ad5d7d321b66780e32d56ce3178e5ff2a8",
+    "n": 5537
+  },
+  {
+    "task": "Endocrine Disruption_SR-ARE",
+    "fold": 2,
+    "smiles_sha256": "48806b0869370f5dbcfe994984599355b82398d1ae536bcf3bdec33daea9ca7c",
+    "labels_sha256": "0aeb99d29910bd06b32c7f0dc951c883fe80a7c4b2b7a5f05837cade74803e64",
+    "test_indices_sha256": "44d26510da1a19fe160ec0361cac9258ec02571bf6bd6851fb7d3fcbf022479e",
+    "n": 5537
+  },
+  {
+    "task": "Endocrine Disruption_SR-ARE",
+    "fold": 3,
+    "smiles_sha256": "48806b0869370f5dbcfe994984599355b82398d1ae536bcf3bdec33daea9ca7c",
+    "labels_sha256": "0aeb99d29910bd06b32c7f0dc951c883fe80a7c4b2b7a5f05837cade74803e64",
+    "test_indices_sha256": "8aa58027a34c7272fb5b153b18900519927346602dcb05639ada5c5da04e0ea9",
+    "n": 5537
+  },
+  {
+    "task": "Endocrine Disruption_SR-ARE",
+    "fold": 4,
+    "smiles_sha256": "48806b0869370f5dbcfe994984599355b82398d1ae536bcf3bdec33daea9ca7c",
+    "labels_sha256": "0aeb99d29910bd06b32c7f0dc951c883fe80a7c4b2b7a5f05837cade74803e64",
+    "test_indices_sha256": "e07342f4f7a426c789694e8069bf2e8d2df3dd5021adf353ccc8052c8a251558",
+    "n": 5537
+  },
+  {
+    "task": "Endocrine Disruption_SR-ATAD5",
+    "fold": 0,
+    "smiles_sha256": "06540aa0dbd1653b10a7dcbc322a4784b1f16a1349c4daff3d6345fb9cb60dcc",
+    "labels_sha256": "273304e3c58b78f070c4460f2f8ce22e88e6fc9c4d51cb16897040209cb087b7",
+    "test_indices_sha256": "7abee15c07e22f465f179acaee3696d0436f21a48e7891ef9194a968a7c79e8b",
+    "n": 6737
+  },
+  {
+    "task": "Endocrine Disruption_SR-ATAD5",
+    "fold": 1,
+    "smiles_sha256": "06540aa0dbd1653b10a7dcbc322a4784b1f16a1349c4daff3d6345fb9cb60dcc",
+    "labels_sha256": "273304e3c58b78f070c4460f2f8ce22e88e6fc9c4d51cb16897040209cb087b7",
+    "test_indices_sha256": "6aab7b9062382dac3e5f7835779299ef9c8aa361fd18af44f0ae27ad07a8ce83",
+    "n": 6737
+  },
+  {
+    "task": "Endocrine Disruption_SR-ATAD5",
+    "fold": 2,
+    "smiles_sha256": "06540aa0dbd1653b10a7dcbc322a4784b1f16a1349c4daff3d6345fb9cb60dcc",
+    "labels_sha256": "273304e3c58b78f070c4460f2f8ce22e88e6fc9c4d51cb16897040209cb087b7",
+    "test_indices_sha256": "d592c0346ce640ec06d73aed14fa122a04c4309b81f88c7c74857434f5d7e741",
+    "n": 6737
+  },
+  {
+    "task": "Endocrine Disruption_SR-ATAD5",
+    "fold": 3,
+    "smiles_sha256": "06540aa0dbd1653b10a7dcbc322a4784b1f16a1349c4daff3d6345fb9cb60dcc",
+    "labels_sha256": "273304e3c58b78f070c4460f2f8ce22e88e6fc9c4d51cb16897040209cb087b7",
+    "test_indices_sha256": "140b918103aa5d2a34d6c524a876bb1f778231d62c8499048d351ec0138a732f",
+    "n": 6737
+  },
+  {
+    "task": "Endocrine Disruption_SR-ATAD5",
+    "fold": 4,
+    "smiles_sha256": "06540aa0dbd1653b10a7dcbc322a4784b1f16a1349c4daff3d6345fb9cb60dcc",
+    "labels_sha256": "273304e3c58b78f070c4460f2f8ce22e88e6fc9c4d51cb16897040209cb087b7",
+    "test_indices_sha256": "f0d247b2720a3185092821c6e714e04a0675243e14b19d1bcce6dd63a692e780",
+    "n": 6737
+  },
+  {
+    "task": "Endocrine Disruption_SR-HSE",
+    "fold": 0,
+    "smiles_sha256": "87f27552f668888662bc63cd2c46fed137c286bdf630f754f34a242967d9e8e0",
+    "labels_sha256": "c4fc84e60835560ee94561837328eabfa738b5458fc2606e3946a7303eae4091",
+    "test_indices_sha256": "ef2476f2b3abb4f90a9a822d6cadf589bec2faa07393d7e47c8844a502f623ca",
+    "n": 6145
+  },
+  {
+    "task": "Endocrine Disruption_SR-HSE",
+    "fold": 1,
+    "smiles_sha256": "87f27552f668888662bc63cd2c46fed137c286bdf630f754f34a242967d9e8e0",
+    "labels_sha256": "c4fc84e60835560ee94561837328eabfa738b5458fc2606e3946a7303eae4091",
+    "test_indices_sha256": "d5cf98539df0a6fdf7fd33f9ed6bb4ce7b09f5904e3a6c8972ff4f96236acd5d",
+    "n": 6145
+  },
+  {
+    "task": "Endocrine Disruption_SR-HSE",
+    "fold": 2,
+    "smiles_sha256": "87f27552f668888662bc63cd2c46fed137c286bdf630f754f34a242967d9e8e0",
+    "labels_sha256": "c4fc84e60835560ee94561837328eabfa738b5458fc2606e3946a7303eae4091",
+    "test_indices_sha256": "4b60d79762f13657777a3bfced96c3a137323cafc6a88bfc5fbeea9ce3f39633",
+    "n": 6145
+  },
+  {
+    "task": "Endocrine Disruption_SR-HSE",
+    "fold": 3,
+    "smiles_sha256": "87f27552f668888662bc63cd2c46fed137c286bdf630f754f34a242967d9e8e0",
+    "labels_sha256": "c4fc84e60835560ee94561837328eabfa738b5458fc2606e3946a7303eae4091",
+    "test_indices_sha256": "b695d780ad6aa2e19123d2ab8ddd7dc89e54a9bc3b1208f735af6686716e1317",
+    "n": 6145
+  },
+  {
+    "task": "Endocrine Disruption_SR-HSE",
+    "fold": 4,
+    "smiles_sha256": "87f27552f668888662bc63cd2c46fed137c286bdf630f754f34a242967d9e8e0",
+    "labels_sha256": "c4fc84e60835560ee94561837328eabfa738b5458fc2606e3946a7303eae4091",
+    "test_indices_sha256": "c6728906c6ba32689ac75b18c8cb12d9a40e893cc8937c92f7057e3a81cd58d4",
+    "n": 6145
+  },
+  {
+    "task": "Endocrine Disruption_SR-MMP",
+    "fold": 0,
+    "smiles_sha256": "e12971c7c96c271fb197fde5da499ac48c4a39586d513874904d261e3f38176b",
+    "labels_sha256": "24419ba84e358238e44c610a49c63205abe6a08ddda8d621897340d760c21190",
+    "test_indices_sha256": "9176f0ab61c8ab28c8c45a803b956a7f0e3b635f2133e54f6d239c7c276c96dc",
+    "n": 5529
+  },
+  {
+    "task": "Endocrine Disruption_SR-MMP",
+    "fold": 1,
+    "smiles_sha256": "e12971c7c96c271fb197fde5da499ac48c4a39586d513874904d261e3f38176b",
+    "labels_sha256": "24419ba84e358238e44c610a49c63205abe6a08ddda8d621897340d760c21190",
+    "test_indices_sha256": "2e1959e41d144242ece50d876027ac878f2d7e28260b9cf32be1d6b4ad68e0fe",
+    "n": 5529
+  },
+  {
+    "task": "Endocrine Disruption_SR-MMP",
+    "fold": 2,
+    "smiles_sha256": "e12971c7c96c271fb197fde5da499ac48c4a39586d513874904d261e3f38176b",
+    "labels_sha256": "24419ba84e358238e44c610a49c63205abe6a08ddda8d621897340d760c21190",
+    "test_indices_sha256": "aafa63d738a80ff5979b9a14ad1810650d69ac7422f8ab1cbaa5f9006b505360",
+    "n": 5529
+  },
+  {
+    "task": "Endocrine Disruption_SR-MMP",
+    "fold": 3,
+    "smiles_sha256": "e12971c7c96c271fb197fde5da499ac48c4a39586d513874904d261e3f38176b",
+    "labels_sha256": "24419ba84e358238e44c610a49c63205abe6a08ddda8d621897340d760c21190",
+    "test_indices_sha256": "31a0510e4161008ec613a721b57d3dd5936c504dc8a23810a4f8ba9a8e7cd9bc",
+    "n": 5529
+  },
+  {
+    "task": "Endocrine Disruption_SR-MMP",
+    "fold": 4,
+    "smiles_sha256": "e12971c7c96c271fb197fde5da499ac48c4a39586d513874904d261e3f38176b",
+    "labels_sha256": "24419ba84e358238e44c610a49c63205abe6a08ddda8d621897340d760c21190",
+    "test_indices_sha256": "b1ef3853845a120a368e7494a06fa3a9bf96e29d1c73fa8c586ff540a9faa8f9",
+    "n": 5529
+  },
+  {
+    "task": "Endocrine Disruption_SR-p53",
+    "fold": 0,
+    "smiles_sha256": "54f0bbeb6a072712da450b87b506c3c18965b784ab6b070504bea9da48f053aa",
+    "labels_sha256": "b4746d0a81183acc2575546aa3146d2ab1d3c85ea22f56b11c4f393777a69e67",
+    "test_indices_sha256": "6f86a8a9476e9a459135354ace7bab968c57919f73adba7ea130216b0aebb28a",
+    "n": 6446
+  },
+  {
+    "task": "Endocrine Disruption_SR-p53",
+    "fold": 1,
+    "smiles_sha256": "54f0bbeb6a072712da450b87b506c3c18965b784ab6b070504bea9da48f053aa",
+    "labels_sha256": "b4746d0a81183acc2575546aa3146d2ab1d3c85ea22f56b11c4f393777a69e67",
+    "test_indices_sha256": "06be7b6ca006452b120a976505b399582b6773340e0f7708b10b3dd2d0dedf23",
+    "n": 6446
+  },
+  {
+    "task": "Endocrine Disruption_SR-p53",
+    "fold": 2,
+    "smiles_sha256": "54f0bbeb6a072712da450b87b506c3c18965b784ab6b070504bea9da48f053aa",
+    "labels_sha256": "b4746d0a81183acc2575546aa3146d2ab1d3c85ea22f56b11c4f393777a69e67",
+    "test_indices_sha256": "e94f153b1cb2d27c145c4adae609518f123df263ecd8089a8b1876297f999e4c",
+    "n": 6446
+  },
+  {
+    "task": "Endocrine Disruption_SR-p53",
+    "fold": 3,
+    "smiles_sha256": "54f0bbeb6a072712da450b87b506c3c18965b784ab6b070504bea9da48f053aa",
+    "labels_sha256": "b4746d0a81183acc2575546aa3146d2ab1d3c85ea22f56b11c4f393777a69e67",
+    "test_indices_sha256": "24dd66a4b60768ef8591697849d7bebc7184699a45167f796777d47be5b149c4",
+    "n": 6446
+  },
+  {
+    "task": "Endocrine Disruption_SR-p53",
+    "fold": 4,
+    "smiles_sha256": "54f0bbeb6a072712da450b87b506c3c18965b784ab6b070504bea9da48f053aa",
+    "labels_sha256": "b4746d0a81183acc2575546aa3146d2ab1d3c85ea22f56b11c4f393777a69e67",
+    "test_indices_sha256": "a7ce2271c2a6d1d72a55e173d006b6cc558af1c912f577e6c7222e02f9d7fcd9",
+    "n": 6446
+  }
+]

@@ -1,0 +1,796 @@
+{
+  "figure4b_target_transfer_lift50_main": [
+    {
+      "source": "dgidb",
+      "mean_lift50": 3.4650982096407925,
+      "mapped_edges_mean": 8670.0,
+      "name": "DGIdb",
+      "source_order": 2,
+      "above_random_ranking": true
+    },
+    {
+      "source": "drugrep",
+      "mean_lift50": 2.415779752859864,
+      "mapped_edges_mean": 6049.5,
+      "name": "DrugRep",
+      "source_order": 3,
+      "above_random_ranking": true
+    },
+    {
+      "source": "hetionet",
+      "mean_lift50": 2.457723443066904,
+      "mapped_edges_mean": 6721.0,
+      "name": "Hetionet",
+      "source_order": 4,
+      "above_random_ranking": true
+    },
+    {
+      "source": "openbiolink",
+      "mean_lift50": 1.7606301486668177,
+      "mapped_edges_mean": 16505.5,
+      "name": "OpenBioLink",
+      "source_order": 5,
+      "above_random_ranking": true
+    },
+    {
+      "source": "pharmebinet",
+      "mean_lift50": 2.159962856461477,
+      "mapped_edges_mean": 10853.5,
+      "name": "PharMeBINet",
+      "source_order": 6,
+      "above_random_ranking": true
+    }
+  ],
+  "figure4c_target_transfer_leave_one_source_out_classifier_main": [
+    {
+      "source": "dgidb",
+      "leave_one_source_out_auprc": 0.5449939071066665,
+      "leave_one_source_out_auroc": 0.8371082,
+      "cosine_auprc": 0.1975768175296858,
+      "cosine_auroc": 0.5495238314814815,
+      "name": "DGIdb",
+      "source_order": 2,
+      "delta_auprc": 0.3474170895769807,
+      "delta_auroc": 0.2875843685185184
+    },
+    {
+      "source": "drugrep",
+      "leave_one_source_out_auprc": 0.559856388589262,
+      "leave_one_source_out_auroc": 0.8544000777777777,
+      "cosine_auprc": 0.1886705856757886,
+      "cosine_auroc": 0.5361846814814815,
+      "name": "DrugRep",
+      "source_order": 3,
+      "delta_auprc": 0.3711858029134733,
+      "delta_auroc": 0.3182153962962962
+    },
+    {
+      "source": "hetionet",
+      "leave_one_source_out_auprc": 0.4523733884248376,
+      "leave_one_source_out_auroc": 0.780161374074074,
+      "cosine_auprc": 0.1870091753864819,
+      "cosine_auroc": 0.5322477555555555,
+      "name": "Hetionet",
+      "source_order": 4,
+      "delta_auprc": 0.2653642130383556,
+      "delta_auroc": 0.2479136185185185
+    },
+    {
+      "source": "openbiolink",
+      "leave_one_source_out_auprc": 0.4211910784569659,
+      "leave_one_source_out_auroc": 0.7678012814814815,
+      "cosine_auprc": 0.1867731893127832,
+      "cosine_auroc": 0.5339822481481481,
+      "name": "OpenBioLink",
+      "source_order": 5,
+      "delta_auprc": 0.2344178891441827,
+      "delta_auroc": 0.2338190333333334
+    },
+    {
+      "source": "pharmebinet",
+      "leave_one_source_out_auprc": 0.4287803177258119,
+      "leave_one_source_out_auroc": 0.7670446000000001,
+      "cosine_auprc": 0.1844976253732656,
+      "cosine_auroc": 0.5260523055555556,
+      "name": "PharMeBINet",
+      "source_order": 6,
+      "delta_auprc": 0.2442826923525462,
+      "delta_auroc": 0.2409922944444444
+    }
+  ],
+  "figure5a_sr5_representation_mean_metrics": [
+    {
+      "display": "AtomPair",
+      "auprc_mean": 0.4327644038175641,
+      "auroc_mean": 0.8347569954162841,
+      "auprc_sd": 0.1773900800014985,
+      "auroc_sd": 0.0456054826821249,
+      "n_task": 5,
+      "auprc_se": 0.0793312554834953,
+      "auroc_se": 0.0203953918847841
+    },
+    {
+      "display": "Avalon",
+      "auprc_mean": 0.4136903489283836,
+      "auroc_mean": 0.8239494992484244,
+      "auprc_sd": 0.188200393170268,
+      "auroc_sd": 0.0529497183753561,
+      "n_task": 5,
+      "auprc_se": 0.0841657745041812,
+      "auroc_se": 0.0236798339353532
+    },
+    {
+      "display": "CGP-Align",
+      "auprc_mean": 0.4936724374647628,
+      "auroc_mean": 0.8628412522976481,
+      "auprc_sd": 0.1443556227966487,
+      "auroc_sd": 0.0392639673906635,
+      "n_task": 5,
+      "auprc_se": 0.0645577971015249,
+      "auroc_se": 0.0175593800303717
+    },
+    {
+      "display": "Morgan",
+      "auprc_mean": 0.3971754499433281,
+      "auroc_mean": 0.8217866912562819,
+      "auprc_sd": 0.1694752735056352,
+      "auroc_sd": 0.0383514652688018,
+      "n_task": 5,
+      "auprc_se": 0.0757916464127938,
+      "auroc_se": 0.0171512966755526
+    },
+    {
+      "display": "NYAN",
+      "auprc_mean": 0.4305171509861494,
+      "auroc_mean": 0.8388708528465957,
+      "auprc_sd": 0.1898294143567463,
+      "auroc_sd": 0.0515621698680854,
+      "n_task": 5,
+      "auprc_se": 0.0848942949261318,
+      "auroc_se": 0.023059303378486
+    },
+    {
+      "display": "RDKit2D",
+      "auprc_mean": 0.4658894960243313,
+      "auroc_mean": 0.8604179030698313,
+      "auprc_sd": 0.1917777552870767,
+      "auroc_sd": 0.0484217940002221,
+      "n_task": 5,
+      "auprc_se": 0.0857656194788446,
+      "auroc_se": 0.0216548845953976
+    }
+  ],
+  "figure5c_sr5_scaffold_split_mean_metrics": [
+    {
+      "display": "AtomPair",
+      "representation": "AtomPair2048",
+      "n_task": 5,
+      "mean_auprc": 0.3784955584729098,
+      "sd_endpoint_auprc": 0.1599322560512973,
+      "mean_auroc": 0.7900126279621459,
+      "sd_endpoint_auroc": 0.0486221268189414
+    },
+    {
+      "display": "Avalon",
+      "representation": "Avalon1024",
+      "n_task": 5,
+      "mean_auprc": 0.3588557599486673,
+      "sd_endpoint_auprc": 0.1458630731983878,
+      "mean_auroc": 0.7818815450637281,
+      "sd_endpoint_auroc": 0.0441122648319099
+    },
+    {
+      "display": "CGP-Align",
+      "representation": "CGP-Align",
+      "n_task": 5,
+      "mean_auprc": 0.465926779454426,
+      "sd_endpoint_auprc": 0.1405799498164359,
+      "mean_auroc": 0.8447794995740946,
+      "sd_endpoint_auroc": 0.0333904825859585
+    },
+    {
+      "display": "Morgan",
+      "representation": "Morgan2048",
+      "n_task": 5,
+      "mean_auprc": 0.3553110801181259,
+      "sd_endpoint_auprc": 0.1323635124385872,
+      "mean_auroc": 0.791366788089086,
+      "sd_endpoint_auroc": 0.0277617969713479
+    },
+    {
+      "display": "NYAN",
+      "representation": "NYAN_latent",
+      "n_task": 5,
+      "mean_auprc": 0.3806013317144536,
+      "sd_endpoint_auprc": 0.1617623759095902,
+      "mean_auroc": 0.8010992127957944,
+      "sd_endpoint_auroc": 0.0439838477836321
+    },
+    {
+      "display": "RDKit2D",
+      "representation": "RDKit2D",
+      "n_task": 5,
+      "mean_auprc": 0.4308179242278824,
+      "sd_endpoint_auprc": 0.1727876648727516,
+      "mean_auroc": 0.8376519396736729,
+      "sd_endpoint_auroc": 0.0412648213912957
+    }
+  ],
+  "figure5d_expert_alert_complementarity_summary": [
+    {
+      "method_label": "CGP + alerts",
+      "n_independent_runs": 5,
+      "tasks": 5,
+      "mean_auprc": 0.5335053015198842,
+      "sem_auprc": 0.0041120600933333,
+      "mean_lift_at_top50": 11.693137977746725,
+      "sem_lift_at_top50": 0.1510122857029503
+    },
+    {
+      "method_label": "CGP-Align latent",
+      "n_independent_runs": 5,
+      "tasks": 5,
+      "mean_auprc": 0.4876758372827581,
+      "sem_auprc": 0.0028626530653605,
+      "mean_lift_at_top50": 11.48941697805922,
+      "sem_lift_at_top50": 0.1661957222475207
+    },
+    {
+      "method_label": "Expert alerts",
+      "n_independent_runs": 5,
+      "tasks": 5,
+      "mean_auprc": 0.4076715798647162,
+      "sem_auprc": 0.0045768188791397,
+      "mean_lift_at_top50": 8.829235623713576,
+      "sem_lift_at_top50": 0.2766185164205495
+    }
+  ],
+  "u2os_paired": [
+    {
+      "setting": "low_morgan_lt_0.20",
+      "active_threshold": -1.0,
+      "topk": 50,
+      "baseline": "RDKit2D",
+      "metric": "top_active_fraction",
+      "direction": "cgp_minus_baseline",
+      "n_queries": 187,
+      "mean_delta": 0.1567914438502674,
+      "ci95_low": 0.1320802139037433,
+      "ci95_high": 0.1841711229946524,
+      "paired_win_rate": 0.7379679144385026,
+      "wilcoxon_greater_p": 4.441365463083074e-21
+    }
+  ],
+  "u2os_counts": {
+    "wins": 138,
+    "ties": 13,
+    "losses": 36
+  },
+  "alerts_paired": {
+    "auprc": {
+      "delta": 0.04582946423712606,
+      "ci95": [
+        0.03326755251236274,
+        0.05571296026617954
+      ],
+      "endpoint_deltas": [
+        0.04835348761257641,
+        0.023081602178670724,
+        0.043363730893416774,
+        0.05372922513238476,
+        0.06061927536858164
+      ]
+    },
+    "lift_at_top50": {
+      "delta": 0.20372099968750437,
+      "ci95": [
+        0.08486065692475417,
+        0.3409788686823395
+      ],
+      "endpoint_deltas": [
+        0.152744827586206,
+        0.0,
+        0.44155688622754496,
+        0.22747885714285676,
+        0.1968244274809141
+      ]
+    }
+  },
+  "hits_columns": [
+    "method",
+    "num_queries",
+    "topk",
+    "corr_threshold",
+    "directed_hits",
+    "unique_pair_hits",
+    "queries_with_hit",
+    "query_hit_rate",
+    "hit_yield_per_1000_ranked",
+    "mean_hit_rank",
+    "median_hit_corr",
+    "setting",
+    "low_tanimoto"
+  ],
+  "hits": [
+    {
+      "method": "CGP-Align",
+      "num_queries": 1856,
+      "topk": 10,
+      "corr_threshold": 0.25,
+      "directed_hits": 676,
+      "unique_pair_hits": 541,
+      "queries_with_hit": 237,
+      "query_hit_rate": 0.1276939655172413,
+      "hit_yield_per_1000_ranked": 36.42241379310345,
+      "mean_hit_rank": 5.171597633136095,
+      "median_hit_corr": 0.3325081467628479,
+      "setting": "low_morgan_lt_0.15",
+      "low_tanimoto": 0.15
+    },
+    {
+      "method": "RDKit2D",
+      "num_queries": 1856,
+      "topk": 10,
+      "corr_threshold": 0.25,
+      "directed_hits": 203,
+      "unique_pair_hits": 186,
+      "queries_with_hit": 134,
+      "query_hit_rate": 0.0721982758620689,
+      "hit_yield_per_1000_ranked": 10.9375,
+      "mean_hit_rank": 5.733990147783251,
+      "median_hit_corr": 0.3199360072612762,
+      "setting": "low_morgan_lt_0.15",
+      "low_tanimoto": 0.15
+    },
+    {
+      "method": "NYAN",
+      "num_queries": 1856,
+      "topk": 10,
+      "corr_threshold": 0.25,
+      "directed_hits": 267,
+      "unique_pair_hits": 209,
+      "queries_with_hit": 175,
+      "query_hit_rate": 0.0942887931034482,
+      "hit_yield_per_1000_ranked": 14.385775862068964,
+      "mean_hit_rank": 5.243445692883896,
+      "median_hit_corr": 0.3209424912929535,
+      "setting": "low_morgan_lt_0.15",
+      "low_tanimoto": 0.15
+    },
+    {
+      "method": "Morgan",
+      "num_queries": 1856,
+      "topk": 10,
+      "corr_threshold": 0.25,
+      "directed_hits": 200,
+      "unique_pair_hits": 133,
+      "queries_with_hit": 151,
+      "query_hit_rate": 0.0813577586206896,
+      "hit_yield_per_1000_ranked": 10.775862068965518,
+      "mean_hit_rank": 5.32,
+      "median_hit_corr": 0.3111701011657715,
+      "setting": "low_morgan_lt_0.15",
+      "low_tanimoto": 0.15
+    },
+    {
+      "method": "AtomPair",
+      "num_queries": 1856,
+      "topk": 10,
+      "corr_threshold": 0.25,
+      "directed_hits": 249,
+      "unique_pair_hits": 194,
+      "queries_with_hit": 158,
+      "query_hit_rate": 0.0851293103448275,
+      "hit_yield_per_1000_ranked": 13.41594827586207,
+      "mean_hit_rank": 5.7991967871485945,
+      "median_hit_corr": 0.3161308169364929,
+      "setting": "low_morgan_lt_0.15",
+      "low_tanimoto": 0.15
+    }
+  ],
+  "figure4a_relation_source_upset_intersections_main": [
+    {
+      "pattern_id": 1,
+      "pattern_label": "I1",
+      "pattern": "OpenBioLink",
+      "degree": 1,
+      "intersection_edges": 11433
+    },
+    {
+      "pattern_id": 2,
+      "pattern_label": "I2",
+      "pattern": "DGIdb",
+      "degree": 1,
+      "intersection_edges": 7766
+    },
+    {
+      "pattern_id": 3,
+      "pattern_label": "I3",
+      "pattern": "PharMeBINet",
+      "degree": 1,
+      "intersection_edges": 7111
+    },
+    {
+      "pattern_id": 4,
+      "pattern_label": "I4",
+      "pattern": "Hetionet&PharMeBINet",
+      "degree": 2,
+      "intersection_edges": 6224
+    },
+    {
+      "pattern_id": 5,
+      "pattern_label": "I5",
+      "pattern": "DrugRep",
+      "degree": 1,
+      "intersection_edges": 1582
+    },
+    {
+      "pattern_id": 6,
+      "pattern_label": "I6",
+      "pattern": "DGIdb&DrugRep",
+      "degree": 2,
+      "intersection_edges": 1185
+    },
+    {
+      "pattern_id": 7,
+      "pattern_label": "I7",
+      "pattern": "DGIdb&DrugRep&OpenBioLink",
+      "degree": 3,
+      "intersection_edges": 636
+    },
+    {
+      "pattern_id": 8,
+      "pattern_label": "I8",
+      "pattern": "DGIdb&DrugRep&Hetionet&OpenBioLink&PharMeBINet",
+      "degree": 5,
+      "intersection_edges": 562
+    },
+    {
+      "pattern_id": 9,
+      "pattern_label": "I9",
+      "pattern": "DrugRep&OpenBioLink",
+      "degree": 2,
+      "intersection_edges": 553
+    },
+    {
+      "pattern_id": 10,
+      "pattern_label": "I10",
+      "pattern": "DGIdb&OpenBioLink",
+      "degree": 2,
+      "intersection_edges": 476
+    }
+  ],
+  "figure4a_relation_source_upset_matrix_main": [
+    {
+      "pattern_id": 1,
+      "pattern": "OpenBioLink",
+      "name": "DGIdb",
+      "active": false
+    },
+    {
+      "pattern_id": 1,
+      "pattern": "OpenBioLink",
+      "name": "DrugRep",
+      "active": false
+    },
+    {
+      "pattern_id": 1,
+      "pattern": "OpenBioLink",
+      "name": "Hetionet",
+      "active": false
+    },
+    {
+      "pattern_id": 1,
+      "pattern": "OpenBioLink",
+      "name": "OpenBioLink",
+      "active": true
+    },
+    {
+      "pattern_id": 1,
+      "pattern": "OpenBioLink",
+      "name": "PharMeBINet",
+      "active": false
+    },
+    {
+      "pattern_id": 2,
+      "pattern": "DGIdb",
+      "name": "DGIdb",
+      "active": true
+    },
+    {
+      "pattern_id": 2,
+      "pattern": "DGIdb",
+      "name": "DrugRep",
+      "active": false
+    },
+    {
+      "pattern_id": 2,
+      "pattern": "DGIdb",
+      "name": "Hetionet",
+      "active": false
+    },
+    {
+      "pattern_id": 2,
+      "pattern": "DGIdb",
+      "name": "OpenBioLink",
+      "active": false
+    },
+    {
+      "pattern_id": 2,
+      "pattern": "DGIdb",
+      "name": "PharMeBINet",
+      "active": false
+    },
+    {
+      "pattern_id": 3,
+      "pattern": "PharMeBINet",
+      "name": "DGIdb",
+      "active": false
+    },
+    {
+      "pattern_id": 3,
+      "pattern": "PharMeBINet",
+      "name": "DrugRep",
+      "active": false
+    },
+    {
+      "pattern_id": 3,
+      "pattern": "PharMeBINet",
+      "name": "Hetionet",
+      "active": false
+    },
+    {
+      "pattern_id": 3,
+      "pattern": "PharMeBINet",
+      "name": "OpenBioLink",
+      "active": false
+    },
+    {
+      "pattern_id": 3,
+      "pattern": "PharMeBINet",
+      "name": "PharMeBINet",
+      "active": true
+    },
+    {
+      "pattern_id": 4,
+      "pattern": "Hetionet&PharMeBINet",
+      "name": "DGIdb",
+      "active": false
+    },
+    {
+      "pattern_id": 4,
+      "pattern": "Hetionet&PharMeBINet",
+      "name": "DrugRep",
+      "active": false
+    },
+    {
+      "pattern_id": 4,
+      "pattern": "Hetionet&PharMeBINet",
+      "name": "Hetionet",
+      "active": true
+    },
+    {
+      "pattern_id": 4,
+      "pattern": "Hetionet&PharMeBINet",
+      "name": "OpenBioLink",
+      "active": false
+    },
+    {
+      "pattern_id": 4,
+      "pattern": "Hetionet&PharMeBINet",
+      "name": "PharMeBINet",
+      "active": true
+    },
+    {
+      "pattern_id": 5,
+      "pattern": "DrugRep",
+      "name": "DGIdb",
+      "active": false
+    },
+    {
+      "pattern_id": 5,
+      "pattern": "DrugRep",
+      "name": "DrugRep",
+      "active": true
+    },
+    {
+      "pattern_id": 5,
+      "pattern": "DrugRep",
+      "name": "Hetionet",
+      "active": false
+    },
+    {
+      "pattern_id": 5,
+      "pattern": "DrugRep",
+      "name": "OpenBioLink",
+      "active": false
+    },
+    {
+      "pattern_id": 5,
+      "pattern": "DrugRep",
+      "name": "PharMeBINet",
+      "active": false
+    },
+    {
+      "pattern_id": 6,
+      "pattern": "DGIdb&DrugRep",
+      "name": "DGIdb",
+      "active": true
+    },
+    {
+      "pattern_id": 6,
+      "pattern": "DGIdb&DrugRep",
+      "name": "DrugRep",
+      "active": true
+    },
+    {
+      "pattern_id": 6,
+      "pattern": "DGIdb&DrugRep",
+      "name": "Hetionet",
+      "active": false
+    },
+    {
+      "pattern_id": 6,
+      "pattern": "DGIdb&DrugRep",
+      "name": "OpenBioLink",
+      "active": false
+    },
+    {
+      "pattern_id": 6,
+      "pattern": "DGIdb&DrugRep",
+      "name": "PharMeBINet",
+      "active": false
+    },
+    {
+      "pattern_id": 7,
+      "pattern": "DGIdb&DrugRep&OpenBioLink",
+      "name": "DGIdb",
+      "active": true
+    },
+    {
+      "pattern_id": 7,
+      "pattern": "DGIdb&DrugRep&OpenBioLink",
+      "name": "DrugRep",
+      "active": true
+    },
+    {
+      "pattern_id": 7,
+      "pattern": "DGIdb&DrugRep&OpenBioLink",
+      "name": "Hetionet",
+      "active": false
+    },
+    {
+      "pattern_id": 7,
+      "pattern": "DGIdb&DrugRep&OpenBioLink",
+      "name": "OpenBioLink",
+      "active": true
+    },
+    {
+      "pattern_id": 7,
+      "pattern": "DGIdb&DrugRep&OpenBioLink",
+      "name": "PharMeBINet",
+      "active": false
+    },
+    {
+      "pattern_id": 8,
+      "pattern": "DGIdb&DrugRep&Hetionet&OpenBioLink&PharMeBINet",
+      "name": "DGIdb",
+      "active": true
+    },
+    {
+      "pattern_id": 8,
+      "pattern": "DGIdb&DrugRep&Hetionet&OpenBioLink&PharMeBINet",
+      "name": "DrugRep",
+      "active": true
+    },
+    {
+      "pattern_id": 8,
+      "pattern": "DGIdb&DrugRep&Hetionet&OpenBioLink&PharMeBINet",
+      "name": "Hetionet",
+      "active": true
+    },
+    {
+      "pattern_id": 8,
+      "pattern": "DGIdb&DrugRep&Hetionet&OpenBioLink&PharMeBINet",
+      "name": "OpenBioLink",
+      "active": true
+    },
+    {
+      "pattern_id": 8,
+      "pattern": "DGIdb&DrugRep&Hetionet&OpenBioLink&PharMeBINet",
+      "name": "PharMeBINet",
+      "active": true
+    },
+    {
+      "pattern_id": 9,
+      "pattern": "DrugRep&OpenBioLink",
+      "name": "DGIdb",
+      "active": false
+    },
+    {
+      "pattern_id": 9,
+      "pattern": "DrugRep&OpenBioLink",
+      "name": "DrugRep",
+      "active": true
+    },
+    {
+      "pattern_id": 9,
+      "pattern": "DrugRep&OpenBioLink",
+      "name": "Hetionet",
+      "active": false
+    },
+    {
+      "pattern_id": 9,
+      "pattern": "DrugRep&OpenBioLink",
+      "name": "OpenBioLink",
+      "active": true
+    },
+    {
+      "pattern_id": 9,
+      "pattern": "DrugRep&OpenBioLink",
+      "name": "PharMeBINet",
+      "active": false
+    },
+    {
+      "pattern_id": 10,
+      "pattern": "DGIdb&OpenBioLink",
+      "name": "DGIdb",
+      "active": true
+    },
+    {
+      "pattern_id": 10,
+      "pattern": "DGIdb&OpenBioLink",
+      "name": "DrugRep",
+      "active": false
+    },
+    {
+      "pattern_id": 10,
+      "pattern": "DGIdb&OpenBioLink",
+      "name": "Hetionet",
+      "active": false
+    },
+    {
+      "pattern_id": 10,
+      "pattern": "DGIdb&OpenBioLink",
+      "name": "OpenBioLink",
+      "active": true
+    },
+    {
+      "pattern_id": 10,
+      "pattern": "DGIdb&OpenBioLink",
+      "name": "PharMeBINet",
+      "active": false
+    }
+  ],
+  "figure4a_relation_source_upset_metadata_main": [
+    {
+      "source_file": "compound_target_edges.csv.gz",
+      "relation_universe": "mapped compound-gene edge universe",
+      "selected_sources": "DGIdb; DrugRep; Hetionet; OpenBioLink; PharMeBINet",
+      "n_edges_in_selected_sources": 39484,
+      "n_top_intersections_plotted": 10
+    }
+  ],
+  "figure4a_relation_source_upset_set_sizes_main": [
+    {
+      "name": "DGIdb",
+      "set_edges": 11424
+    },
+    {
+      "name": "DrugRep",
+      "set_edges": 5550
+    },
+    {
+      "name": "Hetionet",
+      "set_edges": 8484
+    },
+    {
+      "name": "OpenBioLink",
+      "set_edges": 14774
+    },
+    {
+      "name": "PharMeBINet",
+      "set_edges": 15794
+    }
+  ]
+}

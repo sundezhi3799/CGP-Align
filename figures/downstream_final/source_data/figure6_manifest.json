@@ -1,0 +1,14 @@
+{
+  "figure": "Figure 6",
+  "title": "Phenotype-anchored representations reveal mechanism-related compound neighbours beyond chemical similarity",
+  "created_at": "2026-09-20 22:34:37 +0800",
+  "script": "scripts/figure6.R",
+  "panels": {
+    "a": "Phenotype-driven functional-neighbour discovery workflow",
+    "b": "Functional-neighbour enrichment under structural dissimilarity constraints",
+    "c": "Query-level paired improvement over RDKit2D",
+    "d": "Pan-cancer PRISM response retention under structural filters",
+    "e": "Compound-gene-program convergence",
+    "f": "Discovery landscape of mechanism-annotated neighbours"
+  }
+}

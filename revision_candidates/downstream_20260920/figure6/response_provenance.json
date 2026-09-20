@@ -1,0 +1,8 @@
+{
+  "historical_response_matrix_sha256": "4a1aeb4108ed69259eef6530f437e328a36aee5e27d1dc4b45d748165f5f5bfe",
+  "new_embeddings_sha256": "3a62c47c43530d17856470ad7842ceeae6376bf1cb024ac671c389aed33a5eb5",
+  "n": 1856,
+  "cell_lines": 578,
+  "B_response": "pan-cancer correlation across 578 cell lines",
+  "C_response": "U2OS ACH-000364 activity"
+}

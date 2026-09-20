@@ -1,0 +1,7 @@
+{
+  "old_gene_universe": 7441,
+  "current_gene_universe": 7441,
+  "missing_genes": [],
+  "aggregation": "encode each ORF/CRISPR entity, mean by gene symbol, L2 normalize",
+  "topk": 50
+}

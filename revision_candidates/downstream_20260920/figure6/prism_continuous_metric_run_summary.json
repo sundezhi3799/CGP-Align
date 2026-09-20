@@ -1,0 +1,31 @@
+{
+  "input_dir": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6",
+  "num_compounds": 1856,
+  "topks": [
+    10,
+    50,
+    100
+  ],
+  "functional_topk": 10,
+  "settings": [
+    "all_candidates",
+    "low_morgan_lt_0.30",
+    "low_morgan_lt_0.25",
+    "low_morgan_lt_0.20",
+    "low_morgan_lt_0.15"
+  ],
+  "methods": [
+    "CGP-Align",
+    "RDKit2D",
+    "NYAN",
+    "Morgan",
+    "AtomPair",
+    "Random",
+    "Avalon"
+  ],
+  "outputs": {
+    "summary": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6\\prism_continuous_metric_summary.csv",
+    "query_metrics": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6\\prism_continuous_query_metrics.csv",
+    "paired_stats": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6\\prism_continuous_paired_stats.csv"
+  }
+}

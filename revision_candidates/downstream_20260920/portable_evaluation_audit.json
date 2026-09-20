@@ -1,0 +1,148 @@
+{
+  "runs": [
+    {
+      "seed": 31,
+      "epoch": 220,
+      "numeric_fields_compared": 163,
+      "differences": [
+        [
+          "/compound/mocop_protocol_sampled/profile_to_compound/1:100/Top10_accuracy_std",
+          0.0006258497456667192,
+          0.000624506733725687
+        ],
+        [
+          "/compound/mocop_protocol_sampled/profile_to_compound/1:100/Top10_accuracy_mean",
+          0.5495822995508937,
+          0.5495838698533339
+        ],
+        [
+          "/compound/full_gallery/profile_to_compound/MRR",
+          0.019977090356133743,
+          0.019977001376256586
+        ],
+        [
+          "/top10_100/hmean",
+          0.5384719293454756,
+          0.5384723062080757
+        ],
+        [
+          "/top10_100/profile_to_compound",
+          0.5495822995508937,
+          0.5495838698533339
+        ],
+        [
+          "/top10_100/mean",
+          0.5903934213032994,
+          0.5903938138789094
+        ]
+      ],
+      "top10_100": {
+        "ratio": 100,
+        "compound_to_profile": 0.8363707030575227,
+        "profile_to_compound": 0.5495822995508937,
+        "gene_to_profile": 0.617776797529775,
+        "profile_to_gene": 0.35784388507500636,
+        "mean": 0.5903934213032994,
+        "hmean": 0.5384719293454756
+      }
+    },
+    {
+      "seed": 37,
+      "epoch": 90,
+      "numeric_fields_compared": 163,
+      "differences": [
+        [
+          "/compound/full_gallery/profile_to_compound/MRR",
+          0.018307673252008713,
+          0.018307653172098017
+        ]
+      ],
+      "top10_100": {
+        "ratio": 100,
+        "compound_to_profile": 0.8384867852824321,
+        "profile_to_compound": 0.5156397319075231,
+        "gene_to_profile": 0.594538188277087,
+        "profile_to_gene": 0.34109294320137695,
+        "mean": 0.5724394121671048,
+        "hmean": 0.5164160161536387
+      }
+    },
+    {
+      "seed": 41,
+      "epoch": 160,
+      "numeric_fields_compared": 163,
+      "differences": [],
+      "top10_100": {
+        "ratio": 100,
+        "compound_to_profile": 0.8431162549663155,
+        "profile_to_compound": 0.5399447301757888,
+        "gene_to_profile": 0.5917512130569034,
+        "profile_to_gene": 0.3405932130951363,
+        "mean": 0.578851352823536,
+        "hmean": 0.5219158576503222
+      }
+    }
+  ],
+  "differences": [
+    {
+      "seed": 31,
+      "values": [
+        "/compound/mocop_protocol_sampled/profile_to_compound/1:100/Top10_accuracy_std",
+        0.0006258497456667192,
+        0.000624506733725687
+      ]
+    },
+    {
+      "seed": 31,
+      "values": [
+        "/compound/mocop_protocol_sampled/profile_to_compound/1:100/Top10_accuracy_mean",
+        0.5495822995508937,
+        0.5495838698533339
+      ]
+    },
+    {
+      "seed": 31,
+      "values": [
+        "/compound/full_gallery/profile_to_compound/MRR",
+        0.019977090356133743,
+        0.019977001376256586
+      ]
+    },
+    {
+      "seed": 31,
+      "values": [
+        "/top10_100/hmean",
+        0.5384719293454756,
+        0.5384723062080757
+      ]
+    },
+    {
+      "seed": 31,
+      "values": [
+        "/top10_100/profile_to_compound",
+        0.5495822995508937,
+        0.5495838698533339
+      ]
+    },
+    {
+      "seed": 31,
+      "values": [
+        "/top10_100/mean",
+        0.5903934213032994,
+        0.5903938138789094
+      ]
+    },
+    {
+      "seed": 37,
+      "values": [
+        "/compound/full_gallery/profile_to_compound/MRR",
+        0.018307673252008713,
+        0.018307653172098017
+      ]
+    }
+  ],
+  "pass_absolute_tolerance": 1e-05,
+  "status": "PASS",
+  "total_numeric_fields": 489,
+  "scope": "all six artifact groups extracted and per-file hashes verified; three primary evaluations in a separately staged runtime using extracted data/weights; same GPU environment; archive inputs used locally, not yet a network download"
+}

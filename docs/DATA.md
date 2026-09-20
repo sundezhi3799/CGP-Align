@@ -1,6 +1,6 @@
 # Required data artifacts
 
-No raw-data download URL is invented by this candidate. The manuscript identifies Cell Painting Gallery cpg0016 / JUMP, ToxRIC, PRISM Repurposing and external compound–gene relation resources. Exact file versions, access terms and hashes remain to be assembled.
+Current primary weights and all three strict prepared datasets are available in the [final-architecture release](FINAL_ARTIFACTS.md), with exact per-file SHA256 hashes. Original Cell Painting Gallery cpg0016 / JUMP, ToxRIC, PRISM and external relation resources remain attributed to their providers. Downstream third-party raw input delivery is not complete; see [the downstream scope](DOWNSTREAM_RESULTS.md).
 
 ## Prepared compound directory
 

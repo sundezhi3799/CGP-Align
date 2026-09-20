@@ -1,0 +1,26 @@
+{
+  "input_dir": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6",
+  "num_compounds": 1856,
+  "settings": [
+    "low_morgan_lt_0.30",
+    "low_morgan_lt_0.25",
+    "low_morgan_lt_0.20",
+    "low_morgan_lt_0.15"
+  ],
+  "response_corr_thresholds": [
+    0.25,
+    0.3,
+    0.4
+  ],
+  "topks": [
+    10,
+    50,
+    100
+  ],
+  "outputs": {
+    "summary": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6\\prism_high_confidence_hit_summary.csv",
+    "delta_vs_baselines": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6\\prism_high_confidence_hit_delta_vs_baselines.csv",
+    "hit_pairs": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6\\prism_high_confidence_hit_pairs.csv",
+    "main_cases": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6\\prism_high_confidence_cgp_cases_tan020_corr030_top50.csv"
+  }
+}

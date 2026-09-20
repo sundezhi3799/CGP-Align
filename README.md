@@ -6,15 +6,29 @@ Associated manuscript: **CGP-Align links chemical and genetic perturbations thro
 
 ## Training objective
 
-The selected manuscript objective is `L_compound + L_ORF + L_CRISPR`, with all three weights equal to 1. The training wrapper uses this objective and a distinct run name. Three strict-preprocessing runs have completed 300 joint epochs each, with test evaluation and updated Figure 3/S1/S4/S5. See [new results](docs/FINAL_ARCHITECTURE_RESULTS.md). Historical weights retain their original objective. See [objective provenance and migration](docs/TRAINING_OBJECTIVE.md).
+The selected manuscript objective is `L_compound + L_ORF + L_CRISPR`, with all three weights equal to 1. The training wrapper uses this objective and a distinct run name. Three strict-preprocessing runs have completed 300 joint epochs each, with test evaluation and updated Figure 3–6 and S1–S5. See [new results](docs/FINAL_ARCHITECTURE_RESULTS.md). Historical weights retain their original objective. See [objective provenance and migration](docs/TRAINING_OBJECTIVE.md).
 
-The current Figure 3/S1/S4/S5 use the submission architecture: one 512-unit hidden layer in gene/profile MLPs and no LayerNorm in the compound projection. Use the versioned runtime described in the results document; historical training scripts remain unchanged.
+The current Figure 3–6 and S1–S5 use the submission architecture: one 512-unit hidden layer in gene/profile MLPs and no LayerNorm in the compound projection. Use the versioned runtime described in the results document; historical training scripts remain unchanged.
 
-## Release status
+## Current release
 
-This is a development version of the public [CGP-Align repository](https://github.com/sundezhi3799/CGP-Align), assembled on 2026-09-18. Full manuscript reproduction is not yet verified. See [the release audit](docs/RELEASE_AUDIT.md) for specific outstanding artifacts and version discrepancies. A versioned release and archival DOI will be added after the remaining reproduction work is complete.
+The [final-architecture release](https://github.com/sundezhi3799/CGP-Align/releases/tag/final-architecture-20260920)
+provides three primary models, nine branch initializers, six S3 ablation models,
+protein features and strict seed-specific prepared data. See
+[download and evaluation commands](docs/FINAL_ARTIFACTS.md) and
+[Figure 4–6/S2/S3 results](docs/DOWNSTREAM_RESULTS.md).
 
-The repository contains original research training and evaluation code, with documented portability fixes. Historical filenames are preserved for traceability. The primary retrieval records identify runs 31, 37 and 41 of the four-branch, common-3180 model. The older `reproduce_main_benchmark.py` is deliberately excluded because it implements a different benchmark setup.
+```bash
+python tools/download_final_artifacts.py --output ../CGP-Align-artifacts
+python tools/prepare_final_architecture_runtime.py --output ../CGP-Align-final-runtime
+python ../CGP-Align-final-runtime/tools/evaluate_final_artifacts.py --artifacts ../CGP-Align-artifacts --seed 41 --output ../CGP-Align-evaluation/seed41
+```
+
+Install the core dependencies first (see Quick verification below). The default
+download contains seed-41 prepared data and all primary/branch checkpoints.
+The packaged three-seed evaluations matched all 489 shared numeric metric fields within 1e-5 absolute tolerance
+in an isolated runtime. Raw upstream reconstruction of every downstream input
+and baseline remains outside this validation; see the documented scope.
 
 ## Training archive audit and historical weights
 
@@ -29,8 +43,8 @@ not establish strict held-out preprocessing or a complete reproduction release.
 python tools/download_models.py --output-dir checkpoints/primary
 ```
 
-Downloads are verified against the exact original SHA256 hashes. Prepared data
-are not yet public; downloading weights alone is insufficient to rerun retrieval.
+Downloads are verified against the exact original SHA256 hashes. These are historical checkpoints. Use the final-architecture release above for
+the current weights and matching prepared data.
 
 See [the strict reanalysis workflow](docs/STRICT_REANALYSIS.md) for the seed-31
 pilot that refits corrections and retrains every branch from scratch.
@@ -79,8 +93,8 @@ See [Figure 3 instructions and provenance](figures/figure3/README.md). This redr
 
 Supplementary Figures 1, 4 and 5 now use the strict three-seed logs and metrics.
 See [reproduction instructions](figures/supplementary_strict/README.md) and the
-[consistency audit](docs/SUPPLEMENT_STRICT_AUDIT.md), including the outstanding
-main-manuscript objective-weighting correction.
+[consistency audit](docs/SUPPLEMENT_STRICT_AUDIT.md), and [the current final-architecture results](docs/FINAL_ARCHITECTURE_RESULTS.md).
+Current S2/S3 are included with the downstream figures.
 
 ## Contents
 
@@ -100,7 +114,7 @@ record](docs/STRICT_MATCHED_BENCHMARK.md); these results now supply Figure 3F/G.
 
 ## Training and analysis
 
-Read [REPRODUCING.md](docs/REPRODUCING.md) and [DATA.md](docs/DATA.md). The scripts retain research interfaces; `--help` documents their arguments. Prepared arrays, exact split files, initializer checkpoints and final model weights must be supplied separately. This candidate does not fabricate download URLs or substitute newly trained models for the published checkpoints.
+Read [REPRODUCING.md](docs/REPRODUCING.md) and [DATA.md](docs/DATA.md). The scripts retain research interfaces; `--help` documents their arguments. Current prepared arrays, exact splits, initializer checkpoints and final weights are distributed through the versioned release; use the staged final runtime. Historical code and records remain labelled as archival.
 
 ## Licensing and citation
 

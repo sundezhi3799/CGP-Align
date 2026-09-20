@@ -1,0 +1,25 @@
+task,representation,display,model,fold,n_train,n_test,positive_train,positive_test,n_train_scaffolds,n_test_scaffolds,scaffold_overlap,auroc,auprc
+Endocrine Disruption_SR-ARE,CGP_sep_k32,CGP-Align,extratrees_scaffold,0,5490,47,856,14,2874,33,0,0.843073593073593,0.6797994942261859
+Endocrine Disruption_SR-ARE,CGP_sep_k32,CGP-Align,extratrees_scaffold,1,3202,2335,552,318,2183,724,0,0.8283910658771512,0.5091330775081578
+Endocrine Disruption_SR-ARE,CGP_sep_k32,CGP-Align,extratrees_scaffold,2,4374,1163,668,202,2172,735,0,0.8235748652908996,0.5113587018100667
+Endocrine Disruption_SR-ARE,CGP_sep_k32,CGP-Align,extratrees_scaffold,3,4578,959,706,164,2213,694,0,0.8181853044945544,0.5089684605118159
+Endocrine Disruption_SR-ARE,CGP_sep_k32,CGP-Align,extratrees_scaffold,4,4504,1033,698,172,2186,721,0,0.8011506360910785,0.5013300461870291
+Endocrine Disruption_SR-ATAD5,CGP_sep_k32,CGP-Align,extratrees_scaffold,0,5339,1398,188,54,2662,877,0,0.8463541666666667,0.3295641600131524
+Endocrine Disruption_SR-ATAD5,CGP_sep_k32,CGP-Align,extratrees_scaffold,1,4149,2588,157,85,2658,881,0,0.8782778313083124,0.3293677934201231
+Endocrine Disruption_SR-ATAD5,CGP_sep_k32,CGP-Align,extratrees_scaffold,2,6716,21,241,1,3526,13,0,0.75,0.16666666666666666
+Endocrine Disruption_SR-ATAD5,CGP_sep_k32,CGP-Align,extratrees_scaffold,3,5418,1319,195,47,2653,886,0,0.8338685936036397,0.2967389093325407
+Endocrine Disruption_SR-ATAD5,CGP_sep_k32,CGP-Align,extratrees_scaffold,4,5326,1411,187,55,2657,882,0,0.907059533386967,0.3353965918267727
+Endocrine Disruption_SR-HSE,CGP_sep_k32,CGP-Align,extratrees_scaffold,0,6131,14,331,3,3208,13,0,0.8484848484848484,0.7916666666666666
+Endocrine Disruption_SR-HSE,CGP_sep_k32,CGP-Align,extratrees_scaffold,1,4876,1269,279,55,2416,805,0,0.783899955069642,0.3794609757715903
+Endocrine Disruption_SR-HSE,CGP_sep_k32,CGP-Align,extratrees_scaffold,2,3620,2525,186,148,2414,807,0,0.8113906923330567,0.38488113519123285
+Endocrine Disruption_SR-HSE,CGP_sep_k32,CGP-Align,extratrees_scaffold,3,4964,1181,274,60,2427,794,0,0.8278471602735652,0.3515405067616082
+Endocrine Disruption_SR-HSE,CGP_sep_k32,CGP-Align,extratrees_scaffold,4,4989,1156,266,68,2419,802,0,0.7524329584775087,0.2926764130707292
+Endocrine Disruption_SR-MMP,CGP_sep_k32,CGP-Align,extratrees_scaffold,0,4453,1076,700,175,2227,729,0,0.8950879974631362,0.6880206710941484
+Endocrine Disruption_SR-MMP,CGP_sep_k32,CGP-Align,extratrees_scaffold,1,4342,1187,657,218,2212,744,0,0.9058094507721002,0.7308309799148363
+Endocrine Disruption_SR-MMP,CGP_sep_k32,CGP-Align,extratrees_scaffold,2,3345,2184,552,323,2214,742,0,0.8740091132468145,0.615364718951778
+Endocrine Disruption_SR-MMP,CGP_sep_k32,CGP-Align,extratrees_scaffold,4,4448,1081,716,159,2216,740,0,0.8850291272732234,0.6027664730031819
+Endocrine Disruption_SR-p53,CGP_sep_k32,CGP-Align,extratrees_scaffold,0,6377,69,384,9,3387,31,0,0.8583333333333333,0.3848290305905248
+Endocrine Disruption_SR-p53,CGP_sep_k32,CGP-Align,extratrees_scaffold,1,5203,1243,311,82,2568,850,0,0.8583328081342829,0.42249855812203874
+Endocrine Disruption_SR-p53,CGP_sep_k32,CGP-Align,extratrees_scaffold,2,5235,1211,283,110,2578,840,0,0.850309635868219,0.46574674836279084
+Endocrine Disruption_SR-p53,CGP_sep_k32,CGP-Align,extratrees_scaffold,3,3868,2578,280,113,2568,850,0,0.853966145506112,0.28743587139183213
+Endocrine Disruption_SR-p53,CGP_sep_k32,CGP-Align,extratrees_scaffold,4,5101,1345,314,79,2571,847,0,0.8946347511348411,0.4228811252241954

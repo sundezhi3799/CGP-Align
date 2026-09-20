@@ -1,0 +1,23 @@
+{
+  "cell_line": "ACH-000364",
+  "cell_line_index": 164,
+  "num_compounds": 1856,
+  "finite_response": 1856,
+  "response_distribution": {
+    "mean": -0.10850287973880768,
+    "std": 0.8851884007453918,
+    "q05": -1.9147255420684814,
+    "q10": -1.0103962421417236,
+    "q20": -0.5456043481826782,
+    "median": 0.07429066300392151,
+    "min": -5.249210834503174,
+    "max": 2.0692949295043945
+  },
+  "outputs": {
+    "summary": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6\\prism_u2os_single_cell_active_retrieval_summary.csv",
+    "query_metrics": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6\\prism_u2os_single_cell_query_metrics.csv",
+    "paired_stats": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6\\prism_u2os_single_cell_paired_stats.csv",
+    "delta_vs_baselines": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6\\prism_u2os_single_cell_delta_vs_baselines.csv",
+    "cases": "C:\\Users\\sunde\\projects\\TMDiffusion1\\reproducibility_audits\\downstream_release_20260920\\figure6\\prism_u2os_single_cell_cgp_cases_tan020_active_m1_top50.csv"
+  }
+}
