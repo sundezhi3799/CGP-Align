@@ -4,6 +4,10 @@ Phenotype-anchored representation learning linking chemical and genetic perturba
 
 Associated manuscript: **CGP-Align links chemical and genetic perturbations through phenotype-anchored representation learning**.
 
+## Training objective
+
+The selected manuscript objective is `L_compound + L_ORF + L_CRISPR`, with all three weights equal to 1. The training wrapper uses this objective and a distinct run name. Existing historical and September strict-run weights/results used a different objective; fresh training and evaluation are pending. See [objective provenance and migration](docs/TRAINING_OBJECTIVE.md).
+
 ## Release status
 
 This is a development version of the public [CGP-Align repository](https://github.com/sundezhi3799/CGP-Align), assembled on 2026-09-18. Full manuscript reproduction is not yet verified. See [the release audit](docs/RELEASE_AUDIT.md) for specific outstanding artifacts and version discrepancies. A versioned release and archival DOI will be added after the remaining reproduction work is complete.

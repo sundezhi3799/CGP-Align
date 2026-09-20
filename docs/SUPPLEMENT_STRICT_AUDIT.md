@@ -20,11 +20,12 @@ strict log records confirm:
 
 `L_total = L_compound + (L_ORF + L_CRISPR) / 2`.
 
-The current main-manuscript objective text/equation and architecture graphics
-instead depict three unit-weight terms. They still need a coordinated correction
-of the editable equation, accompanying text, and Figure 1/2 graphics. Do not change
-training code to match an inaccurate description or describe this as a new model.
-The recorded strict results come from the existing implementation.
+On September 20, the author selected the submission implementation's three-term
+unit-weight sum as the canonical objective. The training code now implements that
+choice; the existing strict results above retain their original mean-reduction
+provenance. S1/S4/S5 and revised Figure 3 require fresh results before they can be
+presented as evaluations of the selected objective. Preserve the manuscript sum
+formula; do not relabel existing weights or logs as equal-weight training.
 
 The complete scientific audit also still requires provenance checks for S2/S3
 and main Figures 4-6. This update is not full-manuscript reproduction sign-off.

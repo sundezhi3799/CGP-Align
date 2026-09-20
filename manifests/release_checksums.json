@@ -23,6 +23,10 @@
     "sha256": "ac7347792f6e8fb293d833bc43c3c0ed9398f22c909cd4a21350e4eb1c0f3a2a",
     "bytes": 1012
   },
+  "cgp_align/losses.py": {
+    "sha256": "fc0f49eabcc2f60ed7e93731c3b30b6b9a736cfc21282b21317730def15e8c66",
+    "bytes": 2516
+  },
   "cgp_align/matched_retrieval.py": {
     "sha256": "0bd74b650b65e08f2c3462120f82954398926b6946bb124d04a8fb33137e217e",
     "bytes": 2413
@@ -64,12 +68,16 @@
     "bytes": 5263
   },
   "docs/SUPPLEMENT_STRICT_AUDIT.md": {
-    "sha256": "d50ce993bdf42de87f6479441aed4b7bd39591267f283691c7b578ec940067a9",
-    "bytes": 1619
+    "sha256": "e82e7546a716e8d8a2af271dd1374e402eb664092c11e394a41df5827f6244cc",
+    "bytes": 1676
   },
   "docs/TRAINING_ARCHIVE_AUDIT.md": {
     "sha256": "e110d2150ce048c9bd61a8fef9a7ca816f42f2a5d6992958c6bda976ffffef0b",
     "bytes": 4748
+  },
+  "docs/TRAINING_OBJECTIVE.md": {
+    "sha256": "637d6bb356828cc2d2350025b983cd19e874787f5a77cd9a51d5b7663340f6f0",
+    "bytes": 2125
   },
   "docs/VALIDATION.md": {
     "sha256": "edc7ff547ed63b9a13664f876ffb17ccee83d365bc272c0778394cf19f46868d",
@@ -372,8 +380,8 @@
     "bytes": 1275
   },
   "manifests/joint_recipe_provenance.json": {
-    "sha256": "4acf0cdc6317287d6f663cdd91257b4a4b5cdf4e4c59cce12fd5d958b3b9f934",
-    "bytes": 631
+    "sha256": "87b545d1bcbac164742a2990bcd3f515507ec078c9670777201c9035696db39c",
+    "bytes": 723
   },
   "manifests/models.json": {
     "sha256": "19fd041ef18e8b52a0da6aa906012d488f35884b6ff96f3d70f8dfd131bc3338",
@@ -404,8 +412,12 @@
     "bytes": 2468
   },
   "manifests/source_provenance.csv": {
-    "sha256": "b9bc748c24623d34daea9b3812e1a818a529a98eb6d4d6ad6e8abed42730b389",
-    "bytes": 44325
+    "sha256": "d504c074076f67b934e64655043e17b2d8bf2627ba2753afbbe3b553e49c5381",
+    "bytes": 44190
+  },
+  "manifests/training_objective.json": {
+    "sha256": "a150af446db068c3657dad8b62c7e9836b4684d3a801107575877a95e167a642",
+    "bytes": 844
   },
   "manifests/training_recipe_validation.json": {
     "sha256": "e9280819d2cd9fa7344f3f2109afd5e72ab4a92c0fd183827a6e78fee9212d76",
@@ -724,8 +736,8 @@
     "bytes": 42534
   },
   "README.md": {
-    "sha256": "fb78d5bb0b5fe8e1f09ca9b437c82b9bcd1318fac753d2ceb991e7a3137acf34",
-    "bytes": 5957
+    "sha256": "0c665e1606b8f56393047368cae8ee3248798281eded40c5d1de1d6f45b1f941",
+    "bytes": 6354
   },
   "reference_metrics/primary_seed31.json": {
     "sha256": "60c1d20a4fd042b997c70e567b50cdbbdde81dc9a564abe59fffc04b52996e99",
@@ -1104,8 +1116,8 @@
     "bytes": 10165
   },
   "scripts/train_cgp_align_replicate.py": {
-    "sha256": "6c5b6feb620019d0b3a603aad968f515e0b46331936f8a06235e89e6e1841d9b",
-    "bytes": 102688
+    "sha256": "ff747a5f5b435786acd64d29144f57908ae5c6abcf3409840f81d28206bc9430",
+    "bytes": 103163
   },
   "scripts/train_compound_mocop_replicate.py": {
     "sha256": "04756c7fd591cfc8e5cd8c53b79569a9d39dd6e913c34ca21f3dd7ae267c90ce",
@@ -1148,8 +1160,8 @@
     "bytes": 7311
   },
   "tools/export_strict_figure3.py": {
-    "sha256": "587dd0ad1ffbd1c2d3435cfd7334725ab378a670f51d0d78f9a033f63dc38b0f",
-    "bytes": 15028
+    "sha256": "848dc452e51037c4d4831d93000c19147c97559290fd21dade37042cb792a051",
+    "bytes": 15187
   },
   "tools/prepare_matched_benchmark.py": {
     "sha256": "a1fe7dad5b5b65201bbdaea3dfc295b16060fa171bf2956f557e9e379304b745",
@@ -1166,6 +1178,10 @@
   "tools/restart_strict_joint.py": {
     "sha256": "7a3a2cae1645720e65c4dd5a2dc5c6e2127d677920523c187c76be1ec46f79dc",
     "bytes": 3044
+  },
+  "tools/run_equal_objective.py": {
+    "sha256": "dace941dfcfda287baf6059286af3d072c655734cee62b4d1e99e2c5549a073d",
+    "bytes": 5389
   },
   "tools/run_matched_benchmark.py": {
     "sha256": "d99875478358a5964db543dd48f85ca70f71a346fe59f89eda4553947119ce79",
@@ -1211,9 +1227,13 @@
     "sha256": "0a57703fa004fd594fac73007d3626c3bded5bf74c18a9de6dfa4313feb549f6",
     "bytes": 2020
   },
+  "tools/test_training_objective.py": {
+    "sha256": "968ef12ef42ab7646a967fc466c23ffef933430ea99253e1a6a05d2e59ac8b7f",
+    "bytes": 2823
+  },
   "tools/train_primary.py": {
-    "sha256": "81afa9c5b8f4fe3babe85952320cf76969460ae8ce9013a5b42c02f1c242a060",
-    "bytes": 3278
+    "sha256": "34565d4b7d58de0c089bc865ffa73e51d99b84e642be5f061e49b004740bd88d",
+    "bytes": 3379
   },
   "tools/verify_figure3_sources.py": {
     "sha256": "412eb9f2e066e9432f8d4326c8b0fc21adba678c55eecb5fde5d1ada4d94c61b",

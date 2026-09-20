@@ -6,7 +6,9 @@
     "Caller-supplied absolute data/initializer/output paths",
     "One selected seed per foreground process",
     "Dry run and missing-input checks before optional execution",
-    "CPU debug option disables AMP"
+    "CPU debug option disables AMP",
+    "Author-selected three-term objective: sum ORF and CRISPR; all branch weights 1",
+    "Distinct cgp_align_equal_three_term_seed run names"
   ],
-  "status": "Non-path parser parameters match all three recovered checkpoint configs; exact initializer/data delivery and strict per-seed preprocessing remain unresolved."
+  "status": "Updated objective differs from recovered historical checkpoint configurations; fresh training and evaluation pending."
 }

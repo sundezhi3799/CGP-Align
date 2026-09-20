@@ -1,4 +1,4 @@
-"""Portable, opt-in invocation of the original joint-training candidate recipe."""
+"""Portable, opt-in invocation of the manuscript three-term equal-weight joint-training recipe."""
 from pathlib import Path
 import argparse
 import json
@@ -27,10 +27,11 @@ def main():
                'gene_protein_embedding_dir': paths['protein_data'],
                'init_compound_checkpoint': paths['compound_init'],
                'init_orf_gene_checkpoint': paths['orf_init'], 'init_crispr_gene_checkpoint': paths['crispr_init'],
-               'run_name': f'raw3180_staged4_branchinit_joint_no_anchor_300_sparseckpt_splitseed{a.seed}',
+               'run_name': f'cgp_align_equal_three_term_seed{a.seed}',
                'checkpoint_dir': out / 'checkpoints', 'log_dir': out / 'logs', 'output_dir': out / 'eval',
                'compound_split_name': 'cold_compound', 'gene_split_name': 'cold_gene',
                'profile_source_mode': 'compound_gene_modality', 'epochs': 300,
+               'gene_branch_loss_reduction': 'sum', 'compound_loss_weight': 1.0, 'gene_loss_weight': 1.0,
                'stage1_epochs': 0, 'stage2_epochs': 0, 'min_selection_epoch': 40,
                'save_candidate_epochs': '40,120,240,300', 'anchor_weight_stage2': 0,
                'anchor_weight_stage3': 0, 'cg_teacher_weight': 0, 'profile_structure_weight': 0,
@@ -43,7 +44,7 @@ def main():
         command.append('--amp')
     missing = [str(x) for x in required if not x.is_file()]
     print(json.dumps({'command': command, 'missing_inputs': missing,
-                      'recipe_status': 'parameters match recovered historical checkpoint configs; preprocessing audit requires resolution'}, indent=2))
+                      'recipe_status': 'three-term equal-weight objective; requires fresh training and evaluation; historical weights are not equivalent'}, indent=2))
     if missing:
         raise SystemExit(2)
     if a.execute:

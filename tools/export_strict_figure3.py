@@ -43,6 +43,8 @@ def main():
     p.add_argument('--encoded-root', type=Path, required=True)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--device', default='cuda:0')
+    p.add_argument('--joint-directory', default=None)
+    p.add_argument('--metric-pattern', default='strict_seed{seed}_joint_test_metrics.json')
     a = p.parse_args()
     a.output.mkdir(parents=True, exist_ok=False)
     torch.set_num_threads(4)
@@ -67,8 +69,8 @@ def main():
         assert int(args.eval_max_replicates_per_entity) == 0
         cgp.set_seed(seed)
         data = cgp.build_data(args)
-        joint = 'joint_ampfix01' if seed == 31 else 'joint'
-        metric_paths = list((a.strict_root/f'seed{seed}'/joint).rglob(f'strict_seed{seed}_joint_test_metrics.json'))
+        joint = a.joint_directory or ('joint_ampfix01' if seed == 31 else 'joint')
+        metric_paths = list((a.strict_root/f'seed{seed}'/joint).rglob(a.metric_pattern.format(seed=seed)))
         assert len(metric_paths) == 1, metric_paths
         metrics = json.loads(metric_paths[0].read_text())
         write(a.output/f'strict_seed{seed}_test_metrics.json', metrics)

@@ -70,6 +70,8 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--gene_modality_soft_balanced_loss", action="store_true")
     p.add_argument("--balanced_gene_batch_sampling", action="store_true")
     p.add_argument("--split_gene_modality_branches", action="store_true")
+    p.add_argument("--gene_branch_loss_reduction", choices=["sum", "mean"], default="sum",
+                   help="Sum ORF/CRISPR losses for the manuscript objective; mean reproduces historical training.")
     p.add_argument("--split_gene_shared_trunk", action="store_true")
     p.add_argument("--split_gene_distribution_alignment_weight", type=float, default=0.0)
     p.add_argument("--split_gene_distribution_alignment_start_epoch", type=int, default=1)
@@ -961,7 +963,10 @@ def modality_balanced_contrastive_loss_parts(
     query_modality: torch.Tensor,
     gallery_modality: torch.Tensor,
     temperature: float,
+    reduction: str = "sum",
 ) -> Tuple[torch.Tensor, Dict[str, torch.Tensor], Dict[str, int]]:
+    if reduction not in {"sum", "mean"}:
+        raise ValueError(f"Unknown gene branch loss reduction: {reduction}")
     losses: List[torch.Tensor] = []
     parts: Dict[str, torch.Tensor] = {}
     counts: Dict[str, int] = {}
@@ -983,7 +988,7 @@ def modality_balanced_contrastive_loss_parts(
             parts[name] = cur
             losses.append(cur)
     if losses:
-        return torch.stack(losses).mean(), parts, counts
+        return (torch.stack(losses).sum() if reduction == "sum" else torch.stack(losses).mean()), parts, counts
     return multipositive_contrastive_loss(query, gallery, query_code, gallery_code, temperature), parts, counts
 
 
@@ -1966,6 +1971,7 @@ def train(args: argparse.Namespace, model: ReplicateCGPAlign, data: Dict[str, An
                         gene_mod,
                         g_profile_mod,
                         args.gene_temperature,
+                        reduction=args.gene_branch_loss_reduction,
                     )
                 elif bool(getattr(args, "gene_modality_soft_balanced_loss", False)):
                     g_profile_mod = gene_modality_tensor(data["gene"]["modality_ids"], g_rep_owner, device)
