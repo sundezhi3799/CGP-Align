@@ -1,0 +1,30 @@
+# Supplementary figure consistency audit
+
+Completed on September 20, 2026:
+
+- S1 now uses the strict three-seed training logs and selected epochs 70/150/60.
+- S4 sampled/full-gallery metrics and S5 random controls match revised Figure 3.
+- The supplement captions define positive candidates, query-level random controls,
+  seed-level variability and the actual training objective.
+- Main manuscript references to S1 now describe selected-model validation rather
+  than a training-scale experiment. The intrinsic retrieval text now correctly
+  states all same-entity positives plus 100 negatives.
+- The historical scale experiment is preserved, not relabelled as a strict run.
+- Original source records and earlier Word files are retained.
+
+## Remaining discrepancy identified from the training logs
+
+The implementation `modality_balanced_contrastive_loss_parts` averages ORF and
+CRISPR losses. The joint loop adds this gene term to the compound term. All 900
+strict log records confirm:
+
+`L_total = L_compound + (L_ORF + L_CRISPR) / 2`.
+
+The current main-manuscript objective text/equation and architecture graphics
+instead depict three unit-weight terms. They still need a coordinated correction
+of the editable equation, accompanying text, and Figure 1/2 graphics. Do not change
+training code to match an inaccurate description or describe this as a new model.
+The recorded strict results come from the existing implementation.
+
+The complete scientific audit also still requires provenance checks for S2/S3
+and main Figures 4-6. This update is not full-manuscript reproduction sign-off.

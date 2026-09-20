@@ -1,0 +1,20 @@
+[
+  {
+    "seed": 31,
+    "source": "/data3/sdz/cgp_align_strict_20260918/seed31/joint_ampfix01/logs/strict_seed31_joint_train_log.jsonl",
+    "sha256": "b71ba6a28c41215898120b9204ac738cba75a7f34b9b6b76e92ac60fdcded4f2",
+    "epochs": 300
+  },
+  {
+    "seed": 37,
+    "source": "/data3/sdz/cgp_align_strict_20260918/seed37/joint/logs/strict_seed37_joint_train_log.jsonl",
+    "sha256": "2515572b352897135219eaf2138d0b0de84d2b53929e8faf92790753b3ea894d",
+    "epochs": 300
+  },
+  {
+    "seed": 41,
+    "source": "/data3/sdz/cgp_align_strict_20260918/seed41/joint/logs/strict_seed41_joint_train_log.jsonl",
+    "sha256": "b22ed7e13d969c4c3e7c97d66a079a87a954c323284edaaadab8c33a68baf234",
+    "epochs": 300
+  }
+]

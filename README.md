@@ -69,6 +69,13 @@ python tools/verify_figure3_sources.py
 
 See [Figure 3 instructions and provenance](figures/figure3/README.md). This redraw reproduces the revised graphic; it does not rerun training or upstream inference. The August snapshot remains unchanged. See [the portability update](docs/PORTABILITY_UPDATE.md) for new evaluation options and remaining blockers.
 
+## Revised supplementary figures
+
+Supplementary Figures 1, 4 and 5 now use the strict three-seed logs and metrics.
+See [reproduction instructions](figures/supplementary_strict/README.md) and the
+[consistency audit](docs/SUPPLEMENT_STRICT_AUDIT.md), including the outstanding
+main-manuscript objective-weighting correction.
+
 ## Contents
 
 - `scripts/`: original preprocessing, training, evaluation and downstream analysis scripts with their local Python dependencies.
