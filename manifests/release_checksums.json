@@ -1256,7 +1256,7 @@
     "bytes": 20407
   },
   "revision_candidates/downstream_20260920/delivery_qa.json": {
-    "sha256": "d8569f17efa2e3d667731bf4f8014e971911dad4152dc78914a14c88546b3a65",
+    "sha256": "2fa31b5047e2ca96cb4bb66819cb3917aa0cfc9a1b6e04440805e1852ce5564e",
     "bytes": 1424
   },
   "revision_candidates/downstream_20260920/environment_local.json": {

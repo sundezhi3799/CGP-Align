@@ -2,7 +2,7 @@
   "documents": [
     {
       "name": "manuscript-CGPAlign_downstream_20260920_v10.docx",
-      "sha256": "a4578b50f7e362d64ab8a4c31c924c8f12f9eabfa44f230218cf03b1474dc598",
+      "sha256": "7ac4ca3c7a3594a8c909dc6a50d9e739459cd4679889b4e349f45ee7dc9a2780",
       "text_replacements": 36,
       "replaced_images": [
         "word/media/image4.png",
