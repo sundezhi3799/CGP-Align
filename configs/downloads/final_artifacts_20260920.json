@@ -1,0 +1,644 @@
+{
+  "schema": "cgp-align-artifacts-v1",
+  "code_commit": "bd4c3282637aacfab47b3acfdc64052b65bfc06b",
+  "created": 1789911058.0942466,
+  "groups": [
+    {
+      "name": "final-models",
+      "parts": [
+        {
+          "name": "final-models.tar.gz.part000",
+          "bytes": 915188797,
+          "sha256": "3e7f0ef89ed603fe45eaa2e49f7dd87ae557e227c18f9d7a80db143ea03487b9"
+        }
+      ],
+      "files": [
+        {
+          "path": "models/seed31/joint/best_model.pt",
+          "bytes": 33980706,
+          "sha256": "1b45e30d2713f0611f0f94e88d18b4f4837a44b4ace0c47ea8ac00b9494373a0"
+        },
+        {
+          "path": "models/seed31/joint/configuration.json",
+          "bytes": 5112,
+          "sha256": "1a434dbf0122cc58097fd4522ece28434e1ec73df1f118b07d90ce73790f3d7f"
+        },
+        {
+          "path": "models/seed31/compound/best_model.pt",
+          "bytes": 22404578,
+          "sha256": "8283a5ade585a3a6e56d4bf503efe48da4786c40f2f102b8e6614fae3b3172da"
+        },
+        {
+          "path": "models/seed31/compound/configuration.json",
+          "bytes": 1705,
+          "sha256": "65b85a6048aef9d860461c9821fc525d820e0709f416e0dc347895a4a55491ed"
+        },
+        {
+          "path": "models/seed31/orf/best_model.pt",
+          "bytes": 234211876,
+          "sha256": "fdb6e8a86eb9a63cf4d7a928a2cdec26fd8998754e56f2ddab7f8d5e2c88cf26"
+        },
+        {
+          "path": "models/seed31/orf/configuration.json",
+          "bytes": 6547,
+          "sha256": "e216e924b8bad64f58a14f4d57cb75fad3e40d0a7f7fe21d82c6f673e2b2c0eb"
+        },
+        {
+          "path": "models/seed31/crispr/best_model.pt",
+          "bytes": 154043940,
+          "sha256": "cc7ab37771b04553d80292e40b83bf99847eb7d4c5529d0e0ff2e1ab5605f228"
+        },
+        {
+          "path": "models/seed31/crispr/configuration.json",
+          "bytes": 6535,
+          "sha256": "6fbce8f4c4bd58328c9f3c558b5dc6ebe78ea4d6f1fdf6e39db757baa334338a"
+        },
+        {
+          "path": "models/seed37/joint/best_model.pt",
+          "bytes": 33980706,
+          "sha256": "332ee0e7f2d5c9887653ed1fabbc22484a9fea36240d6ae33b9fe20e443f6097"
+        },
+        {
+          "path": "models/seed37/joint/configuration.json",
+          "bytes": 5112,
+          "sha256": "bc5e00158071ae12c521ddc3203c679d1a5e5fe8e951d0863260fb78a83c6548"
+        },
+        {
+          "path": "models/seed37/compound/best_model.pt",
+          "bytes": 22404578,
+          "sha256": "01946feecc9657e9615c78234a879873318e3dc47c80315257d6bc102886aa20"
+        },
+        {
+          "path": "models/seed37/compound/configuration.json",
+          "bytes": 1705,
+          "sha256": "0f7ee0e6c2a162fdd5666de5050a1cc2fe396f65c2182d44b6199f944629a085"
+        },
+        {
+          "path": "models/seed37/orf/best_model.pt",
+          "bytes": 233954340,
+          "sha256": "2d93787b2bafdf7da0856a546d5ed6ce561246762a099b492bd1792df180f030"
+        },
+        {
+          "path": "models/seed37/orf/configuration.json",
+          "bytes": 6551,
+          "sha256": "9b91ddc9605f2681a7a43e571441892d73d453192ca3a954279c601daa9ec77a"
+        },
+        {
+          "path": "models/seed37/crispr/best_model.pt",
+          "bytes": 154546276,
+          "sha256": "3845adaa702cfda0d95086c9c060e5fd51d12f6489661f7e3db3de1a7f425936"
+        },
+        {
+          "path": "models/seed37/crispr/configuration.json",
+          "bytes": 6533,
+          "sha256": "17d21a4a853af6f61cba5c7ecb5ee9fa775df116e2d3330080a6c73b273cbe00"
+        },
+        {
+          "path": "models/seed41/joint/best_model.pt",
+          "bytes": 33980706,
+          "sha256": "b239cae512b120a1248486f067826c4c4d30bdd23f44969ad7ee5145fc8433c6"
+        },
+        {
+          "path": "models/seed41/joint/configuration.json",
+          "bytes": 5112,
+          "sha256": "1092fd7fd4c638a8b9c2b1386d1ce3ac59fbd575263f8d34e4bc3cca99e0819c"
+        },
+        {
+          "path": "models/seed41/compound/best_model.pt",
+          "bytes": 22404578,
+          "sha256": "7d4629dd927eed523f676412a7b3e7a59636a5aa7ef1849e8079346efa86281d"
+        },
+        {
+          "path": "models/seed41/compound/configuration.json",
+          "bytes": 1705,
+          "sha256": "84d9d69fdaa40679302e7f9725244e0281bb7f3f529bd36425e72c5dc699c357"
+        },
+        {
+          "path": "models/seed41/orf/best_model.pt",
+          "bytes": 233879652,
+          "sha256": "04857548eb61a4878fc4f8c10bafe4d27c3a892760b8f249bcba26dfbf49da58"
+        },
+        {
+          "path": "models/seed41/orf/configuration.json",
+          "bytes": 6549,
+          "sha256": "67ecc91bcefe367a982330c09962a7340216314fa350e4095c798856d6e0233c"
+        },
+        {
+          "path": "models/seed41/crispr/best_model.pt",
+          "bytes": 154571748,
+          "sha256": "d8d287977edc16fc50aa7fc3c63df1845e44d0859473a2b673c6eee68d79d67c"
+        },
+        {
+          "path": "models/seed41/crispr/configuration.json",
+          "bytes": 6538,
+          "sha256": "73ff8ae6446b5a5364f3c87d37eeaf6f409b039a816ad996a6fb39a8334ed6e7"
+        }
+      ]
+    },
+    {
+      "name": "protein-features",
+      "parts": [
+        {
+          "name": "protein-features.tar.gz.part000",
+          "bytes": 123449586,
+          "sha256": "bb2e86dedd6e529efd1504cc2749c01222567c38b40097c724d84022262847e7"
+        }
+      ],
+      "files": [
+        {
+          "path": "protein/protein_embedding_summary.json",
+          "bytes": 689,
+          "sha256": "ea4d8e59f5dbc903748cd82c4dd6a7350d23debcf1aa1a2e6e0ccb138c7e4b91"
+        },
+        {
+          "path": "protein/protein_sequence_embeddings.npy",
+          "bytes": 156969088,
+          "sha256": "dfc43c5834ad75ff7c0ab38750cdd34ab0e216fa1fa4ebfe95489474586eb36f"
+        }
+      ]
+    },
+    {
+      "name": "prepared-seed31",
+      "parts": [
+        {
+          "name": "prepared-seed31.tar.gz.part000",
+          "bytes": 1073741824,
+          "sha256": "0d43e52f708a0c642b457b3d4a4478d9d8068563858adb4ea15b3081eeeb2e1e"
+        },
+        {
+          "name": "prepared-seed31.tar.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "5184539a9bf02a37c76bcc22cb67b2101c89d0c48b40e29970cb65db8cd328b0"
+        },
+        {
+          "name": "prepared-seed31.tar.gz.part002",
+          "bytes": 1073741824,
+          "sha256": "e094e41658132eed14661ec2aeb79c5447d7ff37323853bcd10940c6ff21d06b"
+        },
+        {
+          "name": "prepared-seed31.tar.gz.part003",
+          "bytes": 1073741824,
+          "sha256": "c565de49d0e4eaa695341ba80e4d96e7b0765952957835c4e5158e9026915cc4"
+        },
+        {
+          "name": "prepared-seed31.tar.gz.part004",
+          "bytes": 1073741824,
+          "sha256": "da23baa6aaca19fef620dd696bb3045a21156169a013cf27b86381d813d9c4fd"
+        },
+        {
+          "name": "prepared-seed31.tar.gz.part005",
+          "bytes": 1073741824,
+          "sha256": "6fb98c586e8b963aa136b49b824b5c319ca1d883f92844000005de641c8f96b7"
+        },
+        {
+          "name": "prepared-seed31.tar.gz.part006",
+          "bytes": 1073741824,
+          "sha256": "9cbf70d37ffcbce0532b3f140f33abb459e20289504f09dc8db0de62fddadcc1"
+        },
+        {
+          "name": "prepared-seed31.tar.gz.part007",
+          "bytes": 1073741824,
+          "sha256": "d5ce46774e5f64ca410980ce7414f2c89b43d1d19cec7393e462dbfb36d78831"
+        },
+        {
+          "name": "prepared-seed31.tar.gz.part008",
+          "bytes": 637159450,
+          "sha256": "8ba4f0ec4195e6d80c4ae8554a3f306391f69c5c1f0c5ecff6a2ff8aa731851c"
+        }
+      ],
+      "files": [
+        {
+          "path": "data/seed31/compound/compound_mocop_entities.parquet",
+          "bytes": 11414374,
+          "sha256": "86e9f0ed07ae0dc0291878b9e78b14fa9fcdb18e73cbad0e2d4c065c9bd6d81a"
+        },
+        {
+          "path": "data/seed31/compound/compound_mocop_replicate_features.npy",
+          "bytes": 8266422848,
+          "sha256": "89d4b6153bf6b3bcbcbe7991538e09d4a4fcd11088edadbff68a05d7edd1712d"
+        },
+        {
+          "path": "data/seed31/compound/compound_mocop_replicates.parquet",
+          "bytes": 41321827,
+          "sha256": "51ee8a28a8090a78c94bf6ad7d98c680b2d6fe244faa9ce6d2a44b74b4d7467e"
+        },
+        {
+          "path": "data/seed31/compound/dataset_summary.base.json",
+          "bytes": 1295,
+          "sha256": "b1bcd9cbcefc7aa5d0dc85b64b0ec8f3b1d1608bc4b4ff7c277ffdd00858d29a"
+        },
+        {
+          "path": "data/seed31/compound/dataset_summary.json",
+          "bytes": 233,
+          "sha256": "7396edf433f44d3c7fa279da828797938a729b90834df9dc0fd896323de1d254"
+        },
+        {
+          "path": "data/seed31/compound/feature_columns.json",
+          "bytes": 150459,
+          "sha256": "b3af1de5f16b698ec105621a6cc2f94f22f206653c2350127a55aae76ce05911"
+        },
+        {
+          "path": "data/seed31/compound/fitted_preprocessing.npz",
+          "bytes": 75355601,
+          "sha256": "0ffdcde976ab8fb76cff87dcf1f399b3e06b60f2839cae48a5bd519e1b4b9bb0"
+        },
+        {
+          "path": "data/seed31/compound/profile_correction_audit.json",
+          "bytes": 1688,
+          "sha256": "232cb86ab6470dea3e6e97520ceb12f51071ec29a04723067a7ef75d5841142f"
+        },
+        {
+          "path": "data/seed31/compound/splits_compound_mocop.json",
+          "bytes": 3020135,
+          "sha256": "23f5b4401413a7a69093947e525bf8ddc2c1f0c50dc43489eb984e5f2c748f88"
+        },
+        {
+          "path": "data/seed31/gene/dataset_summary.base.json",
+          "bytes": 2878,
+          "sha256": "646529da56d9d32c97ef75500526e617b84a4107a039e12bf8d4ae2f15211ec5"
+        },
+        {
+          "path": "data/seed31/gene/dataset_summary.json",
+          "bytes": 226,
+          "sha256": "ebee5edbdbaf2dc616daf1d1afd10ec45e8157517850570f50ce480b8219ac66"
+        },
+        {
+          "path": "data/seed31/gene/fitted_preprocessing.npz",
+          "bytes": 17744157,
+          "sha256": "38a6cb6d525dc3d2fd8a28146b62854a24db8fdd277610dee653f65c699ae453"
+        },
+        {
+          "path": "data/seed31/gene/gene_mocop_entities.parquet",
+          "bytes": 10117037,
+          "sha256": "e8bd3b903d84ead9bfb191a52f2dacdd7de326cc1209e4bf04b308dd7e54b377"
+        },
+        {
+          "path": "data/seed31/gene/gene_mocop_replicate_features.npy",
+          "bytes": 1516071488,
+          "sha256": "00782d3247bc17253c1cefd24c7342bb09ca02325732bbc30b6117889e8079d3"
+        },
+        {
+          "path": "data/seed31/gene/gene_mocop_replicates.parquet",
+          "bytes": 3828539,
+          "sha256": "558a1794d4d33879d6c98193a2ba974bfca1ba01b62ff9b30188738aa32bdc69"
+        },
+        {
+          "path": "data/seed31/gene/profile_correction_audit.json",
+          "bytes": 1749,
+          "sha256": "8e9b0a4507db43e3a9c3a063091dc8aca3a8db5fa5d55e891c81e3b62fda240c"
+        },
+        {
+          "path": "data/seed31/gene/splits_gene_mocop.json",
+          "bytes": 578723,
+          "sha256": "33e664d544beba3f727269cad36e594e9df5d1c59839ef1a9f00699e287ca0a0"
+        }
+      ]
+    },
+    {
+      "name": "prepared-seed37",
+      "parts": [
+        {
+          "name": "prepared-seed37.tar.gz.part000",
+          "bytes": 1073741824,
+          "sha256": "bb0bab8c181b09cca06a8474807acf65f2224abfc125d1240c5d96b6f4e05253"
+        },
+        {
+          "name": "prepared-seed37.tar.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "f48db96d4342ec97bdd9985f064e83fe1cbd76f540f63bd8edcaf5db6c507f73"
+        },
+        {
+          "name": "prepared-seed37.tar.gz.part002",
+          "bytes": 1073741824,
+          "sha256": "bfd242c63f9992d3bc1c4b010d7c326789b4ea223b2f690c766481c3a24156bc"
+        },
+        {
+          "name": "prepared-seed37.tar.gz.part003",
+          "bytes": 1073741824,
+          "sha256": "5d3e82f0aaeb5ed71f6a775c341b1e1554d815dbebee9eaab56f89594439c2e8"
+        },
+        {
+          "name": "prepared-seed37.tar.gz.part004",
+          "bytes": 1073741824,
+          "sha256": "41a6596afddbb34af42f5ea07c9721b3c1170b6bfe02f5c0e63d0267a7c86d29"
+        },
+        {
+          "name": "prepared-seed37.tar.gz.part005",
+          "bytes": 1073741824,
+          "sha256": "e6cf00dab197220ae3a6d3b914254e9f4c81bb70d87201a24f61b3b073ada085"
+        },
+        {
+          "name": "prepared-seed37.tar.gz.part006",
+          "bytes": 1073741824,
+          "sha256": "93b45ef31fe0b51a57c79546293beb368ea523ff76e513a1c091682dafd212c7"
+        },
+        {
+          "name": "prepared-seed37.tar.gz.part007",
+          "bytes": 1073741824,
+          "sha256": "85f80c3b03dbcdcf2d6245901ab7684d4ff286dce8d1e639883ab35ae5cd60f9"
+        },
+        {
+          "name": "prepared-seed37.tar.gz.part008",
+          "bytes": 637298554,
+          "sha256": "8203222b99b2e516a7c78a150ebabb1854e7e1f7007c2fe1e9803c29190b5501"
+        }
+      ],
+      "files": [
+        {
+          "path": "data/seed37/compound/compound_mocop_entities.parquet",
+          "bytes": 11414374,
+          "sha256": "86e9f0ed07ae0dc0291878b9e78b14fa9fcdb18e73cbad0e2d4c065c9bd6d81a"
+        },
+        {
+          "path": "data/seed37/compound/compound_mocop_replicate_features.npy",
+          "bytes": 8266422848,
+          "sha256": "dcf16b67a60b458ad4fdc8f34edf1c2ed10ecc4aaf52a306f5deb10d6642e8ee"
+        },
+        {
+          "path": "data/seed37/compound/compound_mocop_replicates.parquet",
+          "bytes": 41321827,
+          "sha256": "51ee8a28a8090a78c94bf6ad7d98c680b2d6fe244faa9ce6d2a44b74b4d7467e"
+        },
+        {
+          "path": "data/seed37/compound/dataset_summary.base.json",
+          "bytes": 1295,
+          "sha256": "b1bcd9cbcefc7aa5d0dc85b64b0ec8f3b1d1608bc4b4ff7c277ffdd00858d29a"
+        },
+        {
+          "path": "data/seed37/compound/dataset_summary.json",
+          "bytes": 233,
+          "sha256": "342cce3120efb2e47ab58ce857e369fc5816a508dbc3023ff80f9f31bb1b2e44"
+        },
+        {
+          "path": "data/seed37/compound/feature_columns.json",
+          "bytes": 150459,
+          "sha256": "b3af1de5f16b698ec105621a6cc2f94f22f206653c2350127a55aae76ce05911"
+        },
+        {
+          "path": "data/seed37/compound/fitted_preprocessing.npz",
+          "bytes": 75180729,
+          "sha256": "09c31670d49b0f979d5c66f0bbf39a0b4bafe6a617dcac3008dce0f626be99fa"
+        },
+        {
+          "path": "data/seed37/compound/profile_correction_audit.json",
+          "bytes": 1688,
+          "sha256": "68e341930a80ea2b94a8cba4ee1bf508beb741fce60356f6a467ec5376e45a1c"
+        },
+        {
+          "path": "data/seed37/compound/splits_compound_mocop.json",
+          "bytes": 3020135,
+          "sha256": "73100a97dbac83a752b8fa028f094bce1acb968dfc6fd9721cff3b829387cc55"
+        },
+        {
+          "path": "data/seed37/gene/dataset_summary.base.json",
+          "bytes": 2878,
+          "sha256": "646529da56d9d32c97ef75500526e617b84a4107a039e12bf8d4ae2f15211ec5"
+        },
+        {
+          "path": "data/seed37/gene/dataset_summary.json",
+          "bytes": 226,
+          "sha256": "fa3820153a4b7e0e2339716fe43721e40f5554fa4d043d3d23186cc4666885cb"
+        },
+        {
+          "path": "data/seed37/gene/fitted_preprocessing.npz",
+          "bytes": 17739522,
+          "sha256": "a7c3730f68d21e2c9d55632cb36d4fe7c381f76e5e851d96f8e52fc554f334d9"
+        },
+        {
+          "path": "data/seed37/gene/gene_mocop_entities.parquet",
+          "bytes": 10117037,
+          "sha256": "e8bd3b903d84ead9bfb191a52f2dacdd7de326cc1209e4bf04b308dd7e54b377"
+        },
+        {
+          "path": "data/seed37/gene/gene_mocop_replicate_features.npy",
+          "bytes": 1516071488,
+          "sha256": "456daabeebd5e157cf075c5f6c0aaae92ec76438b9f84ee8ca4f665448b3f732"
+        },
+        {
+          "path": "data/seed37/gene/gene_mocop_replicates.parquet",
+          "bytes": 3828539,
+          "sha256": "558a1794d4d33879d6c98193a2ba974bfca1ba01b62ff9b30188738aa32bdc69"
+        },
+        {
+          "path": "data/seed37/gene/profile_correction_audit.json",
+          "bytes": 1749,
+          "sha256": "2698d8a4399cccbb6128e7431e175f01ddf2065cdcf27e657c2b6d69d0ece30b"
+        },
+        {
+          "path": "data/seed37/gene/splits_gene_mocop.json",
+          "bytes": 578723,
+          "sha256": "f9f9154ada5238123363fb47fea7b8f2cf62f4e37773349f0a7268481a89a69d"
+        }
+      ]
+    },
+    {
+      "name": "prepared-seed41",
+      "parts": [
+        {
+          "name": "prepared-seed41.tar.gz.part000",
+          "bytes": 1073741824,
+          "sha256": "aec6ea034ba38f615e1de79a680010715a3ee961bd18ec3087f4f3728c852897"
+        },
+        {
+          "name": "prepared-seed41.tar.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "ae416069194d1b08979c64b320625a4f892f6cb5dab497b00d7e1a9654f37cb2"
+        },
+        {
+          "name": "prepared-seed41.tar.gz.part002",
+          "bytes": 1073741824,
+          "sha256": "cda0e7665849c22f87434abcd5adafb76a806db088506e8330cc437e6982352e"
+        },
+        {
+          "name": "prepared-seed41.tar.gz.part003",
+          "bytes": 1073741824,
+          "sha256": "d297a2a88982e9e50001a6535b223f106864e0242e394dc8e938d1fcae47713a"
+        },
+        {
+          "name": "prepared-seed41.tar.gz.part004",
+          "bytes": 1073741824,
+          "sha256": "275e35838900ab152e39619007b415f37aeee867b2fb2d1772ef90aa1146f046"
+        },
+        {
+          "name": "prepared-seed41.tar.gz.part005",
+          "bytes": 1073741824,
+          "sha256": "33180e33d3cba1eecfdaa910e1bacb18fb0d2e55886d69f0fda3e5224ad903b2"
+        },
+        {
+          "name": "prepared-seed41.tar.gz.part006",
+          "bytes": 1073741824,
+          "sha256": "a6ae748a24fa4d217f352f781696975e1bc4471223b8e2b7c59c0e95d009ca0b"
+        },
+        {
+          "name": "prepared-seed41.tar.gz.part007",
+          "bytes": 1073741824,
+          "sha256": "f9c1628eea0184c0db10f72cbe3444d9e47ee7b7b0477c969289442def1f72ac"
+        },
+        {
+          "name": "prepared-seed41.tar.gz.part008",
+          "bytes": 637128663,
+          "sha256": "7bf50ff9c0f1e7bf867ab607135b327e1449bdc7481935319d53edc46a6b103b"
+        }
+      ],
+      "files": [
+        {
+          "path": "data/seed41/compound/compound_mocop_entities.parquet",
+          "bytes": 11414374,
+          "sha256": "86e9f0ed07ae0dc0291878b9e78b14fa9fcdb18e73cbad0e2d4c065c9bd6d81a"
+        },
+        {
+          "path": "data/seed41/compound/compound_mocop_replicate_features.npy",
+          "bytes": 8266422848,
+          "sha256": "f91ea751af84b7cf5f880c835be983f2f9588eb51a1bc55a7fac9a46736b28ed"
+        },
+        {
+          "path": "data/seed41/compound/compound_mocop_replicates.parquet",
+          "bytes": 41321827,
+          "sha256": "51ee8a28a8090a78c94bf6ad7d98c680b2d6fe244faa9ce6d2a44b74b4d7467e"
+        },
+        {
+          "path": "data/seed41/compound/dataset_summary.base.json",
+          "bytes": 1295,
+          "sha256": "b1bcd9cbcefc7aa5d0dc85b64b0ec8f3b1d1608bc4b4ff7c277ffdd00858d29a"
+        },
+        {
+          "path": "data/seed41/compound/dataset_summary.json",
+          "bytes": 233,
+          "sha256": "25ca40586b32f2c37e2ef01126901b5f832ecbe24ce23054bab10b7ec5750aaf"
+        },
+        {
+          "path": "data/seed41/compound/feature_columns.json",
+          "bytes": 150459,
+          "sha256": "b3af1de5f16b698ec105621a6cc2f94f22f206653c2350127a55aae76ce05911"
+        },
+        {
+          "path": "data/seed41/compound/fitted_preprocessing.npz",
+          "bytes": 75262086,
+          "sha256": "867d36d4cd11d3e0b269fe29c84f22c129cc36b495524c07091570ae2366f84c"
+        },
+        {
+          "path": "data/seed41/compound/profile_correction_audit.json",
+          "bytes": 1688,
+          "sha256": "10a840788729e743f923b92961871d39d5cbbaf361cf56eeb09d599da9ea7d3a"
+        },
+        {
+          "path": "data/seed41/compound/splits_compound_mocop.json",
+          "bytes": 3020135,
+          "sha256": "26542225a33fbe01db21dd296461a7952e94fd87df83eee742dbb8dc44388d15"
+        },
+        {
+          "path": "data/seed41/gene/dataset_summary.base.json",
+          "bytes": 2878,
+          "sha256": "646529da56d9d32c97ef75500526e617b84a4107a039e12bf8d4ae2f15211ec5"
+        },
+        {
+          "path": "data/seed41/gene/dataset_summary.json",
+          "bytes": 226,
+          "sha256": "63395ed72006caf49db1b1e762db34c4289aa4aa15f3353cddfd3496b36805aa"
+        },
+        {
+          "path": "data/seed41/gene/fitted_preprocessing.npz",
+          "bytes": 17745682,
+          "sha256": "ed42a4aef1b92b4928a1288550d9c8b385e2881487f9ebfe3bc86e57642c2efb"
+        },
+        {
+          "path": "data/seed41/gene/gene_mocop_entities.parquet",
+          "bytes": 10117037,
+          "sha256": "e8bd3b903d84ead9bfb191a52f2dacdd7de326cc1209e4bf04b308dd7e54b377"
+        },
+        {
+          "path": "data/seed41/gene/gene_mocop_replicate_features.npy",
+          "bytes": 1516071488,
+          "sha256": "73becebb655b23928c0829c497d0f9a2bad1a867514e59888e4b746c23a03a82"
+        },
+        {
+          "path": "data/seed41/gene/gene_mocop_replicates.parquet",
+          "bytes": 3828539,
+          "sha256": "558a1794d4d33879d6c98193a2ba974bfca1ba01b62ff9b30188738aa32bdc69"
+        },
+        {
+          "path": "data/seed41/gene/profile_correction_audit.json",
+          "bytes": 1749,
+          "sha256": "d00adee87930c31ed89496808f63adddf541afffaad034c68feba87723a8d3d7"
+        },
+        {
+          "path": "data/seed41/gene/splits_gene_mocop.json",
+          "bytes": 578723,
+          "sha256": "d3245f9ae8cf8f4ccd9f3440cb7db29b22aee88e5034a70e1823026d3761a8d1"
+        }
+      ]
+    },
+    {
+      "name": "ablation-models",
+      "parts": [
+        {
+          "name": "ablation-models.tar.gz.part000",
+          "bytes": 189572368,
+          "sha256": "6f2f7c691f035bdb66e614dcf3def5a04956c4e82c45b06bb5dbd54d1a1d7017"
+        }
+      ],
+      "files": [
+        {
+          "path": "ablations/no_source_indicator/seed31/configuration.json",
+          "bytes": 5162,
+          "sha256": "7bac35ec282ecc5998b83c575094c45053f092d503cbb291bbcf2def478a4842"
+        },
+        {
+          "path": "ablations/no_source_indicator/seed31/best_model.pt",
+          "bytes": 33942242,
+          "sha256": "f2f6ee31590b515979eff1708083cc34a6c480eb559b7ab6cb7183099fccaa19"
+        },
+        {
+          "path": "ablations/no_source_indicator/seed37/configuration.json",
+          "bytes": 5162,
+          "sha256": "ef3c130f407c90384e25d09e14805f03ab0aa6c77abd9b6f2dbc13b808b156ee"
+        },
+        {
+          "path": "ablations/no_source_indicator/seed37/best_model.pt",
+          "bytes": 33942242,
+          "sha256": "2ed0b69547beec93a8f5e04720571071b7b35e73cb3a5a3ec444bfee72978527"
+        },
+        {
+          "path": "ablations/no_source_indicator/seed41/configuration.json",
+          "bytes": 5162,
+          "sha256": "8f8c84f5063988eea2406cb69742d2fa0e1753cdb25b55b5d594a9dc9b95dd18"
+        },
+        {
+          "path": "ablations/no_source_indicator/seed41/best_model.pt",
+          "bytes": 33942242,
+          "sha256": "efebcf60b960ad85052618c9ba9019b28e668caa3036ba0e40fc38cf595e9b9f"
+        },
+        {
+          "path": "ablations/no_pretraining/seed31/configuration.json",
+          "bytes": 4785,
+          "sha256": "5d46a72a4b0c758aa42fae28775693f6ee39f9c0eb2380e6551bc1fffcec7d23"
+        },
+        {
+          "path": "ablations/no_pretraining/seed31/best_model.pt",
+          "bytes": 33979618,
+          "sha256": "067625923ffbe4c7122931df2d80767ee9b1a49301e9f740c98231e7e2dd5b29"
+        },
+        {
+          "path": "ablations/no_pretraining/seed37/configuration.json",
+          "bytes": 4785,
+          "sha256": "2ac3d0874cc957dba9f99a3c84827ffce22bcc0124f560590b3f3b0a392323b9"
+        },
+        {
+          "path": "ablations/no_pretraining/seed37/best_model.pt",
+          "bytes": 33979618,
+          "sha256": "83dd7dfa4d486a830ea07957a676e958c04e63204f2f7e8f4bf5ae034d644311"
+        },
+        {
+          "path": "ablations/no_pretraining/seed41/configuration.json",
+          "bytes": 4785,
+          "sha256": "02311e9d9e78e004e0dde4fdef7e9436af3df725d8e98a1450088651436b3872"
+        },
+        {
+          "path": "ablations/no_pretraining/seed41/best_model.pt",
+          "bytes": 33979618,
+          "sha256": "54e44bd712668eaecca938efbe7c9d60c63d6995288a093991e8d013a97e7062"
+        }
+      ]
+    }
+  ]
+}
