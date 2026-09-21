@@ -1,0 +1,208 @@
+{
+  "schema": "cgp-align-compact-v1",
+  "release_url": "https://github.com/sundezhi3799/CGP-Align/releases/download/main-results-20260921/",
+  "created": "2026-09-21",
+  "groups": [
+    {
+      "name": "prepared-seed31",
+      "parts": [
+        {
+          "name": "prepared-seed31.tar.gz",
+          "bytes": 896988154,
+          "sha256": "d2ec43d128ad770f0c341a212860b6d47c274b54a2ad31e7e3f259a5473276dd"
+        }
+      ],
+      "files": [
+        {
+          "path": "data/seed31/compound/compound_mocop_entities.parquet",
+          "bytes": 1291856,
+          "sha256": "dc5af5c5b97b61d25e1f6a65a8816dec24956c83b6cc435134253227b01d414f"
+        },
+        {
+          "path": "data/seed31/compound/compound_mocop_replicate_features.npy",
+          "bytes": 810035168,
+          "sha256": "5754e3d5cf00703f3fd0e0ce2cea07354d7d89dead5a797ed2b0eca0743971a1"
+        },
+        {
+          "path": "data/seed31/compound/compound_mocop_replicates.parquet",
+          "bytes": 2170467,
+          "sha256": "6be3f4b4629064fd089ed9ac8852f85ad5b989c840de5b3ca6b568035d88da5f"
+        },
+        {
+          "path": "data/seed31/compound/dataset_summary.json",
+          "bytes": 233,
+          "sha256": "7396edf433f44d3c7fa279da828797938a729b90834df9dc0fd896323de1d254"
+        },
+        {
+          "path": "data/seed31/compound/feature_columns.json",
+          "bytes": 150459,
+          "sha256": "b3af1de5f16b698ec105621a6cc2f94f22f206653c2350127a55aae76ce05911"
+        },
+        {
+          "path": "data/seed31/compound/splits_compound_mocop.json",
+          "bytes": 279085,
+          "sha256": "ec82fe7fa5f1a687f57cef43919a7e095b2cd708c1c3f88350d8db0ef524175b"
+        },
+        {
+          "path": "data/seed31/gene/dataset_summary.json",
+          "bytes": 226,
+          "sha256": "ebee5edbdbaf2dc616daf1d1afd10ec45e8157517850570f50ce480b8219ac66"
+        },
+        {
+          "path": "data/seed31/gene/gene_mocop_entities.parquet",
+          "bytes": 1014719,
+          "sha256": "db073ae636fdda289112014373522536073c71330dbcbe5d22f32520477f7dab"
+        },
+        {
+          "path": "data/seed31/gene/gene_mocop_replicate_features.npy",
+          "bytes": 153848528,
+          "sha256": "8ed35d83ea9138c78429dfa984e65355fa5aa7bb0468dc5aa6605bb053fbe3d8"
+        },
+        {
+          "path": "data/seed31/gene/gene_mocop_replicates.parquet",
+          "bytes": 369430,
+          "sha256": "b8c1de4ad2c6248b302cb470fced866b35deadb4e0ca098dcd3f59564fd2a198"
+        },
+        {
+          "path": "data/seed31/gene/splits_gene_mocop.json",
+          "bytes": 53853,
+          "sha256": "fdccefd07382c14814824352ba15221c236debab75f3c30785286014e8626f26"
+        }
+      ]
+    },
+    {
+      "name": "prepared-seed37",
+      "parts": [
+        {
+          "name": "prepared-seed37.tar.gz",
+          "bytes": 928032536,
+          "sha256": "605ba00736f0ac2f85b918eb0e046da15993e3d87960217d7bccf568c7812ede"
+        }
+      ],
+      "files": [
+        {
+          "path": "data/seed37/compound/compound_mocop_entities.parquet",
+          "bytes": 1293602,
+          "sha256": "4d020c6124f7fc57d3994120354fb97a24727d70bbd196ba6b37f43d43130e0c"
+        },
+        {
+          "path": "data/seed37/compound/compound_mocop_replicate_features.npy",
+          "bytes": 844544528,
+          "sha256": "e7214f50d0e59ea2ef5522754bfff53deae0585bf0a1caef3425c38fa922840a"
+        },
+        {
+          "path": "data/seed37/compound/compound_mocop_replicates.parquet",
+          "bytes": 2227619,
+          "sha256": "5fc96f8f8e22e21dccd8a7c83952b91ffeaae86fd044649e16e51ddb233a06aa"
+        },
+        {
+          "path": "data/seed37/compound/dataset_summary.json",
+          "bytes": 233,
+          "sha256": "342cce3120efb2e47ab58ce857e369fc5816a508dbc3023ff80f9f31bb1b2e44"
+        },
+        {
+          "path": "data/seed37/compound/feature_columns.json",
+          "bytes": 150459,
+          "sha256": "b3af1de5f16b698ec105621a6cc2f94f22f206653c2350127a55aae76ce05911"
+        },
+        {
+          "path": "data/seed37/compound/splits_compound_mocop.json",
+          "bytes": 279085,
+          "sha256": "01ad3edc44feff018f999a46763c71cc53a7f34d20b9679dd299f170a27e14fb"
+        },
+        {
+          "path": "data/seed37/gene/dataset_summary.json",
+          "bytes": 226,
+          "sha256": "fa3820153a4b7e0e2339716fe43721e40f5554fa4d043d3d23186cc4666885cb"
+        },
+        {
+          "path": "data/seed37/gene/gene_mocop_entities.parquet",
+          "bytes": 956025,
+          "sha256": "992c53ba7b6f786a1ea6f6ccfb8950eadb08713c0a3dc0ce887327e84129b85e"
+        },
+        {
+          "path": "data/seed37/gene/gene_mocop_replicate_features.npy",
+          "bytes": 152830928,
+          "sha256": "bac793ada42266f7c5b1f6c4b662b6364bd6660cea8d5f584cd079907bc82e47"
+        },
+        {
+          "path": "data/seed37/gene/gene_mocop_replicates.parquet",
+          "bytes": 366816,
+          "sha256": "6f398a09a65125fb73f073c092469bbd621a78fe3b8c414dccb162e526fec1e0"
+        },
+        {
+          "path": "data/seed37/gene/splits_gene_mocop.json",
+          "bytes": 53997,
+          "sha256": "009e328732cafa2b2ebe43437582769e431d8046af01372fa6593908c90eb76d"
+        }
+      ]
+    },
+    {
+      "name": "prepared-seed41",
+      "parts": [
+        {
+          "name": "prepared-seed41.tar.gz",
+          "bytes": 915482996,
+          "sha256": "04b06fb21a5973df1ff9b300f17886d0463227a0d3f88e7fbb5b21697f69e1b9"
+        }
+      ],
+      "files": [
+        {
+          "path": "data/seed41/compound/compound_mocop_entities.parquet",
+          "bytes": 1294350,
+          "sha256": "33a641161bc51ef3a8bf169a880195672a8411036e04924a07fccb08f23035b3"
+        },
+        {
+          "path": "data/seed41/compound/compound_mocop_replicate_features.npy",
+          "bytes": 828517328,
+          "sha256": "2eaaf44756f204daac04fb6eb4814eaac96525b5c4b6145c98c0cfd6d098ba0b"
+        },
+        {
+          "path": "data/seed41/compound/compound_mocop_replicates.parquet",
+          "bytes": 2199715,
+          "sha256": "a47f429a29dcfe4ee39d7409783a852d82750b40a60aa0269f3944ba54c2f735"
+        },
+        {
+          "path": "data/seed41/compound/dataset_summary.json",
+          "bytes": 233,
+          "sha256": "25ca40586b32f2c37e2ef01126901b5f832ecbe24ce23054bab10b7ec5750aaf"
+        },
+        {
+          "path": "data/seed41/compound/feature_columns.json",
+          "bytes": 150459,
+          "sha256": "b3af1de5f16b698ec105621a6cc2f94f22f206653c2350127a55aae76ce05911"
+        },
+        {
+          "path": "data/seed41/compound/splits_compound_mocop.json",
+          "bytes": 279085,
+          "sha256": "48d6ca1b4c4a2a0d61177b996bc6a565191a2bc7eeb8b1cb4d648d9a84a9d956"
+        },
+        {
+          "path": "data/seed41/gene/dataset_summary.json",
+          "bytes": 226,
+          "sha256": "63395ed72006caf49db1b1e762db34c4289aa4aa15f3353cddfd3496b36805aa"
+        },
+        {
+          "path": "data/seed41/gene/gene_mocop_entities.parquet",
+          "bytes": 968406,
+          "sha256": "1e17ef0e83e9bf2fc826f6dabe810c5bbb8e45a40d528f3de416742920ed1909"
+        },
+        {
+          "path": "data/seed41/gene/gene_mocop_replicate_features.npy",
+          "bytes": 155374928,
+          "sha256": "c45cfa6e7d36f88cc149ed83e83927e0923e286dd2d9ea955f4a259061edef84"
+        },
+        {
+          "path": "data/seed41/gene/gene_mocop_replicates.parquet",
+          "bytes": 364726,
+          "sha256": "972b5c16a04bb59e536b75b4e0b902c6f78a07cf8637e644ba006564ae9b5b25"
+        },
+        {
+          "path": "data/seed41/gene/splits_gene_mocop.json",
+          "bytes": 54933,
+          "sha256": "d7f7e3b93f7aafe7feb41d0e0677cb19986bea04fc32f1c511cf000fa68f43fa"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+query_name,retrieved_name,query_inchikey,retrieved_inchikey,morgan_tanimoto,prism_response_corr,shared_top_gene_count,top_gene_k
+BIIB021,R547,QULDDKSCVCJTPV-UHFFFAOYSA-N,JRNJNYBQQYBCLE-UHFFFAOYSA-N,0.1170212775468826,0.488023579120636,39,50

@@ -1,0 +1,20 @@
+{
+  "compound": {
+    "rows": 115786,
+    "columns": [
+      "entity_id",
+      "compound_id",
+      "canonical_smiles"
+    ],
+    "identity_sha256": "556b601139104d9cc166d7e2a652a9174bbfd8b6a5ebc7e61cb1d718f04052d9"
+  },
+  "gene": {
+    "rows": 22294,
+    "columns": [
+      "entity_id",
+      "gene_symbol",
+      "perturbation_modality"
+    ],
+    "identity_sha256": "4993566b151bb23b9f2cdd39cbc91652ce375867c347d4dc651736b86e9b8a82"
+  }
+}

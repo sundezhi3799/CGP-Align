@@ -1,0 +1,233 @@
+{
+  "schema": "cgp-align-artifacts-v1",
+  "code_commit": "bd4c3282637aacfab47b3acfdc64052b65bfc06b",
+  "created": 1789911058.0942466,
+  "groups": [
+    {
+      "name": "final-models",
+      "parts": [
+        {
+          "name": "final-models.tar.gz.part000",
+          "bytes": 915188797,
+          "sha256": "3e7f0ef89ed603fe45eaa2e49f7dd87ae557e227c18f9d7a80db143ea03487b9"
+        }
+      ],
+      "files": [
+        {
+          "path": "models/seed31/joint/best_model.pt",
+          "bytes": 33980706,
+          "sha256": "1b45e30d2713f0611f0f94e88d18b4f4837a44b4ace0c47ea8ac00b9494373a0"
+        },
+        {
+          "path": "models/seed31/joint/configuration.json",
+          "bytes": 5112,
+          "sha256": "1a434dbf0122cc58097fd4522ece28434e1ec73df1f118b07d90ce73790f3d7f"
+        },
+        {
+          "path": "models/seed31/compound/best_model.pt",
+          "bytes": 22404578,
+          "sha256": "8283a5ade585a3a6e56d4bf503efe48da4786c40f2f102b8e6614fae3b3172da"
+        },
+        {
+          "path": "models/seed31/compound/configuration.json",
+          "bytes": 1705,
+          "sha256": "65b85a6048aef9d860461c9821fc525d820e0709f416e0dc347895a4a55491ed"
+        },
+        {
+          "path": "models/seed31/orf/best_model.pt",
+          "bytes": 234211876,
+          "sha256": "fdb6e8a86eb9a63cf4d7a928a2cdec26fd8998754e56f2ddab7f8d5e2c88cf26"
+        },
+        {
+          "path": "models/seed31/orf/configuration.json",
+          "bytes": 6547,
+          "sha256": "e216e924b8bad64f58a14f4d57cb75fad3e40d0a7f7fe21d82c6f673e2b2c0eb"
+        },
+        {
+          "path": "models/seed31/crispr/best_model.pt",
+          "bytes": 154043940,
+          "sha256": "cc7ab37771b04553d80292e40b83bf99847eb7d4c5529d0e0ff2e1ab5605f228"
+        },
+        {
+          "path": "models/seed31/crispr/configuration.json",
+          "bytes": 6535,
+          "sha256": "6fbce8f4c4bd58328c9f3c558b5dc6ebe78ea4d6f1fdf6e39db757baa334338a"
+        },
+        {
+          "path": "models/seed37/joint/best_model.pt",
+          "bytes": 33980706,
+          "sha256": "332ee0e7f2d5c9887653ed1fabbc22484a9fea36240d6ae33b9fe20e443f6097"
+        },
+        {
+          "path": "models/seed37/joint/configuration.json",
+          "bytes": 5112,
+          "sha256": "bc5e00158071ae12c521ddc3203c679d1a5e5fe8e951d0863260fb78a83c6548"
+        },
+        {
+          "path": "models/seed37/compound/best_model.pt",
+          "bytes": 22404578,
+          "sha256": "01946feecc9657e9615c78234a879873318e3dc47c80315257d6bc102886aa20"
+        },
+        {
+          "path": "models/seed37/compound/configuration.json",
+          "bytes": 1705,
+          "sha256": "0f7ee0e6c2a162fdd5666de5050a1cc2fe396f65c2182d44b6199f944629a085"
+        },
+        {
+          "path": "models/seed37/orf/best_model.pt",
+          "bytes": 233954340,
+          "sha256": "2d93787b2bafdf7da0856a546d5ed6ce561246762a099b492bd1792df180f030"
+        },
+        {
+          "path": "models/seed37/orf/configuration.json",
+          "bytes": 6551,
+          "sha256": "9b91ddc9605f2681a7a43e571441892d73d453192ca3a954279c601daa9ec77a"
+        },
+        {
+          "path": "models/seed37/crispr/best_model.pt",
+          "bytes": 154546276,
+          "sha256": "3845adaa702cfda0d95086c9c060e5fd51d12f6489661f7e3db3de1a7f425936"
+        },
+        {
+          "path": "models/seed37/crispr/configuration.json",
+          "bytes": 6533,
+          "sha256": "17d21a4a853af6f61cba5c7ecb5ee9fa775df116e2d3330080a6c73b273cbe00"
+        },
+        {
+          "path": "models/seed41/joint/best_model.pt",
+          "bytes": 33980706,
+          "sha256": "b239cae512b120a1248486f067826c4c4d30bdd23f44969ad7ee5145fc8433c6"
+        },
+        {
+          "path": "models/seed41/joint/configuration.json",
+          "bytes": 5112,
+          "sha256": "1092fd7fd4c638a8b9c2b1386d1ce3ac59fbd575263f8d34e4bc3cca99e0819c"
+        },
+        {
+          "path": "models/seed41/compound/best_model.pt",
+          "bytes": 22404578,
+          "sha256": "7d4629dd927eed523f676412a7b3e7a59636a5aa7ef1849e8079346efa86281d"
+        },
+        {
+          "path": "models/seed41/compound/configuration.json",
+          "bytes": 1705,
+          "sha256": "84d9d69fdaa40679302e7f9725244e0281bb7f3f529bd36425e72c5dc699c357"
+        },
+        {
+          "path": "models/seed41/orf/best_model.pt",
+          "bytes": 233879652,
+          "sha256": "04857548eb61a4878fc4f8c10bafe4d27c3a892760b8f249bcba26dfbf49da58"
+        },
+        {
+          "path": "models/seed41/orf/configuration.json",
+          "bytes": 6549,
+          "sha256": "67ecc91bcefe367a982330c09962a7340216314fa350e4095c798856d6e0233c"
+        },
+        {
+          "path": "models/seed41/crispr/best_model.pt",
+          "bytes": 154571748,
+          "sha256": "d8d287977edc16fc50aa7fc3c63df1845e44d0859473a2b673c6eee68d79d67c"
+        },
+        {
+          "path": "models/seed41/crispr/configuration.json",
+          "bytes": 6538,
+          "sha256": "73ff8ae6446b5a5364f3c87d37eeaf6f409b039a816ad996a6fb39a8334ed6e7"
+        }
+      ]
+    },
+    {
+      "name": "protein-features",
+      "parts": [
+        {
+          "name": "protein-features.tar.gz.part000",
+          "bytes": 123449586,
+          "sha256": "bb2e86dedd6e529efd1504cc2749c01222567c38b40097c724d84022262847e7"
+        }
+      ],
+      "files": [
+        {
+          "path": "protein/protein_embedding_summary.json",
+          "bytes": 689,
+          "sha256": "ea4d8e59f5dbc903748cd82c4dd6a7350d23debcf1aa1a2e6e0ccb138c7e4b91"
+        },
+        {
+          "path": "protein/protein_sequence_embeddings.npy",
+          "bytes": 156969088,
+          "sha256": "dfc43c5834ad75ff7c0ab38750cdd34ab0e216fa1fa4ebfe95489474586eb36f"
+        }
+      ]
+    },
+    {
+      "name": "ablation-models",
+      "parts": [
+        {
+          "name": "ablation-models.tar.gz",
+          "bytes": 189572368,
+          "sha256": "6f2f7c691f035bdb66e614dcf3def5a04956c4e82c45b06bb5dbd54d1a1d7017"
+        }
+      ],
+      "files": [
+        {
+          "path": "ablations/no_source_indicator/seed31/configuration.json",
+          "bytes": 5162,
+          "sha256": "7bac35ec282ecc5998b83c575094c45053f092d503cbb291bbcf2def478a4842"
+        },
+        {
+          "path": "ablations/no_source_indicator/seed31/best_model.pt",
+          "bytes": 33942242,
+          "sha256": "f2f6ee31590b515979eff1708083cc34a6c480eb559b7ab6cb7183099fccaa19"
+        },
+        {
+          "path": "ablations/no_source_indicator/seed37/configuration.json",
+          "bytes": 5162,
+          "sha256": "ef3c130f407c90384e25d09e14805f03ab0aa6c77abd9b6f2dbc13b808b156ee"
+        },
+        {
+          "path": "ablations/no_source_indicator/seed37/best_model.pt",
+          "bytes": 33942242,
+          "sha256": "2ed0b69547beec93a8f5e04720571071b7b35e73cb3a5a3ec444bfee72978527"
+        },
+        {
+          "path": "ablations/no_source_indicator/seed41/configuration.json",
+          "bytes": 5162,
+          "sha256": "8f8c84f5063988eea2406cb69742d2fa0e1753cdb25b55b5d594a9dc9b95dd18"
+        },
+        {
+          "path": "ablations/no_source_indicator/seed41/best_model.pt",
+          "bytes": 33942242,
+          "sha256": "efebcf60b960ad85052618c9ba9019b28e668caa3036ba0e40fc38cf595e9b9f"
+        },
+        {
+          "path": "ablations/no_pretraining/seed31/configuration.json",
+          "bytes": 4785,
+          "sha256": "5d46a72a4b0c758aa42fae28775693f6ee39f9c0eb2380e6551bc1fffcec7d23"
+        },
+        {
+          "path": "ablations/no_pretraining/seed31/best_model.pt",
+          "bytes": 33979618,
+          "sha256": "067625923ffbe4c7122931df2d80767ee9b1a49301e9f740c98231e7e2dd5b29"
+        },
+        {
+          "path": "ablations/no_pretraining/seed37/configuration.json",
+          "bytes": 4785,
+          "sha256": "2ac3d0874cc957dba9f99a3c84827ffce22bcc0124f560590b3f3b0a392323b9"
+        },
+        {
+          "path": "ablations/no_pretraining/seed37/best_model.pt",
+          "bytes": 33979618,
+          "sha256": "83dd7dfa4d486a830ea07957a676e958c04e63204f2f7e8f4bf5ae034d644311"
+        },
+        {
+          "path": "ablations/no_pretraining/seed41/configuration.json",
+          "bytes": 4785,
+          "sha256": "02311e9d9e78e004e0dde4fdef7e9436af3df725d8e98a1450088651436b3872"
+        },
+        {
+          "path": "ablations/no_pretraining/seed41/best_model.pt",
+          "bytes": 33979618,
+          "sha256": "54e44bd712668eaecca938efbe7c9d60c63d6995288a093991e8d013a97e7062"
+        }
+      ]
+    }
+  ]
+}
