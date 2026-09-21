@@ -286,8 +286,8 @@ panel_b <- ggplot(panel_b_data, aes(low_tanimoto, enrichment, colour = method, l
   geom_hline(yintercept = 1, linewidth = 0.28, colour = "#B7C0C7", linetype = "dotted") +
   geom_line(linewidth = 0.66, alpha = 0.98) +
   geom_point(size = 1.8, stroke = 0.2, alpha = 0.98) +
-  scale_colour_manual(values = method_cols, breaks = main_methods, drop = TRUE) +
-  scale_linetype_manual(values = method_lty, breaks = main_methods, drop = TRUE) +
+  scale_colour_manual(values = method_cols, breaks = main_methods, labels = function(x) ifelse(x == "RDKit2D", "RDKit-Morgan", x), drop = TRUE) +
+  scale_linetype_manual(values = method_lty, breaks = main_methods, labels = function(x) ifelse(x == "RDKit2D", "RDKit-Morgan", x), drop = TRUE) +
   scale_x_reverse(breaks = c(0.30, 0.25, 0.20, 0.15), limits = c(0.31, 0.12)) +
   scale_y_continuous(expand = expansion(mult = c(0.02, 0.12))) +
   labs(
@@ -315,7 +315,7 @@ panel_c <- ggplot(query_pairs, aes(RDKit2D, `CGP-Align`)) +
   scale_size_area(max_size = 4.8, guide = "none") +
   coord_cartesian(xlim = c(0, d_axis_max), ylim = c(0, d_axis_max), expand = FALSE) +
   labs(
-    x = "RDKit2D fraction",
+    x = "RDKit-Morgan fraction",
     y = "CGP-Align fraction"
   ) +
   theme(
@@ -340,8 +340,8 @@ panel_d <- ggplot(panel_d_data, aes(low_tanimoto, retention50, colour = method, 
     label = "578 cell lines",
     size = 1.95, hjust = 0, family = "Arial", colour = "#58636E"
   ) +
-  scale_colour_manual(values = method_cols, breaks = main_methods, drop = TRUE) +
-  scale_linetype_manual(values = method_lty, breaks = main_methods, drop = TRUE) +
+  scale_colour_manual(values = method_cols, breaks = main_methods, labels = function(x) ifelse(x == "RDKit2D", "RDKit-Morgan", x), drop = TRUE) +
+  scale_linetype_manual(values = method_lty, breaks = main_methods, labels = function(x) ifelse(x == "RDKit2D", "RDKit-Morgan", x), drop = TRUE) +
   scale_x_reverse(breaks = c(0.30, 0.25, 0.20, 0.15), limits = c(0.31, 0.14)) +
   scale_y_continuous(labels = label_number(accuracy = 0.01), expand = expansion(mult = c(0.04, 0.10))) +
   labs(
@@ -551,11 +551,11 @@ manifest <- c(
   sprintf('  "figure": "Figure 6",'),
   sprintf('  "title": "Phenotype-anchored representations reveal mechanism-related compound neighbours beyond chemical similarity",'),
   sprintf('  "created_at": "%s",', format(Sys.time(), "%Y-%m-%d %H:%M:%S %z")),
-  sprintf('  "script": "scripts/make_figure6_response_profile_retrieval.R",'),
+  sprintf('  "script": "figures/downstream_final/scripts/figure6.R",'),
   '  "panels": {',
   '    "a": "Phenotype-driven functional-neighbour discovery workflow",',
   '    "b": "Functional-neighbour enrichment under structural dissimilarity constraints",',
-  '    "c": "Query-level paired improvement over RDKit2D",',
+  '    "c": "Query-level paired improvement over RDKit-Morgan (Morgan 2048 plus 11 RDKit descriptors)",',
   '    "d": "Pan-cancer PRISM response retention under structural filters",',
   '    "e": "Compound-gene-program convergence",',
   '    "f": "Discovery landscape of mechanism-annotated neighbours"',

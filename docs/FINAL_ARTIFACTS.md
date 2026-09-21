@@ -103,10 +103,10 @@ This verifies checkpoint/data packaging and path portability, not a second
 training run or an independent reconstruction from raw Cell Painting downloads.
 
 The release contains the prepared inputs for intrinsic retrieval and training.
-Figure 4–6 additionally require original relation, ToxRIC and PRISM inputs and
-baseline feature resources. Their current computed source tables, results,
-analysis scripts and protocol details are available in
-[the downstream reproduction guide](DOWNSTREAM_RESULTS.md). The earlier
+The [September 21 supplementary release](REPRODUCTION_INPUTS.md) adds matched
+comparators and the prepared relation, ToxRIC, PRISM and baseline feature inputs
+for numerical recomputation. Source tables, R scripts and protocol details remain
+in [the downstream reproduction guide](DOWNSTREAM_RESULTS.md). The earlier
 `paper_snapshot` is an explicitly historical archive.
 
 ## Attribution

@@ -1,0 +1,10 @@
+{
+  "groups": 6,
+  "extracted_files": 149,
+  "compressed_parts": 9,
+  "compressed_bytes": 6425149967,
+  "extracted_bytes": 9264931376,
+  "all_archives_extracted_and_verified": true,
+  "nine_comparator_recipe_parser_checks": "PASS",
+  "scope": "Recomputation from released prepared inputs; no additional full training or raw upstream reconstruction."
+}

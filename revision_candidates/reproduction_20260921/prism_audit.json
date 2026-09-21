@@ -1,0 +1,207 @@
+{
+  "scope": "PRISM and gene-mechanism readouts from extracted prepared inputs and exact released embedding caches",
+  "absolute_and_relative_tolerance": 1e-10,
+  "status": "DIFFERENCES",
+  "tables": [
+    {
+      "file": "mechanism\\mechanism_category_rules.csv",
+      "rows": 12,
+      "numeric_values": 0,
+      "differences": []
+    },
+    {
+      "file": "mechanism\\pair_gene_mechanism_metrics.csv",
+      "rows": 4694,
+      "numeric_values": 65716,
+      "differences": [
+        {
+          "column": "method_score",
+          "changed": 261,
+          "max_abs": 2.980232238769531e-07
+        }
+      ]
+    },
+    {
+      "file": "mechanism\\pair_gene_mechanism_summary.csv",
+      "rows": 7,
+      "numeric_values": 63,
+      "differences": []
+    },
+    {
+      "file": "mechanism\\pair_mechanism_category_hits.csv",
+      "rows": 8451,
+      "numeric_values": 33804,
+      "differences": []
+    },
+    {
+      "file": "mechanism\\pair_mechanism_category_summary.csv",
+      "rows": 64,
+      "numeric_values": 256,
+      "differences": []
+    },
+    {
+      "file": "mechanism\\representative_cgp_gene_mechanism_cases.csv",
+      "rows": 30,
+      "numeric_values": 420,
+      "differences": []
+    },
+    {
+      "file": "prism_cgp_overlap_compounds.csv",
+      "rows": 1856,
+      "numeric_values": 9280,
+      "differences": []
+    },
+    {
+      "file": "prism_continuous_metric_summary.csv",
+      "rows": 35,
+      "numeric_values": 805,
+      "differences": [
+        {
+          "column": "mean_functional_neighbor_rank_percentile",
+          "changed": 3,
+          "max_abs": 3.427205658157462e-08
+        },
+        {
+          "column": "best_functional_neighbor_rank_percentile",
+          "changed": 4,
+          "max_abs": 2.917125627999173e-07
+        },
+        {
+          "column": "ndcg10",
+          "changed": 4,
+          "max_abs": 3.599789565406075e-06
+        },
+        {
+          "column": "ndcg50",
+          "changed": 5,
+          "max_abs": 1.57077265700023e-06
+        },
+        {
+          "column": "ndcg100",
+          "changed": 5,
+          "max_abs": 1.0781800022785504e-06
+        }
+      ]
+    },
+    {
+      "file": "prism_continuous_paired_stats.csv",
+      "rows": 125,
+      "numeric_values": 750,
+      "differences": [
+        {
+          "column": "mean_delta",
+          "changed": 9,
+          "max_abs": 1.5707726570973746e-06
+        },
+        {
+          "column": "ci95_low",
+          "changed": 9,
+          "max_abs": 7.0681792085011685e-06
+        },
+        {
+          "column": "ci95_high",
+          "changed": 10,
+          "max_abs": 1.2754109057974694e-06
+        }
+      ]
+    },
+    {
+      "file": "prism_continuous_query_metrics.csv",
+      "rows": 64960,
+      "numeric_values": 1494080,
+      "differences": [
+        {
+          "column": "mean_functional_neighbor_rank_percentile",
+          "changed": 19,
+          "max_abs": 6.640106241706523e-05
+        },
+        {
+          "column": "best_functional_neighbor_rank_percentile",
+          "changed": 4,
+          "max_abs": 0.000541418516513301
+        },
+        {
+          "column": "ndcg10",
+          "changed": 6,
+          "max_abs": 0.0075464707308181
+        },
+        {
+          "column": "ndcg50",
+          "changed": 34,
+          "max_abs": 0.0032264095286583805
+        },
+        {
+          "column": "ndcg100",
+          "changed": 64,
+          "max_abs": 0.002208456850603502
+        }
+      ]
+    },
+    {
+      "file": "prism_high_confidence_cgp_cases_tan020_corr030_top50.csv",
+      "rows": 40,
+      "numeric_values": 160,
+      "differences": [
+        {
+          "column": "method_score",
+          "changed": 2,
+          "max_abs": 2.384185791015625e-07
+        }
+      ]
+    },
+    {
+      "file": "prism_high_confidence_hit_delta_vs_baselines.csv",
+      "rows": 180,
+      "numeric_values": 2160,
+      "differences": []
+    },
+    {
+      "file": "prism_high_confidence_hit_pairs.csv",
+      "rows": 248271,
+      "numeric_values": 1986168,
+      "differences": [
+        {
+          "column": "method_score",
+          "changed": 13409,
+          "max_abs": 3.5762786865234375e-07
+        }
+      ]
+    },
+    {
+      "file": "prism_high_confidence_hit_summary.csv",
+      "rows": 252,
+      "numeric_values": 2772,
+      "differences": []
+    },
+    {
+      "file": "prism_u2os_single_cell_active_retrieval_summary.csv",
+      "rows": 252,
+      "numeric_values": 3780,
+      "differences": []
+    },
+    {
+      "file": "prism_u2os_single_cell_cgp_cases_tan020_active_m1_top50.csv",
+      "rows": 50,
+      "numeric_values": 300,
+      "differences": []
+    },
+    {
+      "file": "prism_u2os_single_cell_delta_vs_baselines.csv",
+      "rows": 180,
+      "numeric_values": 2160,
+      "differences": []
+    },
+    {
+      "file": "prism_u2os_single_cell_paired_stats.csv",
+      "rows": 720,
+      "numeric_values": 5760,
+      "differences": []
+    },
+    {
+      "file": "prism_u2os_single_cell_query_metrics.csv",
+      "rows": 33264,
+      "numeric_values": 465696,
+      "differences": []
+    }
+  ]
+}

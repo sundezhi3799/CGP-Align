@@ -1,0 +1,10 @@
+# Numerical downstream environment. Python 3.10 was tested on Linux.
+# Install torch==2.8.0 from the CPU index separately; it is an import dependency.
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.6.1
+rdkit==2025.9.6
+pyarrow==19.0.0
+matplotlib==3.10.9
+requests==2.34.2

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "Original frozen embeddings; all 60 validation/test records for 30 fitted leave-one-source-out classifiers",
+  "tables": [
+    {
+      "graph": "broad",
+      "rows": 30,
+      "numeric_fields": 300,
+      "max_abs_difference": 0.0
+    },
+    {
+      "graph": "strict",
+      "rows": 30,
+      "numeric_fields": 300,
+      "max_abs_difference": 0.0
+    }
+  ]
+}

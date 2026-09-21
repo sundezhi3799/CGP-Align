@@ -18,6 +18,17 @@ protein features and strict seed-specific prepared data. See
 [download and evaluation commands](docs/FINAL_ARTIFACTS.md) and
 [Figure 4–6/S2/S3 results](docs/DOWNSTREAM_RESULTS.md).
 
+The [supplementary reproduction-inputs release](https://github.com/sundezhi3799/CGP-Align/releases/tag/reproduction-inputs-20260921)
+adds all nine matched comparator checkpoints, fixed feature matrices and candidate
+banks, mapped relation inputs, toxicity tasks/features/alerts, PRISM inputs and
+the frozen embedding caches. Follow the [portable recomputation commands](docs/REPRODUCTION_INPUTS.md)
+for Figures 3F/G and 4–6. [Figure 1/2 schematics](figures/schematics) and the
+corrected Figure 6 RDKit-Morgan display label are also included. Third-party
+inputs retain their [source-specific terms](docs/INPUT_ATTRIBUTION.md).
+The [recomputation audit](docs/REPRODUCTION_VALIDATION.md) records the full
+matched retrieval checks, downstream refits, numerical differences and Word
+v11 correspondence.
+
 ```bash
 python tools/download_final_artifacts.py --output ../CGP-Align-artifacts
 python tools/prepare_final_architecture_runtime.py --output ../CGP-Align-final-runtime

@@ -1,0 +1,92 @@
+[
+  {
+    "seed": 31,
+    "file": "compound.npy",
+    "shape": [
+      115786,
+      256
+    ],
+    "max_abs_error": 3.650784492492676e-07,
+    "exact": false
+  },
+  {
+    "seed": 31,
+    "file": "gene.npy",
+    "shape": [
+      22294,
+      256
+    ],
+    "max_abs_error": 0.0,
+    "exact": true
+  },
+  {
+    "seed": 37,
+    "file": "compound.npy",
+    "shape": [
+      115786,
+      256
+    ],
+    "max_abs_error": 3.454042598605156e-07,
+    "exact": false
+  },
+  {
+    "seed": 37,
+    "file": "gene.npy",
+    "shape": [
+      22294,
+      256
+    ],
+    "max_abs_error": 0.0,
+    "exact": true
+  },
+  {
+    "seed": 41,
+    "file": "tox_atad5.npy",
+    "shape": [
+      6737,
+      256
+    ],
+    "max_abs_error": 4.1350722312927246e-07,
+    "exact": false
+  },
+  {
+    "seed": 41,
+    "file": "compound.npy",
+    "shape": [
+      115786,
+      256
+    ],
+    "max_abs_error": 4.66126948595047e-07,
+    "exact": false
+  },
+  {
+    "seed": 41,
+    "file": "gene.npy",
+    "shape": [
+      22294,
+      256
+    ],
+    "max_abs_error": 0.0,
+    "exact": true
+  },
+  {
+    "seed": 41,
+    "file": "prism.npy",
+    "shape": [
+      1856,
+      256
+    ],
+    "max_abs_error": 3.427267074584961e-07,
+    "exact": false
+  },
+  {
+    "seed": 41,
+    "file": "tox_main.npy",
+    "shape": [
+      35109,
+      256
+    ],
+    "max_abs_error": 4.842877388000488e-07,
+    "exact": false
+  }
+]

@@ -68,6 +68,9 @@ def main():
     p.add_argument('--verify-only', action='store_true', help='Verify extracted files without downloading')
     a = p.parse_args(); cache = a.cache or a.output / 'downloads'
     manifest = json.loads(a.manifest.read_text(encoding='utf-8-sig'))
+    release_url = manifest.get('release_url', URL)
+    if not release_url.startswith('https://github.com/sundezhi3799/CGP-Align/releases/download/'):
+        p.error('Manifest release_url must identify a CGP-Align GitHub release')
     groups = {g['name']: g for g in manifest['groups']}
     for name in a.groups:
         if name not in groups: p.error('Unknown group: ' + name)
@@ -81,7 +84,7 @@ def main():
                     if a.offline: raise ValueError('Missing or invalid cached part: ' + str(path))
                     tmp = path.with_name(path.name + '.partial')
                     print('Downloading', part['name'], flush=True)
-                    with urllib.request.urlopen(URL + part['name'], timeout=180) as src, tmp.open('wb') as dst:
+                    with urllib.request.urlopen(release_url + part['name'], timeout=180) as src, tmp.open('wb') as dst:
                         for b in iter(lambda: src.read(8 * 1024 * 1024), b''): dst.write(b)
                     if tmp.stat().st_size != part['bytes'] or digest(tmp) != part['sha256']: raise ValueError('Download checksum mismatch')
                     tmp.replace(path)

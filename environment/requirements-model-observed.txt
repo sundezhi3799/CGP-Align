@@ -1,0 +1,8 @@
+# Observed Linux/Python 3.10 model and relation-analysis environment.
+# Install torch==2.1.0 from the cu118 index separately.
+numpy==1.26.4
+pandas==2.3.3
+rdkit==2023.9.6
+pyarrow==23.0.1
+scipy==1.15.3
+scikit-learn==1.7.2

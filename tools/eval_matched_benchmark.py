@@ -24,6 +24,7 @@ def main():
     p.add_argument('--aggregation', choices=('encode_mean', 'mean_encoded'), default='encode_mean',
                    help='Historical default retained; adopted protocol uses mean_encoded explicitly.')
     p.add_argument('--replicate-data', type=Path)
+    p.add_argument('--artifacts', type=Path, help='Released final artifacts; replaces archived CGP input paths.')
     a = p.parse_args()
     audit = json.loads((a.prepared / 'audit.json').read_text())
     profiles = np.load(a.prepared / 'profile_features.npy', mmap_mode='r')
@@ -40,10 +41,19 @@ def main():
     if a.method == 'cgp':
         from eval_raw3180_branch_retrieval_from_checkpoints import load_model_and_data
         assert cfg['profile_norm'] == 'none'
-        source = Path(cfg['compound_data_dir'])
+        overrides = None
+        if a.artifacts is not None:
+            if not (ROOT / 'RUNTIME_VERSION.json').exists():
+                p.error('Use a staged final-architecture runtime with --artifacts')
+            base = a.artifacts.resolve()
+            overrides = dict(compound_data_dir=str(base / f'data/seed{audit["seed"]}/compound'),
+                             gene_data_dir=str(base / f'data/seed{audit["seed"]}/gene'),
+                             gene_protein_embedding_dir=str(base / 'protein'))
+        source = Path(overrides['compound_data_dir'] if overrides else cfg['compound_data_dir'])
         assert sha(source / 'compound_mocop_entities.parquet') == audit['entity_table_sha256']
         assert sha(source / 'splits_compound_mocop.json') == audit['split_sha256']
-        model, data, payload, args = load_model_and_data(a.checkpoint, device, 512)
+        model, data, payload, args = load_model_and_data(a.checkpoint, device, 512,
+            data_overrides=argparse.Namespace(**overrides) if overrides else None)
         assert np.array_equal(data['compound']['test_entities'], rows)
     else:
         assert sha(a.prepared / a.method / 'compound_structure_features.npy') == audit['methods'][a.method]['feature_sha256']

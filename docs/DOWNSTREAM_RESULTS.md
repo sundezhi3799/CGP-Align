@@ -15,7 +15,7 @@ three seeds. S3 compares three matched seeds for each of three variants.
   CGP plus alerts has mean AUPRC **0.53351**, versus latent-only **0.48768**.
 - Figure 6: at Morgan Tanimoto <0.20, top-50 response-correlation hits are
   **1965**, versus **353** for random ranking (**5.56657-fold**). The U2OS
-  active-fraction gain over RDKit2D is **0.15679** (bootstrap CI 0.13208–0.18417)
+  active-fraction gain over RDKit-Morgan is **0.15679** (bootstrap CI 0.13208–0.18417)
   over 187 active queries. The BIIB021/R547 example shares 39 top-50 genes.
 - S2: all audited cross-split entity/gene-symbol overlaps are zero. Seed-41
   mean residual plate/well R² is 0.00117/0.00208 for compounds and
@@ -80,11 +80,18 @@ training configurations/log records, input hashes, embedding provenance, and
 the actual research orchestration scripts. Those orchestration snapshots retain
 the source workspace paths for traceability. Numerical implementations are in
 root `scripts/`; stage the final runtime before loading these checkpoints.
-Input paths must be supplied or adapted for external relation tables, ToxRIC
-tasks/alert matrices, PRISM response matrices and baseline features. These
-third-party downstream raw inputs are not all repackaged in the weights release.
-The processed source-table redraw is self-contained; a clean-room upstream
-reconstruction of every downstream baseline has not been verified.
+The supplementary September 21 release supplies the mapped relation tables,
+ToxRIC tasks/alert matrix, PRISM overlap responses and baseline feature caches.
+[Portable commands](REPRODUCTION_INPUTS.md) relocate these inputs explicitly and
+recompute the analyses. They start from versioned prepared inputs; a reconstruction
+of every source database or foundation-model feature from raw downloads has not
+been verified. See the [recomputation audit](REPRODUCTION_VALIDATION.md).
+
+The September 21 label correction identifies Figure 6's 2059-dimensional
+baseline as **RDKit-Morgan** (2048 Morgan bits plus 11 RDKit descriptors).
+Historical CSV method keys remain `RDKit2D` to preserve compatibility; the R
+script maps them to the correct display label. Figure 5 uses a separate, genuine
+RDKit2D baseline. This correction changes no source-table values.
 
 The manuscript update preserves paragraph/run/section properties, field
 instructions and embedded image dimensions. Main and supplementary documents

@@ -1,0 +1,160 @@
+{
+  "scope": "30 relation enrichment runs, 60 classifier validation/test rows, reference PCA and source overlap using embeddings newly inferred from released weights",
+  "diagnostic_tolerance": 1e-10,
+  "tables": [
+    {
+      "file": "broad\\gene_union_latent_link_classifier_summary.csv",
+      "rows": 30,
+      "numeric_values": 300,
+      "differences": [
+        {
+          "column": "auroc",
+          "count": 30,
+          "max_abs": 0.0002593333333332781
+        },
+        {
+          "column": "auprc",
+          "count": 30,
+          "max_abs": 0.0009465149987868959
+        },
+        {
+          "column": "cosine_auroc",
+          "count": 28,
+          "max_abs": 7.777777788486873e-08
+        },
+        {
+          "column": "cosine_auprc",
+          "count": 30,
+          "max_abs": 9.748484730009999e-07
+        }
+      ]
+    },
+    {
+      "file": "enrichment_runs.csv",
+      "rows": 30,
+      "numeric_values": 420,
+      "differences": [
+        {
+          "column": "C2G_MRR",
+          "count": 17,
+          "max_abs": 1.1550830229974107e-07
+        },
+        {
+          "column": "G2C_MRR",
+          "count": 12,
+          "max_abs": 1.8151485700027177e-08
+        }
+      ]
+    },
+    {
+      "file": "figure4a_relation_source_upset_intersections_main.csv",
+      "rows": 10,
+      "numeric_values": 30,
+      "differences": []
+    },
+    {
+      "file": "figure4a_relation_source_upset_matrix_main.csv",
+      "rows": 50,
+      "numeric_values": 100,
+      "differences": []
+    },
+    {
+      "file": "figure4a_relation_source_upset_metadata_main.csv",
+      "rows": 1,
+      "numeric_values": 2,
+      "differences": []
+    },
+    {
+      "file": "figure4a_relation_source_upset_set_sizes_main.csv",
+      "rows": 5,
+      "numeric_values": 5,
+      "differences": []
+    },
+    {
+      "file": "figure4e_merged_database_entity_space_pca_coordinates.csv",
+      "rows": 9806,
+      "numeric_values": 39224,
+      "differences": [
+        {
+          "column": "pca_x",
+          "count": 9197,
+          "max_abs": 4.664745784921376e-07
+        },
+        {
+          "column": "pca_y",
+          "count": 9557,
+          "max_abs": 5.478157389937621e-07
+        },
+        {
+          "column": "pc1_var",
+          "count": 9806,
+          "max_abs": 4.620273053035362e-10
+        },
+        {
+          "column": "pc2_var",
+          "count": 9806,
+          "max_abs": 1.8176429805727423e-10
+        }
+      ]
+    },
+    {
+      "file": "figure4e_merged_database_entity_space_pca_links.csv",
+      "rows": 15,
+      "numeric_values": 150,
+      "differences": [
+        {
+          "column": "compound_gene_cosine",
+          "count": 13,
+          "max_abs": 3.3527612700035014e-08
+        },
+        {
+          "column": "compound_x",
+          "count": 15,
+          "max_abs": 1.029016911020808e-07
+        },
+        {
+          "column": "compound_y",
+          "count": 15,
+          "max_abs": 8.948163010558119e-08
+        },
+        {
+          "column": "gene_x",
+          "count": 15,
+          "max_abs": 1.2840050134244052e-09
+        },
+        {
+          "column": "gene_y",
+          "count": 15,
+          "max_abs": 2.9314940995506245e-09
+        }
+      ]
+    },
+    {
+      "file": "strict\\gene_union_latent_link_classifier_summary.csv",
+      "rows": 30,
+      "numeric_values": 300,
+      "differences": [
+        {
+          "column": "auroc",
+          "count": 30,
+          "max_abs": 0.00012180000000017177
+        },
+        {
+          "column": "auprc",
+          "count": 30,
+          "max_abs": 0.0005396263647367006
+        },
+        {
+          "column": "cosine_auroc",
+          "count": 28,
+          "max_abs": 8.888888891611657e-08
+        },
+        {
+          "column": "cosine_auprc",
+          "count": 28,
+          "max_abs": 2.0054178290207503e-07
+        }
+      ]
+    }
+  ]
+}

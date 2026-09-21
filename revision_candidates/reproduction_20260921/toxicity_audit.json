@@ -1,0 +1,3339 @@
+{
+  "scope": "All six representations refitted from prepared toxicity inputs and released CGP embedding cache; endpoint means and every alert run compared",
+  "completed_metric_comparisons": 345,
+  "expected_metric_comparisons": 345,
+  "max_abs_difference": 4.718447854656915e-16,
+  "differences_over_1e-10": [],
+  "all_comparisons": [
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "AtomPair2048",
+      "metric": "auprc",
+      "reference": 0.508371057288305,
+      "recomputed": 0.5083710572883053,
+      "delta": 3.3306690738754696e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "AtomPair2048",
+      "metric": "auroc",
+      "reference": 0.817709239254523,
+      "recomputed": 0.8177092392545233,
+      "delta": 3.3306690738754696e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "AtomPair2048",
+      "metric": "auprc",
+      "reference": 0.699071902767025,
+      "recomputed": 0.6990719027670249,
+      "delta": -1.1102230246251565e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "AtomPair2048",
+      "metric": "auroc",
+      "reference": 0.899940280589558,
+      "recomputed": 0.8999402805895581,
+      "delta": 1.1102230246251565e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "AtomPair2048",
+      "metric": "auprc",
+      "reference": 0.253077024513691,
+      "recomputed": 0.2530770245136907,
+      "delta": -3.3306690738754696e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "AtomPair2048",
+      "metric": "auroc",
+      "reference": 0.774407493594157,
+      "recomputed": 0.7744074935941567,
+      "delta": -2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "AtomPair2048",
+      "metric": "auprc",
+      "reference": 0.395163053795444,
+      "recomputed": 0.3951630537954441,
+      "delta": 1.1102230246251565e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "AtomPair2048",
+      "metric": "auroc",
+      "reference": 0.846489842220634,
+      "recomputed": 0.8464898422206337,
+      "delta": -2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "AtomPair2048",
+      "metric": "auprc",
+      "reference": 0.308138980723356,
+      "recomputed": 0.30813898072335594,
+      "delta": -5.551115123125783e-17
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "AtomPair2048",
+      "metric": "auroc",
+      "reference": 0.835238121422549,
+      "recomputed": 0.835238121422549,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "Avalon1024",
+      "metric": "auprc",
+      "reference": 0.497325334168209,
+      "recomputed": 0.4973253341682093,
+      "delta": 2.7755575615628914e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "Avalon1024",
+      "metric": "auroc",
+      "reference": 0.812314699422324,
+      "recomputed": 0.8123146994223236,
+      "delta": -4.440892098500626e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "Avalon1024",
+      "metric": "auprc",
+      "reference": 0.689550353311932,
+      "recomputed": 0.6895503533119324,
+      "delta": 3.3306690738754696e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "Avalon1024",
+      "metric": "auroc",
+      "reference": 0.892296854050861,
+      "recomputed": 0.8922968540508611,
+      "delta": 1.1102230246251565e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "Avalon1024",
+      "metric": "auprc",
+      "reference": 0.23119024708423,
+      "recomputed": 0.23119024708423047,
+      "delta": 4.718447854656915e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "Avalon1024",
+      "metric": "auroc",
+      "reference": 0.751254225014102,
+      "recomputed": 0.751254225014102,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "Avalon1024",
+      "metric": "auprc",
+      "reference": 0.394525858459571,
+      "recomputed": 0.3945258584595711,
+      "delta": 1.1102230246251565e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "Avalon1024",
+      "metric": "auroc",
+      "reference": 0.854252679457453,
+      "recomputed": 0.8542526794574528,
+      "delta": -2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "Avalon1024",
+      "metric": "auprc",
+      "reference": 0.255859951617976,
+      "recomputed": 0.25585995161797637,
+      "delta": 3.885780586188048e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "Avalon1024",
+      "metric": "auroc",
+      "reference": 0.809629038297382,
+      "recomputed": 0.809629038297382,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "CGP-Align",
+      "metric": "auprc",
+      "reference": 0.5593827955663211,
+      "recomputed": 0.5593827955663211,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "CGP-Align",
+      "metric": "auroc",
+      "reference": 0.8384842186995349,
+      "recomputed": 0.8384842186995349,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "CGP-Align",
+      "metric": "auprc",
+      "reference": 0.7124362491121209,
+      "recomputed": 0.7124362491121209,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "CGP-Align",
+      "metric": "auroc",
+      "reference": 0.9089203304508804,
+      "recomputed": 0.9089203304508804,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "CGP-Align",
+      "metric": "auprc",
+      "reference": 0.3730907599385024,
+      "recomputed": 0.3730907599385024,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "CGP-Align",
+      "metric": "auroc",
+      "reference": 0.808766215041075,
+      "recomputed": 0.808766215041075,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "CGP-Align",
+      "metric": "auprc",
+      "reference": 0.4517787282593151,
+      "recomputed": 0.4517787282593151,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "CGP-Align",
+      "metric": "auroc",
+      "reference": 0.8801628008740696,
+      "recomputed": 0.8801628008740696,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "CGP-Align",
+      "metric": "auprc",
+      "reference": 0.3716736544475545,
+      "recomputed": 0.3716736544475545,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "CGP-Align",
+      "metric": "auroc",
+      "reference": 0.8778726964226801,
+      "recomputed": 0.8778726964226801,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "Morgan2048",
+      "metric": "auprc",
+      "reference": 0.477437641906803,
+      "recomputed": 0.4774376419068032,
+      "delta": 2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "Morgan2048",
+      "metric": "auroc",
+      "reference": 0.8013888456909,
+      "recomputed": 0.8013888456908997,
+      "delta": -2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "Morgan2048",
+      "metric": "auprc",
+      "reference": 0.649228742102448,
+      "recomputed": 0.6492287421024482,
+      "delta": 2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "Morgan2048",
+      "metric": "auroc",
+      "reference": 0.875006808000911,
+      "recomputed": 0.8750068080009108,
+      "delta": -2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "Morgan2048",
+      "metric": "auprc",
+      "reference": 0.242045803493487,
+      "recomputed": 0.24204580349348656,
+      "delta": -4.440892098500626e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "Morgan2048",
+      "metric": "auroc",
+      "reference": 0.772995493003918,
+      "recomputed": 0.7729954930039182,
+      "delta": 2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "Morgan2048",
+      "metric": "auprc",
+      "reference": 0.359336713341802,
+      "recomputed": 0.3593367133418022,
+      "delta": 2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "Morgan2048",
+      "metric": "auroc",
+      "reference": 0.837733638080126,
+      "recomputed": 0.8377336380801264,
+      "delta": 3.3306690738754696e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "Morgan2048",
+      "metric": "auprc",
+      "reference": 0.257828348872101,
+      "recomputed": 0.2578283488721011,
+      "delta": 1.1102230246251565e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "Morgan2048",
+      "metric": "auroc",
+      "reference": 0.821808671505554,
+      "recomputed": 0.8218086715055538,
+      "delta": -2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "RDKit2D",
+      "metric": "auprc",
+      "reference": 0.540014085542776,
+      "recomputed": 0.5400140855427764,
+      "delta": 4.440892098500626e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "RDKit2D",
+      "metric": "auroc",
+      "reference": 0.831950388289908,
+      "recomputed": 0.8319503882899075,
+      "delta": -4.440892098500626e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "RDKit2D",
+      "metric": "auprc",
+      "reference": 0.752423958829405,
+      "recomputed": 0.7524239588294053,
+      "delta": 2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "RDKit2D",
+      "metric": "auroc",
+      "reference": 0.926612649464346,
+      "recomputed": 0.9266126494643456,
+      "delta": -3.3306690738754696e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "RDKit2D",
+      "metric": "auprc",
+      "reference": 0.3034445006469,
+      "recomputed": 0.30344450064690043,
+      "delta": 4.440892098500626e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "RDKit2D",
+      "metric": "auroc",
+      "reference": 0.802867862998745,
+      "recomputed": 0.8028678629987447,
+      "delta": -3.3306690738754696e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "RDKit2D",
+      "metric": "auprc",
+      "reference": 0.448897002917574,
+      "recomputed": 0.4488970029175737,
+      "delta": -3.3306690738754696e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "RDKit2D",
+      "metric": "auroc",
+      "reference": 0.888742043502748,
+      "recomputed": 0.8887420435027478,
+      "delta": -2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "RDKit2D",
+      "metric": "auprc",
+      "reference": 0.284667932185001,
+      "recomputed": 0.2846679321850014,
+      "delta": 3.885780586188048e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "RDKit2D",
+      "metric": "auroc",
+      "reference": 0.85191657109341,
+      "recomputed": 0.8519165710934103,
+      "delta": 3.3306690738754696e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "NYAN_latent_official_cache_et160",
+      "metric": "auprc",
+      "reference": 0.50914073060148,
+      "recomputed": 0.5091407306014804,
+      "delta": 3.3306690738754696e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "NYAN_latent_official_cache_et160",
+      "metric": "auroc",
+      "reference": 0.819771285706963,
+      "recomputed": 0.8197712857069632,
+      "delta": 2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "NYAN_latent_official_cache_et160",
+      "metric": "auprc",
+      "reference": 0.27216771233506,
+      "recomputed": 0.27216771233506,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "NYAN_latent_official_cache_et160",
+      "metric": "auroc",
+      "reference": 0.829528143050908,
+      "recomputed": 0.8295281430509078,
+      "delta": -2.220446049250313e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "NYAN_latent_official_cache_et160",
+      "metric": "auprc",
+      "reference": 0.262665286423419,
+      "recomputed": 0.2626652864234194,
+      "delta": 3.885780586188048e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "NYAN_latent_official_cache_et160",
+      "metric": "auroc",
+      "reference": 0.773079309022811,
+      "recomputed": 0.773079309022811,
+      "delta": 0.0
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "NYAN_latent_official_cache_et160",
+      "metric": "auprc",
+      "reference": 0.718718605337132,
+      "recomputed": 0.7187186053371319,
+      "delta": -1.1102230246251565e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "NYAN_latent_official_cache_et160",
+      "metric": "auroc",
+      "reference": 0.912577385530977,
+      "recomputed": 0.9125773855309769,
+      "delta": -1.1102230246251565e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "NYAN_latent_official_cache_et160",
+      "metric": "auprc",
+      "reference": 0.389893420233656,
+      "recomputed": 0.38989342023365625,
+      "delta": 2.7755575615628914e-16
+    },
+    {
+      "kind": "random",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "NYAN_latent_official_cache_et160",
+      "metric": "auroc",
+      "reference": 0.859398140921319,
+      "recomputed": 0.8593981409213189,
+      "delta": -1.1102230246251565e-16
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "AtomPair2048",
+      "metric": "auprc",
+      "reference": 0.4718934387822546,
+      "recomputed": 0.47189343878225465,
+      "delta": 5.551115123125783e-17
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "AtomPair2048",
+      "metric": "auroc",
+      "reference": 0.7870182423290732,
+      "recomputed": 0.7870182423290732,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "Avalon1024",
+      "metric": "auprc",
+      "reference": 0.4495063178321887,
+      "recomputed": 0.4495063178321887,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "Avalon1024",
+      "metric": "auroc",
+      "reference": 0.7851608164702241,
+      "recomputed": 0.7851608164702241,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "CGP-Align",
+      "metric": "auprc",
+      "reference": 0.5421179560486511,
+      "recomputed": 0.5421179560486511,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "CGP-Align",
+      "metric": "auroc",
+      "reference": 0.8228750929654554,
+      "recomputed": 0.8228750929654554,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "Morgan2048",
+      "metric": "auprc",
+      "reference": 0.4512217425798634,
+      "recomputed": 0.4512217425798634,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "Morgan2048",
+      "metric": "auroc",
+      "reference": 0.7699773870789551,
+      "recomputed": 0.7699773870789551,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "NYAN_latent",
+      "metric": "auprc",
+      "reference": 0.4690909029730334,
+      "recomputed": 0.4690909029730334,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "NYAN_latent",
+      "metric": "auroc",
+      "reference": 0.7938257963117012,
+      "recomputed": 0.7938257963117012,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "RDKit2D",
+      "metric": "auprc",
+      "reference": 0.4966237913072216,
+      "recomputed": 0.49662379130722156,
+      "delta": -5.551115123125783e-17
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ARE",
+      "representation": "RDKit2D",
+      "metric": "auroc",
+      "reference": 0.8127637457300075,
+      "recomputed": 0.8127637457300075,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "AtomPair2048",
+      "metric": "auprc",
+      "reference": 0.2073837558772734,
+      "recomputed": 0.20738375587727348,
+      "delta": 8.326672684688674e-17
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "AtomPair2048",
+      "metric": "auroc",
+      "reference": 0.7783161459020645,
+      "recomputed": 0.7783161459020645,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "Avalon1024",
+      "metric": "auprc",
+      "reference": 0.1893987706503875,
+      "recomputed": 0.18939877065038754,
+      "delta": 5.551115123125783e-17
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "Avalon1024",
+      "metric": "auroc",
+      "reference": 0.7356393050716669,
+      "recomputed": 0.7356393050716669,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "CGP-Align",
+      "metric": "auprc",
+      "reference": 0.2915468242518511,
+      "recomputed": 0.29154682425185113,
+      "delta": 5.551115123125783e-17
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "CGP-Align",
+      "metric": "auroc",
+      "reference": 0.8431120249931172,
+      "recomputed": 0.8431120249931172,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "Morgan2048",
+      "metric": "auprc",
+      "reference": 0.1891995545567742,
+      "recomputed": 0.18919955455677423,
+      "delta": 2.7755575615628914e-17
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "Morgan2048",
+      "metric": "auroc",
+      "reference": 0.7950262357859744,
+      "recomputed": 0.7950262357859744,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "NYAN_latent",
+      "metric": "auprc",
+      "reference": 0.1691147152053434,
+      "recomputed": 0.1691147152053434,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "NYAN_latent",
+      "metric": "auroc",
+      "reference": 0.7780838759047854,
+      "recomputed": 0.7780838759047854,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "RDKit2D",
+      "metric": "auprc",
+      "reference": 0.2207427799269585,
+      "recomputed": 0.22074277992695848,
+      "delta": -2.7755575615628914e-17
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "representation": "RDKit2D",
+      "metric": "auroc",
+      "reference": 0.8429923463832003,
+      "recomputed": 0.8429923463832003,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "AtomPair2048",
+      "metric": "auprc",
+      "reference": 0.2963913560479564,
+      "recomputed": 0.2963913560479564,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "AtomPair2048",
+      "metric": "auroc",
+      "reference": 0.7346760801509605,
+      "recomputed": 0.7346760801509605,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "Avalon1024",
+      "metric": "auprc",
+      "reference": 0.2865137619870317,
+      "recomputed": 0.2865137619870317,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "Avalon1024",
+      "metric": "auroc",
+      "reference": 0.7459892879718384,
+      "recomputed": 0.7459892879718384,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "CGP-Align",
+      "metric": "auprc",
+      "reference": 0.4400451394923654,
+      "recomputed": 0.4400451394923654,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "CGP-Align",
+      "metric": "auroc",
+      "reference": 0.8048111229277243,
+      "recomputed": 0.8048111229277243,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "Morgan2048",
+      "metric": "auprc",
+      "reference": 0.3184228249696852,
+      "recomputed": 0.3184228249696852,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "Morgan2048",
+      "metric": "auroc",
+      "reference": 0.7661142080855867,
+      "recomputed": 0.7661142080855867,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "NYAN_latent",
+      "metric": "auprc",
+      "reference": 0.3670938176313554,
+      "recomputed": 0.36709381763135546,
+      "delta": 5.551115123125783e-17
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "NYAN_latent",
+      "metric": "auroc",
+      "reference": 0.7590800243785673,
+      "recomputed": 0.7590800243785673,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "RDKit2D",
+      "metric": "auprc",
+      "reference": 0.3810073307670188,
+      "recomputed": 0.3810073307670187,
+      "delta": -1.1102230246251565e-16
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-HSE",
+      "representation": "RDKit2D",
+      "metric": "auroc",
+      "reference": 0.7949188043361392,
+      "recomputed": 0.7949188043361392,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "AtomPair2048",
+      "metric": "auprc",
+      "reference": 0.6080690396458935,
+      "recomputed": 0.6080690396458935,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "AtomPair2048",
+      "metric": "auroc",
+      "reference": 0.8685959228303259,
+      "recomputed": 0.8685959228303259,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "Avalon1024",
+      "metric": "auprc",
+      "reference": 0.5599581808383498,
+      "recomputed": 0.5599581808383498,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "Avalon1024",
+      "metric": "auroc",
+      "reference": 0.8461802437903886,
+      "recomputed": 0.8461802437903886,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "CGP-Align",
+      "metric": "auprc",
+      "reference": 0.6592457107409861,
+      "recomputed": 0.6592457107409861,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "CGP-Align",
+      "metric": "auroc",
+      "reference": 0.8899839221888186,
+      "recomputed": 0.8899839221888186,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "Morgan2048",
+      "metric": "auprc",
+      "reference": 0.5232971540230269,
+      "recomputed": 0.5232971540230269,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "Morgan2048",
+      "metric": "auroc",
+      "reference": 0.8357767105686364,
+      "recomputed": 0.8357767105686364,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "NYAN_latent",
+      "metric": "auprc",
+      "reference": 0.5948194833505822,
+      "recomputed": 0.5948194833505822,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "NYAN_latent",
+      "metric": "auroc",
+      "reference": 0.8745082217773864,
+      "recomputed": 0.8745082217773864,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "RDKit2D",
+      "metric": "auprc",
+      "reference": 0.6854106075784864,
+      "recomputed": 0.6854106075784864,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-MMP",
+      "representation": "RDKit2D",
+      "metric": "auroc",
+      "reference": 0.9034162531589408,
+      "recomputed": 0.9034162531589409,
+      "delta": 1.1102230246251565e-16
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "AtomPair2048",
+      "metric": "auprc",
+      "reference": 0.3087402020111714,
+      "recomputed": 0.30874020201117147,
+      "delta": 5.551115123125783e-17
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "AtomPair2048",
+      "metric": "auroc",
+      "reference": 0.7814567485983052,
+      "recomputed": 0.7814567485983052,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "Avalon1024",
+      "metric": "auprc",
+      "reference": 0.3089017684353791,
+      "recomputed": 0.3089017684353791,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "Avalon1024",
+      "metric": "auroc",
+      "reference": 0.7964380720145229,
+      "recomputed": 0.7964380720145229,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "CGP-Align",
+      "metric": "auprc",
+      "reference": 0.3966782667382763,
+      "recomputed": 0.39667826673827633,
+      "delta": 5.551115123125783e-17
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "CGP-Align",
+      "metric": "auroc",
+      "reference": 0.8631153347953576,
+      "recomputed": 0.8631153347953576,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "Morgan2048",
+      "metric": "auprc",
+      "reference": 0.29441412446128,
+      "recomputed": 0.29441412446128,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "Morgan2048",
+      "metric": "auroc",
+      "reference": 0.7899393989262772,
+      "recomputed": 0.7899393989262772,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "NYAN_latent",
+      "metric": "auprc",
+      "reference": 0.3028877394119537,
+      "recomputed": 0.3028877394119537,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "NYAN_latent",
+      "metric": "auroc",
+      "reference": 0.7999981456065324,
+      "recomputed": 0.7999981456065324,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "RDKit2D",
+      "metric": "auprc",
+      "reference": 0.3703051115597268,
+      "recomputed": 0.3703051115597268,
+      "delta": 0.0
+    },
+    {
+      "kind": "scaffold",
+      "task": "Endocrine Disruption_SR-p53",
+      "representation": "RDKit2D",
+      "metric": "auroc",
+      "reference": 0.8341685487600762,
+      "recomputed": 0.8341685487600762,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.462651284124511,
+      "recomputed": 0.462651284124511,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8040652268680316,
+      "recomputed": 0.8040652268680316,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 4.20048275862069,
+      "recomputed": 4.20048275862069,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.5515646864217225,
+      "recomputed": 0.5515646864217225,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8420877572784209,
+      "recomputed": 0.8420877572784209,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.346068965517241,
+      "recomputed": 5.346068965517241,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.5890902562823779,
+      "recomputed": 0.5890902562823779,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8553966588593427,
+      "recomputed": 0.8553966588593427,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.473356321839081,
+      "recomputed": 5.473356321839081,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.4723279195801337,
+      "recomputed": 0.4723279195801337,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.806635979203456,
+      "recomputed": 0.806635979203456,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 4.20048275862069,
+      "recomputed": 4.20048275862069,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.5584631309375869,
+      "recomputed": 0.5584631309375869,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8403520438195301,
+      "recomputed": 0.8403520438195301,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.473356321839081,
+      "recomputed": 5.473356321839081,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.6078096016929153,
+      "recomputed": 0.6078096016929153,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8591573508296205,
+      "recomputed": 0.8591573508296205,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.60064367816092,
+      "recomputed": 5.60064367816092,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.4709034280333545,
+      "recomputed": 0.4709034280333545,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8056617877048191,
+      "recomputed": 0.8056617877048191,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 4.20048275862069,
+      "recomputed": 4.20048275862069,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.5412198751349031,
+      "recomputed": 0.5412198751349031,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8374991687785849,
+      "recomputed": 0.8374991687785849,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.091494252873564,
+      "recomputed": 5.091494252873564,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.5859481619378446,
+      "recomputed": 0.5859481619378446,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8548479295813846,
+      "recomputed": 0.8548479295813846,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.473356321839081,
+      "recomputed": 5.473356321839081,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.4745507493714995,
+      "recomputed": 0.4745507493714995,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8094590534173668,
+      "recomputed": 0.8094590534173668,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 4.327770114942529,
+      "recomputed": 4.327770114942529,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.5490004277796416,
+      "recomputed": 0.5490004277796416,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8400335936595661,
+      "recomputed": 0.8400335936595661,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.091494252873564,
+      "recomputed": 5.091494252873564,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.6035816054406898,
+      "recomputed": 0.6035816054406898,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8596289920178115,
+      "recomputed": 0.8596289920178115,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.2187816091954025,
+      "recomputed": 5.2187816091954025,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.4844029307569168,
+      "recomputed": 0.4844029307569168,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8147541185481825,
+      "recomputed": 0.8147541185481825,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 4.20048275862069,
+      "recomputed": 4.20048275862069,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.5441816745518702,
+      "recomputed": 0.5441816745518702,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8402612867553796,
+      "recomputed": 0.8402612867553796,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.473356321839081,
+      "recomputed": 5.473356321839081,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.5997676075347794,
+      "recomputed": 0.5997676075347794,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8591789010144596,
+      "recomputed": 0.8591789010144596,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ARE",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.473356321839081,
+      "recomputed": 5.473356321839081,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.2269108417798481,
+      "recomputed": 0.2269108417798481,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8010389428613237,
+      "recomputed": 0.8010389428613237,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 14.476198347107438,
+      "recomputed": 14.476198347107438,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.3603765845855319,
+      "recomputed": 0.3603765845855319,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8755562129801054,
+      "recomputed": 0.8755562129801054,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 18.37363636363636,
+      "recomputed": 18.37363636363636,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.3889002918561645,
+      "recomputed": 0.3889002918561645,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8913137251159506,
+      "recomputed": 0.8913137251159506,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 17.816859504132232,
+      "recomputed": 17.816859504132232,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.2168066433281911,
+      "recomputed": 0.2168066433281911,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.7839612798147336,
+      "recomputed": 0.7839612798147336,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 14.476198347107438,
+      "recomputed": 14.476198347107438,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.3569095164297295,
+      "recomputed": 0.3569095164297295,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8767055395440867,
+      "recomputed": 0.8767055395440867,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 17.816859504132232,
+      "recomputed": 17.816859504132232,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.3699228056306012,
+      "recomputed": 0.3699228056306012,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8894750571005032,
+      "recomputed": 0.8894750571005032,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 17.2600826446281,
+      "recomputed": 17.2600826446281,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.215493919819432,
+      "recomputed": 0.215493919819432,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8030980601734329,
+      "recomputed": 0.8030980601734329,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 15.589752066115702,
+      "recomputed": 15.589752066115702,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.3557566558188275,
+      "recomputed": 0.3557566558188275,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8803866928788195,
+      "recomputed": 0.8803866928788195,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 17.816859504132232,
+      "recomputed": 17.816859504132232,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.3936264305176898,
+      "recomputed": 0.3936264305176898,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8925832967508383,
+      "recomputed": 0.8925832967508383,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 19.487190082644624,
+      "recomputed": 19.487190082644624,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.257045753679091,
+      "recomputed": 0.257045753679091,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8138351815446084,
+      "recomputed": 0.8138351815446084,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 18.37363636363636,
+      "recomputed": 18.37363636363636,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.4029561678415982,
+      "recomputed": 0.4029561678415982,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8856634792179616,
+      "recomputed": 0.8856634792179616,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 20.60074380165289,
+      "recomputed": 20.60074380165289,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.4263874794274385,
+      "recomputed": 0.4263874794274385,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8931717977592426,
+      "recomputed": 0.8931717977592426,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 20.60074380165289,
+      "recomputed": 20.60074380165289,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.2049773173073724,
+      "recomputed": 0.2049773173073724,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.7973743311765565,
+      "recomputed": 0.7973743311765565,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 13.362644628099172,
+      "recomputed": 13.362644628099172,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.3689353514537766,
+      "recomputed": 0.3689353514537766,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8789637928730938,
+      "recomputed": 0.8789637928730938,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 18.37363636363636,
+      "recomputed": 18.37363636363636,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.3815052795909231,
+      "recomputed": 0.3815052795909231,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8948164194962431,
+      "recomputed": 0.8948164194962431,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-ATAD5",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 17.816859504132232,
+      "recomputed": 17.816859504132232,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.2426212838343885,
+      "recomputed": 0.2426212838343885,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.7766534561233753,
+      "recomputed": 0.7766534561233753,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.887425149700599,
+      "recomputed": 5.887425149700599,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.3585894149283711,
+      "recomputed": 0.3585894149283711,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8160192263897605,
+      "recomputed": 0.8160192263897605,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 14.718562874251496,
+      "recomputed": 14.718562874251496,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.3922595132944511,
+      "recomputed": 0.3922595132944511,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8296012518071756,
+      "recomputed": 0.8296012518071756,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 15.086526946107783,
+      "recomputed": 15.086526946107783,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.2380291950160409,
+      "recomputed": 0.2380291950160409,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.7742189858795574,
+      "recomputed": 0.7742189858795574,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.519461077844311,
+      "recomputed": 5.519461077844311,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.3678691391945207,
+      "recomputed": 0.3678691391945207,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8121549879075097,
+      "recomputed": 0.8121549879075097,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 15.086526946107783,
+      "recomputed": 15.086526946107783,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.4078982897155097,
+      "recomputed": 0.4078982897155097,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8315382657503784,
+      "recomputed": 0.8315382657503784,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 15.45449101796407,
+      "recomputed": 15.45449101796407,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.2404169037081143,
+      "recomputed": 0.2404169037081143,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.7800529555241607,
+      "recomputed": 0.7800529555241607,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 6.255389221556887,
+      "recomputed": 6.255389221556887,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.3614093691742941,
+      "recomputed": 0.3614093691742941,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8094747520962207,
+      "recomputed": 0.8094747520962207,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 15.45449101796407,
+      "recomputed": 15.45449101796407,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.406705327787947,
+      "recomputed": 0.406705327787947,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.826892163015219,
+      "recomputed": 0.826892163015219,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 15.45449101796407,
+      "recomputed": 15.45449101796407,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.2700194841672296,
+      "recomputed": 0.2700194841672296,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.792288165022562,
+      "recomputed": 0.792288165022562,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 8.095209580838324,
+      "recomputed": 8.095209580838324,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.3584280323117271,
+      "recomputed": 0.3584280323117271,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8079300871669155,
+      "recomputed": 0.8079300871669155,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 15.086526946107783,
+      "recomputed": 15.086526946107783,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.4146452295486287,
+      "recomputed": 0.4146452295486287,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8328454088209745,
+      "recomputed": 0.8328454088209745,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 15.45449101796407,
+      "recomputed": 15.45449101796407,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.2576777094246364,
+      "recomputed": 0.2576777094246364,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.7757914733259347,
+      "recomputed": 0.7757914733259347,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 7.359281437125748,
+      "recomputed": 7.359281437125748,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.3361850038793978,
+      "recomputed": 0.3361850038793978,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8033960473477414,
+      "recomputed": 0.8033960473477414,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 13.614670658682634,
+      "recomputed": 13.614670658682634,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.3777912536088583,
+      "recomputed": 0.3777912536088583,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8181321919918552,
+      "recomputed": 0.8181321919918552,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-HSE",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 14.718562874251496,
+      "recomputed": 14.718562874251496,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.6705623441653437,
+      "recomputed": 0.6705623441653437,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.888705875130456,
+      "recomputed": 0.888705875130456,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.560594285714286,
+      "recomputed": 5.560594285714286,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.716705202645195,
+      "recomputed": 0.716705202645195,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.9105746209098164,
+      "recomputed": 0.9105746209098164,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.939725714285714,
+      "recomputed": 5.939725714285714,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.7732261679141319,
+      "recomputed": 0.7732261679141319,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.9292577813248204,
+      "recomputed": 0.9292577813248204,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 6.066102857142857,
+      "recomputed": 6.066102857142857,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.6601984852677751,
+      "recomputed": 0.6601984852677751,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8847128737184603,
+      "recomputed": 0.8847128737184603,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.686971428571429,
+      "recomputed": 5.686971428571429,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.7136315884002999,
+      "recomputed": 0.7136315884002999,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.9109098164405428,
+      "recomputed": 0.9109098164405428,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.813348571428572,
+      "recomputed": 5.813348571428572,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.7673080052210619,
+      "recomputed": 0.7673080052210619,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.9285360672846708,
+      "recomputed": 0.9285360672846708,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 6.066102857142857,
+      "recomputed": 6.066102857142857,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.6565380119754625,
+      "recomputed": 0.6565380119754625,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8838338756215852,
+      "recomputed": 0.8838338756215852,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.181462857142857,
+      "recomputed": 5.181462857142857,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.7196640542921825,
+      "recomputed": 0.7196640542921825,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.9122728221499172,
+      "recomputed": 0.9122728221499172,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.813348571428572,
+      "recomputed": 5.813348571428572,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.772147505433543,
+      "recomputed": 0.772147505433543,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.9266334336055008,
+      "recomputed": 0.9266334336055008,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 6.066102857142857,
+      "recomputed": 6.066102857142857,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.6625315700828267,
+      "recomputed": 0.6625315700828267,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8823870096384064,
+      "recomputed": 0.8823870096384064,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.686971428571429,
+      "recomputed": 5.686971428571429,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.722533893066967,
+      "recomputed": 0.722533893066967,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.9124325618515562,
+      "recomputed": 0.9124325618515562,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.939725714285714,
+      "recomputed": 5.939725714285714,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.7765959290801958,
+      "recomputed": 0.7765959290801958,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.9284383326171036,
+      "recomputed": 0.9284383326171036,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 6.19248,
+      "recomputed": 6.19248,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.6470763633477302,
+      "recomputed": 0.6470763633477302,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8813237153907546,
+      "recomputed": 0.8813237153907546,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.434217142857143,
+      "recomputed": 5.434217142857143,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.7104763824102114,
+      "recomputed": 0.7104763824102114,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.9093315734544782,
+      "recomputed": 0.9093315734544782,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.686971428571429,
+      "recomputed": 5.686971428571429,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.7623796388278465,
+      "recomputed": 0.7623796388278465,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.92457793603045,
+      "recomputed": 0.92457793603045,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-MMP",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 5.939725714285714,
+      "recomputed": 5.939725714285714,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.4255043403486318,
+      "recomputed": 0.4255043403486318,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8625323636125171,
+      "recomputed": 0.8625323636125171,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 13,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 12.137506361323156,
+      "recomputed": 12.137506361323156,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.4338326159337826,
+      "recomputed": 0.4338326159337826,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8835485863002343,
+      "recomputed": 0.8835485863002343,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 13,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 12.793587786259542,
+      "recomputed": 12.793587786259542,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.5059280599110705,
+      "recomputed": 0.5059280599110705,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.9107512561852912,
+      "recomputed": 0.9107512561852912,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 13,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 12.465547073791347,
+      "recomputed": 12.465547073791347,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.4323651880829481,
+      "recomputed": 0.4323651880829481,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8544327902510017,
+      "recomputed": 0.8544327902510017,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 41,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 12.465547073791347,
+      "recomputed": 12.465547073791347,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.4455524108261191,
+      "recomputed": 0.4455524108261191,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8805691792053989,
+      "recomputed": 0.8805691792053989,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 41,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 13.449669211195928,
+      "recomputed": 13.449669211195928,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.5023521318233446,
+      "recomputed": 0.5023521318233446,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.9072577305892942,
+      "recomputed": 0.9072577305892942,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 41,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 13.77770992366412,
+      "recomputed": 13.77770992366412,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.3997010082398781,
+      "recomputed": 0.3997010082398781,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8534138014964505,
+      "recomputed": 0.8534138014964505,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 97,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 11.80946564885496,
+      "recomputed": 11.80946564885496,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.4326298119138426,
+      "recomputed": 0.4326298119138426,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.8870643917658646,
+      "recomputed": 0.8870643917658646,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 97,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 11.80946564885496,
+      "recomputed": 11.80946564885496,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.4868981064377463,
+      "recomputed": 0.4868981064377463,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.9030781531585498,
+      "recomputed": 0.9030781531585498,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 97,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 12.137506361323156,
+      "recomputed": 12.137506361323156,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.4576694989698391,
+      "recomputed": 0.4576694989698391,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8663930866825653,
+      "recomputed": 0.8663930866825653,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 123,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 13.121628498727736,
+      "recomputed": 13.121628498727736,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.4589203977521511,
+      "recomputed": 0.4589203977521511,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.887192606109981,
+      "recomputed": 0.887192606109981,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 123,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 13.77770992366412,
+      "recomputed": 13.77770992366412,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.5278328773764334,
+      "recomputed": 0.5278328773764334,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.9165635697227502,
+      "recomputed": 0.9165635697227502,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 123,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 13.77770992366412,
+      "recomputed": 13.77770992366412,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.4448073222067096,
+      "recomputed": 0.4448073222067096,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.8701115128493893,
+      "recomputed": 0.8701115128493893,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 2026,
+      "representation": "structure_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 13.121628498727736,
+      "recomputed": 13.121628498727736,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auprc",
+      "reference": 0.4661045443847028,
+      "recomputed": 0.4661045443847028,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "auroc",
+      "reference": 0.889490375306506,
+      "recomputed": 0.889490375306506,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 2026,
+      "representation": "cgp_latent_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 12.793587786259542,
+      "recomputed": 12.793587786259542,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auprc",
+      "reference": 0.5171249821049114,
+      "recomputed": 0.5171249821049114,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "auroc",
+      "reference": 0.9100212751736254,
+      "recomputed": 0.9100212751736254,
+      "delta": 0.0
+    },
+    {
+      "kind": "alerts",
+      "task": "Endocrine Disruption_SR-p53",
+      "seed": 2026,
+      "representation": "cgp_plus_alert_extratrees",
+      "metric": "lift_at_top50",
+      "reference": 13.449669211195928,
+      "recomputed": 13.449669211195928,
+      "delta": 0.0
+    }
+  ]
+}
