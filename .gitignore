@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+data/
+raw/
+raw_downloads/
+protein_embeddings/
+output/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+paper_snapshot/results/

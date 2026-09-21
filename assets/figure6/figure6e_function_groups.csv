@@ -1,0 +1,11 @@
+group,genes,n
+Transcription / chromatin,AFF1 AFF3 CCNT1 EHMT1 MED14 RUNX1 RUNX2 RUNX3 TRRAP,9
+DNA replication / repair,PCNA POLQ PRKDC REV3L RFC1 WRN,6
+Rho / Rac regulation,ARHGEF16 ARHGEF25 ARHGEF26 CHN2 FARP2 RACGAP1,6
+Receptor / kinase signalling,ACVR1 BMPR2 CRKL MAP3K2 MAP3K3 PTK2B SYK,7
+Cytokine signalling,CISH HS1BP3 IL4R SOCS2,4
+Phosphoinositide signalling,PI4KA PIK3R3,2
+Cell-cycle control,CDC25A,1
+Ubiquitin regulation,CAND1 MDM2,2
+RNA / ribosome biology,DDX56,1
+Vesicle trafficking,SYT11,1

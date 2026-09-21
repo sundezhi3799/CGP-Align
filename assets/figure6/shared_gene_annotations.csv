@@ -1,0 +1,40 @@
+gene,rank_BIIB021,rank_R547,display_function,uniprot_accession,source_url
+ACVR1,42,48,Receptor / kinase signalling,Q04771,https://www.uniprot.org/uniprotkb/Q04771/entry
+AFF1,30,14,Transcription / chromatin,P51825,https://www.uniprot.org/uniprotkb/P51825/entry
+AFF3,4,7,Transcription / chromatin,P51826,https://www.uniprot.org/uniprotkb/P51826/entry
+ARHGEF16,40,15,Rho / Rac regulation,Q5VV41,https://www.uniprot.org/uniprotkb/Q5VV41/entry
+ARHGEF25,39,39,Rho / Rac regulation,Q86VW2,https://www.uniprot.org/uniprotkb/Q86VW2/entry
+ARHGEF26,17,22,Rho / Rac regulation,Q96DR7,https://www.uniprot.org/uniprotkb/Q96DR7/entry
+BMPR2,22,19,Receptor / kinase signalling,Q13873,https://www.uniprot.org/uniprotkb/Q13873/entry
+CAND1,48,47,Ubiquitin regulation,Q86VP6,https://www.uniprot.org/uniprotkb/Q86VP6/entry
+CCNT1,15,31,Transcription / chromatin,O60563,https://www.uniprot.org/uniprotkb/O60563/entry
+CDC25A,5,8,Cell-cycle control,P30304,https://www.uniprot.org/uniprotkb/P30304/entry
+CHN2,1,1,Rho / Rac regulation,P52757,https://www.uniprot.org/uniprotkb/P52757/entry
+CISH,16,10,Cytokine signalling,Q9NSE2,https://www.uniprot.org/uniprotkb/Q9NSE2/entry
+CRKL,45,30,Receptor / kinase signalling,P46109,https://www.uniprot.org/uniprotkb/P46109/entry
+DDX56,2,12,RNA / ribosome biology,Q9NY93,https://www.uniprot.org/uniprotkb/Q9NY93/entry
+EHMT1,50,28,Transcription / chromatin,Q9H9B1,https://www.uniprot.org/uniprotkb/Q9H9B1/entry
+FARP2,3,18,Rho / Rac regulation,O94887,https://www.uniprot.org/uniprotkb/O94887/entry
+HS1BP3,32,44,Cytokine signalling,Q53T59,https://www.uniprot.org/uniprotkb/Q53T59/entry
+IL4R,43,36,Cytokine signalling,P24394,https://www.uniprot.org/uniprotkb/P24394/entry
+MAP3K2,9,11,Receptor / kinase signalling,Q9Y2U5,https://www.uniprot.org/uniprotkb/Q9Y2U5/entry
+MAP3K3,23,34,Receptor / kinase signalling,Q99759,https://www.uniprot.org/uniprotkb/Q99759/entry
+MDM2,31,33,Ubiquitin regulation,Q00987,https://www.uniprot.org/uniprotkb/Q00987/entry
+MED14,24,16,Transcription / chromatin,O60244,https://www.uniprot.org/uniprotkb/O60244/entry
+PCNA,41,46,DNA replication / repair,P12004,https://www.uniprot.org/uniprotkb/P12004/entry
+PI4KA,19,2,Phosphoinositide signalling,P42356,https://www.uniprot.org/uniprotkb/P42356/entry
+PIK3R3,14,20,Phosphoinositide signalling,Q92569,https://www.uniprot.org/uniprotkb/Q92569/entry
+POLQ,11,26,DNA replication / repair,O75417,https://www.uniprot.org/uniprotkb/O75417/entry
+PRKDC,46,40,DNA replication / repair,P78527,https://www.uniprot.org/uniprotkb/P78527/entry
+PTK2B,21,23,Receptor / kinase signalling,Q14289,https://www.uniprot.org/uniprotkb/Q14289/entry
+RACGAP1,20,41,Rho / Rac regulation,Q9H0H5,https://www.uniprot.org/uniprotkb/Q9H0H5/entry
+REV3L,8,6,DNA replication / repair,O60673,https://www.uniprot.org/uniprotkb/O60673/entry
+RFC1,25,49,DNA replication / repair,P35251,https://www.uniprot.org/uniprotkb/P35251/entry
+RUNX1,49,13,Transcription / chromatin,Q01196,https://www.uniprot.org/uniprotkb/Q01196/entry
+RUNX2,13,9,Transcription / chromatin,Q13950,https://www.uniprot.org/uniprotkb/Q13950/entry
+RUNX3,7,5,Transcription / chromatin,Q13761,https://www.uniprot.org/uniprotkb/Q13761/entry
+SOCS2,10,24,Cytokine signalling,O14508,https://www.uniprot.org/uniprotkb/O14508/entry
+SYK,27,37,Receptor / kinase signalling,P43405,https://www.uniprot.org/uniprotkb/P43405/entry
+SYT11,37,21,Vesicle trafficking,Q9BT88,https://www.uniprot.org/uniprotkb/Q9BT88/entry
+TRRAP,6,4,Transcription / chromatin,Q9Y4A5,https://www.uniprot.org/uniprotkb/Q9Y4A5/entry
+WRN,12,3,DNA replication / repair,Q14191,https://www.uniprot.org/uniprotkb/Q14191/entry
