@@ -1,0 +1,205 @@
+# CGP-Align
+
+![CGP-Align overview](assets/overview.png)
+
+Code for **CGP-Align links chemical and genetic perturbations through phenotype-anchored representation learning**.
+
+CGP-Align learns a shared representation of compounds, genetic perturbations and Cell Painting profiles through phenotype-based alignment.
+
+## Installation
+
+Create a Python 3.10 environment and install the dependencies:
+
+```bash
+conda create -n cgp-align python=3.10
+conda activate cgp-align
+git clone https://github.com/sundezhi3799/CGP-Align.git
+cd CGP-Align
+python -m pip install torch==2.1.0 --index-url https://download.pytorch.org/whl/cu118
+python -m pip install -r requirements.txt
+```
+
+These commands use CUDA 11.8. For CPU execution, replace `cu118` with `cpu`. Run the commands below from the repository root. Toxicity and PRISM use a separate environment described below.
+
+## Data and pretrained models
+
+Pretrained models are available [here](https://github.com/sundezhi3799/CGP-Align/releases/tag/final-architecture-20260920). Download the checkpoints and protein features:
+
+```bash
+python scripts/download_data.py --output ../cgp-data --groups final-models protein-features
+```
+
+The compact test-set inputs for the three reported seeds are available in the [main-result release](https://github.com/sundezhi3799/CGP-Align/releases/tag/main-results-20260921):
+
+```bash
+python scripts/download_data.py --manifest configs/downloads/compact_main_inputs_20260921.json --output ../cgp-data --groups prepared-seed31 prepared-seed37 prepared-seed41
+```
+
+These compact inputs contain the held-out entities and replicate profiles used for the reported retrieval results. They support evaluation of the released checkpoints; the full training profiles are not included. The evaluation code restores the recorded test-query order using the supplied split metadata.
+
+For the baseline comparisons:
+
+```bash
+python scripts/download_data.py --manifest configs/downloads/reproduction_inputs_20260921.json --output ../cgp-extras --groups matched-models-features matched-seed31 matched-seed37 matched-seed41
+```
+
+For downstream analysis:
+
+```bash
+python scripts/download_data.py --manifest configs/downloads/reproduction_inputs_20260921.json --output ../cgp-extras --groups downstream-inputs downstream-embedding-cache
+```
+
+The [baseline and downstream data](https://github.com/sundezhi3799/CGP-Align/releases/tag/reproduction-inputs-20260921) total about 6.4 GB. The download script checks and extracts the files automatically.
+
+## Training
+
+The public release is evaluation-focused and does not contain the full training profiles. To retrain the model, obtain the source datasets described in the manuscript, run the preprocessing scripts, and place the resulting directories under the paths expected by the configuration files. The command used with a complete data tree is:
+
+```bash
+python scripts/train.py --artifacts ../cgp-data --seed 41 --stage all --output ../cgp-training/seed41
+```
+
+Use `--stage joint` to train from the supplied branch encoders. Reference configurations for seeds 31, 37 and 41 are in `configs/`. The training command reads `configuration.json` from `../cgp-data/models/seed<seed>/<stage>/`; edit those files to change the training settings. Data and output paths are set by the command-line arguments. Use a new output directory for each run; `--dry-run` prepares the run without starting training.
+
+Joint training sums the compound, ORF and CRISPR alignment losses with equal weights. Gene and profile MLPs have a 512-unit hidden layer and a 256-dimensional output. Checkpoints are selected by validation HMean Top-10.
+
+## Evaluation
+
+Evaluate a pretrained model:
+
+```bash
+python scripts/evaluate.py --artifacts ../cgp-data --seed 41 --output ../cgp-results/seed41
+```
+
+Use `--seed 31` or `--seed 37` with the corresponding data. Download the ablation checkpoints (about 181 MB) before evaluating the ablations:
+
+```bash
+python scripts/download_data.py --output ../cgp-data --groups ablation-models
+```
+
+For ablations, add `--variant no_source_indicator` or `--variant no_pretraining`. Use `--device cpu` to evaluate on CPU.
+
+### Baseline comparisons
+
+Run the matched compound-profile benchmark:
+
+```bash
+python scripts/evaluate_matched.py --artifacts ../cgp-data --matched-artifacts ../cgp-extras --seed 41 --output ../cgp-results/matched/seed41
+```
+
+Profile replicates are encoded individually, averaged by entity and L2-normalized. All methods use the same candidate banks.
+
+To train a baseline:
+
+```bash
+python scripts/train_baseline.py --artifacts ../cgp-data --matched-artifacts ../cgp-extras --seed 41 --method morgan --output ../cgp-training/morgan41
+```
+
+Available methods are `morgan`, `molformer_xl` and `chemberta`. Use a new output directory for each run. Add `--dry-run` to prepare the inputs and inspect the training command without running it.
+
+### PCA
+
+The checkpoints, encoder code and selected test profiles for Figure 3A/B are included as `figure3-pca.tar.gz` in the [main-result release](https://github.com/sundezhi3799/CGP-Align/releases/tag/main-results-20260921). Export the coordinates in the `cgp-align` environment:
+
+```bash
+python scripts/download_data.py --manifest configs/downloads/pca_inputs_20260921.json --groups pca-inputs --output ../cgp-pca
+python -I ../cgp-pca/pca/run_pca.py --output ../cgp-results/pca --device cuda:0
+```
+
+The download is about 476 MB and includes the seed-41 epoch-120 model, its branch encoders and 1,200 test compounds and 1,200 test gene perturbations. Use `--device cpu` for CPU execution. Details of the PCA model and inputs are in the archive's README.
+
+## Downstream analysis
+
+The analyses use prepared profiles, mapped annotations and molecular features. Image processing and foundation-model training are performed upstream.
+
+### Embeddings and compound-gene relations
+
+Generate embeddings in the `cgp-align` environment. This command processes seeds 31, 37 and 41, so download `prepared-seed31` and `prepared-seed37` first using the command above. For seed 41 alone, add `--seeds 41`; pass the same option to relation analysis.
+
+```bash
+python scripts/analyze.py --task embeddings --inputs ../cgp-extras/downstream --artifacts ../cgp-data --output ../cgp-results/from_weights
+```
+
+Run relation analysis using the supplied embeddings:
+
+```bash
+python scripts/analyze.py --task relations --inputs ../cgp-extras/downstream --artifacts ../cgp-data --embeddings ../cgp-extras/embeddings --output ../cgp-results/relations
+```
+
+To use the generated embeddings instead, set `--embeddings ../cgp-results/from_weights/embeddings`. Relation analysis includes source mapping, enrichment and held-out-source classification. Its score arrays require several GB of disk space.
+
+Figure 4 can be drawn from the supplied source tables and PCA coordinates with `Rscript scripts/plot_figure4.R ../cgp-results/figures`. It uses the R packages listed below, plus `ggrepel`. Panel e uses equal scaling on both PCA axes.
+
+### Toxicity and PRISM environment
+
+Create a separate environment for these analyses. The RDKit version affects molecule parsing and cohort selection.
+
+```bash
+conda create -n cgp-downstream python=3.10
+conda activate cgp-downstream
+python -m pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+python -m pip install -r requirements-downstream.txt
+```
+
+The commands below use the supplied embedding cache. To use your generated embeddings, replace the `--embeddings` path as above.
+
+### Toxicity prediction
+
+```bash
+python scripts/analyze.py --task toxicity --inputs ../cgp-extras/downstream --artifacts ../cgp-data --embeddings ../cgp-extras/embeddings --output ../cgp-results/toxicity
+```
+
+Scaffold evaluation excludes single-class folds for all methods. This command also runs the structural-alert analysis below.
+
+### Structural alerts
+
+To run only the structural-alert analysis:
+
+```bash
+python scripts/analyze.py --task alerts --inputs ../cgp-extras/downstream --artifacts ../cgp-data --embeddings ../cgp-extras/embeddings --output ../cgp-results/alerts
+```
+
+Alert Lift@50 uses the supplied secondary ordering to break ties in predicted scores.
+
+### PRISM drug response
+
+```bash
+python scripts/analyze.py --task prism --inputs ../cgp-extras/downstream --artifacts ../cgp-data --embeddings ../cgp-extras/embeddings --output ../cgp-results/prism
+```
+
+The PRISM input key `RDKit2D` denotes Morgan-2048 fingerprints plus 11 RDKit descriptors. The toxicity RDKit2D baseline uses a separate feature set.
+
+The PRISM command also writes `figure6/u2os_similarity/`: query-level response differences for CGP-Align, NYAN and RDKit-Morgan, chemical-similarity-matched controls, and bin-width sensitivity results. Figure 6f–h use 187 active U2OS queries, top-50 retrieval and Morgan Tanimoto <0.20. Smaller absolute response differences indicate more similar responses.
+
+To run this part alone after the PRISM analysis:
+
+```bash
+python scripts/evaluate_prism_response_similarity.py --input-dir ../cgp-results/prism/figure6 --features ../cgp-extras/downstream/prism/morgan_rdkit_features.npy --output ../cgp-results/prism/figure6/u2os_similarity
+```
+
+Draw Figure 6 with R (tested with R 4.5.3):
+
+```r
+install.packages(c("ggplot2", "dplyr", "tidyr", "readr", "patchwork", "scales", "png", "svglite"))
+```
+
+```bash
+Rscript scripts/plot_figure6.R ../cgp-results/prism/figure6/u2os_similarity ../cgp-results/figures
+```
+
+This exports PDF, SVG and 600-dpi PNG/TIFF. Panel a artwork, b–e source tables, molecular coordinates and shared-gene annotations are in `assets/figure6/`. The correlation in panel e is across 578 cell lines; f–h use U2OS only. Functional assignments are documented with gene-level annotation accessions.
+
+## Acknowledgements
+
+This work uses the following datasets, models and resources:
+
+- [Cell Painting Gallery](https://github.com/broadinstitute/cellpainting-gallery): JUMP/cpg0016 profiles and molecular metadata, under CC0; cite the Gallery and JUMP resources.
+- [MotiVE](https://github.com/carpenter-singh-lab/2024_Arevalo_NeurIPS_MotiVE): mapped compound-gene annotations (Arevalo, Su et al., NeurIPS 2024) and underlying DGIdb, DrugRep, Hetionet, OpenBioLink and PharMeBINet sources. Their [annotation archive](https://zenodo.org/records/18197517) documents mixed-source terms; retain source-specific conditions.
+- [TOXRIC](https://toxric.bioinforai.tech/): toxicity labels; cite [Wu et al., Nucleic Acids Research](https://doi.org/10.1093/nar/gkac1074). TOXRIC and underlying assay terms apply; these inputs are not covered by the code's MIT license.
+- [PRISM Repurposing](https://depmap.org/repurposing/): 19Q4 primary-screen response profiles; cite Corsello et al., Nature Cancer (2020). DepMap-generated data use CC BY 4.0.
+- Structural-alert inputs retain RDKit, ChEMBL, Toxtree and literature-source terms. The supplied alert metadata records library IDs and references.
+- MoLFormer, ChemBERTa and ESM2 inputs retain their source terms. Distributed comparator checkpoints are projection/profile models trained for this study; foundation-model weights and raw microscopy images are not included.
+
+## License
+
+The code is released under the [MIT License](LICENSE). Third-party data, models and libraries retain their respective licenses.

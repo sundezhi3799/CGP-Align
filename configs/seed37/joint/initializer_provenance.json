@@ -1,0 +1,14 @@
+{
+  "compound": {
+    "path": "/data3/sdz/cgp_align_final_architecture_20260920/seed37/branches/compound/checkpoints/final_arch_seed37_compound/best_model.pt",
+    "sha256": "01946feecc9657e9615c78234a879873318e3dc47c80315257d6bc102886aa20"
+  },
+  "orf": {
+    "path": "/data3/sdz/cgp_align_final_architecture_20260920/seed37/branches/orf/checkpoints/final_arch_seed37_orf/best_model.pt",
+    "sha256": "2d93787b2bafdf7da0856a546d5ed6ce561246762a099b492bd1792df180f030"
+  },
+  "crispr": {
+    "path": "/data3/sdz/cgp_align_final_architecture_20260920/seed37/branches/crispr/checkpoints/final_arch_seed37_crispr/best_model.pt",
+    "sha256": "3845adaa702cfda0d95086c9c060e5fd51d12f6489661f7e3db3de1a7f425936"
+  }
+}

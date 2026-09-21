@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "release_url": "https://github.com/sundezhi3799/CGP-Align/releases/download/main-results-20260921/",
+  "groups": [
+    {
+      "name": "pca-inputs",
+      "parts": [
+        {
+          "name": "figure3-pca.tar.gz",
+          "bytes": 476403922,
+          "sha256": "869564d8db56d0e1726309715c1ea412d934e4d7f577a1e848c4106f5c69daa2"
+        }
+      ],
+      "files": [
+        {
+          "path": "pca/LICENSE",
+          "bytes": 1079,
+          "sha256": "da4aa1b132a7f97ce37bdbd647386d000831da66f5e37f88714fada2779f7bea"
+        },
+        {
+          "path": "pca/README.md",
+          "bytes": 1543,
+          "sha256": "074e948d96210d3d4be34eb2b64a1a0495128d14b2bfb20b7d191a0ecbe5fb3c"
+        },
+        {
+          "path": "pca/checkpoints/compound.pt",
+          "bytes": 31047074,
+          "sha256": "d23d83c9c8ee936c4f8bd96599e8c39a36014b0c1fd9fde4b83a0a2943766a7b"
+        },
+        {
+          "path": "pca/checkpoints/crispr_gene.pt",
+          "bytes": 155082722,
+          "sha256": "56bde18a367bee7d6a70d1611264da5846c1a79b4ce49bf8aadff205c2648da0"
+        },
+        {
+          "path": "pca/checkpoints/joint.pt",
+          "bytes": 34777634,
+          "sha256": "5bcfb5788e7223b512b137b073b6ab220038ba12b06028db81c926417e979ac6"
+        },
+        {
+          "path": "pca/checkpoints/orf_gene.pt",
+          "bytes": 234426274,
+          "sha256": "6f04c70cffb29076149ce03bb34ae0b8606479ff2e18a9342501dde51acd680f"
+        },
+        {
+          "path": "pca/code/cgp_align/__init__.py",
+          "bytes": 57,
+          "sha256": "71ef989e54a0957fc7be81fae634f0d6079bead4f0a9b8b019778ecdad4218d6"
+        },
+        {
+          "path": "pca/code/cgp_align/reliability.py",
+          "bytes": 20646,
+          "sha256": "65df92dc161cc37d2d17c807b56e6dd6c7b198355a152fb75435da65b54b7145"
+        },
+        {
+          "path": "pca/code/scripts/cgp_common.py",
+          "bytes": 68679,
+          "sha256": "9b444f769b5073eb008a168f3ddf8c8f950cd51d4c8a885479ff31848d39895c"
+        },
+        {
+          "path": "pca/code/scripts/cgp_gnn.py",
+          "bytes": 9458,
+          "sha256": "072b7919d68accca722fdfded0023e028b037ea0371f8a22e09696766fa3b39c"
+        },
+        {
+          "path": "pca/code/scripts/eval_cgp_align_crossmodal_bridge.py",
+          "bytes": 25719,
+          "sha256": "5630f98cea7addd0f2524d90c72f5ecab93e7d4ffe5aec3c9853c52932a5f00c"
+        },
+        {
+          "path": "pca/code/scripts/export_raw3180_figure2d_multistage_umap.py",
+          "bytes": 20320,
+          "sha256": "6393864d79bca564ef472312afd88f94b21d739cef2edc4b99bd849973960f6f"
+        },
+        {
+          "path": "pca/code/scripts/train_cgp_align_replicate.py",
+          "bytes": 102688,
+          "sha256": "6c5b6feb620019d0b3a603aad968f515e0b46331936f8a06235e89e6e1841d9b"
+        },
+        {
+          "path": "pca/code/scripts/train_gene_mocop.py",
+          "bytes": 185106,
+          "sha256": "7617999f35edf5ca20fd2421b8b57b78a47ae0feff260d83819c6074d75b750b"
+        },
+        {
+          "path": "pca/inputs/compound/entities.parquet",
+          "bytes": 161351,
+          "sha256": "c5ed9669353ab346562ad422804dd5da50c274928f33c9fb08960ea870757080"
+        },
+        {
+          "path": "pca/inputs/compound/normalizer.json",
+          "bytes": 37,
+          "sha256": "eb03f20a56e4bb707e41d3a4de8ca2e26822bb34e6ca3b8e4edba31db7d44fcd"
+        },
+        {
+          "path": "pca/inputs/compound/original_rows.npy",
+          "bytes": 9728,
+          "sha256": "9a57cf4320c8f9d691455eb788680891e89ad21b579ec43850732ce472de59db"
+        },
+        {
+          "path": "pca/inputs/compound/profiles.npy",
+          "bytes": 87068528,
+          "sha256": "0dd5c0a4ab38d43b8b754bce19e5c4e5978bf76e6cbbafbe10f10353bb01bfa2"
+        },
+        {
+          "path": "pca/inputs/compound/replicate_counts.npy",
+          "bytes": 9728,
+          "sha256": "4c173d52fd63b528c1c79d1334000cd80dd0b6ee2cd482bd2882dd0a58061d06"
+        },
+        {
+          "path": "pca/inputs/gene/entities.parquet",
+          "bytes": 610304,
+          "sha256": "d54b66a4f2d2d3a54bfc790ab3476a74b365e8ecffc6d20960d5aef30f5be96c"
+        },
+        {
+          "path": "pca/inputs/gene/modality_ids.npy",
+          "bytes": 9728,
+          "sha256": "feee8df69da17130a32da1e2e634f62e9c5112855a8163e45051fdb3b49cae9e"
+        },
+        {
+          "path": "pca/inputs/gene/normalizer.json",
+          "bytes": 37,
+          "sha256": "eb03f20a56e4bb707e41d3a4de8ca2e26822bb34e6ca3b8e4edba31db7d44fcd"
+        },
+        {
+          "path": "pca/inputs/gene/original_rows.npy",
+          "bytes": 9728,
+          "sha256": "39615185e3c574549f9dbcbbdf45c46ed40f766e79934e6ddd86d15876b68fcd"
+        },
+        {
+          "path": "pca/inputs/gene/profiles.npy",
+          "bytes": 78991328,
+          "sha256": "5542e0337d7562106383474f7f20ad0001bba54f0ab80297eeb7e1fa6f4268ed"
+        },
+        {
+          "path": "pca/inputs/gene/protein.npy",
+          "bytes": 12288128,
+          "sha256": "21b86aec084df128020825ba050fab9298cd104cbcb3e0cf829652ca50e58f48"
+        },
+        {
+          "path": "pca/inputs/gene/replicate_counts.npy",
+          "bytes": 9728,
+          "sha256": "790eb4d69768b832b06ae3740d7c1c8b0ddaca643de3bd5953cced5856d45872"
+        },
+        {
+          "path": "pca/manifest.json",
+          "bytes": 5267,
+          "sha256": "3868a5724f22c90cef9cdb1a3e4dbc4c2844b52018d7a06b3537f8cd1c137ec0"
+        },
+        {
+          "path": "pca/reference/figure2ab_four_branch_main_pca_diagnostics.csv",
+          "bytes": 509,
+          "sha256": "c1469570ca7a2d209a1c57d6cef7a436e31f1762f232ce8752849a246784284d"
+        },
+        {
+          "path": "pca/reference/figure2ab_four_branch_main_pca_source_data.csv",
+          "bytes": 3077538,
+          "sha256": "1a3a87a2a54cdbf04f2a72a466bd0c78295718e028e2a761ee48684306f37cab"
+        },
+        {
+          "path": "pca/requirements.txt",
+          "bytes": 222,
+          "sha256": "8b6a6c2bb66b60b2afb56dd62bc5fc873c6572a3ae935e33a5297caf0fb3763b"
+        },
+        {
+          "path": "pca/run_pca.py",
+          "bytes": 3426,
+          "sha256": "a66e9d4c8162b46a6bae6ad895d658a00fe202c1129c84a57c72a3555ac7e0e4"
+        }
+      ]
+    }
+  ]
+}
