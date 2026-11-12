@@ -1,0 +1,48 @@
+{
+  "fig3": {
+    "complete": true,
+    "seeds": 3,
+    "queries_per_run": 11578,
+    "candidate_banks_and_replicate_aggregation_match": true
+  },
+  "tox30": {
+    "complete": true,
+    "oof_predictions": 1208096,
+    "outer_keys_and_labels_identical": true,
+    "metrics_recomputed": true,
+    "classifier_protocol_matches_original": [
+      "configs",
+      "class_weight",
+      "classifier_seed",
+      "n_jobs",
+      "inner_folds",
+      "outer_folds",
+      "outer_seeds",
+      "inner_seed",
+      "selection_metric",
+      "tie_break",
+      "imputation",
+      "outer_aggregation",
+      "outer_fold_sha256",
+      "versions",
+      "no_encoder_training"
+    ]
+  },
+  "tox5": {
+    "complete": true,
+    "RDKit_original_metrics_reproduced": true,
+    "n_tasks": 5,
+    "all_samples_included": true,
+    "splits": 5,
+    "classifier_seed": "41+fold",
+    "n_estimators": 160
+  },
+  "prism": {
+    "complete": true,
+    "all_1856_queries_and_common_candidates": true,
+    "active_queries": 187,
+    "CGP_original_enrichment_reproduced": 5.56657223796034,
+    "CGP_original_active_absdiff_reproduced": 1.800769173525234
+  },
+  "all_complete": true
+}

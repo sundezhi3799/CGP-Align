@@ -1,0 +1,13 @@
+setting,independent_run,direction,short,top10,route
+CGP-Align,31,Compound -> profile,C-P,0.8363707030575227,Compound-profile
+CGP-Align,31,Profile -> compound,P-C,0.5495838698533339,Compound-profile
+CGP-Align,31,Gene -> profile,G-P,0.617776797529775,Gene-profile
+CGP-Align,31,Profile -> gene,P-G,0.35784388507500636,Gene-profile
+CGP-Align,37,Compound -> profile,C-P,0.8384867852824321,Compound-profile
+CGP-Align,37,Profile -> compound,P-C,0.5156397319075231,Compound-profile
+CGP-Align,37,Gene -> profile,G-P,0.594538188277087,Gene-profile
+CGP-Align,37,Profile -> gene,P-G,0.34109294320137695,Gene-profile
+CGP-Align,41,Compound -> profile,C-P,0.8431162549663155,Compound-profile
+CGP-Align,41,Profile -> compound,P-C,0.5399447301757888,Compound-profile
+CGP-Align,41,Gene -> profile,G-P,0.5917512130569034,Gene-profile
+CGP-Align,41,Profile -> gene,P-G,0.3405932130951363,Gene-profile

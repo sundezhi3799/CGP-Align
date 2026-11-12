@@ -166,7 +166,7 @@ def mechanism(a,out,meta):
  z=np.load(a.embeddings/'seed41/gene.npy');e=pd.read_csv(a.embeddings/'seed41/gene_metadata.csv');symbols=e.gene_symbol.fillna('').str.upper();idx={s:np.flatnonzero(symbols.to_numpy()==s) for s in set(symbols)-{''}};names=np.array([s for s in json.loads((a.inputs/'prism/gene_universe.json').read_text()) if s in idx]);v=ns['l2_normalize'](np.vstack([z[idx[s]].mean(0) for s in names]));c=ns['l2_normalize'](np.load(a.embeddings/'seed41/prism.npy'));scores=c@v.T;top=ns['topk_indices'](scores,100);pairs=ns['build_pair_sets']();metrics,categories,cases=ns['annotate_pair_rows'](pairs,meta,top,names,scores);summary,catsummary=ns['summarize'](metrics,categories)
  for name,df in [('pair_gene_mechanism_metrics',metrics),('pair_mechanism_category_hits',categories),('pair_gene_mechanism_summary',summary),('pair_mechanism_category_summary',catsummary),('representative_cgp_gene_mechanism_cases',cases),('mechanism_category_rules',ns['category_descriptions']())]:df.to_csv(dest/(name+'.csv'),index=False)
  # Figure 6e uses individually reviewed protein-function assignments.
- annotations=pd.read_csv(ROOT/'assets/figure6/shared_gene_annotations.csv')
+ annotations=pd.read_csv(ROOT/'reproduction/figures/figure6/source_data/shared_gene_annotations.csv')
  q=int(np.flatnonzero(meta.inchikey.to_numpy()=='QULDDKSCVCJTPV-UHFFFAOYSA-N')[0])
  r=int(np.flatnonzero(meta.inchikey.to_numpy()=='JRNJNYBQQYBCLE-UHFFFAOYSA-N')[0])
  q_genes=names[top[q,:50]];r_genes=names[top[r,:50]]

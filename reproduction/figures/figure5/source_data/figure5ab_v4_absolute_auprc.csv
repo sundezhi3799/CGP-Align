@@ -1,0 +1,151 @@
+"target","method","AP"
+"CYP450_CYP1A2","CGP",0.878065629882758
+"CYP450_CYP1A2","CGP_RDKit",0.922519489171101
+"CYP450_CYP1A2","NYAN_mean",0.893340969700636
+"CYP450_CYP1A2","NYAN_mean_RDKit",0.914890784773015
+"CYP450_CYP1A2","RDKit",0.91349864734601
+"CYP450_CYP2C19","CGP",0.849910085512657
+"CYP450_CYP2C19","CGP_RDKit",0.870347815414422
+"CYP450_CYP2C19","NYAN_mean",0.825697976496113
+"CYP450_CYP2C19","NYAN_mean_RDKit",0.855478664134654
+"CYP450_CYP2C19","RDKit",0.852341904966725
+"CYP450_CYP2C9","CGP",0.755938146828829
+"CYP450_CYP2C9","CGP_RDKit",0.803046787905354
+"CYP450_CYP2C9","NYAN_mean",0.744687712713256
+"CYP450_CYP2C9","NYAN_mean_RDKit",0.771859847858689
+"CYP450_CYP2C9","RDKit",0.772786069835038
+"CYP450_CYP2D6","CGP",0.544842690253506
+"CYP450_CYP2D6","CGP_RDKit",0.627105499026643
+"CYP450_CYP2D6","NYAN_mean",0.601956744378944
+"CYP450_CYP2D6","NYAN_mean_RDKit",0.632273623044866
+"CYP450_CYP2D6","RDKit",0.620677024016534
+"CYP450_CYP3A4","CGP",0.789426541544511
+"CYP450_CYP3A4","CGP_RDKit",0.841048355362651
+"CYP450_CYP3A4","NYAN_mean",0.799276583723629
+"CYP450_CYP3A4","NYAN_mean_RDKit",0.835562877353845
+"CYP450_CYP3A4","RDKit",0.832505084115612
+"Carcinogenicity_Carcinogenicity","CGP",0.622475283766295
+"Carcinogenicity_Carcinogenicity","CGP_RDKit",0.689650204381758
+"Carcinogenicity_Carcinogenicity","NYAN_mean",0.668519197667444
+"Carcinogenicity_Carcinogenicity","NYAN_mean_RDKit",0.715697062184667
+"Carcinogenicity_Carcinogenicity","RDKit",0.708742168196305
+"Cardiotoxicity_Cardiotoxicity-1","CGP",0.53949087050819
+"Cardiotoxicity_Cardiotoxicity-1","CGP_RDKit",0.601874653842487
+"Cardiotoxicity_Cardiotoxicity-1","NYAN_mean",0.511067157582711
+"Cardiotoxicity_Cardiotoxicity-1","NYAN_mean_RDKit",0.602035851504554
+"Cardiotoxicity_Cardiotoxicity-1","RDKit",0.603010264943102
+"Cardiotoxicity_Cardiotoxicity-10","CGP",0.831645483105832
+"Cardiotoxicity_Cardiotoxicity-10","CGP_RDKit",0.85485160849881
+"Cardiotoxicity_Cardiotoxicity-10","NYAN_mean",0.827637870131139
+"Cardiotoxicity_Cardiotoxicity-10","NYAN_mean_RDKit",0.853791135921918
+"Cardiotoxicity_Cardiotoxicity-10","RDKit",0.854936362772615
+"Cardiotoxicity_Cardiotoxicity-30","CGP",0.936498877251978
+"Cardiotoxicity_Cardiotoxicity-30","CGP_RDKit",0.944872462003577
+"Cardiotoxicity_Cardiotoxicity-30","NYAN_mean",0.921627139109298
+"Cardiotoxicity_Cardiotoxicity-30","NYAN_mean_RDKit",0.933931824869246
+"Cardiotoxicity_Cardiotoxicity-30","RDKit",0.933807860742185
+"Cardiotoxicity_Cardiotoxicity-5","CGP",0.733226830748951
+"Cardiotoxicity_Cardiotoxicity-5","CGP_RDKit",0.776165643761692
+"Cardiotoxicity_Cardiotoxicity-5","NYAN_mean",0.728953267928451
+"Cardiotoxicity_Cardiotoxicity-5","NYAN_mean_RDKit",0.780891187004654
+"Cardiotoxicity_Cardiotoxicity-5","RDKit",0.781956278988673
+"Clinical Toxicity_Clinical toxicity","CGP",0.179968533970143
+"Clinical Toxicity_Clinical toxicity","CGP_RDKit",0.20289781341472
+"Clinical Toxicity_Clinical toxicity","NYAN_mean",0.139855511052816
+"Clinical Toxicity_Clinical toxicity","NYAN_mean_RDKit",0.178771405352178
+"Clinical Toxicity_Clinical toxicity","RDKit",0.173407056657108
+"Developmental and Reproductive Toxicity_Developmental Toxicity","CGP",0.893733356149575
+"Developmental and Reproductive Toxicity_Developmental Toxicity","CGP_RDKit",0.864190807999229
+"Developmental and Reproductive Toxicity_Developmental Toxicity","NYAN_mean",0.901940654214339
+"Developmental and Reproductive Toxicity_Developmental Toxicity","NYAN_mean_RDKit",0.881595135841797
+"Developmental and Reproductive Toxicity_Developmental Toxicity","RDKit",0.881019456641874
+"Developmental and Reproductive Toxicity_Reproductive Toxicity","CGP",0.923901341231808
+"Developmental and Reproductive Toxicity_Reproductive Toxicity","CGP_RDKit",0.903126679935671
+"Developmental and Reproductive Toxicity_Reproductive Toxicity","NYAN_mean",0.873445212540581
+"Developmental and Reproductive Toxicity_Reproductive Toxicity","NYAN_mean_RDKit",0.869859507582775
+"Developmental and Reproductive Toxicity_Reproductive Toxicity","RDKit",0.892849152903284
+"Endocrine Disruption_NR-AR","CGP",0.545691678918504
+"Endocrine Disruption_NR-AR","CGP_RDKit",0.537175947017739
+"Endocrine Disruption_NR-AR","NYAN_mean",0.502737403131112
+"Endocrine Disruption_NR-AR","NYAN_mean_RDKit",0.512748344769272
+"Endocrine Disruption_NR-AR","RDKit",0.537325663574542
+"Endocrine Disruption_NR-AR-LBD","CGP",0.537500112188913
+"Endocrine Disruption_NR-AR-LBD","CGP_RDKit",0.547396854643768
+"Endocrine Disruption_NR-AR-LBD","NYAN_mean",0.497119054246837
+"Endocrine Disruption_NR-AR-LBD","NYAN_mean_RDKit",0.518422983032287
+"Endocrine Disruption_NR-AR-LBD","RDKit",0.506668559355466
+"Endocrine Disruption_NR-AhR","CGP",0.531933198187118
+"Endocrine Disruption_NR-AhR","CGP_RDKit",0.586191612959205
+"Endocrine Disruption_NR-AhR","NYAN_mean",0.476872332759977
+"Endocrine Disruption_NR-AhR","NYAN_mean_RDKit",0.545386389814089
+"Endocrine Disruption_NR-AhR","RDKit",0.530711840963933
+"Endocrine Disruption_NR-ER","CGP",0.414946545475288
+"Endocrine Disruption_NR-ER","CGP_RDKit",0.445364401976761
+"Endocrine Disruption_NR-ER","NYAN_mean",0.397356983763088
+"Endocrine Disruption_NR-ER","NYAN_mean_RDKit",0.411380314541154
+"Endocrine Disruption_NR-ER","RDKit",0.418180447051095
+"Endocrine Disruption_NR-ER-LBD","CGP",0.398466377465186
+"Endocrine Disruption_NR-ER-LBD","CGP_RDKit",0.43838570725764
+"Endocrine Disruption_NR-ER-LBD","NYAN_mean",0.343447388013923
+"Endocrine Disruption_NR-ER-LBD","NYAN_mean_RDKit",0.427209132640858
+"Endocrine Disruption_NR-ER-LBD","RDKit",0.444978863777923
+"Endocrine Disruption_NR-PPAR-gamma","CGP",0.18426417724782
+"Endocrine Disruption_NR-PPAR-gamma","CGP_RDKit",0.21355085550706
+"Endocrine Disruption_NR-PPAR-gamma","NYAN_mean",0.128285757731388
+"Endocrine Disruption_NR-PPAR-gamma","NYAN_mean_RDKit",0.21346802465224
+"Endocrine Disruption_NR-PPAR-gamma","RDKit",0.217089350047642
+"Endocrine Disruption_NR-aromatase","CGP",0.27858784834457
+"Endocrine Disruption_NR-aromatase","CGP_RDKit",0.297444918691394
+"Endocrine Disruption_NR-aromatase","NYAN_mean",0.140130645411296
+"Endocrine Disruption_NR-aromatase","NYAN_mean_RDKit",0.247114459343008
+"Endocrine Disruption_NR-aromatase","RDKit",0.255718664338033
+"Endocrine Disruption_SR-ARE","CGP",0.458087336029126
+"Endocrine Disruption_SR-ARE","CGP_RDKit",0.501850015865429
+"Endocrine Disruption_SR-ARE","NYAN_mean",0.385804527964604
+"Endocrine Disruption_SR-ARE","NYAN_mean_RDKit",0.415378289582653
+"Endocrine Disruption_SR-ARE","RDKit",0.425887569092522
+"Endocrine Disruption_SR-ATAD5","CGP",0.273855285424348
+"Endocrine Disruption_SR-ATAD5","CGP_RDKit",0.289360741425128
+"Endocrine Disruption_SR-ATAD5","NYAN_mean",0.106128867905535
+"Endocrine Disruption_SR-ATAD5","NYAN_mean_RDKit",0.165104076308702
+"Endocrine Disruption_SR-ATAD5","RDKit",0.157715317797632
+"Endocrine Disruption_SR-HSE","CGP",0.303748126698258
+"Endocrine Disruption_SR-HSE","CGP_RDKit",0.359781159580185
+"Endocrine Disruption_SR-HSE","NYAN_mean",0.213878998900622
+"Endocrine Disruption_SR-HSE","NYAN_mean_RDKit",0.256200218432018
+"Endocrine Disruption_SR-HSE","RDKit",0.267042833548736
+"Endocrine Disruption_SR-MMP","CGP",0.646802274605023
+"Endocrine Disruption_SR-MMP","CGP_RDKit",0.710777398399824
+"Endocrine Disruption_SR-MMP","NYAN_mean",0.520644399093798
+"Endocrine Disruption_SR-MMP","NYAN_mean_RDKit",0.664820190243217
+"Endocrine Disruption_SR-MMP","RDKit",0.653567188044682
+"Endocrine Disruption_SR-p53","CGP",0.377236118942466
+"Endocrine Disruption_SR-p53","CGP_RDKit",0.455595984681378
+"Endocrine Disruption_SR-p53","NYAN_mean",0.283821734095233
+"Endocrine Disruption_SR-p53","NYAN_mean_RDKit",0.367965674164483
+"Endocrine Disruption_SR-p53","RDKit",0.317759019919023
+"Hepatotoxicity_Hepatotoxicity","CGP",0.757696130944184
+"Hepatotoxicity_Hepatotoxicity","CGP_RDKit",0.796163521584977
+"Hepatotoxicity_Hepatotoxicity","NYAN_mean",0.763468350001897
+"Hepatotoxicity_Hepatotoxicity","NYAN_mean_RDKit",0.796824058112139
+"Hepatotoxicity_Hepatotoxicity","RDKit",0.796411980532649
+"Irritation and Corrosion_Eye Corrosion","CGP",0.843248122671279
+"Irritation and Corrosion_Eye Corrosion","CGP_RDKit",0.94432660259421
+"Irritation and Corrosion_Eye Corrosion","NYAN_mean",0.944379537841282
+"Irritation and Corrosion_Eye Corrosion","NYAN_mean_RDKit",0.950287353663446
+"Irritation and Corrosion_Eye Corrosion","RDKit",0.949500271599885
+"Irritation and Corrosion_Eye Irritation","CGP",0.980987885737325
+"Irritation and Corrosion_Eye Irritation","CGP_RDKit",0.988990165763446
+"Irritation and Corrosion_Eye Irritation","NYAN_mean",0.98349546510075
+"Irritation and Corrosion_Eye Irritation","NYAN_mean_RDKit",0.988143738605038
+"Irritation and Corrosion_Eye Irritation","RDKit",0.987828725265195
+"Mutagenicity_Ames Mutagenicity","CGP",0.820125864503765
+"Mutagenicity_Ames Mutagenicity","CGP_RDKit",0.858693564774421
+"Mutagenicity_Ames Mutagenicity","NYAN_mean",0.845436396323527
+"Mutagenicity_Ames Mutagenicity","NYAN_mean_RDKit",0.867492898239531
+"Mutagenicity_Ames Mutagenicity","RDKit",0.867024056837024
+"Respiratory Toxicity_Respiratory Toxicity","CGP",0.825410248988412
+"Respiratory Toxicity_Respiratory Toxicity","CGP_RDKit",0.876355581187055
+"Respiratory Toxicity_Respiratory Toxicity","NYAN_mean",0.851846547663831
+"Respiratory Toxicity_Respiratory Toxicity","NYAN_mean_RDKit",0.875371456194606
+"Respiratory Toxicity_Respiratory Toxicity","RDKit",0.874606174933861

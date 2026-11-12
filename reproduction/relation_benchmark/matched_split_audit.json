@@ -1,0 +1,632 @@
+[
+  {
+    "file": "broad_31_dgidb.npz",
+    "swaps": {
+      "test": {
+        "accepted": 80725,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 83838,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 279430,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "fc2c82752a752a9ce536367f385e62da58a9a0303b78bcc0ef74d56b6a6d61a5"
+  },
+  {
+    "file": "broad_31_drugrep.npz",
+    "swaps": {
+      "test": {
+        "accepted": 84330,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 84038,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 279023,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "44a431a653e1b5cee460eb41442416d0f9477eeb45e3f0a3ddd6790d76f79f0e"
+  },
+  {
+    "file": "broad_31_hetionet.npz",
+    "swaps": {
+      "test": {
+        "accepted": 77595,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 84314,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 278732,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "a7d13d7d3eabd6fb67a60fa5a51e8908f2d261b19b5af213518f0dc196ab24d0"
+  },
+  {
+    "file": "broad_31_openbiolink.npz",
+    "swaps": {
+      "test": {
+        "accepted": 82601,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 83256,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 275691,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "3733e4c93df0bd4913db9cd1a34893da61786fed92a115fecf0cafbedf927ca2"
+  },
+  {
+    "file": "broad_31_pharmebinet.npz",
+    "swaps": {
+      "test": {
+        "accepted": 82151,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 83564,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 277046,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "e409c6411f896b9eec0eb76fcb7dd407217910149ea2298ce92aed2c08503f17"
+  },
+  {
+    "file": "broad_37_dgidb.npz",
+    "swaps": {
+      "test": {
+        "accepted": 80614,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 84188,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 279128,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "01f5880740f700674bad9200e9238214f1fd57bf3608cc6b0f5d2e45754793d6"
+  },
+  {
+    "file": "broad_37_drugrep.npz",
+    "swaps": {
+      "test": {
+        "accepted": 84382,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 83937,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 279427,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "e23f8e1f99f479493a3a7e8721f57edbb12f074983b2978baccd0c6247a3f306"
+  },
+  {
+    "file": "broad_37_hetionet.npz",
+    "swaps": {
+      "test": {
+        "accepted": 78086,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 84384,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 279653,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "80c9ecb0cb57e7102814f3c0858da6060f2a5b1c58edaea27d1d945c2df2cfad"
+  },
+  {
+    "file": "broad_37_openbiolink.npz",
+    "swaps": {
+      "test": {
+        "accepted": 83137,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 83294,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 276016,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "56cab9807c713a406444118b1b80098dc48c8c156231c9aabf8ec917567b6d8c"
+  },
+  {
+    "file": "broad_37_pharmebinet.npz",
+    "swaps": {
+      "test": {
+        "accepted": 82324,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 83512,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 277241,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "0396e3bd86572792af5f11ac45325fdbd23af2b82be9614c0fc56f814de5eac5"
+  },
+  {
+    "file": "broad_41_dgidb.npz",
+    "swaps": {
+      "test": {
+        "accepted": 80798,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 83948,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 279339,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "e545e3ad94be32c544b9d1b2af9914b3ecf3cff8a9e51e4a592f4e347bfee761"
+  },
+  {
+    "file": "broad_41_drugrep.npz",
+    "swaps": {
+      "test": {
+        "accepted": 84485,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 84218,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 279282,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "d439fa5cdea867d65185d5d5f331459a27cfdd6e9cd56d92b9320b496bcb1303"
+  },
+  {
+    "file": "broad_41_hetionet.npz",
+    "swaps": {
+      "test": {
+        "accepted": 77889,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 84040,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 279178,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "29ba53e95b02f54e31dd7f9e77c64c59a9db5c51a8fac78422436f1da0dd7629"
+  },
+  {
+    "file": "broad_41_openbiolink.npz",
+    "swaps": {
+      "test": {
+        "accepted": 83508,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 83242,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 276103,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "db01bd98cab0f3e33622066ef9618144b802da10403e092e08da939a049a7fb7"
+  },
+  {
+    "file": "broad_41_pharmebinet.npz",
+    "swaps": {
+      "test": {
+        "accepted": 82082,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 83874,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 277081,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "23b7e992cc1c45f1943b71fd420dd864a97e74eadc6c8a8b6d3c29bf413a0573"
+  },
+  {
+    "file": "strict_31_dgidb.npz",
+    "swaps": {
+      "test": {
+        "accepted": 81559,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 80297,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 265727,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "9e9fee0a539df0d10ef51dd330450c2ce47b0266e6130d2e5190659abb4c37a1"
+  },
+  {
+    "file": "strict_31_drugrep.npz",
+    "swaps": {
+      "test": {
+        "accepted": 83772,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 79735,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 264427,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "98881283ddc2dc64c37a9dcb655be413c02ab0f52a62adbcc5871a7977bd55aa"
+  },
+  {
+    "file": "strict_31_hetionet.npz",
+    "swaps": {
+      "test": {
+        "accepted": 75252,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 81373,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 268319,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "f68014667ee929824116c0196f38fae2536b48e4288a5dcb3bb04298797a7149"
+  },
+  {
+    "file": "strict_31_openbiolink.npz",
+    "swaps": {
+      "test": {
+        "accepted": 80572,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 40663,
+        "attempted": 45030,
+        "pairs": 1501
+      },
+      "train": {
+        "accepted": 226093,
+        "attempted": 255120,
+        "pairs": 8504
+      }
+    },
+    "sha256": "131bbcfbb0fb8bc15f55d03bd1fd6b0b9c1927b385f844dc82d88a2cc3386bb6"
+  },
+  {
+    "file": "strict_31_pharmebinet.npz",
+    "swaps": {
+      "test": {
+        "accepted": 75964,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 81701,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 269382,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "5babae4835648d90407af3b23ff3814b7db0967fc94ee6f3e89b06fc46c820e3"
+  },
+  {
+    "file": "strict_37_dgidb.npz",
+    "swaps": {
+      "test": {
+        "accepted": 81479,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 80442,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 265199,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "1f6493a2a62f1194d3bfa09d9cd7ef370b7b86e2845c78a0b4d897849cb8e972"
+  },
+  {
+    "file": "strict_37_drugrep.npz",
+    "swaps": {
+      "test": {
+        "accepted": 83774,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 79878,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 264886,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "9d43df252109539dd30b54b9358871ee21408c7051fb04e596f4416633dedf30"
+  },
+  {
+    "file": "strict_37_hetionet.npz",
+    "swaps": {
+      "test": {
+        "accepted": 75318,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 81461,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 268351,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "17369ae7ea8cd56eba1c0f926f7f84038f8bc784a519e2b357206abe77fc18c9"
+  },
+  {
+    "file": "strict_37_openbiolink.npz",
+    "swaps": {
+      "test": {
+        "accepted": 80255,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 40471,
+        "attempted": 45030,
+        "pairs": 1501
+      },
+      "train": {
+        "accepted": 226169,
+        "attempted": 255120,
+        "pairs": 8504
+      }
+    },
+    "sha256": "d5057c691b2912b023875f8eb3d3371128709de81d92e34724d23adc6d0e3b56"
+  },
+  {
+    "file": "strict_37_pharmebinet.npz",
+    "swaps": {
+      "test": {
+        "accepted": 75455,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 81660,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 268549,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "0a3762813632e8100c7bb690502a45dc323892777b258ba38c2fe03c705373c4"
+  },
+  {
+    "file": "strict_41_dgidb.npz",
+    "swaps": {
+      "test": {
+        "accepted": 81753,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 81087,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 265510,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "f1cbb4998c8f3f2238766de9cdf26ff2f1594801e3a78c007b7ab113f65c612b"
+  },
+  {
+    "file": "strict_41_drugrep.npz",
+    "swaps": {
+      "test": {
+        "accepted": 83893,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 80318,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 263053,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "4bec66b2dadb5ab80459399a47b44416aec31dc831da75f22fd150e0339934b7"
+  },
+  {
+    "file": "strict_41_hetionet.npz",
+    "swaps": {
+      "test": {
+        "accepted": 75339,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 81072,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 268922,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "8095d5ba53aabb38fee758d7921fd18f3590fb20ff288a33e6ebb8ef7b7e8946"
+  },
+  {
+    "file": "strict_41_openbiolink.npz",
+    "swaps": {
+      "test": {
+        "accepted": 79576,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 40565,
+        "attempted": 45030,
+        "pairs": 1501
+      },
+      "train": {
+        "accepted": 226171,
+        "attempted": 255120,
+        "pairs": 8504
+      }
+    },
+    "sha256": "a4937fd706febe1cafe2b4b2cc9daf4ba0a8f330e707d1ca7d92549cb80efb83"
+  },
+  {
+    "file": "strict_41_pharmebinet.npz",
+    "swaps": {
+      "test": {
+        "accepted": 75832,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "val": {
+        "accepted": 81603,
+        "attempted": 90000,
+        "pairs": 3000
+      },
+      "train": {
+        "accepted": 269945,
+        "attempted": 300000,
+        "pairs": 10000
+      }
+    },
+    "sha256": "a169438dd1c7f5ed235a6ecb20a66d6f5a0dae5161d7914cf09185e04d797b07"
+  }
+]

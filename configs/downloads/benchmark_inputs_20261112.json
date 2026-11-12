@@ -1,0 +1,372 @@
+{
+  "schema": 1,
+  "release_url": "https://github.com/sundezhi3799/CGP-Align/releases/download/benchmark-inputs-20261112/",
+  "groups": [
+    {
+      "name": "relation-features",
+      "parts": [
+        {
+          "name": "relation-features.tar.gz",
+          "bytes": 214864541,
+          "sha256": "0b5f8c5f2d8ca36b91c02c18a66bd69d0a9f3d024600dc70e4a713c93e06e329"
+        }
+      ],
+      "files": [
+        {
+          "path": "features/AtomPair2048.npy",
+          "bytes": 35496064,
+          "sha256": "93901da8877142c9066442887119d089a8f29991891bb4213297cd97cc2c1734"
+        },
+        {
+          "path": "features/Avalon1024.npy",
+          "bytes": 17748096,
+          "sha256": "c5738b33e7b4e130765e74faf915859dadb4cb367970947dc1ea5ae84d4e6a88"
+        },
+        {
+          "path": "features/CGP_31.npy",
+          "bytes": 4437120,
+          "sha256": "29d8ca862204ff2a2ce0718133dc8296aef75ba99d30e70a65b70493eecb92b9"
+        },
+        {
+          "path": "features/CGP_37.npy",
+          "bytes": 4437120,
+          "sha256": "5fabcb7fb387a79ade26a6c74c0d490dea9f2dda8f1c47e694e8112ca77ff8f8"
+        },
+        {
+          "path": "features/CGP_41.npy",
+          "bytes": 4437120,
+          "sha256": "92c9b612a02a7b86818ce258083648b8f25f56c142d9163e0657e3a895da70ed"
+        },
+        {
+          "path": "features/CGP_gene_31.npy",
+          "bytes": 15000704,
+          "sha256": "4aaff0873481c7f80cbb50ed50c799cc49bce8b77058e8fbe5ba81710ef843b6"
+        },
+        {
+          "path": "features/CGP_gene_37.npy",
+          "bytes": 15000704,
+          "sha256": "1abf113b7d52564df6600dfec0fbcca1b914fcfd67756065b367e3769fd5a456"
+        },
+        {
+          "path": "features/CGP_gene_41.npy",
+          "bytes": 15000704,
+          "sha256": "85413d2f5e5d62ec888f21051dd59d91b2ba54f6a244b4db390d5969d02b899d"
+        },
+        {
+          "path": "features/ChemBERTa.npy",
+          "bytes": 6655616,
+          "sha256": "b6671fd43731cdf0ef5732a97de4d330bc3725af737ef967c8dbad9bcac3402f"
+        },
+        {
+          "path": "features/ESM2.npy",
+          "bytes": 150005888,
+          "sha256": "b617b4f883fa08b42e40ed9a88961153ad8511caefa894189fac1e59c8c31008"
+        },
+        {
+          "path": "features/MoLFormer.npy",
+          "bytes": 13311104,
+          "sha256": "e3f34da315d93a856d2e8828fafdd11c1f4769326cb942151755cd4f871cfcbb"
+        },
+        {
+          "path": "features/Morgan2048.npy",
+          "bytes": 35496064,
+          "sha256": "ec83ef87ce5433cce84b8a7da65da776d91c13f353d1f6a4a85963efbd29caff"
+        },
+        {
+          "path": "features/NYAN.npy",
+          "bytes": 1109376,
+          "sha256": "8c9b41a1a83016dd16560bb6a0318a459ee5c82ec66d5f1f91f729ffad11fb5b"
+        },
+        {
+          "path": "features/RDKit-Morgan.npy",
+          "bytes": 35686716,
+          "sha256": "a92de3ce9c291cc8841a9ace735271c9af757c173218c79cc9ee5ca7e53a9dfa"
+        },
+        {
+          "path": "features/RDKit.npy",
+          "bytes": 3761172,
+          "sha256": "049b1001f9b6352c274a6be910058463064603f2ec1fd4af388193bda2abcc39"
+        },
+        {
+          "path": "features/gene_symbols.json",
+          "bytes": 136816,
+          "sha256": "60b5e9c002c4bfc81521a925cc5987ebd58e66c416c5bb9cc8bff4de8bed6d2a"
+        }
+      ]
+    },
+    {
+      "name": "extended-benchmark-inputs",
+      "parts": [
+        {
+          "name": "extended-benchmark-inputs.tar.gz",
+          "bytes": 352413087,
+          "sha256": "6031b61bc6b6245cf528fd8c1847ae6bf84fbd134ea639f4174c4cc5d215925d"
+        }
+      ],
+      "files": [
+        {
+          "path": "tox30/inputs/labels.parquet",
+          "bytes": 3762133,
+          "sha256": "2a347c3e5ea7e294b589f390501286e9c39b09cc72004afb9ec9480e7316f8f7"
+        },
+        {
+          "path": "tox30/inputs/features.npz",
+          "bytes": 42063676,
+          "sha256": "7d12edfce7ac7fdd9235a718c8249eb45fdd443d94fe60e36c3038ea0647ad6e"
+        },
+        {
+          "path": "tox30/inputs/compounds.csv",
+          "bytes": 5766606,
+          "sha256": "1b91ee291cd7ae3325a0cb60615ae59a13679cf9320b066edf7f9b8e355f2cc9"
+        },
+        {
+          "path": "tox30/results/nyan_features.npz",
+          "bytes": 16471758,
+          "sha256": "3e3259458db713e12106a861b222f3f22b03bbba5387d3865a0bbf598e27e579"
+        },
+        {
+          "path": "tox30/results/fold_assignments.csv",
+          "bytes": 10984430,
+          "sha256": "b82c50a6adca18478a616ef6381864c7f1e6893489711c278c9fab6a29a5f9ec"
+        },
+        {
+          "path": "tox30/results/inner_assignments.csv.gz",
+          "bytes": 3523221,
+          "sha256": "2eb7c3c510b00937b362be0fd639d58a2869e8f9c4e71965da80c91bdc3e2797"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-ARE.csv",
+          "bytes": 184247,
+          "sha256": "5b8a83b4a5ac8b952a5ec04785820322817bfc133bd63be5f4f010d6153dfad5"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-ARE_chemberta.npy",
+          "bytes": 8504960,
+          "sha256": "3473f48ca1d28f1b62caf3319501f8d3bd1892d2e66a32cdd313aed89b173095"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-ARE_molformer_xl.npy",
+          "bytes": 17009792,
+          "sha256": "b990709b4753d9ea54f91925d1022a1afaa6baf930f78017f3a696bf3d8be4d8"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-ATAD5.csv",
+          "bytes": 252623,
+          "sha256": "bc0df28d50881d64309ea40d32ef9a889e5b45af8786ccaeb15da48617bfaf59"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-ATAD5_chemberta.npy",
+          "bytes": 10348160,
+          "sha256": "1e6d0881ad96d11e627f32b768f715089d3864023ec5aface98c69783ef19498"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-ATAD5_molformer_xl.npy",
+          "bytes": 20696192,
+          "sha256": "b4ca6935b6de18635e006229cb481b26e6a8ecc567e5f6e7037d0e901b92c49a"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-HSE.csv",
+          "bytes": 211399,
+          "sha256": "98e506e0c962e9b70f291865dd23ceb80ccfdf1aa50e6261a3e438b832189e03"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-HSE_chemberta.npy",
+          "bytes": 9438848,
+          "sha256": "9ad465bd4efefb33a7f102cec96963612a00a2f93c75f2544372c3ddd3421773"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-HSE_molformer_xl.npy",
+          "bytes": 18877568,
+          "sha256": "6f003b9e32d7cb451e8981b37260956b197b899d2b093d00dcf3ed20bffc8e56"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-MMP.csv",
+          "bytes": 205487,
+          "sha256": "07ab25c5cab4c709a9be327488f8e7f154c013f466f6726fb981a2ced383765e"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-MMP_chemberta.npy",
+          "bytes": 8492672,
+          "sha256": "16f4e10631488b7ca9dc6028fcccba77529d1707cff28f84d170bed86328d8e3"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-MMP_molformer_xl.npy",
+          "bytes": 16985216,
+          "sha256": "55398c981ff199448ce7b1ef56bc16a16f8e0ac0c96da969fd5e6f8e05de7c10"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-p53.csv",
+          "bytes": 241855,
+          "sha256": "31415927e394d16265d5e398c2587fa5ca425e0d13df6d37fe2253d4744edcfe"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-p53_chemberta.npy",
+          "bytes": 9901184,
+          "sha256": "fd97e97361c15b62ae9f1d613cd7c6b130908028da9c75364608749cfd088bf9"
+        },
+        {
+          "path": "baseline_features/Endocrine Disruption_SR-p53_molformer_xl.npy",
+          "bytes": 19802240,
+          "sha256": "f41f5076dcbc9fe7d259fc88295554a02011f6b91d8fab3245b2eab4195fc6d4"
+        },
+        {
+          "path": "baseline_features/chemberta_provenance.json",
+          "bytes": 1845,
+          "sha256": "006b28fed9795efcc522ade27cb680de4b99209d4cabfdfd9241dd3cec5c8225"
+        },
+        {
+          "path": "baseline_features/molformer_xl_provenance.json",
+          "bytes": 2263,
+          "sha256": "f482ec615f2c89f9e3075e038daf968d5e8e1096ea4d467542f3dd3729e165f3"
+        },
+        {
+          "path": "baseline_features/prism_chemberta.npy",
+          "bytes": 2850944,
+          "sha256": "2baa77b2d7b869d71b31ac78ee86f9f87cd377a723c9247d2eacc8c9c8b980ed"
+        },
+        {
+          "path": "baseline_features/prism_molformer_xl.npy",
+          "bytes": 5701760,
+          "sha256": "b1f028e9b98d72259a6e975721bcbf39dd980241d2fab5e136401e2cdc27649e"
+        },
+        {
+          "path": "baseline_features/smiles_sets.json",
+          "bytes": 2763572,
+          "sha256": "a9dd0bdb74afed1fe914c144df463113956b050fe8edab23ac5f636abb66fe9f"
+        },
+        {
+          "path": "baseline_features/tox30_chemberta.npy",
+          "bytes": 53528192,
+          "sha256": "5c9ef953579b43b3631f89f7b625a367685853a170ab21124d2c155369b278b5"
+        },
+        {
+          "path": "baseline_features/tox30_molformer_xl.npy",
+          "bytes": 107056256,
+          "sha256": "ab93cb361f89b4c5778520624a0242f25a19214bdfa0976ef9babca9c95d0fda"
+        }
+      ]
+    },
+    {
+      "name": "nyan-matched",
+      "parts": [
+        {
+          "name": "nyan-matched.tar.gz",
+          "bytes": 152329685,
+          "sha256": "c16e02b20458b4a7d1b4ba2a1ef84f49411fd6104fc8b1b3b877e4515c497107"
+        }
+      ],
+      "files": [
+        {
+          "path": "nyan/compound_structure_features.npy",
+          "bytes": 29641344,
+          "sha256": "404f1fc8b9d869625cbf7b51e2bf2062a267a2966cf06913788871341fcca92a"
+        },
+        {
+          "path": "nyan/matched/seed31/checkpoints/R1_4_nyan_seed31/best_model.pt",
+          "bytes": 20103842,
+          "sha256": "a7faf8c6dfa4d7c86c38183e11cf0c9293828e2e56817ee5dcdfe27658163cbf"
+        },
+        {
+          "path": "nyan/matched/seed31/checkpoints/R1_4_nyan_seed31/config.json",
+          "bytes": 1294,
+          "sha256": "894edce8dbcc79aec6d2120c5b7685ac0ddbc4a77e60f041d4462aa426814992"
+        },
+        {
+          "path": "nyan/matched/seed31/data/audit.json",
+          "bytes": 409612,
+          "sha256": "aa9a17a67750addc5b0f87cd72bea746e1b31defcae539d11b48354b1abe33ee"
+        },
+        {
+          "path": "nyan/matched/seed31/evaluation/metrics.json",
+          "bytes": 4944,
+          "sha256": "f3e7c69fe81dd04f5fdd04b4482b150c38dd2e6b3cba988619d69dc63df86cf1"
+        },
+        {
+          "path": "nyan/matched/seed31/evaluation/query_ranks.npz",
+          "bytes": 680000,
+          "sha256": "7d3946dbc82cd7e1443e36db1b3408c2e3f97b6e98879bf132634a6472c1fca4"
+        },
+        {
+          "path": "nyan/matched/seed31/evaluation/test_embeddings.npz",
+          "bytes": 22121575,
+          "sha256": "01c66a173d4ad5a0953050eb4bc90d403ab0510ea82cf56ef6a824b3001f83ce"
+        },
+        {
+          "path": "nyan/matched/seed31/recipe.json",
+          "bytes": 1436,
+          "sha256": "09facad45d3bfc66d21bf3d2e1f028144ea329c508bddfd3259ad837fed70bf0"
+        },
+        {
+          "path": "nyan/matched/seed37/checkpoints/R1_4_nyan_seed37/best_model.pt",
+          "bytes": 20103842,
+          "sha256": "51e259217e7c535ce9ac47fa81d124c7d69cb1c33e7d21c2bd649ed0148d13b1"
+        },
+        {
+          "path": "nyan/matched/seed37/checkpoints/R1_4_nyan_seed37/config.json",
+          "bytes": 1294,
+          "sha256": "824e54ccf52bdf5954bc6af1aeb4045c38a08b8c48efd6e637d4fa1a896a5ca5"
+        },
+        {
+          "path": "nyan/matched/seed37/data/audit.json",
+          "bytes": 409612,
+          "sha256": "d81b5bfba96b843242bf5db6466d4f55a22d95148d872a17706c4a9cd9d8b739"
+        },
+        {
+          "path": "nyan/matched/seed37/evaluation/metrics.json",
+          "bytes": 4958,
+          "sha256": "eab9a53b79ad2d63451f880c71227859c4f335740d9eae7d0db3f9456d694bbd"
+        },
+        {
+          "path": "nyan/matched/seed37/evaluation/query_ranks.npz",
+          "bytes": 670439,
+          "sha256": "cc86148f0979d30986950258afbea310769dc97abc730939f8153b8b5429a0aa"
+        },
+        {
+          "path": "nyan/matched/seed37/evaluation/test_embeddings.npz",
+          "bytes": 22122413,
+          "sha256": "b50c9c298ee5ac340d078a5a280b995d7a944ff9d5215363a45dbbeb5293ea64"
+        },
+        {
+          "path": "nyan/matched/seed37/recipe.json",
+          "bytes": 1436,
+          "sha256": "541a7c4d1466cb5a3739ac05a611be92e32d825ebeee1556bd907680cf349eff"
+        },
+        {
+          "path": "nyan/matched/seed41/checkpoints/R1_4_nyan_seed41/best_model.pt",
+          "bytes": 20103842,
+          "sha256": "19da56e58b780ad5e6acbb92b7da3170df1d9600bcfae1f2c20137b50ef21f08"
+        },
+        {
+          "path": "nyan/matched/seed41/checkpoints/R1_4_nyan_seed41/config.json",
+          "bytes": 1294,
+          "sha256": "2f50570bba015ae93f312d26c88215f418e78d192b4b6b533638062a0ede1021"
+        },
+        {
+          "path": "nyan/matched/seed41/data/audit.json",
+          "bytes": 409612,
+          "sha256": "81c59b3188c27bb59ec3737c7006ba41fd20d803e89a5efd94eacab99c510117"
+        },
+        {
+          "path": "nyan/matched/seed41/evaluation/metrics.json",
+          "bytes": 4942,
+          "sha256": "34f4aa3303842322ceb51dc758146a5991d45db0bf51645b56159b484cb053c9"
+        },
+        {
+          "path": "nyan/matched/seed41/evaluation/query_ranks.npz",
+          "bytes": 675299,
+          "sha256": "e730912df0fae9601bc8a43af29542100a93c372324bbc9409c6809169cd9198"
+        },
+        {
+          "path": "nyan/matched/seed41/evaluation/test_embeddings.npz",
+          "bytes": 22121355,
+          "sha256": "c049b1dc97f78d3ebd4ca9a445fe3a4c76355723eadb316875abdb3368cace47"
+        },
+        {
+          "path": "nyan/matched/seed41/recipe.json",
+          "bytes": 1436,
+          "sha256": "ef1eb7811f5c4f5b3c3b3331ac5f048e0356620097e726c9b0f4c469d6096c85"
+        }
+      ]
+    }
+  ]
+}

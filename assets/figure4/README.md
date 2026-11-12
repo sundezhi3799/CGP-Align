@@ -1,5 +1,1 @@
-# Figure 4 source tables
-
-Panels a-d use the relation coverage and benchmark summaries. Panel e displays all 4,017 compound and 5,789 gene coordinates and ten reference links, with equal PC1/PC2 scaling.
-
-Run `Rscript scripts/plot_figure4.R <output directory>` from the repository root. Dependencies: ggplot2, dplyr, tidyr, readr, patchwork, ggrepel and svglite. Exports are 183 x 175 mm (PDF/SVG and 600-dpi PNG/TIFF).
+Figure 4 source tables and plotting code are in `reproduction/figures/figure4/`. Run `Rscript scripts/plot_figure4.R OUTPUT_DIRECTORY` from the repository root.

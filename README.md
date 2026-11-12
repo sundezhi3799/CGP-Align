@@ -108,35 +108,15 @@ python -I ../cgp-pca/pca/run_pca.py --output ../cgp-results/pca --device cuda:0
 
 The download is about 476 MB and includes the seed-41 epoch-120 model, its branch encoders and 1,200 test compounds and 1,200 test gene perturbations. Use `--device cpu` for CPU execution. Details of the PCA model and inputs are in the archive's README.
 
-## Downstream analysis
+## Current benchmarks and figures
 
-The analyses use prepared profiles, mapped annotations and molecular features. Image processing and foundation-model training are performed upstream.
+The [reproduction guide](reproduction/README.md) provides the current Figure 3–6
+source data and R scripts, 30-endpoint nested-scaffold toxicity benchmark,
+source-held-out compound–gene comparison, and added ChemBERTa, MoLFormer and
+NYAN results. Prepared inputs and per-file checksums are supplied in the
+[benchmark-inputs release](https://github.com/sundezhi3799/CGP-Align/releases/tag/benchmark-inputs-20261112).
 
-### Embeddings and compound-gene relations
-
-The supplied `downstream-embedding-cache` contains the full candidate universe used in Figures 4–6. Use it for the analyses below. For seed 41 alone, add `--seeds 41` to relation analysis.
-
-To regenerate the full cache, use the full prepared compound and gene inputs described under Training. With compact inputs, the command below encodes only held-out entities and the separately listed toxicity and PRISM compounds; this output cannot replace the full cache for relation analysis or PRISM gene-neighbour analysis. For seed 41 alone, add `--seeds 41`:
-
-```bash
-python scripts/analyze.py --task embeddings --inputs ../cgp-extras/downstream --artifacts ../cgp-data --output ../cgp-results/from_weights
-```
-
-Run relation analysis using the supplied embeddings:
-
-```bash
-python scripts/analyze.py --task relations --inputs ../cgp-extras/downstream --artifacts ../cgp-data --embeddings ../cgp-extras/embeddings --output ../cgp-results/relations
-```
-
-Relation analysis includes source mapping, enrichment and held-out-source classification. Its score arrays require several GB of disk space.
-
-Classification excludes known positive relations from negative sampling and uses separate negative pairs for training, validation and testing. Sampled pairs and entity mappings are saved with the results.
-
-Draw Figure 4 from the supplied source tables and PCA coordinates with `Rscript scripts/plot_figure4.R ../cgp-results/figures`. It uses the R packages listed below, plus `ggrepel`.
-
-### Toxicity and PRISM environment
-
-Create a separate environment for these analyses. The RDKit version affects molecule parsing and cohort selection.
+Use a separate downstream environment:
 
 ```bash
 conda create -n cgp-downstream python=3.10
@@ -145,61 +125,21 @@ python -m pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/
 python -m pip install -r requirements-downstream.txt
 ```
 
-The commands below use the supplied embedding cache. Toxicity and structural-alert analyses use compounds listed in `smiles_sets.json`; PRISM also uses the full gene embeddings for gene-neighbour analysis.
-
-### Toxicity prediction
-
-```bash
-python scripts/analyze.py --task toxicity --inputs ../cgp-extras/downstream --artifacts ../cgp-data --embeddings ../cgp-extras/embeddings --output ../cgp-results/toxicity
-```
-
-All six representations use the same five scaffold-disjoint folds, with class counts balanced across folds. AUPRC is computed as average precision and averaged first across folds, then across the five endpoints. The command saves fold assignments and evaluation scores and runs the structural-alert analysis below.
-
-Figure 5 source tables and fold assignments are in `assets/figure5/`; per-fold scaffold evaluation scores are in `assets/figure5/scaffold_all_folds.csv`.
-
-Draw Figure 5 from the supplied source tables (using the R packages listed below, plus `ragg`):
+The original `scripts/analyze.py` pipeline remains available for embedding
+generation, source mapping, direct enrichment, structural alerts and the earlier
+downstream analyses. Its original relation classifier and five-endpoint scaffold
+summary do not reproduce the current Figure 4c or 30-endpoint Figure 5 comparison;
+use the commands in the reproduction guide for those results.
 
 ```bash
-Rscript scripts/plot_figure5.R ../cgp-results/figures
-```
-
-### Structural alerts
-
-To run only the structural-alert analysis:
-
-```bash
+python scripts/analyze.py --task embeddings --inputs ../cgp-extras/downstream --artifacts ../cgp-data --output ../cgp-results/from_weights
 python scripts/analyze.py --task alerts --inputs ../cgp-extras/downstream --artifacts ../cgp-data --embeddings ../cgp-extras/embeddings --output ../cgp-results/alerts
 ```
 
-Alert Lift@50 uses the supplied secondary ordering to break ties in predicted scores.
-
-### PRISM drug response
-
-```bash
-python scripts/analyze.py --task prism --inputs ../cgp-extras/downstream --artifacts ../cgp-data --embeddings ../cgp-extras/embeddings --output ../cgp-results/prism
-```
-
-The PRISM input key `RDKit2D` denotes Morgan-2048 fingerprints plus 11 RDKit descriptors. The toxicity RDKit2D baseline uses a separate feature set.
-
-The PRISM command also writes `figure6/u2os_similarity/`: query-level response differences for CGP-Align, NYAN and RDKit-Morgan, chemical-similarity-matched controls, and bin-width sensitivity results. Figure 6f–h use 187 active U2OS queries, top-50 retrieval and Morgan Tanimoto <0.20. Smaller absolute response differences indicate more similar responses.
-
-To run this part alone after the PRISM analysis:
-
-```bash
-python scripts/evaluate_prism_response_similarity.py --input-dir ../cgp-results/prism/figure6 --features ../cgp-extras/downstream/prism/morgan_rdkit_features.npy --output ../cgp-results/prism/figure6/u2os_similarity
-```
-
-Draw Figure 6 with R (tested with R 4.5.3):
-
-```r
-install.packages(c("ggplot2", "dplyr", "tidyr", "readr", "patchwork", "scales", "png", "svglite"))
-```
-
-```bash
-Rscript scripts/plot_figure6.R ../cgp-results/prism/figure6/u2os_similarity ../cgp-results/figures
-```
-
-This exports PDF, SVG and 600-dpi PNG/TIFF. Panel a artwork, b–e source tables, molecular coordinates and shared-gene annotations are in `assets/figure6/`. The correlation in panel e is across 578 cell lines; f–h use U2OS only. Functional assignments are documented with gene-level annotation accessions.
+Full-candidate relation and PRISM analyses require the supplied full embedding
+cache. Compact test inputs cannot replace it. The PRISM input key `RDKit2D`
+denotes Morgan-2048 plus 11 RDKit descriptors (labelled RDKit–Morgan in figures);
+the toxicity RDKit baseline uses a separate descriptor set.
 
 ## Acknowledgements
 
